@@ -42,7 +42,7 @@
 
 @font-face {
   font-family: 'Qurova';
-  src: url('qurova-font-family/QurovaDEMO-Medium-BF67a5c6382651c.otf') format('woff2');
+  src: url('/assets/fonts/qurova-font-family/QurovaDEMO-Medium-BF67a5c6382651c.otf') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -320,7 +320,7 @@ header.scrolled {
 .mockup-skeleton { 
     background: var(--bg-alt); 
     border-radius: var(--radius-md); 
-    background-image: url(images/image1.png);
+    background-image: url(/assets/images/image1.png);
     background-size: cover;
 }
 .skeleton-hero { height: 370px; width: 100%; }
@@ -480,17 +480,17 @@ header.scrolled {
 }
 
 .caseo-ne {
-    background-image: url(images/residenp1.png);
+    background-image: url(/assets/images/residenp1.png);
     background-size: cover;
 }
 
 .caset-wo {
-    background-image: url(images/luxurp1.png);
+    background-image: url(/assets/images/luxurp1.png);
     background-size: cover;
 }
 
 .caseth-ree{
-    background-image: url(images/commp1.png);
+    background-image: url(/assets/images/commp1.png);
     background-size: cover;
 }
 .mockup-placeholder {
