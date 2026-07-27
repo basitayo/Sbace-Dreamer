@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Discovery Call | Sbace Dreamer Creative</title>
+    <meta name="description" content="Book a free, no-obligation discovery call to discuss your web design needs.">
+    
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to the page-specific styles provided below -->
+    <link rel="stylesheet" href="discovery.css"> 
+</head>
+<body>
+
+    <!-- Sticky Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><img src="images/Layer 2.png" alt="">Sbace Dreamer</a>
+            <nav class="nav-links">
+                <div class="dropdown">
+                    <a href="index.html#work" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                        Work 
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top: 2px;"><path d="m6 9 6 6 6-6"></path></svg>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="case-study-page/case-study.html">Modern Residential Website</a>
+                        <a href="case-study-page/case-study2.html">Premium Commercial Platform</a>
+                        <a href="case-study-page/case-study3.html">Conversion Landing Page</a>
+                    </div>
+                </div>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="discovery.html" style="color: var(--text-primary); font-weight: 600;">Contact</a>
+            </nav>
+            <a href="discovery.html#booking-form" class="nav-links" style="font-weight: 600; color: var(--accent);">Let's Talk &rarr;</a>
+        </div>
+    </header>
+
+    <!-- 1. Hero Section -->
+    <section class="hero container pt-190">
+        <div class="hero-content fade-up">
+            <span class="section-tag">Book A Discovery Call</span>
+            <h1 class="h-hero">Let's Talk About Your Next Website.</h1>
+            <p class="p-large">Whether you're launching a new painting business or looking to redesign your current website, let's discuss your goals and see if we're the right fit. The call is free, with no obligation.</p>
+            <div class="hero-cta">
+                <a href="#booking-form" class="btn btn-primary">Book My Discovery Call</a>
+                <a href="index.html#work" class="btn btn-secondary">View Our Work</a>
+            </div>
+        </div>
+        <div class="hero-visual fade-up" style="transition-delay: 0.2s;">
+            <div class="browser-mockup">
+                <div class="browser-header">
+                    <div class="dot"></div><div class="dot"></div><div class="dot"></div>
+                </div>
+                <div class="browser-body">
+                    <!-- Referencing the painting contractor concept from the portfolio -->
+                    <div class="mockup-skeleton skeleton-hero" style="background-image: url('images/residenp1.png');"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. What Happens Next -->
+    <section class="features" style="background: var(--bg-alt);">
+        <div class="container">
+            <h2 class="h-section fade-up text-center">What Happens Next</h2>
+            
+            <div class="features-grid">
+                <!-- Card 1 -->
+                <div class="feature-card fade-up">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                    </div>
+                    <h3 class="h-card">Discovery</h3>
+                    <p class="p-base">We'll learn about your business, goals, and current website.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="feature-card fade-up" style="transition-delay: 0.1s;">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+                    </div>
+                    <h3 class="h-card">Strategy</h3>
+                    <p class="p-base">We'll recommend the best approach for your project.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="feature-card fade-up" style="transition-delay: 0.2s;">
+                    <div class="feature-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    </div>
+                    <h3 class="h-card">Proposal</h3>
+                    <p class="p-base">If we're a good fit, you'll receive a tailored proposal with pricing and timeline.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3 & 4. Contact Form & Alternative Contact -->
+    <section id="booking-form" class="contact-section">
+        <div class="container form-container fade-up">
+            <div class="service-card premium-form-card">
+                <form action="https://formspree.io/f/mykrbago" method="POST" class="booking-form">
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fullName">Full Name</label>
+                            <input type="text" id="fullName" name="fullName" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="businessName">Business Name</label>
+                            <input type="text" id="businessName" name="businessName" required placeholder="Apex Painting">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="website">Current Website (optional)</label>
+                            <input type="text" id="website" name="website" placeholder="www.yourwebsite.com">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="serviceNeeded">Service Needed</label>
+                        <select id="serviceNeeded" name="serviceNeeded" required>
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="Website Design">Website Design</option>
+                            <option value="Website Redesign">Website Redesign</option>
+                            <option value="Landing Page">Landing Page</option>
+                            <option value="Not Sure Yet">Not Sure Yet</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="details">Project Details</label>
+                        <textarea id="details" name="details" rows="5" required placeholder="Tell us a little about your business and what you'd like to achieve."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit-btn">Request My Discovery Call</button>
+                </form>
+            </div>
+
+            <!-- 4. Alternative Contact -->
+            <div class="alt-contact text-center fade-up" style="transition-delay: 0.1s;">
+                <h4 class="h-card">Prefer Email?</h4>
+                <p class="p-base">If you'd rather reach out directly, send us an email and we'll respond within one business day.</p>
+                <a href="mailto:hello@sbacedreamer.com" class="alt-email-link">hello@sbacedreamer.com</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. FAQ -->
+    <section class="faq-section">
+        <div class="container fade-up">
+            <h2 class="h-section text-center mb-48">Frequently Asked Questions</h2>
+            
+            <div class="faq-accordion-wrapper">
+                <div class="accordion">
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span class="h-card" style="margin: 0;">How long is the discovery call?</span>
+                            <span class="accordion-icon"></span>
+                        </button>
+                        <div class="accordion-body">
+                            <p class="p-base">We schedule our discovery calls for 30 minutes. This gives us enough time to understand your business objectives and discuss potential strategies without taking up too much of your day.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span class="h-card" style="margin: 0;">Is the consultation free?</span>
+                            <span class="accordion-icon"></span>
+                        </button>
+                        <div class="accordion-body">
+                            <p class="p-base">Yes. The initial discovery call is completely free and comes with zero obligation to proceed. We use this time to ensure we are the right agency to help you reach your goals.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span class="h-card" style="margin: 0;">Do you only work with painting contractors?</span>
+                            <span class="accordion-icon"></span>
+                        </button>
+                        <div class="accordion-body">
+                            <p class="p-base">While we have deep expertise helping painting contractors, we work with a variety of established local service businesses, including roofers, landscapers, and custom home builders.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span class="h-card" style="margin: 0;">What happens after the call?</span>
+                            <span class="accordion-icon"></span>
+                        </button>
+                        <div class="accordion-body">
+                            <p class="p-base">If we both decide we're a good fit, we will send over a custom, tailored proposal outlining the scope of work, investment required, and project timeline within 48 hours.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <button class="accordion-header">
+                            <span class="h-card" style="margin: 0;">How long does a website project usually take?</span>
+                            <span class="accordion-icon"></span>
+                        </button>
+                        <div class="accordion-body">
+                            <p class="p-base">Most standard custom website projects take between 4 to 6 weeks from our initial strategy session to the final launch, depending on the complexity and how quickly content is provided.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Final CTA -->
+    <section class="cta-section" style="border-top: 1px solid var(--border-color);">
+        <div class="container fade-up">
+            <h2 class="h-hero">Ready to Elevate Your Online Presence?</h2>
+            <p class="p-large">Let's create a website that reflects the quality of your business and helps you attract better clients.</p>
+            <a href="#booking-form" class="btn btn-primary" style="margin-top: 24px;">
+                Book My Discovery Call 
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- 7. Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top fade-up">
+                <div>
+                    <a href="index.html" class="logo"><img src="images/Layer 2.png" alt="">Sbace Dreamer</a>
+                    <p class="p-base" style="max-width: 300px;">Boutique Web Design Studio crafting premium experiences for service businesses.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <strong style="color: var(--text-primary);">Navigation</strong>
+                        <a href="index.html#work">Work</a>
+                        <a href="/services.html">Services</a>
+                        <a href="/about.html">About</a>
+                    </div>
+                    <div class="footer-col">
+                        <strong style="color: var(--text-primary);">Connect</strong>
+                        <a href="mailto:hello@sbacedreamer.pro">Email</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom fade-up">
+                <p>&copy; <span id="year"></span> Sbace Dreamer Creative. All rights reserved.</p>
+                <p>Designed with purpose.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal-overlay">
+        <div class="modal-content text-center">
+            <div class="modal-icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+            </div>
+            <h3 class="h-card" style="margin-bottom: 8px;">We'll get back to you!</h3>
+            <p class="p-base">Thanks for reaching out. We've received your project details and will contact you within 1 business day.</p>
+            <button class="btn btn-primary close-modal-btn">Close</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="discovery.js"></script>
+</body>
+</html>

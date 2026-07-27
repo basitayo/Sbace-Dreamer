@@ -1,0 +1,274 @@
+/* ==========================================================================
+   SBA Creative - About Page Specific Styles
+   ========================================================================== */
+
+/* Utility & Spacing */
+.mt-16 { margin-top: 16px; }
+.mt-64 { margin-top: 64px; }
+.mb-64 { margin-bottom: 64px; }
+.text-center { text-align: center; }
+.text-dark { color: var(--text-primary); font-weight: 500; }
+
+.section-tag {
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 16px;
+}
+
+/* SECTION 1: Hero */
+.about-hero {
+    padding-top: 200px;
+    padding-bottom: 120px;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.premium-workspace-mockup {
+    width: 100%;
+    aspect-ratio: 4/5;
+    background: var(--bg-section);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-md);
+    position: relative;
+    overflow: hidden;
+    background-image: url('https://images.unsplash.com/photo-1778272617829-7074f9f4ca4f?q=80&w=3083&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Abstract shapes to simulate a high-end creative workspace */
+.abstract-shape {
+    position: absolute;
+    background: var(--bg-alt);
+    border-radius: var(--radius-md);
+}
+.shape-1 {
+    width: 80%;
+    height: 40%;
+    bottom: -10%;
+    right: -10%;
+    transform: rotate(-15deg);
+    background: var(--border-color);
+    opacity: 0.5;
+}
+.shape-2 {
+    width: 60%;
+    height: 60%;
+    top: 10%;
+    left: -10%;
+    border-radius: 50%;
+    border: 1px solid var(--border-color);
+    background: transparent;
+}
+
+/* SECTION 2: Philosophy */
+.philosophy-section {
+    padding: 140px 0;
+    background: var(--bg-section);
+}
+
+.editorial-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: flex-start;
+}
+
+.editorial-grid .h-section {
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
+    line-height: 1.1;
+}
+
+/* SECTION 3: Specialization */
+.specialization-section {
+    padding: 140px 0;
+    background: var(--bg-alt);
+}
+
+.alternating-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.image-placeholder {
+    width: 100%;
+    aspect-ratio: 1/1;
+    background: var(--bg-section);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1770265014427-d963ddbb4975?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.image-placeholder img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* SECTION 4: Principles */
+.principles-section {
+    padding: 140px 0;
+    background: var(--bg-main);
+}
+
+.principles-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 32px;
+}
+
+.principle-card {
+    background: var(--bg-section);
+    padding: 48px 32px;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.principle-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-hover);
+}
+
+.principle-number {
+    display: block;
+    font-family: var(--font-head);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 24px;
+}
+
+/* SECTION 5: Industries */
+.industries-section {
+    padding: 140px 0;
+    background: var(--bg-section);
+    border-top: 1px solid var(--border-color);
+}
+
+.industries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+}
+
+.industry-card {
+    padding: 40px;
+    background: var(--bg-alt);
+    border-radius: var(--radius-lg);
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.industry-card:hover {
+    background: var(--bg-section);
+    border-color: var(--border-color);
+    box-shadow: var(--shadow-md);
+}
+
+/* SECTION 6: Process Timeline */
+.process-timeline-section {
+    padding: 140px 0;
+    background: var(--bg-main);
+}
+
+.timeline-container {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 40px;
+    height: 100%;
+    width: 1px;
+    background: var(--border-color);
+    z-index: 0;
+}
+
+.timeline-step {
+    position: relative;
+    padding-left: 100px;
+    z-index: 1;
+}
+
+.timeline-bg-num {
+    position: absolute;
+    left: -10px;
+    top: -20px;
+    font-family: var(--font-head);
+    font-size: 6rem;
+    font-weight: 900;
+    color: var(--bg-section);
+    text-shadow: 1px 1px 0 var(--border-color), -1px -1px 0 var(--border-color), 1px -1px 0 var(--border-color), -1px 1px 0 var(--border-color);
+    opacity: 0.3;
+    line-height: 1;
+    z-index: -1;
+    user-select: none;
+}
+
+/* SECTION 7: Why Us */
+.why-us-section {
+    padding: 140px 0;
+    background: var(--bg-section);
+    border-top: 1px solid var(--border-color);
+}
+
+.advantage-blocks {
+    display: flex;
+    flex-direction: column;
+}
+
+.advantage-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 64px;
+    padding: 48px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.advantage-row:first-child { border-top: 1px solid var(--border-color); }
+.advantage-row .adv-title .h-card { font-size: 1.5rem; }
+
+/* SECTION 8: Minimal Closing Statement */
+.minimal-statement {
+    padding: 200px 0;
+    border: none;
+}
+
+/* Mobile Responsiveness for New Layouts */
+@media (max-width: 992px) {
+    .about-hero { grid-template-columns: 1fr; text-align: center; }
+    .about-hero-content { display: flex; flex-direction: column; align-items: center; }
+    .premium-workspace-mockup { max-width: 500px; margin: 0 auto; aspect-ratio: 16/9; }
+    .editorial-grid { grid-template-columns: 1fr; gap: 40px; }
+    .alternating-layout { grid-template-columns: 1fr; }
+    .advantage-row { grid-template-columns: 1fr; gap: 16px; padding: 32px 0; }
+}
+
+@media (max-width: 768px) {
+    .timeline-container::before { left: 24px; }
+    .timeline-step { padding-left: 70px; }
+    .timeline-bg-num { font-size: 4rem; left: 0; top: -10px; }
+    .minimal-statement { padding: 120px 0; }
+}
