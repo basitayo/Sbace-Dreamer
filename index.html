@@ -18,46 +18,46 @@
     <!-- 1. Sticky Navigation -->
     <header id="header">
         <div class="container nav-container">
-            <a href="/" class="logo"><img src="/assets/images/Layer 2.png" alt="">Sbace Dreamer</a>
+            <a href="/" class="logo"><img src="/assets/images/Layer 2.png" alt=""><span data-i18n="brand.name">Sbace Dreamer</span></a>
             <nav class="nav-links">
                 <!-- Dropdown Container -->
                 <div class="dropdown">
                     <a href="/index.html#work" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
-                        Work 
+                        <span data-i18n="nav.work">Work</span> 
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top: 2px;"><path d="m6 9 6 6 6-6"></path></svg>
                     </a>
                     
                     <!-- Dropdown Menu -->
                     <div class="dropdown-menu">
-                        <a href="/case-study-one/">Modern Residential Website</a>
-                        <a href="/case-study-two/">Premium Luxury Platform</a>
-                        <a href="/case-study-three/">Commercial Conversion Page</a>
+                        <a href="/case-study-one/" data-i18n="nav.dropdown.residential">Modern Residential Website</a>
+                        <a href="/case-study-two/" data-i18n="nav.dropdown.luxury">Premium Luxury Platform</a>
+                        <a href="/case-study-three/" data-i18n="nav.dropdown.commercial">Commercial Conversion Page</a>
                     </div>
                 </div>
 
-                <a href="/services/">Services</a>
-                <a href="/about/">About</a>
-                <a href="/contact/">Contact</a>
+                <a href="/services/" data-i18n="nav.services">Services</a>
+                <a href="/about/" data-i18n="nav.about">About</a>
+                <a href="/contact/" data-i18n="nav.contact">Contact</a>
             </nav>
             <!-- Minimal CTA on right -->
-            <a href="/contact/" class="nav-links" style="font-weight: 600; color: var(--accent);">Let's Talk &rarr;</a>
+            <a href="/contact/" class="nav-links" style="font-weight: 600; color: var(--accent);" data-i18n="nav.cta">Let's Talk &rarr;</a>
         </div>
     </header>
 
     <!-- 2. Hero Section -->
     <section class="hero container">
         <div class="hero-content fade-up">
-            <h1 class="h-hero">Your Craft Is Premium. Your Website Should Be Too.</h1>
-            <p class="p-large">We build clean, modern websites that earn trust,
+            <h1 class="h-hero" data-i18n="hero.title">Your Craft Is Premium. Your Website Should Be Too.</h1>
+            <p class="p-large" data-i18n="hero.subtitle">We build clean, modern websites that earn trust,
                 generate enquiries and make established businesses
                 look established online.
             </p>
             <div class="hero-cta">
                 <a href="#work" class="btn btn-primary">
-                    View My Work 
+                    <span data-i18n="hero.btnWork">View My Work</span> 
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                 </a>
-                <a href="/contact/" class="btn btn-secondary">Book a Discovery Call</a>
+                <a href="/contact/" class="btn btn-secondary" data-i18n="hero.btnCall">Book a Discovery Call</a>
             </div>
         </div>
         <div class="hero-visual fade-up" style="transition-delay: 0.2s;">
@@ -78,7 +78,7 @@
     <!-- 3. Premium Trust Section -->
     <section class="trust-section">
         <div class="container fade-up">
-            <span class="trust-label">Trusted by established service businesses</span>
+            <span class="trust-label" data-i18n="trust.label">Trusted by established service businesses</span>
             
             <!-- Infinite Logo Marquee -->
             <div class="trust-marquee-wrapper">
@@ -97,19 +97,19 @@
                 <div class="metric-item">
                     <!-- Starts at 0, counts to 98, adds '%' -->
                     <span class="metric-number" data-target="98" data-suffix="%">0%</span>
-                    <span class="metric-text">Client Satisfaction</span>
+                    <span class="metric-text" data-i18n="trust.metric1">Client Satisfaction</span>
                 </div>
                 <div class="metric-divider"></div>
                 <div class="metric-item">
                     <!-- Starts at 0.0, counts to 5.0, forces 1 decimal place -->
                     <span class="metric-number" data-target="5.0" data-decimals="1" data-suffix="">0.0</span>
-                    <span class="metric-text">Average Rating</span>
+                    <span class="metric-text" data-i18n="trust.metric2">Average Rating</span>
                 </div>
                 <div class="metric-divider"></div>
                 <div class="metric-item">
                     <!-- Starts at 0, counts to 2, adds 'x' -->
                     <span class="metric-number" data-target="2" data-suffix="x">0x</span>
-                    <span class="metric-text">Enquiry Increase</span>
+                    <span class="metric-text" data-i18n="trust.metric3">Enquiry Increase</span>
                 </div>
             </div>
         </div>
@@ -119,9 +119,9 @@
     <section id="work" class="work">
         <div class="container">
             <div class="work-header fade-up">
-                <span class="section-tag">Portfolio</span>
-                <h2 class="h-section">Selected<br>Work</h2>
-                <p class="p-base">Recent concepts and projects designed for service contractors.</p>
+                <span class="section-tag" data-i18n="work.tag">Portfolio</span>
+                <h2 class="h-section" data-i18n="work.title">Selected<br>Work</h2>
+                <p class="p-base" data-i18n="work.subtitle">Recent concepts and projects designed for service contractors.</p>
             </div>
             
             <div class="work-grid">
@@ -129,8 +129,8 @@
                 <article class="case-card fade-up">
                     <span class="case-num-watermark">01</span>
                     <div class="case-header">
-                        <span class="case-industry">Painting Contractor</span>
-                        <h3 class="h-card">Modern Residential Website</h3>
+                        <span class="case-industry" data-i18n="work.case1.industry">Painting Contractor</span>
+                        <h3 class="h-card" data-i18n="work.case1.title">Modern Residential Website</h3>
                     </div>
                     
                     <a href="case-study-page/case-study.html" class="case-image-wrapper caseo-ne">
@@ -143,12 +143,12 @@
                         <div class="case-meta">
                             <div class="case-stars">★★★★★</div>
                             <div class="case-features">
-                                <span class="feature-tag">High Performance</span>
-                                <span class="feature-tag">Responsive</span>
+                                <span class="feature-tag" data-i18n="work.case1.feature1">High Performance</span>
+                                <span class="feature-tag" data-i18n="work.case1.feature2">Responsive</span>
                             </div>
                         </div>
                         <a href="case-study-page/case-study.html" class="case-link">
-                            View Case Study 
+                            <span data-i18n="work.viewCase">View Case Study</span> 
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                         </a>
                     </div>
@@ -158,8 +158,8 @@
                 <article class="case-card fade-up" style="transition-delay: 0.1s;">
                     <span class="case-num-watermark">02</span>
                     <div class="case-header">
-                        <span class="case-industry">Roofing Contractor</span>
-                        <h3 class="h-card">Premium Luxury Platform</h3>
+                        <span class="case-industry" data-i18n="work.case2.industry">Roofing Contractor</span>
+                        <h3 class="h-card" data-i18n="work.case2.title">Premium Luxury Platform</h3>
                     </div>
                     
                     <a href="case-study-page/case-study2.html" class="case-image-wrapper caset-wo">
@@ -172,12 +172,12 @@
                         <div class="case-meta">
                             <div class="case-stars">★★★★★</div>
                             <div class="case-features">
-                                <span class="feature-tag">SEO Optimized</span>
-                                <span class="feature-tag">Fast Loading</span>
+                                <span class="feature-tag" data-i18n="work.case2.feature1">SEO Optimized</span>
+                                <span class="feature-tag" data-i18n="work.case2.feature2">Fast Loading</span>
                             </div>
                         </div>
                         <a href="case-study-page/case-study2.html" class="case-link">
-                            View Case Study 
+                            <span data-i18n="work.viewCase">View Case Study</span> 
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                         </a>
                     </div>
@@ -187,8 +187,8 @@
                 <article class="case-card fade-up" style="transition-delay: 0.2s;">
                     <span class="case-num-watermark">03</span>
                     <div class="case-header">
-                        <span class="case-industry">Landscaping Pro</span>
-                        <h3 class="h-card">Commercial Conversion Page</h3>
+                        <span class="case-industry" data-i18n="work.case3.industry">Landscaping Pro</span>
+                        <h3 class="h-card" data-i18n="work.case3.title">Commercial Conversion Page</h3>
                     </div>
                     
                     <a href="case-study-page/case-study3.html" class="case-image-wrapper caseth-ree">
@@ -201,12 +201,12 @@
                         <div class="case-meta">
                             <div class="case-stars">★★★★★</div>
                             <div class="case-features">
-                                <span class="feature-tag">Lead Generation</span>
-                                <span class="feature-tag">Mobile First</span>
+                                <span class="feature-tag" data-i18n="work.case3.feature1">Lead Generation</span>
+                                <span class="feature-tag" data-i18n="work.case3.feature2">Mobile First</span>
                             </div>
                         </div>
                         <a href="case-study-page/case-study3.html" class="case-link">
-                            View Case Study 
+                            <span data-i18n="work.viewCase">View Case Study</span> 
                             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
                         </a>
                     </div>
@@ -218,8 +218,8 @@
     <!-- 4.5 Massive Editorial Breaker Section -->
     <section class="statement-section">
         <div class="container fade-up">
-            <span class="statement-badge">The Sbace Dreamer Standard</span>
-            <blockquote class="statement-quote">
+            <span class="statement-badge" data-i18n="statement.badge">The Sbace Dreamer Standard</span>
+            <blockquote class="statement-quote" data-i18n="statement.quote">
                 “Good design builds trust <span class="quote-accent">before</span> the first call.”
             </blockquote>
         </div>
@@ -228,37 +228,37 @@
     <!-- 5. Why Contractors Choose Us -->
     <section class="features">
         <div class="container">
-            <h2 class="h-section fade-up">Built for Service Businesses</h2>
-            <p class="p-base fade-up">Why contractors trust Sbace Dreamer Creative with their digital presence.</p>
+            <h2 class="h-section fade-up" data-i18n="features.title">Built for Service Businesses</h2>
+            <p class="p-base fade-up" data-i18n="features.subtitle">Why contractors trust Sbace Dreamer Creative with their digital presence.</p>
             
             <div class="features-grid">
                 <div class="feature-card fade-up">
                     <div class="feature-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
                     </div>
-                    <h3 class="h-card">Professional First Impression</h3>
-                    <p class="p-base">Look like the premium choice in your local market the second a prospect lands on your page.</p>
+                    <h3 class="h-card" data-i18n="features.item1.title">Professional First Impression</h3>
+                    <p class="p-base" data-i18n="features.item1.desc">Look like the premium choice in your local market the second a prospect lands on your page.</p>
                 </div>
                 <div class="feature-card fade-up" style="transition-delay: 0.1s;">
                     <div class="feature-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"></path><path d="m9 12 2 2 4-4"></path></svg>
                     </div>
-                    <h3 class="h-card">Build Trust Instantly</h3>
-                    <p class="p-base">Strategic layouts that highlight your reviews, past work, and credibility markers.</p>
+                    <h3 class="h-card" data-i18n="features.item2.title">Build Trust Instantly</h3>
+                    <p class="p-base" data-i18n="features.item2.desc">Strategic layouts that highlight your reviews, past work, and credibility markers.</p>
                 </div>
                 <div class="feature-card fade-up" style="transition-delay: 0.2s;">
                     <div class="feature-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect><path d="M12 18h.01"></path></svg>
                     </div>
-                    <h3 class="h-card">Mobile Optimized</h3>
-                    <p class="p-base">Flawless experience on every device, ensuring homeowners can easily contact you on the go.</p>
+                    <h3 class="h-card" data-i18n="features.item3.title">Mobile Optimized</h3>
+                    <p class="p-base" data-i18n="features.item3.desc">Flawless experience on every device, ensuring homeowners can easily contact you on the go.</p>
                 </div>
                 <div class="feature-card fade-up" style="transition-delay: 0.3s;">
                     <div class="feature-icon">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
                     </div>
-                    <h3 class="h-card">Fast Loading</h3>
-                    <p class="p-base">Built with lightweight, modern technologies so you never lose a lead to a slow website.</p>
+                    <h3 class="h-card" data-i18n="features.item4.title">Fast Loading</h3>
+                    <p class="p-base" data-i18n="features.item4.desc">Built with lightweight, modern technologies so you never lose a lead to a slow website.</p>
                 </div>
             </div>
         </div>
@@ -267,21 +267,21 @@
     <!-- 6. Services -->
     <section id="services" class="services">
         <div class="container">
-            <h2 class="h-section fade-up">Capabilities</h2>
-            <p class="p-base fade-up">Focused expertise to elevate your brand.</p>
+            <h2 class="h-section fade-up" data-i18n="services.title">Capabilities</h2>
+            <p class="p-base fade-up" data-i18n="services.subtitle">Focused expertise to elevate your brand.</p>
 
             <div class="services-grid">
                 <div class="service-card fade-up">
-                    <h3 class="h-card">Website Design</h3>
-                    <p class="p-base">Custom, pixel-perfect websites designed specifically around your business goals, target audience, and brand identity.</p>
+                    <h3 class="h-card" data-i18n="services.item1.title">Website Design</h3>
+                    <p class="p-base" data-i18n="services.item1.desc">Custom, pixel-perfect websites designed specifically around your business goals, target audience, and brand identity.</p>
                 </div>
                 <div class="service-card fade-up" style="transition-delay: 0.1s;">
-                    <h3 class="h-card">Website Development</h3>
-                    <p class="p-base">Responsive, robust development utilizing clean code and modern technologies for superior performance and SEO.</p>
+                    <h3 class="h-card" data-i18n="services.item2.title">Website Development</h3>
+                    <p class="p-base" data-i18n="services.item2.desc">Responsive, robust development utilizing clean code and modern technologies for superior performance and SEO.</p>
                 </div>
                 <div class="service-card fade-up" style="transition-delay: 0.2s;">
-                    <h3 class="h-card">Website Refresh</h3>
-                    <p class="p-base">Transforming outdated, underperforming websites into modern, high-converting digital experiences.</p>
+                    <h3 class="h-card" data-i18n="services.item3.title">Website Refresh</h3>
+                    <p class="p-base" data-i18n="services.item3.desc">Transforming outdated, underperforming websites into modern, high-converting digital experiences.</p>
                 </div>
             </div>
         </div>
@@ -290,29 +290,29 @@
     <!-- 7. Process -->
     <section class="process">
         <div class="container">
-            <h2 class="h-section fade-up">The Process</h2>
-            <p class="p-base fade-up">A streamlined, transparent workflow from concept to launch.</p>
+            <h2 class="h-section fade-up" data-i18n="process.title">The Process</h2>
+            <p class="p-base fade-up" data-i18n="process.subtitle">A streamlined, transparent workflow from concept to launch.</p>
 
             <div class="process-list">
                 <div class="process-step fade-up">
                     <span class="process-number">01</span>
-                    <h3 class="h-card">Discover</h3>
-                    <p class="p-base">Understand your specific business goals, competitors, and target audience.</p>
+                    <h3 class="h-card" data-i18n="process.item1.title">Discover</h3>
+                    <p class="p-base" data-i18n="process.item1.desc">Understand your specific business goals, competitors, and target audience.</p>
                 </div>
                 <div class="process-step fade-up" style="transition-delay: 0.1s;">
                     <span class="process-number">02</span>
-                    <h3 class="h-card">Design</h3>
-                    <p class="p-base">Create bespoke layouts focused purely on trust, clarity, and usability.</p>
+                    <h3 class="h-card" data-i18n="process.item2.title">Design</h3>
+                    <p class="p-base" data-i18n="process.item2.desc">Create bespoke layouts focused purely on trust, clarity, and usability.</p>
                 </div>
                 <div class="process-step fade-up" style="transition-delay: 0.2s;">
                     <span class="process-number">03</span>
-                    <h3 class="h-card">Develop</h3>
-                    <p class="p-base">Build a lighting-fast, responsive website using the latest web standards.</p>
+                    <h3 class="h-card" data-i18n="process.item3.title">Develop</h3>
+                    <p class="p-base" data-i18n="process.item3.desc">Build a lighting-fast, responsive website using the latest web standards.</p>
                 </div>
                 <div class="process-step fade-up" style="transition-delay: 0.3s;">
                     <span class="process-number">04</span>
-                    <h3 class="h-card">Launch</h3>
-                    <p class="p-base">Deploy flawlessly, optimize for search engines, and provide post-launch support.</p>
+                    <h3 class="h-card" data-i18n="process.item4.title">Launch</h3>
+                    <p class="p-base" data-i18n="process.item4.desc">Deploy flawlessly, optimize for search engines, and provide post-launch support.</p>
                 </div>
             </div>
         </div>
@@ -322,9 +322,9 @@
     <section id="about" class="about">
         <div class="container about-inner">
             <div class="about-content fade-up">
-                <h2 class="h-section">About Sbace Dreamer Creative</h2>
-                <p class="p-large" style="margin-bottom: 16px;">Sbace Dreamer Creative is a design studio focused on creating premium websites for service businesses that take pride in their craftsmanship.</p>
-                <p class="p-base">We believe a great website should do more than look impressive—it should build trust before the first conversation even begins.
+                <h2 class="h-section" data-i18n="about.title">About Sbace Dreamer Creative</h2>
+                <p class="p-large" style="margin-bottom: 16px;" data-i18n="about.p1">Sbace Dreamer Creative is a design studio focused on creating premium websites for service businesses that take pride in their craftsmanship.</p>
+                <p class="p-base" data-i18n="about.p2">We believe a great website should do more than look impressive—it should build trust before the first conversation even begins.
 
 Every project is designed with clarity, performance, and conversion in mind, helping contractors present their work professionally and attract higher-quality clients.</p>
             </div>
@@ -337,10 +337,10 @@ Every project is designed with clarity, performance, and conversion in mind, hel
     <!-- 9. CTA -->
     <section id="contact" class="cta-section">
         <div class="container fade-up">
-            <h2 class="h-hero">Ready to Elevate Your Online Presence?</h2>
-            <p class="p-large">Let's discuss your business goals and see how a premium website can help you secure better clients.</p>
+            <h2 class="h-hero" data-i18n="cta.title">Ready to Elevate Your Online Presence?</h2>
+            <p class="p-large" data-i18n="cta.desc">Let's discuss your business goals and see how a premium website can help you secure better clients.</p>
             <a href="/contact" class="btn btn-primary">
-                Let's Talk 
+                <span data-i18n="cta.btn">Let's Talk</span> 
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
             </a>
         </div>
@@ -351,31 +351,34 @@ Every project is designed with clarity, performance, and conversion in mind, hel
         <div class="container">
             <div class="footer-top fade-up">
                 <div>
-                    <a href="/index" class="logo"><img src="/assets/images/Layer 2.png" alt="">Sbace Dreamer</a>
-                    <p class="p-base" style="max-width: 300px;">Boutique Web Design Studio crafting premium experiences for service businesses.</p>
+                    <a href="/index" class="logo"><img src="/assets/images/Layer 2.png" alt=""><span data-i18n="brand.name">Sbace Dreamer</span></a>
+                    <p class="p-base" style="max-width: 300px;" data-i18n="footer.desc">Boutique Web Design Studio crafting premium experiences for service businesses.</p>
                 </div>
                 <div class="footer-links">
                     <div class="footer-col">
-                        <strong style="color: var(--text-primary);">Navigation</strong>
-                        <a href="#work">Work</a>
-                        <a href="/services/index">Services</a>
-                        <a href="/about/index">About</a>
+                        <strong style="color: var(--text-primary);" data-i18n="footer.navTitle">Navigation</strong>
+                        <a href="#work" data-i18n="footer.navWork">Work</a>
+                        <a href="/services/index" data-i18n="footer.navServices">Services</a>
+                        <a href="/about/index" data-i18n="footer.navAbout">About</a>
                     </div>
                     <div class="footer-col">
-                        <strong style="color: var(--text-primary);">Connect</strong>
-                        <a href="mailto:hello@sbacedreamer.pro">Email</a>
-                        <a href="#">LinkedIn</a>
-                        <a href="#">GitHub</a>
+                        <strong style="color: var(--text-primary);" data-i18n="footer.connectTitle">Connect</strong>
+                        <a href="mailto:hello@sbacedreamer.pro" data-i18n="footer.connectEmail">Email</a>
+                        <a href="#" data-i18n="footer.connectLinkedin">LinkedIn</a>
+                        <a href="#" data-i18n="footer.connectGithub">GitHub</a>
                     </div>
                 </div>
             </div>
             <div class="footer-bottom fade-up">
-                <p>&copy; <span id="year"></span> Sbace Dreamer Creative. All rights reserved.</p>
-                <p>Designed with purpose.</p>
+                <p>&copy; <span id="year"></span> <span data-i18n="footer.rights">Sbace Dreamer Creative. All rights reserved.</span></p>
+                <p data-i18n="footer.designed">Designed with purpose.</p>
             </div>
         </div>
     </footer>
 
+
+    <script src="/assets/js/translations.js"></script>
+    <script src="/assets/js/language.js"></script>
     <!-- Custom JS -->
     <script src="/assets/js/script.js"></script>
 </body>

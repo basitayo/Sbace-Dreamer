@@ -1,0 +1,691 @@
+{
+  "brand": {
+    "name": "Sbace Dreamer"
+  },
+  "modal": {
+    "welcome": "Welkom",
+    "choose": "Kies uw voorkeurstaal",
+    "continue": "Doorgaan"
+  },
+  "nav": {
+    "work": "Werk",
+    "dropdown": {
+      "residential": "Moderne Residentiële Website",
+      "luxury": "Premium Luxe Platform",
+      "commercial": "Commerciële Conversiepagina"
+    },
+    "cs1": "Moderne Residentiële Website",
+    "cs2": "Premium Luxe Platform",
+    "cs3": "Commerciële Conversiepagina",
+    "services": "Diensten",
+    "about": "Over Ons",
+    "contact": "Contact",
+    "cta": "Laten we praten &rarr;",
+    "letsTalk": "Laten we praten &rarr;"
+  },
+  "footer": {
+    "desc": "Boetiek Webdesign Studio die premium ervaringen creëert voor dienstverlenende bedrijven.",
+    "navTitle": "Navigatie",
+    "navWork": "Werk",
+    "navServices": "Diensten",
+    "navAbout": "Over Ons",
+    "connectTitle": "Verbinden",
+    "connectEmail": "E-mail",
+    "connectLinkedin": "LinkedIn",
+    "connectGithub": "GitHub",
+    "email": "E-mail",
+    "rights": "Sbace Dreamer Creative. Alle rechten voorbehouden.",
+    "designed": "Doelbewust ontworpen."
+  },
+  
+  "hero": {
+    "title": "Uw vakmanschap is premium. Uw website zou dat ook moeten zijn.",
+    "subtitle": "Wij bouwen strakke, moderne websites die vertrouwen wekken, aanvragen genereren en gevestigde bedrijven er online gevestigd uit laten zien.",
+    "btnWork": "Bekijk Ons Werk",
+    "btnCall": "Plan een kennismakingsgesprek"
+  },
+  "trust": {
+    "label": "Vertrouwd door gevestigde dienstverlenende bedrijven",
+    "metric1": "Klanttevredenheid",
+    "metric2": "Gemiddelde Beoordeling",
+    "metric3": "Toename in Aanvragen"
+  },
+  "work": {
+    "tag": "Portfolio",
+    "title": "Geselecteerd<br>Werk",
+    "subtitle": "Recente concepten en projecten ontworpen voor aannemers.",
+    "case1": {
+      "industry": "Schildersbedrijf",
+      "title": "Moderne Residentiële Website",
+      "feature1": "Hoge Prestaties",
+      "feature2": "Responsief"
+    },
+    "case2": {
+      "industry": "Dakdekkersbedrijf",
+      "title": "Premium Luxe Platform",
+      "feature1": "SEO Geoptimaliseerd",
+      "feature2": "Snel Ladend"
+    },
+    "case3": {
+      "industry": "Hoveniersbedrijf",
+      "title": "Commerciële Conversiepagina",
+      "feature1": "Leadgeneratie",
+      "feature2": "Mobile First"
+    },
+    "viewCase": "Bekijk Case Study"
+  },
+  "statement": {
+    "badge": "De Sbace Dreamer Standaard",
+    "quote": "“Goed design bouwt vertrouwen op <span class=\"quote-accent\">vóór</span> het eerste gesprek.”"
+  },
+  "features": {
+    "title": "Gebouwd voor Dienstverleners",
+    "subtitle": "Waarom aannemers Sbace Dreamer Creative vertrouwen met hun digitale aanwezigheid.",
+    "item1": {
+      "title": "Professionele Eerste Indruk",
+      "desc": "Zie eruit als de premium keuze in uw lokale markt zodra een prospect op uw pagina landt."
+    },
+    "item2": {
+      "title": "Bouw Direct Vertrouwen Op",
+      "desc": "Strategische lay-outs die uw recensies, eerder werk en geloofwaardigheidsmarkeringen benadrukken."
+    },
+    "item3": {
+      "title": "Mobiel Geoptimaliseerd",
+      "desc": "Foutloze ervaring op elk apparaat, zodat huiseigenaren u onderweg gemakkelijk kunnen bereiken."
+    },
+    "item4": {
+      "title": "Snel Ladend",
+      "desc": "Gebouwd met lichtgewicht, moderne technologieën zodat u nooit een lead verliest door een trage website."
+    }
+  },
+  "services": {
+    "title": "Capaciteiten",
+    "subtitle": "Gerichte expertise om uw merk naar een hoger niveau te tillen.",
+    "item1": {
+      "title": "Website Design",
+      "desc": "Op maat gemaakte, pixel-perfecte websites speciaal ontworpen rond uw bedrijfsdoelen, doelgroep en merkidentiteit."
+    },
+    "item2": {
+      "title": "Website Ontwikkeling",
+      "desc": "Responsieve, robuuste ontwikkeling met gebruik van schone code en moderne technologieën voor superieure prestaties en SEO."
+    },
+    "item3": {
+      "title": "Website Vernieuwing",
+      "desc": "Het transformeren van verouderde, slecht presterende websites in moderne, hoog-converterende digitale ervaringen."
+    }
+  },
+  "process": {
+    "title": "Het Proces",
+    "subtitle": "Een gestroomlijnde, transparante workflow van concept tot lancering.",
+    "item1": {
+      "title": "Ontdekken",
+      "desc": "Begrijp uw specifieke bedrijfsdoelen, concurrenten en doelgroep."
+    },
+    "item2": {
+      "title": "Ontwerpen",
+      "desc": "Creëer lay-outs op maat, puur gericht op vertrouwen, duidelijkheid en bruikbaarheid."
+    },
+    "item3": {
+      "title": "Ontwikkelen",
+      "desc": "Bouw een razendsnelle, responsieve website met de nieuwste webstandaarden."
+    },
+    "item4": {
+      "title": "Lanceren",
+      "desc": "Foutloos implementeren, optimaliseren voor zoekmachines en ondersteuning bieden na de lancering."
+    }
+  },
+  "cta": {
+    "title": "Klaar om uw online aanwezigheid te vergroten?",
+    "desc": "Laten we uw bedrijfsdoelen bespreken en zien hoe een premium website u kan helpen betere klanten binnen te halen.",
+    "btn": "Laten we praten"
+  },
+
+  "about": {
+    "title": "Over Sbace Dreamer Creative",
+    "p1": "Sbace Dreamer Creative is een designstudio gericht op het creëren van premium websites voor dienstverlenende bedrijven die trots zijn op hun vakmanschap.",
+    "p2": "Wij geloven dat een geweldige website meer moet doen dan er indrukwekkend uitzien—het moet vertrouwen wekken voordat het eerste gesprek überhaupt begint.\n\nElk project is ontworpen met duidelijkheid, prestaties en conversie in gedachten, en helpt aannemers hun werk professioneel te presenteren en klanten van hogere kwaliteit aan te trekken.",
+    "hero": {
+      "tag": "Onze Studio",
+      "title": "Websites bouwen die vertrouwen wekken vóór het eerste gesprek.",
+      "desc": "SBA Creative is een boetiek digitaal designstudio die is toegewijd aan één doel: het ontwikkelen van premium digitale ervaringen die lokale dienstverleners veranderen in onbetwiste marktleiders.",
+      "btnSecondary": "Leer Meer Over Ons Proces",
+      "btnPrimary": "Bekijk Ons Werk"
+    },
+    "philosophy": {
+      "title": "Geweldige websites zijn meer dan alleen beelden.",
+      "p1": "Wij geloven dat esthetiek er alleen toe doet als het een doel dient. In de digitale ruimte is een website een strategisch bezit gebouwd op vertrouwen, duidelijkheid en gebruikerservaring.",
+      "p2": "Bij SBA Creative strippen we onnodige decoraties weg. Onze focus ligt puur op het ontwerpen van intuïtieve, hoog-converterende platforms die een onvergetelijke eerste indruk achterlaten en uw professionaliteit bewijzen voordat een prospect de telefoon oppakt."
+    },
+    "specialization": {
+      "tag": "Specialisatie",
+      "title": "Waarom Dienstverleners?",
+      "p1": "We bedienen bewust niet elke branche. SBA Creative werkt uitsluitend samen met dienstverlenende professionals omdat we lokale concurrentie en klantgedrag diepgaand begrijpen.",
+      "p2": "Huiseigenaren en commerciële klanten zoeken betrouwbaarheid. We kennen de specifieke vertrouwenssignalen waarnaar ze op zoek zijn en integreren die direct in uw digitale aanwezigheid om concurrenten te overtreffen die nog vertrouwen op verouderde templates."
+    },
+    "principles": {
+      "title": "Onze Principes",
+      "desc": "De fundamentele pijlers achter elk SBA Creative-project.",
+      "c1": {
+        "title": "Duidelijkheid",
+        "desc": "Professionele lay-outs en heldere copywriting die uw waarde onmiddellijk overbrengen aan bezoekers."
+      },
+      "c2": {
+        "title": "Vertrouwen",
+        "desc": "Strategische ontwerpbeslissingen die uw autoriteit verhogen en het vertrouwen van klanten vergroten."
+      },
+      "c3": {
+        "title": "Prestaties",
+        "desc": "Razendsnel ladend, volledig responsief op alle apparaten en gebouwd om organisch te scoren."
+      },
+      "c4": {
+        "title": "Doel",
+        "desc": "Geen loze decoraties. Elke sectie, knop en afbeelding heeft een bewezen zakelijke reden."
+      }
+    },
+    "industries": {
+      "title": "Branches Die We Bedienen",
+      "c1": {
+        "title": "Residentieel Schilderwerk",
+        "desc": "Trek high-end huiseigenaren aan met een gepolijst portfolio."
+      },
+      "c2": {
+        "title": "Luxe Schilderwerk",
+        "desc": "Verfijnde esthetiek voor maatwerk en hoogwaardige afwerking."
+      },
+      "c3": {
+        "title": "Commercieel Schilderwerk",
+        "desc": "Corporate-grade platforms die grote aanbestedingen winnen."
+      },
+      "c4": {
+        "title": "Bouw & Aannemerij",
+        "desc": "Toon schaalgrootte en betrouwbaarheid aan grote belanghebbenden."
+      },
+      "c5": {
+        "title": "Woningrenovatie",
+        "desc": "Voor-en-na ervaringen die inkomende leads genereren."
+      },
+      "c6": {
+        "title": "Ambachten & Diensten",
+        "desc": "Loodgieters-, dakdekkers- en elektriciensbedrijven gebouwd om te schalen."
+      }
+    },
+    "process": {
+      "title": "Hoe We Werken",
+      "s1": {
+        "title": "Ontdekking",
+        "desc": "We auditeren uw huidige positie, begrijpen uw ideale klantprofiel en bepalen de exacte doelen voor uw nieuwe platform."
+      },
+      "s2": {
+        "title": "Strategie",
+        "desc": "Het in kaart brengen van klantreizen, sitestructuur en conversietrechters om ervoor te zorgen dat de site als een verkoopmiddel fungeert."
+      },
+      "s3": {
+        "title": "Ontwerp",
+        "desc": "Het creëren van op maat gemaakte, high-fidelity lay-outs puur gericht op vertrouwen, duidelijkheid en premium merkpositionering."
+      },
+      "s4": {
+        "title": "Ontwikkeling",
+        "desc": "Het schrijven van schone, semantische code om een razendsnelle, sterk responsieve website te bouwen met behulp van moderne webstandaarden."
+      },
+      "s5": {
+        "title": "Lancering",
+        "desc": "Grondig testen, definitieve SEO-optimalisatie en een naadloze implementatie naar de live server."
+      }
+    },
+    "why": {
+      "title": "Het Voordeel van SBA Creative",
+      "c1": {
+        "title": "Premium Design",
+        "desc": "Wij overbruggen de kloof tussen de esthetiek van high-end digitale bureaus en de praktische behoeften van dienstverlenende bedrijven. Uw site zal eruitzien als een nationaal merk."
+      },
+      "c2": {
+        "title": "Conversiegericht",
+        "desc": "Mooi design is nutteloos als de telefoon niet rinkelt. Elke beslissing is geworteld in menselijke psychologie en geoptimaliseerd om passief verkeer om te zetten in actieve leads."
+      },
+      "c3": {
+        "title": "Moderne Ontwikkeling",
+        "desc": "Wij gebruiken geen logge, trage bouwers. Uw site is gebouwd met precisiecode om top-tier prestatiestatistieken en onverslaanbare beveiliging te garanderen."
+      },
+      "c4": {
+        "title": "Mobile First",
+        "desc": "Meer dan 60% van uw verkeer komt via smartphones. We ontwerpen de mobiele ervaring eerst, voor een vlekkeloze navigatie en snelle laadtijden onderweg."
+      },
+      "c5": {
+        "title": "Lange Termijn Waarde",
+        "desc": "Onze websites zijn gebouwd om mee te schalen met uw bedrijf. Een SBA Creative platform is een investering die jarenlang meetbaar rendement oplevert."
+      }
+    },
+    "statement": {
+      "l1": "“Goed design is geen decoratie.",
+      "l2": "Het is het fundament van vertrouwen.”"
+    },
+    "cta": {
+      "title": "Klaar Om Uw Bedrijf Online Naar Een Hoger Niveau Te Tillen?",
+      "desc": "Werk samen met SBA Creative om een platform te bouwen dat premium klanten aantrekt en uw concurrentie voorbijstreeft.",
+      "btnPrimary": "Start Uw Project"
+    }
+  },
+
+  "servicesPage": {
+    "hero": {
+      "tag": "Onze Expertise",
+      "title": "Websites Ontworpen Om Eerste Indrukken Om Te Zetten In Blijvend Vertrouwen.",
+      "desc": "Elke digitale ervaring die we ontwikkelen, is doelbewust gemaakt om dienstverleners te helpen betere klanten aan te trekken, onmiddellijke geloofwaardigheid op te bouwen en meer gekwalificeerde aanvragen te genereren.",
+      "btnSecondary": "Bekijk Ons Werk",
+      "btnPrimary": "Start Uw Project"
+    },
+    "core": {
+      "s1": {
+        "title": "Website Design",
+        "desc": "Wij overbruggen de kloof tussen de esthetiek van high-end digitale bureaus en de praktische, conversiegerichte behoeften van dienstverlenende bedrijven. Uw digitale aanwezigheid zal onmiddellijk autoriteit uitstralen, waardoor u boven de lokale concurrentie uitstijgt.",
+        "listTitle": "Opleveringen",
+        "l1": "Op maat gemaakte Gebruikersinterface (UI)",
+        "l2": "Strategische Visuele Hiërarchie",
+        "l3": "Op maat gemaakte Typografie",
+        "l4": "Responsieve Ontwerplay-outs",
+        "l5": "Uitgebreid Design System"
+      },
+      "s2": {
+        "title": "Website Ontwikkeling",
+        "desc": "Een prachtig ontwerp betekent niets als het niet feilloos functioneert. Wij schrijven schone, semantische en moderne code. Geen opgeblazen pagebuilders—gewoon razendsnelle, veilige en toegankelijke ontwikkeling gebouwd voor langdurige prestaties.",
+        "listTitle": "Opleveringen",
+        "l1": "Responsieve Front-End Ontwikkeling",
+        "l2": "Prestatie- & Snelheidsoptimalisatie",
+        "l3": "SEO-vriendelijke Codestructuur",
+        "l4": "W3C Toegankelijkheidsnormen",
+        "l5": "Moderne HTML/CSS/JS Architectuur"
+      },
+      "s3": {
+        "title": "Website Redesign",
+        "desc": "Het transformeren van verouderde, slecht presterende websites in moderne digitale middelen. Als uw huidige site u leads kost of er niet in slaagt de ware kwaliteit van uw werk te weerspiegelen, herzien wij de ervaring strategisch om conversies te maximaliseren.",
+        "listTitle": "Kernvoordelen",
+        "l1": "Dramatisch Verhoogd Vertrouwen",
+        "l2": "Verbeterde Leadconversies",
+        "l3": "Moderne, Gevestigde Uitstraling",
+        "l4": "Mobile-First Correctie",
+        "l5": "Betere Zichtbaarheid in Zoekmachines"
+      },
+      "s4": {
+        "title": "Landingspagina's",
+        "desc": "Met precisie ontworpen landingspagina's voor specifieke marketingcampagnes, betaalde advertenties of hoogwaardige diensten. Elk element is meedogenloos geoptimaliseerd voor één doel: gericht verkeer omzetten in betalende klanten.",
+        "listTitle": "De Strategie",
+        "l1": "Lasergerichte Conversietrechters",
+        "l2": "Wrijvingsloze Leadformulieren",
+        "l3": "A/B Testing Gereedheid",
+        "l4": "Heldere, Actiegerichte Copywriting",
+        "l5": "Vertrouwenssignaal Optimalisatie"
+      }
+    },
+    "included": {
+      "title": "De Premium Standaard",
+      "desc": "Elk SBA Creative-project bevat deze fundamentele elementen.",
+      "c1": {
+        "title": "Responsief Design",
+        "desc": "Foutloze functionaliteit op alle apparaten."
+      },
+      "c2": {
+        "title": "SEO-vriendelijke Structuur",
+        "desc": "Gebouwd om organisch te scoren in Google."
+      },
+      "c3": {
+        "title": "Snelle Prestaties",
+        "desc": "Geoptimaliseerde middelen voor direct laden."
+      },
+      "c4": {
+        "title": "Mobiele Optimalisatie",
+        "desc": "Mobile-first user experience design."
+      },
+      "c5": {
+        "title": "Moderne UI",
+        "desc": "Strakke, eigentijdse visuele esthetiek."
+      },
+      "c6": {
+        "title": "Contactformulieren",
+        "desc": "Wrijvingsloze, veilige leadgeneratie."
+      },
+      "c7": {
+        "title": "Analytics Ready",
+        "desc": "Geïntegreerde tracking voor data-inzichten."
+      },
+      "c8": {
+        "title": "Google Maps Integratie",
+        "desc": "Perfect voor lokale werkgebieden."
+      },
+      "c9": {
+        "title": "Social Media Integratie",
+        "desc": "Naadloze verbinding met uw platforms."
+      },
+      "c10": {
+        "title": "Eenvoudige Content Updates",
+        "desc": "Intuïtieve overdracht voor toekomstige bewerkingen."
+      },
+      "c11": {
+        "title": "Veilige Ontwikkeling",
+        "desc": "Gebouwd met robuuste, veilige technologieën."
+      },
+      "c12": {
+        "title": "Schone Code",
+        "desc": "Geen logge bouwers of rommelige plug-ins."
+      }
+    },
+    "why": {
+      "title": "Het Voordeel van SBA Creative",
+      "c1": {
+        "title": "Focus op de Branche",
+        "desc": "We ontwerpen niet voor iedereen. We specialiseren ons puur in dienstverlenende aannemers en professionals."
+      },
+      "c2": {
+        "title": "Conversiestrategie",
+        "desc": "Elke pixel is ontworpen rond menselijke psychologie om passieve bezoekers om te zetten in actieve aanvragen."
+      },
+      "c3": {
+        "title": "Modern Design",
+        "desc": "We wijzen templates af en geven de voorkeur aan een premium, op maat gemaakte redactionele esthetiek die respect afdwingt."
+      },
+      "c4": {
+        "title": "Snel Ladend",
+        "desc": "Snelheid is omzet. Onze websites zijn nauwgezet gecodeerd om bijna onmiddellijke laadtijden te garanderen."
+      },
+      "c5": {
+        "title": "Betrouwbare Communicatie",
+        "desc": "Directe, duidelijke en transparante communicatie in elke fase van het ontwerpproces."
+      },
+      "c6": {
+        "title": "Langdurige Partnerschap",
+        "desc": "We lanceren niet zomaar om vervolgens te vertrekken. We bouwen relaties op om uw bedrijf jaar na jaar te helpen schalen."
+      }
+    },
+    "process": {
+      "title": "Ons Proces",
+      "s1": {
+        "title": "Ontdekking",
+        "desc": "Diepgaande analyse van uw bedrijfsmodel, ideale klantprofiel en kerndoelen van het project."
+      },
+      "s2": {
+        "title": "Onderzoek",
+        "desc": "Auditen van lokale concurrenten en marktpositionering om ervoor te zorgen dat uw merk er volledig uitspringt."
+      },
+      "s3": {
+        "title": "Wireframing",
+        "desc": "Het in kaart brengen van de klantreis en conversiestrategie voordat er enig visueel ontwerp begint."
+      },
+      "s4": {
+        "title": "UI Design",
+        "desc": "Het vervaardigen van de high-fidelity, premium visuele esthetiek die strikt is afgestemd op uw merkrichtlijnen."
+      },
+      "s5": {
+        "title": "Ontwikkeling",
+        "desc": "Het vertalen van de goedgekeurde ontwerpen in responsieve, schone en zeer goed presterende code."
+      },
+      "s6": {
+        "title": "Testen",
+        "desc": "Strenge kwaliteitsborging op meerdere apparaten, browsers en schermformaten."
+      },
+      "s7": {
+        "title": "Lancering",
+        "desc": "Naadloze implementatie naar de live server, compleet met definitieve SEO-controles en overdracht."
+      }
+
+      
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "q1": "Hoe lang duurt een project?",
+      "a1": "De meeste standaard websiteprojecten duren tussen de 4 en 6 weken van onze initiële kennismaking tot de definitieve lancering. Deze tijdlijn is afhankelijk van de complexiteit van de bouw en hoe snel content en feedback worden aangeleverd.",
+      "q2": "Kunt u een bestaande website herontwerpen?",
+      "a2": "Absoluut. Een aanzienlijk deel van ons werk bestaat uit het transformeren van verouderde, slecht presterende websites in moderne, hoog-converterende digitale middelen die de huidige kwaliteit van uw bedrijf weerspiegelen.",
+      "q3": "Moet ik content aanleveren?",
+      "a3": "We raden u ten zeerste aan om afbeeldingen van uw eigen werk aan te leveren om authentiek vertrouwen op te bouwen. Voor copywriting kunnen we samenwerken. U levert de basisinformatie over uw diensten en wij kunnen helpen deze te verfijnen voor conversie, of we kunnen indien nodig samenwerken met professionele copywriters.",
+      "q4": "Werkt mijn website op mobiel?",
+      "a4": "Ja. Meer dan 60% van de lokale serviceaanvragen komt via mobiele apparaten. Wij hanteren een mobile-first benadering, zodat uw website er op smartphones en tablets vlekkeloos uitziet en perfect functioneert.",
+      "q5": "Biedt u ondersteuning na de lancering?",
+      "a5": "Dat doen we. We bieden ondersteuning na de lancering en doorlopende onderhoudspakketten om ervoor te zorgen dat uw website veilig en up-to-date blijft en optimaal blijft presteren naarmate uw bedrijf groeit.",
+      "q6": "Kunt u helpen met hosting en domeinen?",
+      "a6": "Ja, we kunnen de technische setup voor u regelen. We adviseren en configureren premium, high-speed hostingoplossingen om ervoor te zorgen dat uw site ongelooflijk snel en volledig veilig is.",
+      "q7": "Hoeveel revisies zijn inbegrepen?",
+      "a7": "Ons standaardproces omvat twee specifieke revisierondes tijdens de UI Design-fase. Omdat onze Ontdekkings- en Strategiefasen zo grondig zijn, is dit bijna altijd voldoende om een perfect eindresultaat te bereiken.",
+      "q8": "Bouwt u websites op maat?",
+      "a8": "Alles wat we bij SBA Creative bouwen is op maat gemaakt. We vertrouwen niet op kant-en-klare templates. Uw website wordt uniek ontworpen en gecodeerd, specifiek om aan te sluiten bij uw merkidentiteit en bedrijfsdoelen."
+    },
+    "cta": {
+      "title": "Klaar Om Een Website Te Bouwen Die Net Zo Hard Werkt Als U?",
+      "desc": "Laten we uw project bespreken en ontdekken hoe een premium digitale aanwezigheid u kan helpen uw lokale markt te domineren.",
+      "btnPrimary": "Start Uw Project",
+      "btnSecondary": "Bekijk Portfolio"
+    }
+  },
+
+  "contact": {
+    "hero": {
+      "tag": "Plan Een Kennismakingsgesprek",
+      "title": "Laten We Praten Over Uw Volgende Website.",
+      "desc": "Of u nu een nieuw schildersbedrijf lanceert of uw huidige website wilt vernieuwen, laten we uw doelen bespreken en kijken of we een goede match zijn. Het gesprek is gratis en geheel vrijblijvend.",
+      "btnPrimary": "Plan Mijn Kennismakingsgesprek",
+      "btnSecondary": "Bekijk Ons Werk"
+    },
+    "features": {
+      "title": "Wat Er Daarna Gebeurt",
+      "c1": {
+        "title": "Ontdekking",
+        "desc": "We leren over uw bedrijf, doelen en huidige website."
+      },
+      "c2": {
+        "title": "Strategie",
+        "desc": "We bevelen de beste aanpak aan voor uw project."
+      },
+      "c3": {
+        "title": "Voorstel",
+        "desc": "Als we een goede match zijn, ontvangt u een voorstel op maat met prijzen en tijdlijn."
+      }
+    },
+    "form": {
+      "fullNameLabel": "Volledige Naam",
+      "fullNamePlaceholder": "Jan Jansen",
+      "businessNameLabel": "Bedrijfsnaam",
+      "businessNamePlaceholder": "Apex Schilderwerken",
+      "emailLabel": "E-mailadres",
+      "emailPlaceholder": "jan@voorbeeld.nl",
+      "websiteLabel": "Huidige Website (optioneel)",
+      "websitePlaceholder": "www.uwwebsite.nl",
+      "serviceLabel": "Gewenste Dienst",
+      "options": {
+        "default": "Selecteer een optie",
+        "design": "Website Design",
+        "redesign": "Website Redesign",
+        "landing": "Landingspagina",
+        "unsure": "Nog Niet Zeker"
+      },
+      "detailsLabel": "Projectdetails",
+      "detailsPlaceholder": "Vertel ons iets over uw bedrijf en wat u wilt bereiken.",
+      "submitBtn": "Vraag Mijn Kennismakingsgesprek Aan"
+    },
+    "alt": {
+      "title": "Liever E-mailen?",
+      "desc": "Als u liever direct contact opneemt, stuur ons dan een e-mail en we reageren binnen één werkdag."
+    },
+    "faq": {
+      "title": "Veelgestelde Vragen",
+      "q1": "Hoe lang duurt het kennismakingsgesprek?",
+      "a1": "We plannen onze kennismakingsgesprekken in voor 30 minuten. Dit geeft ons voldoende tijd om uw bedrijfsdoelstellingen te begrijpen en mogelijke strategieën te bespreken zonder te veel van uw dag in beslag te nemen.",
+      "q2": "Is het adviesgesprek gratis?",
+      "a2": "Ja. Het initiële kennismakingsgesprek is volledig gratis en verplicht u tot niets. We gebruiken deze tijd om er zeker van te zijn dat wij het juiste bureau zijn om u te helpen uw doelen te bereiken.",
+      "q3": "Werkt u alleen met schildersbedrijven?",
+      "a3": "Hoewel we diepgaande expertise hebben in het helpen van schildersbedrijven, werken we met een verscheidenheid aan gevestigde lokale dienstverleners, waaronder dakdekkers, hoveniers en aannemers.",
+      "q4": "Wat gebeurt er na het gesprek?",
+      "a4": "Als we allebei besluiten dat we een goede match zijn, sturen we binnen 48 uur een op maat gemaakt voorstel met een overzicht van de werkzaamheden, de vereiste investering en de projecttijdlijn.",
+      "q5": "Hoe lang duurt een websiteproject meestal?",
+      "a5": "De meeste standaard websiteprojecten op maat duren tussen de 4 en 6 weken vanaf onze initiële strategiesessie tot de uiteindelijke lancering, afhankelijk van de complexiteit en hoe snel content wordt aangeleverd."
+    },
+    "cta": {
+      "title": "Klaar Om Uw Online Aanwezigheid Te Vergroten?",
+      "desc": "Laten we een website creëren die de kwaliteit van uw bedrijf weerspiegelt en u helpt betere klanten aan te trekken.",
+      "btnPrimary": "Plan Mijn Kennismakingsgesprek"
+    },
+    "modal": {
+      "title": "We nemen contact met u op!",
+      "desc": "Bedankt voor uw bericht. We hebben uw projectdetails ontvangen en nemen binnen 1 werkdag contact met u op.",
+      "btn": "Sluiten"
+    }
+  },
+
+
+  "cs1Page": {
+    "title": "Prime Coat Painting Casestudy | SBA Creative",
+    "metaDesc": "Hoe SBA Creative een converterende, premium website ontwierp voor een schildersbedrijf om de verkoop te stimuleren en de lokale concurrentie te overtreffen.",
+    "hero": {
+      "tag": "Schildersbedrijf",
+      "title": "Vertrouwen bouwen: Hoe premium design de leadconversies van aannemers verdubbelt.",
+      "desc": "We transformeerden de digitale aanwezigheid van Prime Coat Painting van een standaard digitale brochure naar een high-end leadgeneratie-engine. Door gebruik te maken van strategische vertrouwenssignalen en premium esthetiek, positioneert de site hen als de onbetwiste professionele keuze in hun lokale markt."
+    },
+    "meta": {
+      "industryLabel": "Branche",
+      "industryValue": "Thuisservices / Schilderen",
+      "servicesLabel": "Geleverde diensten",
+      "servicesValue": "UX/UI Design, Webontwikkeling, Conversiestrategie",
+      "goalLabel": "Primaire doel",
+      "goalValue": "Verhogen van high-ticket offerteaanvragen"
+    },
+    "image": {
+      "overlay": "Klik om de site te bezoeken"
+    },
+    "strategy": {
+      "title": "De anatomie van een goed converterende site",
+      "desc": "Huiseigenaren zijn zeer beschermend over hun eigendom. Om hoogwaardige schilderklussen voor buiten en kasten binnen te halen, moet de website van een aannemer angst wegnemen en vertrouwen creëren binnen de eerste 3 seconden van een bezoek.",
+      "b1": {
+        "title": "Direct vertrouwen creëren",
+        "desc": "We hebben niet alleen een hero-afbeelding geplaatst; we hebben een \"Trust Strip\" boven de vouw ontworpen. Door direct zwevende badges te presenteren—\"4.9 Beoordeling,\" \"320+ Huizen Geschilderd,\" en \"Gecertificeerd & Verzekerd\"—beantwoorden we onmiddellijk de meest kritieke onbewuste vragen van de huiseigenaar. Deze lay-out valideert direct hun premium prijsstelling en voorkomt prijsvergelijking."
+      },
+      "b2": {
+        "title": "Interactief bewijs van vakmanschap",
+        "desc": "Schilderen is een visuele industrie, maar de meeste aannemers vertrouwen op statische galerijen van lage kwaliteit. We hebben een dynamische Voor/Na interactieve slider geïntegreerd voor de sectie \"Signature Transformations\". Dit interactieve element houdt gebruikers langer op de pagina, verhoogt de betrokkenheidsstatistieken en levert onmiskenbaar, psychologisch bewijs van de capaciteiten van de aannemer."
+      },
+      "b3": {
+        "title": "Wrijvingsloze gebruikersreizen",
+        "desc": "Een verwarde geest zegt nee. We hebben een sticky navigatiebalk geïmplementeerd met een zeer zichtbare, contrasterende \"Krijg Gratis Schatting\" CTA. Gekoppeld aan een enorme, in vier stappen genummerde \"Proces\" sectie, hebben we de klantreis gedemystificeerd. Wanneer huiseigenaren precies weten wat er gebeurt nadat ze op \"Contact\" klikken, schieten de conversiepercentages omhoog."
+      }
+    },
+    "statement": {
+      "badge": "Het Resultaat",
+      "quote": "“Wanneer uw website er duur uitziet, verwachten klanten een <span class=\"quote-accent\">premium</span> te betalen.”"
+    },
+    "cta": {
+      "title": "Wilt u deze resultaten voor uw servicebedrijf?",
+      "desc": "Stop met het verliezen van waardevolle opdrachten aan concurrenten met betere branding. Laten we een website bouwen die de ware kwaliteit van uw vakmanschap weerspiegelt.",
+      "btn": "Boek uw kennismakingsgesprek"
+    }
+  },
+
+  "cs2Page": {
+    "title": "Luxe Huis Schilderen Casestudy | SBA Creative",
+    "metaDesc": "Hoe SBA Creative een elegante, redactionele website ontwierp voor een luxe residentiële schilderservice om vermogende huiseigenaren aan te trekken.",
+    "hero": {
+      "tag": "Luxe Residentiële Diensten",
+      "title": "Ontwerpen voor de 1%: Een Masterclass in Redactionele Web-ervaringen.",
+      "desc": "We hebben een op maat gemaakte digitale etalage gecreëerd voor een premium residentiële schilder. Door af te stappen van standaard service-sjablonen en een elegante, redactionele lay-out te omarmen, spreekt de nieuwe site direct tot vermogende huiseigenaren en positioneert het merk zich als een luxe boetiekdienst."
+    },
+    "meta": {
+      "industryLabel": "Branche",
+      "industryValue": "Luxe Thuisservices",
+      "servicesLabel": "Geleverde diensten",
+      "servicesValue": "UX/UI Design, Merkpositionering, Webontwikkeling",
+      "goalLabel": "Primaire doel",
+      "goalValue": "Converteren van vermogende outreach-leads"
+    },
+    "image": {
+      "overlay": "Klik om de site te bezoeken"
+    },
+    "strategy": {
+      "title": "De anatomie van een luxe service site",
+      "desc": "Vermogende huiseigenaren zoeken bovenal betrouwbaarheid en uitzonderlijke kwaliteit. De website moet fungeren als een digitale conciërge en de hoge normen van de fysieke service weerspiegelen door middel van elegante typografie, voldoende witruimte en high-fidelity afbeeldingen.",
+      "b1": {
+        "title": "Redactionele Typografie",
+        "desc": "We hebben een verfijnde, redactionele lay-out geïntroduceerd. Door warme, natuurlijke tinten te combineren met strakke, gestructureerde typografie, communiceert het ontwerp onmiddellijk exclusiviteit en scheidt het merk zich volledig van budgetgerichte lokale concurrenten."
+      },
+      "b2": {
+        "title": "Op maat gemaakt vakmanschap",
+        "desc": "In plaats van rommelige fotogalerijen hebben we een asymmetrische \"Featured Transformations\" sectie gebruikt. Deze lay-out benadrukt de strikte aandacht voor detail—van oppervlaktevoorbereiding tot het aanbrengen van premium verf—wat de waarde van de investering bewijst."
+      },
+      "b3": {
+        "title": "Wrijvingsloze klantreis",
+        "desc": "High-end klanten waarderen duidelijkheid. We hebben de klantreis gestroomlijnd met een overzichtelijke horizontale tijdlijn in de \"Ons Proces\" sectie. Gecombineerd met lovende klantervaringen, hebben we wrijving weggenomen en direct vertrouwen opgebouwd voor high-ticket projecten."
+      }
+    },
+    "statement": {
+      "badge": "Het Resultaat",
+      "quote": "“Ware luxe zit in de details. Een premium service vereist een <span class=\"quote-accent\">premium digitale etalage</span>.”"
+    },
+    "cta": {
+      "title": "Klaar om uw lokale markt te domineren?",
+      "desc": "Stop met het verliezen van waardevolle opdrachten aan concurrenten met betere branding. Laten we een website bouwen die de ware kwaliteit van uw vakmanschap weerspiegelt en uw outreach-leads converteert.",
+      "btn": "Boek uw kennismakingsgesprek"
+    }
+  },
+
+  "cs3Page": {
+    "title": "Case Study Commercieel Schilderbedrijf | SBA Creative",
+    "metaDesc": "Ontdek hoe SBA Creative een krachtige B2B-website ontwierp voor een commercieel schilderbedrijf om facilitair managers en hoofdaannemers aan te trekken.",
+
+    "hero": {
+      "tag": "B2B / Commercieel Schilderbedrijf",
+      "title": "Gebouwd voor Schaalbaarheid & Precisie.",
+      "desc": "Facilitair managers en hoofdaannemers nemen geen beslissingen op basis van emotie, maar op basis van expertise, veiligheid en capaciteit. Daarom ontwikkelden we een krachtig B2B-platform dat direct laat zien dat dit commerciële schilderbedrijf grote en complexe projecten efficiënt kan uitvoeren zonder de bedrijfsvoering te verstoren."
+    },
+
+    "meta": {
+      "industryLabel": "Branche",
+      "industryValue": "Commerciële & Industriële Diensten",
+
+      "servicesLabel": "Geleverde Diensten",
+      "servicesValue": "B2B UX/UI Design, Webontwikkeling, Copywriting",
+
+      "goalLabel": "Hoofddoel",
+      "goalValue": "Offerteaanvragen genereren van facilitair managers en hoofdaannemers"
+    },
+
+    "image": {
+      "overlay": "Klik om de Website te Bekijken"
+    },
+
+    "strategy": {
+      "title": "Een B2B Leadgeneratiemachine Ontwerpen",
+      "desc": "Verkopen aan bedrijven vraagt om een compleet andere aanpak dan verkopen aan particuliere klanten. De website moet functioneren als een overtuigend digitaal bedrijfsprofiel dat direct vertrouwen wekt door expertise, naleving van normen en operationele betrouwbaarheid duidelijk te tonen.",
+
+      "b1": {
+        "title": "Branchespecifieke Autoriteit",
+        "desc": "Commerciële opdrachtgevers willen direct zien dat u hun sector begrijpt. Daarom ontwikkelden we een overzichtelijke 'Branches die Wij Bedienen'-structuur, zodat bezoekers uit de zorg, retail of industrie zichzelf onmiddellijk herkennen en vertrouwen krijgen in de relevante ervaring van het bedrijf."
+      },
+
+      "b2": {
+        "title": "De B2B Vertrouwensstructuur",
+        "desc": "In plaats van alleen een mooi ontwerp te tonen, legden we de nadruk op operationele prestaties. Onderdelen zoals het uitvoeringsproces, indrukwekkende cijfers (200+ projecten, 2 miljoen+ m²) en bekende zakelijke opdrachtgevers verminderen de waargenomen risico's voor potentiële klanten."
+      },
+
+      "b3": {
+        "title": "Projecten die Vertrouwen Opbouwen",
+        "desc": "Een enkele foto overtuigt niemand bij een project van €100.000 of meer. Daarom presenteerden we elk project als een compacte case study met informatie over oppervlakte, gebruikte materialen en de uitdagingen die zijn opgelost. Zo krijgen hoofdaannemers precies de informatie die ze nodig hebben om een weloverwogen keuze te maken."
+      }
+    },
+
+    "statement": {
+      "badge": "Het B2B Voordeel",
+      "quote": "“Binnen commerciële dienstverlening is <span class=\"quote-accent\" style=\"font-style: normal; color: var(--accent);\">operationele zekerheid</span> uw meest waardevolle product.”"
+    },
+
+    "cta": {
+      "title": "Klaar om meer commerciële opdrachten binnen te halen?",
+      "desc": "Laat waardevolle offerteaanvragen niet verloren gaan door een verouderde online uitstraling. Laten we samen een website bouwen die facilitair managers overtuigt en converteert.",
+      "btn": "Plan Uw Strategisch Gesprek"
+    }
+
+}
+
+
+   
+
+}
+
+
+
+
+  
+ 

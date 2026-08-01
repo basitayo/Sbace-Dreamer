@@ -1,0 +1,667 @@
+{
+  "brand": {
+    "name": "Sbace Dreamer"
+  },
+  "modal": {
+    "welcome": "Willkommen",
+    "choose": "Wählen Sie Ihre bevorzugte Sprache",
+    "continue": "Weiter"
+  },
+  "nav": {
+    "work": "Projekte",
+    "dropdown": {
+      "residential": "Moderne Wohnbau-Website",
+      "luxury": "Premium-Luxusplattform",
+      "commercial": "Gewerbliche Conversion-Seite"
+    },
+    "cs1": "Moderne Wohnbau-Website",
+    "cs2": "Premium-Luxusplattform",
+    "cs3": "Gewerbliche Conversion-Seite",
+    "services": "Leistungen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "cta": "Lass uns reden &rarr;",
+    "letsTalk": "Lass uns reden &rarr;"
+  },
+  "footer": {
+    "desc": "Boutique-Webdesign-Studio, das Premium-Erlebnisse für Dienstleistungsunternehmen schafft.",
+    "navTitle": "Navigation",
+    "navWork": "Projekte",
+    "navServices": "Leistungen",
+    "navAbout": "Über uns",
+    "connectTitle": "Verbinden",
+    "connectEmail": "E-Mail",
+    "connectLinkedin": "LinkedIn",
+    "connectGithub": "GitHub",
+    "email": "E-Mail",
+    "rights": "Sbace Dreamer Creative. Alle Rechte vorbehalten.",
+    "designed": "Zielgerichtet gestaltet."
+  },
+  
+  "hero": {
+    "title": "Ihr Handwerk ist Premium. Ihre Website sollte es auch sein.",
+    "subtitle": "Wir entwickeln saubere, moderne Websites, die Vertrauen aufbauen, Anfragen generieren und etablierte Unternehmen online auch genau so aussehen lassen.",
+    "btnWork": "Projekte ansehen",
+    "btnCall": "Kennenlerngespräch buchen"
+  },
+  "trust": {
+    "label": "Vertraut von etablierten Dienstleistungsunternehmen",
+    "metric1": "Kundenzufriedenheit",
+    "metric2": "Durchschnittliche Bewertung",
+    "metric3": "Anfragensteigerung"
+  },
+  "work": {
+    "tag": "Portfolio",
+    "title": "Ausgewählte<br>Arbeiten",
+    "subtitle": "Aktuelle Konzepte und Projekte für Dienstleister.",
+    "case1": {
+      "industry": "Malerbetrieb",
+      "title": "Moderne Wohnbau-Website",
+      "feature1": "Hohe Leistung",
+      "feature2": "Responsiv"
+    },
+    "case2": {
+      "industry": "Dachdeckerbetrieb",
+      "title": "Premium-Luxusplattform",
+      "feature1": "SEO-optimiert",
+      "feature2": "Schnelle Ladezeit"
+    },
+    "case3": {
+      "industry": "Landschaftsbau-Profi",
+      "title": "Gewerbliche Conversion-Seite",
+      "feature1": "Lead-Generierung",
+      "feature2": "Mobile First"
+    },
+    "viewCase": "Fallstudie ansehen"
+  },
+  "statement": {
+    "badge": "Der Sbace Dreamer Standard",
+    "quote": "“Gutes Design schafft Vertrauen, <span class=\"quote-accent\">bevor</span> der erste Anruf getätigt wird.”"
+  },
+  "features": {
+    "title": "Für Dienstleistungsunternehmen gebaut",
+    "subtitle": "Warum Handwerker Sbace Dreamer Creative ihre digitale Präsenz anvertrauen.",
+    "item1": {
+      "title": "Professioneller erster Eindruck",
+      "desc": "Wirken Sie ab der ersten Sekunde, in der ein Interessent Ihre Seite besucht, wie die Premium-Wahl in Ihrem lokalen Markt."
+    },
+    "item2": {
+      "title": "Sofortiges Vertrauen aufbauen",
+      "desc": "Strategische Layouts, die Ihre Bewertungen, bisherigen Arbeiten und Ihre Glaubwürdigkeit hervorheben."
+    },
+    "item3": {
+      "title": "Mobil optimiert",
+      "desc": "Makelloses Erlebnis auf jedem Gerät, damit Hausbesitzer Sie auch unterwegs problemlos kontaktieren können."
+    },
+    "item4": {
+      "title": "Schnelle Ladezeiten",
+      "desc": "Entwickelt mit leichten, modernen Technologien, damit Sie nie wieder einen Lead durch eine langsame Website verlieren."
+    }
+  },
+  "services": {
+    "title": "Kompetenzen",
+    "subtitle": "Gezielte Expertise, um Ihre Marke aufzuwerten.",
+    "item1": {
+      "title": "Website-Design",
+      "desc": "Maßgeschneiderte, pixelgenaue Websites, die speziell auf Ihre Geschäftsziele, Zielgruppe und Markenidentität zugeschnitten sind."
+    },
+    "item2": {
+      "title": "Website-Entwicklung",
+      "desc": "Responsive, robuste Entwicklung mit sauberem Code und modernen Technologien für überragende Leistung und SEO."
+    },
+    "item3": {
+      "title": "Website-Überarbeitung",
+      "desc": "Verwandlung veralteter, leistungsschwacher Websites in moderne, konvertierungsstarke digitale Erlebnisse."
+    }
+  },
+  "process": {
+    "title": "Der Prozess",
+    "subtitle": "Ein optimierter, transparenter Workflow vom Konzept bis zum Launch.",
+    "item1": {
+      "title": "Analyse",
+      "desc": "Verstehen Ihrer spezifischen Geschäftsziele, Wettbewerber und Zielgruppe."
+    },
+    "item2": {
+      "title": "Design",
+      "desc": "Erstellung maßgeschneiderter Layouts, die rein auf Vertrauen, Klarheit und Benutzerfreundlichkeit ausgerichtet sind."
+    },
+    "item3": {
+      "title": "Entwicklung",
+      "desc": "Bau einer blitzschnellen, responsiven Website nach den neuesten Web-Standards."
+    },
+    "item4": {
+      "title": "Launch",
+      "desc": "Reibungslose Bereitstellung, Suchmaschinenoptimierung und Support nach dem Launch."
+    }
+  },
+  "cta": {
+    "title": "Bereit, Ihre Online-Präsenz zu verbessern?",
+    "desc": "Lassen Sie uns Ihre Geschäftsziele besprechen und herausfinden, wie eine Premium-Website Ihnen helfen kann, bessere Kunden zu gewinnen.",
+    "btn": "Lass uns reden"
+  },
+
+  "about": {
+    "title": "Über Sbace Dreamer Creative",
+    "p1": "Sbace Dreamer Creative ist ein Designstudio, das sich auf die Erstellung von Premium-Websites für Dienstleistungsunternehmen konzentriert, die stolz auf ihr Handwerk sind.",
+    "p2": "Wir glauben, dass eine großartige Website mehr tun sollte, als nur beeindruckend auszusehen – sie sollte Vertrauen aufbauen, bevor das erste Gespräch überhaupt beginnt.\n\nJedes Projekt wird mit Blick auf Klarheit, Leistung und Konversion entworfen und hilft Handwerkern, ihre Arbeit professionell zu präsentieren und hochwertigere Kunden anzuziehen.",
+    "hero": {
+      "tag": "Unser Studio",
+      "title": "Websites, die Vertrauen gewinnen, bevor das erste Gespräch stattfindet.",
+      "desc": "SBA Creative ist ein Boutique-Digital-Designstudio, das sich einem einzigen Zweck widmet: der Entwicklung erstklassiger digitaler Erlebnisse, die lokale Dienstleistungsunternehmen zu unangefochtenen Marktführern machen.",
+      "btnSecondary": "Mehr über unseren Prozess",
+      "btnPrimary": "Unsere Arbeit ansehen"
+    },
+    "philosophy": {
+      "title": "Großartige Websites sind mehr als nur optisch ansprechend.",
+      "p1": "Wir glauben, dass Ästhetik nur dann von Bedeutung ist, wenn sie einen Zweck erfüllt. Im digitalen Raum ist eine Website ein strategischer Vermögenswert, der auf Vertrauen, Klarheit und Benutzererfahrung aufbaut.",
+      "p2": "Bei SBA Creative verzichten wir auf unnötige Dekorationen. Unser Fokus liegt rein auf der Gestaltung intuitiver, konvertierungsstarker Plattformen, die einen unvergesslichen ersten Eindruck hinterlassen und Ihre Professionalität beweisen, bevor ein Interessent überhaupt zum Telefon greift."
+    },
+    "specialization": {
+      "tag": "Spezialisierung",
+      "title": "Warum Dienstleistungsunternehmen?",
+      "p1": "Wir bedienen absichtlich nicht jede Branche. SBA Creative arbeitet ausschließlich mit Dienstleistern zusammen, da wir den lokalen Wettbewerb und das Kundenverhalten genau verstehen.",
+      "p2": "Hausbesitzer und gewerbliche Kunden suchen Zuverlässigkeit. Wir kennen die spezifischen Vertrauenssignale, nach denen sie suchen, und integrieren diese direkt in Ihre digitale Präsenz, um Konkurrenten zu übertreffen, die sich auf veraltete Vorlagen verlassen."
+    },
+    "principles": {
+      "title": "Unsere Prinzipien",
+      "desc": "Die Grundpfeiler hinter jedem SBA Creative Projekt.",
+      "c1": {
+        "title": "Klarheit",
+        "desc": "Professionelle Layouts und präzise Texte, die den Besuchern sofort Ihren Wert vermitteln."
+      },
+      "c2": {
+        "title": "Vertrauen",
+        "desc": "Strategische Designentscheidungen, die Ihre Autorität stärken und das Kundenvertrauen erhöhen."
+      },
+      "c3": {
+        "title": "Leistung",
+        "desc": "Blitzschnelle Ladezeiten, vollständig responsiv auf allen Geräten und für organisches Ranking optimiert."
+      },
+      "c4": {
+        "title": "Zweck",
+        "desc": "Keine leeren Dekorationen. Jeder Abschnitt, jeder Button und jedes Bild hat einen klaren geschäftlichen Grund."
+      }
+    },
+    "industries": {
+      "title": "Branchen, die wir bedienen",
+      "c1": {
+        "title": "Malerarbeiten im Wohnbereich",
+        "desc": "Ziehen Sie anspruchsvolle Hausbesitzer mit polierten Portfolios an."
+      },
+      "c2": {
+        "title": "Luxus-Malerei",
+        "desc": "Raffinierte Ästhetik für maßgeschneiderte und feine Lackierarbeiten."
+      },
+      "c3": {
+        "title": "Gewerbliche Malerei",
+        "desc": "Unternehmensgerechte Plattformen, die große Ausschreibungen gewinnen."
+      },
+      "c4": {
+        "title": "Bauwesen",
+        "desc": "Präsentieren Sie Größe und Zuverlässigkeit gegenüber wichtigen Interessengruppen."
+      },
+      "c5": {
+        "title": "Hausrenovierung",
+        "desc": "Vorher-Nachher-Erlebnisse, die Inbound-Leads generieren."
+      },
+      "c6": {
+        "title": "Handwerk & Dienstleistungen",
+        "desc": "Sanitär-, Dachdecker- und Elektrounternehmen, die auf Wachstum ausgelegt sind."
+      }
+    },
+    "process": {
+      "title": "Wie wir arbeiten",
+      "s1": {
+        "title": "Discovery",
+        "desc": "Wir prüfen Ihre aktuelle Position, verstehen Ihr ideales Kundenprofil und definieren die genauen Ziele für Ihre neue Plattform."
+      },
+      "s2": {
+        "title": "Strategie",
+        "desc": "Planung der User Journeys, der Website-Architektur und der Conversion-Funnel, um sicherzustellen, dass die Seite als Vertriebsinstrument fungiert."
+      },
+      "s3": {
+        "title": "Design",
+        "desc": "Erstellung maßgeschneiderter, hochauflösender Layouts, die rein auf Vertrauen, Klarheit und eine Premium-Markenpositionierung ausgerichtet sind."
+      },
+      "s4": {
+        "title": "Entwicklung",
+        "desc": "Schreiben von sauberem, semantischem Code, um eine blitzschnelle, hochresponsive Website nach modernen Webstandards zu erstellen."
+      },
+      "s5": {
+        "title": "Launch",
+        "desc": "Strenge Tests, finale SEO-Optimierung und eine nahtlose Bereitstellung auf dem Live-Server."
+      }
+    },
+    "why": {
+      "title": "Der SBA Creative Vorteil",
+      "c1": {
+        "title": "Premium Design",
+        "desc": "Wir schließen die Lücke zwischen der Ästhetik einer High-End-Digitalagentur und den praktischen Anforderungen von Dienstleistungsunternehmen. Ihre Website wird wie eine nationale Marke aussehen."
+      },
+      "c2": {
+        "title": "Fokus auf Konversion",
+        "desc": "Schönes Design ist nutzlos, wenn das Telefon nicht klingelt. Jede Entscheidung basiert auf menschlicher Psychologie und ist darauf optimiert, passiven Traffic in aktive Leads zu verwandeln."
+      },
+      "c3": {
+        "title": "Moderne Entwicklung",
+        "desc": "Wir verwenden keine aufgeblähten, langsamen Page-Builder. Ihre Website wird mit Präzisionscode entwickelt, um erstklassige Leistungskennzahlen und unschlagbare Sicherheit zu gewährleisten."
+      },
+      "c4": {
+        "title": "Mobile First",
+        "desc": "Über 60% Ihres Traffics kommen von Smartphones. Wir gestalten das mobile Erlebnis zuerst, um eine makellose Navigation und schnelle Ladezeiten für unterwegs zu gewährleisten."
+      },
+      "c5": {
+        "title": "Langfristiger Wert",
+        "desc": "Unsere Websites sind darauf ausgelegt, mit Ihrem Unternehmen zu skalieren. Eine SBA Creative Plattform ist eine Investition, die über Jahre hinweg messbare Erträge bringt."
+      }
+    },
+    "statement": {
+      "l1": "“Gutes Design ist keine Dekoration.",
+      "l2": "Es ist das Fundament von Vertrauen.”"
+    },
+    "cta": {
+      "title": "Bereit, Ihr Unternehmen online aufzuwerten?",
+      "desc": "Arbeiten Sie mit SBA Creative zusammen, um eine Plattform zu entwickeln, die Premium-Kunden anzieht und Ihre Konkurrenz übertrifft.",
+      "btnPrimary": "Projekt starten"
+    }
+  },
+
+  "servicesPage": {
+    "hero": {
+      "tag": "Unsere Expertise",
+      "title": "Websites, die den ersten Eindruck in dauerhaftes Vertrauen verwandeln.",
+      "desc": "Jedes digitale Erlebnis, das wir entwickeln, ist bewusst darauf ausgelegt, Dienstleistungsunternehmen dabei zu helfen, bessere Kunden zu gewinnen, sofortige Glaubwürdigkeit aufzubauen und mehr qualifizierte Anfragen zu generieren.",
+      "btnSecondary": "Unsere Arbeit ansehen",
+      "btnPrimary": "Projekt starten"
+    },
+    "core": {
+      "s1": {
+        "title": "Website-Design",
+        "desc": "Wir schließen die Lücke zwischen der Ästhetik einer High-End-Digitalagentur und den praktischen, auf Konversion ausgerichteten Anforderungen von Dienstleistern. Ihre digitale Präsenz wird sofort Autorität ausstrahlen und Sie von der lokalen Konkurrenz abheben.",
+        "listTitle": "Leistungsumfang",
+        "l1": "Benutzerdefiniertes User Interface (UI)",
+        "l2": "Strategische visuelle Hierarchie",
+        "l3": "Maßgeschneiderte Typografie-Auswahl",
+        "l4": "Responsive Design-Layouts",
+        "l5": "Umfassendes Designsystem"
+      },
+      "s2": {
+        "title": "Website-Entwicklung",
+        "desc": "Schönes Design bedeutet nichts, wenn es nicht einwandfrei funktioniert. Wir schreiben sauberen, semantischen und modernen Code. Keine aufgeblähten Page-Builder – nur blitzschnelle, sichere und barrierefreie Entwicklung für langfristige Performance.",
+        "listTitle": "Leistungsumfang",
+        "l1": "Responsive Front-End-Entwicklung",
+        "l2": "Leistungs- & Geschwindigkeitsoptimierung",
+        "l3": "SEO-freundliche Code-Struktur",
+        "l4": "W3C-Standards für Barrierefreiheit",
+        "l5": "Moderne HTML/CSS/JS-Architektur"
+      },
+      "s3": {
+        "title": "Website-Überarbeitung",
+        "desc": "Verwandlung veralteter, leistungsschwacher Websites in moderne digitale Vermögenswerte. Wenn Ihre aktuelle Website Leads kostet oder die wahre Qualität Ihrer Arbeit nicht widerspiegelt, überarbeiten wir das Erlebnis strategisch, um die Conversions zu maximieren.",
+        "listTitle": "Hauptvorteile",
+        "l1": "Drastisch gesteigertes Vertrauen",
+        "l2": "Verbesserte Lead-Konvertierungen",
+        "l3": "Modernes, etabliertes Erscheinungsbild",
+        "l4": "Mobile-First Korrektur",
+        "l5": "Bessere Sichtbarkeit in Suchmaschinen"
+      },
+      "s4": {
+        "title": "Landingpages",
+        "desc": "Präzisionsentwickelte Landingpages für spezifische Marketingkampagnen, bezahlte Anzeigen oder hochwertige Serviceangebote. Jedes Element ist kompromisslos auf ein Ziel hin optimiert: zielgerichteten Traffic in zahlende Kunden zu verwandeln.",
+        "listTitle": "Die Strategie",
+        "l1": "Laserfokussierte Conversion-Funnel",
+        "l2": "Reibungslose Lead-Formulare",
+        "l3": "A/B-Testing-Bereitschaft",
+        "l4": "Klare, handlungsorientierte Texte",
+        "l5": "Optimierung von Vertrauenssignalen"
+      }
+    },
+    "included": {
+      "title": "Der Premium-Standard",
+      "desc": "Jedes SBA Creative Projekt beinhaltet diese grundlegenden Elemente.",
+      "c1": {
+        "title": "Responsives Design",
+        "desc": "Einwandfreie Funktionalität auf allen Geräten."
+      },
+      "c2": {
+        "title": "SEO-freundliche Struktur",
+        "desc": "Entwickelt für ein natürliches Google-Ranking."
+      },
+      "c3": {
+        "title": "Schnelle Leistung",
+        "desc": "Optimierte Assets für sofortiges Laden."
+      },
+      "c4": {
+        "title": "Mobile Optimierung",
+        "desc": "Mobile-first User Experience Design."
+      },
+      "c5": {
+        "title": "Modernes UI",
+        "desc": "Saubere, zeitgemäße visuelle Ästhetik."
+      },
+      "c6": {
+        "title": "Kontaktformulare",
+        "desc": "Reibungslose, sichere Lead-Generierung."
+      },
+      "c7": {
+        "title": "Analytics bereit",
+        "desc": "Integriertes Tracking für Dateneinblicke."
+      },
+      "c8": {
+        "title": "Google Maps Integration",
+        "desc": "Perfekt für lokale Einzugsgebiete."
+      },
+      "c9": {
+        "title": "Social Media Integration",
+        "desc": "Nahtlose Verbindung Ihrer Plattformen."
+      },
+      "c10": {
+        "title": "Einfache Inhaltsaktualisierungen",
+        "desc": "Intuitive Übergabe für zukünftige Änderungen."
+      },
+      "c11": {
+        "title": "Sichere Entwicklung",
+        "desc": "Erstellt mit robusten, sicheren Technologien."
+      },
+      "c12": {
+        "title": "Sauberer Code",
+        "desc": "Keine aufgeblähten Builder oder unordentlichen Plugins."
+      }
+    },
+    "why": {
+      "title": "Der SBA Creative Vorteil",
+      "c1": {
+        "title": "Fokus auf die Branche",
+        "desc": "Wir designen nicht für jeden. Wir sind rein auf dienstleistungsbasierte Handwerker und Profis spezialisiert."
+      },
+      "c2": {
+        "title": "Conversion-Strategie",
+        "desc": "Jeder Pixel ist nach der menschlichen Psychologie ausgerichtet, um passive Besucher in aktive Anfragen zu verwandeln."
+      },
+      "c3": {
+        "title": "Modernes Design",
+        "desc": "Wir lehnen Vorlagen ab und bevorzugen eine maßgeschneiderte redaktionelle Ästhetik, die Respekt einflößt."
+      },
+      "c4": {
+        "title": "Schnelles Laden",
+        "desc": "Geschwindigkeit ist Umsatz. Unsere Websites sind akribisch programmiert, um nahezu sofortige Ladezeiten zu gewährleisten."
+      },
+      "c5": {
+        "title": "Zuverlässige Kommunikation",
+        "desc": "Direkte, klare und transparente Kommunikation in jeder Phase des Designprozesses."
+      },
+      "c6": {
+        "title": "Langfristige Partnerschaft",
+        "desc": "Wir launchen nicht einfach und verschwinden dann. Wir bauen Beziehungen auf, um Ihrem Unternehmen beim jährlichen Skalieren zu helfen."
+      }
+    },
+    "process": {
+      "title": "Unser Prozess",
+      "s1": {
+        "title": "Discovery",
+        "desc": "Tiefer Einblick in Ihr Geschäftsmodell, Ihr ideales Kundenprofil und die Kernziele des Projekts."
+      },
+      "s2": {
+        "title": "Recherche",
+        "desc": "Prüfung lokaler Wettbewerber und Marktpositionierung, um sicherzustellen, dass Ihre Marke vollständig heraussticht."
+      },
+      "s3": {
+        "title": "Wireframing",
+        "desc": "Planung der Customer Journey und der Conversion-Strategie, bevor das visuelle Design beginnt."
+      },
+      "s4": {
+        "title": "UI-Design",
+        "desc": "Gestaltung der hochauflösenden, erstklassigen visuellen Ästhetik, die streng auf Ihre Markenrichtlinien zugeschnitten ist."
+      },
+      "s5": {
+        "title": "Entwicklung",
+        "desc": "Übersetzung der genehmigten Designs in responsiven, sauberen und hochleistungsfähigen Code."
+      },
+      "s6": {
+        "title": "Testphase",
+        "desc": "Strenge Qualitätssicherung über mehrere Geräte, Browser und Bildschirmgrößen hinweg."
+      },
+      "s7": {
+        "title": "Launch",
+        "desc": "Nahtlose Bereitstellung auf dem Live-Server, komplett mit abschließenden SEO-Prüfungen und Übergabe."
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "q1": "Wie lange dauert ein Projekt?",
+      "a1": "Die meisten Standard-Website-Projekte dauern zwischen 4 und 6 Wochen vom ersten Kennenlerngespräch bis zum finalen Launch. Dieser Zeitplan hängt von der Komplexität des Aufbaus ab und davon, wie schnell Inhalte und Feedback bereitgestellt werden.",
+      "q2": "Können Sie eine bestehende Website neu gestalten?",
+      "a2": "Absolut. Ein wesentlicher Teil unserer Arbeit besteht darin, veraltete, leistungsschwache Websites in moderne, konvertierungsstarke digitale Werte zu verwandeln, die die aktuelle Qualität Ihres Unternehmens widerspiegeln.",
+      "q3": "Muss ich Inhalte bereitstellen?",
+      "a3": "Wir empfehlen dringend, dass Sie Bilder Ihrer eigenen Arbeit bereitstellen, um authentisches Vertrauen aufzubauen. Beim Texten können wir zusammenarbeiten. Sie liefern die Rohinformationen zu Ihren Dienstleistungen, und wir helfen bei der Verfeinerung für eine bessere Konversion, oder wir arbeiten bei Bedarf mit professionellen Textern zusammen.",
+      "q4": "Wird meine Website auf dem Handy funktionieren?",
+      "a4": "Ja. Über 60% der Anfragen an lokale Dienstleister erfolgen über mobile Geräte. Wir verwenden einen Mobile-First-Designansatz, der sicherstellt, dass Ihre Website auf Smartphones und Tablets makellos aussieht und perfekt funktioniert.",
+      "q5": "Bieten Sie Support nach dem Launch an?",
+      "a5": "Ja, das tun wir. Wir bieten Support nach dem Launch und laufende Wartungsverträge an, um sicherzustellen, dass Ihre Website sicher und aktuell bleibt und weiterhin optimal funktioniert, während Ihr Unternehmen wächst.",
+      "q6": "Können Sie bei Hosting und Domains helfen?",
+      "a6": "Ja, wir können die technische Einrichtung für Sie übernehmen. Wir empfehlen und konfigurieren erstklassige High-Speed-Hosting-Lösungen, um sicherzustellen, dass Ihre Seite unglaublich schnell und absolut sicher ist.",
+      "q7": "Wie viele Überarbeitungsrunden sind inklusive?",
+      "a7": "Unser Standardprozess umfasst zwei dedizierte Revisionsrunden während der UI-Designphase. Da unsere Discovery- und Strategiephasen sehr gründlich sind, reicht dies fast immer aus, um ein perfektes Endergebnis zu erzielen.",
+      "q8": "Bauen Sie maßgeschneiderte Websites?",
+      "a8": "Alles, was wir bei SBA Creative entwickeln, ist eine Maßanfertigung. Wir greifen nicht auf vorgefertigte Templates zurück. Ihre Website wird individuell entworfen und programmiert, um genau zu Ihrer Markenidentität und Ihren Geschäftszielen zu passen."
+    },
+    "cta": {
+      "title": "Bereit für eine Website, die genauso hart arbeitet wie Sie?",
+      "desc": "Lassen Sie uns über Ihr Projekt sprechen und entdecken, wie eine erstklassige digitale Präsenz Ihnen helfen kann, Ihren lokalen Markt zu dominieren.",
+      "btnPrimary": "Projekt starten",
+      "btnSecondary": "Portfolio ansehen"
+    }
+  },
+
+  "contact": {
+    "hero": {
+      "tag": "Ein Kennenlerngespräch buchen",
+      "title": "Lassen Sie uns über Ihre nächste Website sprechen.",
+      "desc": "Egal, ob Sie ein neues Malerunternehmen gründen oder Ihre aktuelle Website neu gestalten möchten – lassen Sie uns über Ihre Ziele sprechen und prüfen, ob wir zueinander passen. Das Gespräch ist kostenlos und unverbindlich.",
+      "btnPrimary": "Mein Kennenlerngespräch buchen",
+      "btnSecondary": "Unsere Arbeit ansehen"
+    },
+    "features": {
+      "title": "Was als Nächstes passiert",
+      "c1": {
+        "title": "Discovery",
+        "desc": "Wir lernen Ihr Unternehmen, Ihre Ziele und Ihre aktuelle Website kennen."
+      },
+      "c2": {
+        "title": "Strategie",
+        "desc": "Wir empfehlen den besten Ansatz für Ihr Projekt."
+      },
+      "c3": {
+        "title": "Angebot",
+        "desc": "Wenn wir gut zusammenpassen, erhalten Sie ein maßgeschneidertes Angebot mit Preis und Zeitplan."
+      }
+    },
+    "form": {
+      "fullNameLabel": "Vollständiger Name",
+      "fullNamePlaceholder": "Max Mustermann",
+      "businessNameLabel": "Unternehmensname",
+      "businessNamePlaceholder": "Apex Malereibetrieb",
+      "emailLabel": "E-Mail-Adresse",
+      "emailPlaceholder": "max@beispiel.de",
+      "websiteLabel": "Aktuelle Website (optional)",
+      "websitePlaceholder": "www.ihrewebsite.de",
+      "serviceLabel": "Benötigte Dienstleistung",
+      "options": {
+        "default": "Wählen Sie eine Option",
+        "design": "Website-Design",
+        "redesign": "Website-Redesign",
+        "landing": "Landingpage",
+        "unsure": "Noch nicht sicher"
+      },
+      "detailsLabel": "Projektdetails",
+      "detailsPlaceholder": "Erzählen Sie uns ein wenig über Ihr Unternehmen und was Sie erreichen möchten.",
+      "submitBtn": "Mein Kennenlerngespräch anfragen"
+    },
+    "alt": {
+      "title": "Lieber per E-Mail?",
+      "desc": "Wenn Sie uns lieber direkt kontaktieren möchten, senden Sie uns eine E-Mail und wir werden innerhalb eines Werktages antworten."
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "q1": "Wie lange dauert das Kennenlerngespräch?",
+      "a1": "Wir planen für unsere Kennenlerngespräche 30 Minuten ein. Das gibt uns genügend Zeit, Ihre Geschäftsziele zu verstehen und mögliche Strategien zu besprechen, ohne zu viel Ihrer Zeit in Anspruch zu nehmen.",
+      "q2": "Ist die Beratung kostenlos?",
+      "a2": "Ja. Das erste Kennenlerngespräch ist völlig kostenlos und mit keinerlei Verpflichtungen verbunden. Wir nutzen diese Zeit, um sicherzustellen, dass wir die richtige Agentur sind, um Ihnen beim Erreichen Ihrer Ziele zu helfen.",
+      "q3": "Arbeiten Sie nur mit Malerbetrieben?",
+      "a3": "Während wir über tiefgehende Expertise in der Unterstützung von Malerbetrieben verfügen, arbeiten wir auch mit einer Vielzahl von etablierten lokalen Dienstleistungsunternehmen zusammen, darunter Dachdecker, Landschaftsgärtner und Hausbauer.",
+      "q4": "Was passiert nach dem Anruf?",
+      "a4": "Wenn wir beide entscheiden, dass wir gut zusammenpassen, senden wir Ihnen innerhalb von 48 Stunden ein individuell zugeschnittenes Angebot zu, in dem der Arbeitsumfang, die erforderliche Investition und der Projektzeitplan dargelegt sind.",
+      "q5": "Wie lange dauert ein Website-Projekt in der Regel?",
+      "a5": "Die meisten Standardprojekte für maßgeschneiderte Websites dauern von unserer ersten Strategiesitzung bis zum finalen Launch zwischen 4 und 6 Wochen, abhängig von der Komplexität und davon, wie schnell Inhalte bereitgestellt werden."
+    },
+    "cta": {
+      "title": "Bereit, Ihre Online-Präsenz zu verbessern?",
+      "desc": "Lassen Sie uns eine Website erstellen, die die Qualität Ihres Unternehmens widerspiegelt und Ihnen hilft, bessere Kunden anzuziehen.",
+      "btnPrimary": "Mein Kennenlerngespräch buchen"
+    },
+    "modal": {
+      "title": "Wir melden uns bei Ihnen!",
+      "desc": "Vielen Dank für Ihre Anfrage. Wir haben Ihre Projektdetails erhalten und werden uns innerhalb eines Werktages bei Ihnen melden.",
+      "btn": "Schließen"
+    }
+  },
+
+  "cs1Page": {
+    "title": "Prime Coat Painting Fallstudie | SBA Creative",
+    "metaDesc": "Wie SBA Creative eine konvertierungsstarke Premium-Website für einen Malerbetrieb entwarf, um den Umsatz zu steigern und die lokale Konkurrenz in den Schatten zu stellen.",
+    "hero": {
+      "tag": "Malerbetrieb",
+      "title": "Vertrauen aufbauen: Wie Premium-Design die Lead-Conversions für Handwerker verdoppelt.",
+      "desc": "Wir haben die digitale Präsenz von Prime Coat Painting von einer standardmäßigen digitalen Broschüre in eine High-End-Lead-Generierungsmaschine verwandelt. Durch den Einsatz strategischer Vertrauenssignale und Premium-Ästhetik positioniert die Seite das Unternehmen als die unangefochtene professionelle Wahl in ihrem lokalen Markt."
+    },
+    "meta": {
+      "industryLabel": "Branche",
+      "industryValue": "Haushaltsdienste / Malerarbeiten",
+      "servicesLabel": "Erbringte Leistungen",
+      "servicesValue": "UX/UI Design, Web-Entwicklung, Conversion-Strategie",
+      "goalLabel": "Hauptziel",
+      "goalValue": "Steigerung von Anfragen für hochpreisige Angebote"
+    },
+    "image": {
+      "overlay": "Klicken, um die Seite zu besuchen"
+    },
+    "strategy": {
+      "title": "Die Anatomie einer hochkonvertierenden Website",
+      "desc": "Hausbesitzer schützen ihr Eigentum sehr. Um hochpreisige Außen- und Schranklackieraufträge zu gewinnen, muss die Website eines Handwerkers Ängste beseitigen und innerhalb der ersten 3 Sekunden eines Besuchs Vertrauen aufbauen.",
+      "b1": {
+        "title": "Sofortiges Vertrauen erzeugen",
+        "desc": "Wir haben nicht nur ein Hero-Image platziert; wir haben einen \"Trust Strip\" im sofort sichtbaren Bereich (Above the fold) entworfen. Indem wir sofort schwebende Badges wie \"4,9 Bewertung\", \"Über 320 gestrichene Häuser\" und \"Lizenziert & Versichert\" präsentieren, beantworten wir die kritischsten unterbewussten Fragen des Hausbesitzers sofort. Dieses Layout bestätigt sofort ihre Premium-Preisgestaltung und verhindert Preisvergleiche."
+      },
+      "b2": {
+        "title": "Interaktiver Beweis von Handwerkskunst",
+        "desc": "Malerei ist eine visuelle Branche, doch die meisten Handwerker verlassen sich auf statische Galerien von geringer Qualität. Wir haben einen dynamischen, interaktiven Vorher/Nachher-Slider in die Sektion \"Signature Transformations\" integriert. Dieses interaktive Element hält Benutzer länger auf der Seite, erhöht die Interaktionsmetriken und liefert einen unbestreitbaren, psychologischen Beweis für die Fähigkeiten des Handwerkers."
+      },
+      "b3": {
+        "title": "Reibungslose User Journeys",
+        "desc": "Ein verwirrter Geist sagt Nein. Wir haben eine Sticky-Navigationsleiste mit einem gut sichtbaren, kontrastreichen \"Kostenloses Angebot anfordern\"-Button (CTA) implementiert. Gepaart mit einem massiven, vierstufigen, nummerierten \"Prozess\"-Bereich haben wir die Customer Journey entmystifiziert. Wenn Hausbesitzer genau wissen, was passiert, nachdem sie auf \"Kontakt\" geklickt haben, schießen die Conversion-Raten in die Höhe."
+      }
+    },
+    "statement": {
+      "badge": "Das Ergebnis",
+      "quote": "“Wenn Ihre Website teuer aussieht, erwarten Kunden, einen <span class=\"quote-accent\">Aufpreis (Premium)</span> zu zahlen.”"
+    },
+    "cta": {
+      "title": "Möchten Sie diese Ergebnisse für Ihr Dienstleistungsunternehmen?",
+      "desc": "Hören Sie auf, lukrative Aufträge an Konkurrenten mit besserem Branding zu verlieren. Lassen Sie uns eine Website bauen, die die wahre Qualität Ihres Handwerks widerspiegelt.",
+      "btn": "Kennenlerngespräch buchen"
+    }
+  },
+
+   "cs2Page": {
+    "title": "Luxus-Hausmalerei Fallstudie | SBA Creative",
+    "metaDesc": "Wie SBA Creative eine elegante, redaktionell gestaltete Website für einen luxuriösen Maler-Dienstleister entwarf, um vermögende Hausbesitzer anzuziehen.",
+    "hero": {
+      "tag": "Luxuriöse Wohnraumdienste",
+      "title": "Design für das oberste 1%: Eine Masterclass in redaktionellen Web-Erlebnissen.",
+      "desc": "Wir haben eine maßgeschneiderte digitale Präsenz für einen Premium-Malerbetrieb im Privatkundensektor entworfen. Durch die Abkehr von Standardvorlagen und der Nutzung eines eleganten, redaktionellen Layouts spricht die neue Seite vermögende Hausbesitzer direkt an und positioniert die Marke als luxuriösen Boutique-Dienstleister."
+    },
+    "meta": {
+      "industryLabel": "Branche",
+      "industryValue": "Luxuriöse Haushaltsdienste",
+      "servicesLabel": "Erbringte Leistungen",
+      "servicesValue": "UX/UI Design, Markenpositionierung, Web-Entwicklung",
+      "goalLabel": "Hauptziel",
+      "goalValue": "Vermögende Outreach-Leads konvertieren"
+    },
+    "image": {
+      "overlay": "Klicken, um die Seite zu besuchen"
+    },
+    "strategy": {
+      "title": "Die Anatomie einer Luxus-Service-Website",
+      "desc": "Vermögende Hausbesitzer suchen vor allem Zuverlässigkeit und außergewöhnliche Qualität. Die Website muss wie ein digitaler Concierge wirken und die hohen Standards der physischen Dienstleistung durch elegante Typografie, viel Weißraum und hochauflösende Bilder widerspiegeln.",
+      "b1": {
+        "title": "Redaktionelle Typografie",
+        "desc": "Wir haben ein anspruchsvolles, redaktionelles Layout eingeführt. Durch die Kombination von warmen, natürlichen Tönen mit klarer, strukturierter Typografie kommuniziert das Design sofortige Exklusivität und hebt die Marke vollständig von budgetorientierten lokalen Wettbewerbern ab."
+      },
+      "b2": {
+        "title": "Maßgeschneiderte Handwerkskunst",
+        "desc": "Anstelle von unübersichtlichen Fotogalerien haben wir eine asymmetrische Sektion für \"Hervorgehobene Transformationen\" verwendet. Dieses Layout unterstreicht die strikte Liebe zum Detail – von der Oberflächenvorbereitung bis zum Auftragen der Premium-Farbe – und beweist den Wert der Investition."
+      },
+      "b3": {
+        "title": "Reibungslose Customer Journey",
+        "desc": "High-End-Kunden schätzen Klarheit. Wir haben die Customer Journey mit einer übersichtlichen horizontalen Zeitachse im Bereich \"Unser Prozess\" gestreamlined. In Kombination mit begeisterten Kundenerfahrungen haben wir Reibungspunkte beseitigt und sofortiges Vertrauen für hochpreisige Projekte aufgebaut."
+      }
+    },
+    "statement": {
+      "badge": "Das Ergebnis",
+      "quote": "“Wahrer Luxus liegt im Detail. Ein Premium-Service erfordert eine <span class=\"quote-accent\">Premium digitale Präsenz</span>.”"
+    },
+    "cta": {
+      "title": "Bereit, Ihren lokalen Markt zu dominieren?",
+      "desc": "Hören Sie auf, lukrative Aufträge an Konkurrenten mit besserem Branding zu verlieren. Lassen Sie uns eine Website bauen, die die wahre Qualität Ihres Handwerks widerspiegelt und Ihre Leads konvertiert.",
+      "btn": "Kennenlerngespräch buchen"
+    }
+  },
+
+  "cs3Page": {
+    "title": "Gewerbliche Malerei Fallstudie | SBA Creative",
+    "metaDesc": "Wie SBA Creative eine hochleistungsfähige B2B-Website für einen gewerblichen Malerbetrieb entwarf, um Facility Manager und Generalunternehmer zu konvertieren.",
+    "hero": {
+      "tag": "B2B / Gewerblicher Auftragnehmer",
+      "title": "Für Skalierung & Präzision gebaut.",
+      "desc": "Facility Manager und Generalunternehmer (GU) kaufen nicht aus Emotionen; sie kaufen aufgrund von Leistungsfähigkeit, Sicherheit und Größenordnung. Wir haben eine robuste digitale B2B-Plattform entwickelt, die sofort beweist, dass dieser gewerbliche Malerbetrieb massive, komplexe Projekte ohne Betriebsausfälle bewältigen kann."
+    },
+    "meta": {
+      "industryLabel": "Branche",
+      "industryValue": "Gewerbe- & Industriedienstleistungen",
+      "servicesLabel": "Erbringte Leistungen",
+      "servicesValue": "B2B UX/UI Design, Web-Entwicklung, Copywriting",
+      "goalLabel": "Hauptziel",
+      "goalValue": "Ausschreibungen (RFPs) von Facility Managern und GUs generieren"
+    },
+    "image": {
+      "overlay": "Klicken, um die Seite zu besuchen"
+    },
+    "strategy": {
+      "title": "Entwicklung einer B2B Lead-Generierungsmaschine",
+      "desc": "Der Verkauf an Unternehmen erfordert eine grundlegend andere Architektur als der Verkauf an Hausbesitzer. Die Seite muss als umfassendes Leistungsportfolio dienen, das Compliance, Effizienz und branchenspezifische Expertise auf einen Blick beweist.",
+      "b1": {
+        "title": "Branchenspezifische Autorität",
+        "desc": "Gewerbliche Kunden müssen wissen, dass Sie ihre spezifische Umgebung verstehen. Wir haben eine klare Taxonomie \"Branchen, die wir bedienen\" entwickelt, die es Benutzern im Gesundheits-, Einzelhandels- oder Industriesektor ermöglicht, sich sofort selbst zu identifizieren und die relevante Erfahrung des Unternehmens zu verifizieren."
+      },
+      "b2": {
+        "title": "Die B2B Vertrauensmatrix",
+        "desc": "Anstatt uns nur auf Ästhetik zu konzentrieren, haben wir betriebliche Kennzahlen priorisiert. Durch die starke Hervorhebung von Abschnitten wie dem \"Ausführungsprozess\", massiven numerischen Meilensteinen (200+ Projekte, über 185.000 qm) und namhaften \"Kunden-Partnern\" haben wir das vom Käufer wahrgenommene Risiko systematisch abgebaut."
+      },
+      "b3": {
+        "title": "Deep-Dive Projekt-Präsentationen",
+        "desc": "Ein einfaches Foto reicht nicht für einen 100.000-Euro-Vertrag. Wir haben die \"Projekt-Präsentationen\" wie Mini-Fallstudien innerhalb der Seite selbst strukturiert – mit Hervorhebung der Quadratmeterzahl, der verwendeten Materialien und der bewältigten spezifischen Herausforderungen, um genau die Datenpunkte zu liefern, die Generalunternehmer benötigen, um ihre Einstellungsentscheidungen zu rechtfertigen."
+      }
+    },
+    "statement": {
+      "badge": "Der B2B Vorteil",
+      "quote": "“Bei gewerblichen Dienstleistungen ist <span class=\"quote-accent\" style=\"font-style: normal; color: var(--accent);\">betriebliche Sicherheit</span> Ihr wertvollstes Produkt.”"
+    },
+    "cta": {
+      "title": "Bereit, Ihre gewerblichen Verträge zu skalieren?",
+      "desc": "Lassen Sie keine lukrativen Ausschreibungen mehr aufgrund eines veralteten digitalen Fußabdrucks durch die Lappen gehen. Lassen Sie uns eine Plattform aufbauen, die Facility Manager konvertiert.",
+      "btn": "Strategiegespräch buchen"
+    }
+  }
+
+}

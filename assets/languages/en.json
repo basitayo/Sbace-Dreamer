@@ -1,0 +1,671 @@
+{
+  "brand": {
+    "name": "Sbace Dreamer"
+  },
+  "modal": {
+    "welcome": "Welcome",
+    "choose": "Choose your preferred language",
+    "continue": "Continue"
+  },
+  "nav": {
+    "work": "Work",
+    "dropdown": {
+      "residential": "Modern Residential Website",
+      "luxury": "Premium Luxury Platform",
+      "commercial": "Commercial Conversion Page"
+    },
+    "cs1": "Modern Residential Website",
+    "cs2": "Premium Luxury Platform",
+    "cs3": "Commercial Conversion Page",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Let's Talk &rarr;",
+    "letsTalk": "Let's Talk &rarr;"
+  },
+  "footer": {
+    "desc": "Boutique Web Design Studio crafting premium experiences for service businesses.",
+    "navTitle": "Navigation",
+    "navWork": "Work",
+    "navServices": "Services",
+    "navAbout": "About",
+    "connectTitle": "Connect",
+    "connectEmail": "Email",
+    "connectLinkedin": "LinkedIn",
+    "connectGithub": "GitHub",
+    "email": "Email",
+    "rights": "Sbace Dreamer Creative. All rights reserved.",
+    "designed": "Designed with purpose."
+  },
+  
+  "hero": {
+    "title": "Your Craft Is Premium. Your Website Should Be Too.",
+    "subtitle": "We build clean, modern websites that earn trust, generate enquiries and make established businesses look established online.",
+    "btnWork": "View My Work",
+    "btnCall": "Book a Discovery Call"
+  },
+  "trust": {
+    "label": "Trusted by established service businesses",
+    "metric1": "Client Satisfaction",
+    "metric2": "Average Rating",
+    "metric3": "Enquiry Increase"
+  },
+  "work": {
+    "tag": "Portfolio",
+    "title": "Selected<br>Work",
+    "subtitle": "Recent concepts and projects designed for service contractors.",
+    "case1": {
+      "industry": "Painting Contractor",
+      "title": "Modern Residential Website",
+      "feature1": "High Performance",
+      "feature2": "Responsive"
+    },
+    "case2": {
+      "industry": "Roofing Contractor",
+      "title": "Premium Luxury Platform",
+      "feature1": "SEO Optimized",
+      "feature2": "Fast Loading"
+    },
+    "case3": {
+      "industry": "Landscaping Pro",
+      "title": "Commercial Conversion Page",
+      "feature1": "Lead Generation",
+      "feature2": "Mobile First"
+    },
+    "viewCase": "View Case Study"
+  },
+  "statement": {
+    "badge": "The Sbace Dreamer Standard",
+    "quote": "“Good design builds trust <span class=\"quote-accent\">before</span> the first call.”"
+  },
+  "features": {
+    "title": "Built for Service Businesses",
+    "subtitle": "Why contractors trust Sbace Dreamer Creative with their digital presence.",
+    "item1": {
+      "title": "Professional First Impression",
+      "desc": "Look like the premium choice in your local market the second a prospect lands on your page."
+    },
+    "item2": {
+      "title": "Build Trust Instantly",
+      "desc": "Strategic layouts that highlight your reviews, past work, and credibility markers."
+    },
+    "item3": {
+      "title": "Mobile Optimized",
+      "desc": "Flawless experience on every device, ensuring homeowners can easily contact you on the go."
+    },
+    "item4": {
+      "title": "Fast Loading",
+      "desc": "Built with lightweight, modern technologies so you never lose a lead to a slow website."
+    }
+  },
+  "services": {
+    "title": "Capabilities",
+    "subtitle": "Focused expertise to elevate your brand.",
+    "item1": {
+      "title": "Website Design",
+      "desc": "Custom, pixel-perfect websites designed specifically around your business goals, target audience, and brand identity."
+    },
+    "item2": {
+      "title": "Website Development",
+      "desc": "Responsive, robust development utilizing clean code and modern technologies for superior performance and SEO."
+    },
+    "item3": {
+      "title": "Website Refresh",
+      "desc": "Transforming outdated, underperforming websites into modern, high-converting digital experiences."
+    }
+  },
+  "process": {
+    "title": "The Process",
+    "subtitle": "A streamlined, transparent workflow from concept to launch.",
+    "item1": {
+      "title": "Discover",
+      "desc": "Understand your specific business goals, competitors, and target audience."
+    },
+    "item2": {
+      "title": "Design",
+      "desc": "Create bespoke layouts focused purely on trust, clarity, and usability."
+    },
+    "item3": {
+      "title": "Develop",
+      "desc": "Build a lighting-fast, responsive website using the latest web standards."
+    },
+    "item4": {
+      "title": "Launch",
+      "desc": "Deploy flawlessly, optimize for search engines, and provide post-launch support."
+    }
+  },
+  "cta": {
+    "title": "Ready to Elevate Your Online Presence?",
+    "desc": "Let's discuss your business goals and see how a premium website can help you secure better clients.",
+    "btn": "Let's Talk"
+  },
+
+  "about": {
+    "title": "About Sbace Dreamer Creative",
+    "p1": "Sbace Dreamer Creative is a design studio focused on creating premium websites for service businesses that take pride in their craftsmanship.",
+    "p2": "We believe a great website should do more than look impressive—it should build trust before the first conversation even begins.\n\nEvery project is designed with clarity, performance, and conversion in mind, helping contractors present their work professionally and attract higher-quality clients.",
+    "hero": {
+      "tag": "Our Studio",
+      "title": "Building Websites That Earn Trust Before The First Conversation.",
+      "desc": "SBA Creative is a boutique digital design studio dedicated to one purpose: engineering premium digital experiences that turn local service businesses into undisputed market leaders.",
+      "btnSecondary": "Learn About Our Process",
+      "btnPrimary": "View Our Work"
+    },
+    "philosophy": {
+      "title": "Great Websites Are More Than Visuals.",
+      "p1": "We believe that aesthetics only matter if they serve a purpose. In the digital space, a website is a strategic asset built on trust, clarity, and user experience.",
+      "p2": "At SBA Creative, we strip away unnecessary decorations. Our focus is purely on designing intuitive, high-converting platforms that leave an unforgettable first impression, proving your professionalism before a prospect ever picks up the phone."
+    },
+    "specialization": {
+      "tag": "Specialization",
+      "title": "Why Service Businesses?",
+      "p1": "We intentionally do not serve every industry. SBA Creative partners exclusively with service professionals because we deeply understand local competition and customer behavior.",
+      "p2": "Homeowners and commercial clients seek reliability. We know the specific trust signals they look for, and we engineer those directly into your digital presence to outshine competitors who rely on outdated templates."
+    },
+    "principles": {
+      "title": "Our Principles",
+      "desc": "The foundational pillars behind every SBA Creative project.",
+      "c1": {
+        "title": "Clarity",
+        "desc": "Professional layouts and crisp copywriting that communicate your value instantly to visitors."
+      },
+      "c2": {
+        "title": "Trust",
+        "desc": "Strategic design decisions that elevate your authority and increase client confidence."
+      },
+      "c3": {
+        "title": "Performance",
+        "desc": "Lightning-fast loading, fully responsive on all devices, and built to rank organically."
+      },
+      "c4": {
+        "title": "Purpose",
+        "desc": "No empty decorations. Every section, button, and image exists for a proven business reason."
+      }
+    },
+    "industries": {
+      "title": "Industries We Serve",
+      "c1": {
+        "title": "Residential Painting",
+        "desc": "Attract high-end homeowners with polished portfolios."
+      },
+      "c2": {
+        "title": "Luxury Painting",
+        "desc": "Refined aesthetics for bespoke and fine finish contractors."
+      },
+      "c3": {
+        "title": "Commercial Painting",
+        "desc": "Corporate-grade platforms that win massive bids."
+      },
+      "c4": {
+        "title": "Construction",
+        "desc": "Showcase scale and reliability to major stakeholders."
+      },
+      "c5": {
+        "title": "Home Renovation",
+        "desc": "Before-and-after experiences that drive inbound leads."
+      },
+      "c6": {
+        "title": "Trades & Services",
+        "desc": "Plumbing, roofing, and electrical businesses built to scale."
+      }
+    },
+    "process": {
+      "title": "How We Work",
+      "s1": {
+        "title": "Discovery",
+        "desc": "We audit your current position, understand your ideal client profile, and define the exact goals for your new platform."
+      },
+      "s2": {
+        "title": "Strategy",
+        "desc": "Mapping out user journeys, site architecture, and conversion funnels to ensure the site operates as a sales asset."
+      },
+      "s3": {
+        "title": "Design",
+        "desc": "Crafting bespoke, high-fidelity layouts focused purely on trust, clarity, and premium brand positioning."
+      },
+      "s4": {
+        "title": "Development",
+        "desc": "Writing clean, semantic code to build a lightning-fast, highly responsive website utilizing modern web standards."
+      },
+      "s5": {
+        "title": "Launch",
+        "desc": "Rigorous testing, final SEO optimization, and a seamless deployment to the live server."
+      }
+    },
+    "why": {
+      "title": "The SBA Creative Advantage",
+      "c1": {
+        "title": "Premium Design",
+        "desc": "We bridge the gap between high-end digital agency aesthetics and the practical needs of service businesses. Your site will look like a national brand."
+      },
+      "c2": {
+        "title": "Conversion-Focused",
+        "desc": "Beautiful design is useless if the phone doesn't ring. Every decision is routed in human psychology and optimized to turn passive traffic into active leads."
+      },
+      "c3": {
+        "title": "Modern Development",
+        "desc": "We do not use bloated, slow builders. Your site is engineered with precision code to ensure top-tier performance metrics and unbeatable security."
+      },
+      "c4": {
+        "title": "Mobile First",
+        "desc": "Over 60% of your traffic comes from smartphones. We design the mobile experience first, ensuring flawless navigation and rapid loading on the go."
+      },
+      "c5": {
+        "title": "Long-Term Value",
+        "desc": "Our websites are built to scale alongside your business. An SBA Creative platform is an investment that yields measurable returns for years."
+      }
+    },
+    "statement": {
+      "l1": "“Good design isn't decoration.",
+      "l2": "It's the foundation of trust.”"
+    },
+    "cta": {
+      "title": "Ready To Elevate Your Business Online?",
+      "desc": "Partner with SBA Creative to build a platform that attracts premium clients and outpaces your competition.",
+      "btnPrimary": "Start Your Project"
+    }
+  },
+
+  "servicesPage": {
+    "hero": {
+      "tag": "Our Expertise",
+      "title": "Websites Designed To Turn First Impressions Into Lasting Trust.",
+      "desc": "Every digital experience we engineer is intentionally crafted to help service businesses attract better clients, build immediate credibility, and generate more qualified enquiries.",
+      "btnSecondary": "View Our Work",
+      "btnPrimary": "Start Your Project"
+    },
+    "core": {
+      "s1": {
+        "title": "Website Design",
+        "desc": "We bridge the gap between high-end digital agency aesthetics and the practical, conversion-focused needs of service businesses. Your digital presence will instantly communicate authority, elevating you above local competition.",
+        "listTitle": "Deliverables",
+        "l1": "Custom User Interface (UI)",
+        "l2": "Strategic Visual Hierarchy",
+        "l3": "Bespoke Typography Selection",
+        "l4": "Responsive Design Layouts",
+        "l5": "Comprehensive Design System"
+      },
+      "s2": {
+        "title": "Website Development",
+        "desc": "Beautiful design means nothing if it doesn't function flawlessly. We write clean, semantic, and modern code. No bloated page builders—just lightning-fast, secure, and accessible development built for long-term performance.",
+        "listTitle": "Deliverables",
+        "l1": "Responsive Front-End Development",
+        "l2": "Performance & Speed Optimization",
+        "l3": "SEO-Friendly Code Structure",
+        "l4": "W3C Accessibility Standards",
+        "l5": "Modern HTML/CSS/JS Architecture"
+      },
+      "s3": {
+        "title": "Website Redesign",
+        "desc": "Transforming outdated, underperforming websites into modern digital assets. If your current site is costing you leads or failing to reflect the true quality of your work, we strategically overhaul the experience to maximize conversions.",
+        "listTitle": "Core Benefits",
+        "l1": "Dramatically Increased Trust",
+        "l2": "Improved Lead Conversions",
+        "l3": "Modern, Established Appearance",
+        "l4": "Mobile-First Correction",
+        "l5": "Better Search Engine Visibility"
+      },
+      "s4": {
+        "title": "Landing Pages",
+        "desc": "Precision-engineered landing pages designed for specific marketing campaigns, paid ads, or high-value service offerings. Every element is ruthlessly optimized for one goal: turning targeted traffic into paying clients.",
+        "listTitle": "The Strategy",
+        "l1": "Laser-Focused Conversion Funnels",
+        "l2": "Frictionless Lead Forms",
+        "l3": "A/B Testing Readiness",
+        "l4": "Clear, Actionable Copywriting",
+        "l5": "Trust-Signal Optimization"
+      }
+    },
+    "included": {
+      "title": "The Premium Standard",
+      "desc": "Every SBA Creative project includes these foundational elements.",
+      "c1": {
+        "title": "Responsive Design",
+        "desc": "Flawless functionality across all devices."
+      },
+      "c2": {
+        "title": "SEO-Friendly Structure",
+        "desc": "Built to rank naturally on Google."
+      },
+      "c3": {
+        "title": "Fast Performance",
+        "desc": "Optimized assets for instant loading."
+      },
+      "c4": {
+        "title": "Mobile Optimization",
+        "desc": "Mobile-first user experience design."
+      },
+      "c5": {
+        "title": "Modern UI",
+        "desc": "Clean, contemporary visual aesthetics."
+      },
+      "c6": {
+        "title": "Contact Forms",
+        "desc": "Frictionless, secure lead generation."
+      },
+      "c7": {
+        "title": "Analytics Ready",
+        "desc": "Integrated tracking for data insights."
+      },
+      "c8": {
+        "title": "Google Maps Integration",
+        "desc": "Perfect for local service areas."
+      },
+      "c9": {
+        "title": "Social Media Integration",
+        "desc": "Seamlessly connecting your platforms."
+      },
+      "c10": {
+        "title": "Easy Content Updates",
+        "desc": "Intuitive hand-off for future edits."
+      },
+      "c11": {
+        "title": "Secure Development",
+        "desc": "Built with robust, safe technologies."
+      },
+      "c12": {
+        "title": "Clean Code",
+        "desc": "No bloated builders or messy plugins."
+      }
+    },
+    "why": {
+      "title": "The SBA Creative Advantage",
+      "c1": {
+        "title": "Industry Focus",
+        "desc": "We don't design for everyone. We specialize purely in service-based contractors and professionals."
+      },
+      "c2": {
+        "title": "Conversion Strategy",
+        "desc": "Every pixel is engineered around human psychology to turn passive visitors into active inquiries."
+      },
+      "c3": {
+        "title": "Modern Design",
+        "desc": "We reject templates, favoring a premium, bespoke editorial aesthetic that demands respect."
+      },
+      "c4": {
+        "title": "Fast Loading",
+        "desc": "Speed is revenue. Our websites are meticulously coded to ensure near-instantaneous load times."
+      },
+      "c5": {
+        "title": "Reliable Communication",
+        "desc": "Direct, clear, and transparent communication throughout every stage of the design process."
+      },
+      "c6": {
+        "title": "Long-Term Partnership",
+        "desc": "We don't just launch and leave. We build relationships to help your business scale year after year."
+      }
+    },
+    "process": {
+      "title": "Our Process",
+      "s1": {
+        "title": "Discovery",
+        "desc": "Deep-dive into your business model, ideal client profile, and core project objectives."
+      },
+      "s2": {
+        "title": "Research",
+        "desc": "Auditing local competitors and market positioning to ensure your brand stands out completely."
+      },
+      "s3": {
+        "title": "Wireframing",
+        "desc": "Mapping the user journey and conversion strategy before any visual design begins."
+      },
+      "s4": {
+        "title": "UI Design",
+        "desc": "Crafting the high-fidelity, premium visual aesthetics tailored strictly to your brand guidelines."
+      },
+      "s5": {
+        "title": "Development",
+        "desc": "Translating the approved designs into responsive, clean, and highly performant code."
+      },
+      "s6": {
+        "title": "Testing",
+        "desc": "Rigorous quality assurance across multiple devices, browsers, and screen sizes."
+      },
+      "s7": {
+        "title": "Launch",
+        "desc": "Seamless deployment to the live server, complete with final SEO checks and hand-off."
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "How long does a project take?",
+      "a1": "Most standard website projects take between 4 to 6 weeks from our initial discovery call to final launch. This timeline depends on the complexity of the build and how quickly content and feedback are provided.",
+      "q2": "Can you redesign an existing website?",
+      "a2": "Absolutely. A significant portion of our work involves taking outdated, underperforming websites and transforming them into modern, high-converting digital assets that reflect the current quality of your business.",
+      "q3": "Do I need to provide content?",
+      "a3": "We highly recommend you provide images of your own work to build authentic trust. For copywriting, we can collaborate. You provide the raw information about your services, and we can help refine it for conversion, or we can partner with professional copywriters if needed.",
+      "q4": "Will my website work on mobile?",
+      "a4": "Yes. Over 60% of local service inquiries come from mobile devices. We utilize a mobile-first design approach, ensuring your website looks flawless and functions perfectly on smartphones and tablets.",
+      "q5": "Do you offer support after launch?",
+      "a5": "We do. We offer post-launch support and ongoing maintenance retainers to ensure your website remains secure, updated, and continues to perform optimally as your business grows.",
+      "q6": "Can you help with hosting and domains?",
+      "a6": "Yes, we can handle the technical setup for you. We recommend and configure premium, high-speed hosting solutions to ensure your site is incredibly fast and completely secure.",
+      "q7": "How many revisions are included?",
+      "a7": "Our standard process includes two dedicated rounds of revisions during the UI Design phase. Because our Discovery and Strategy phases are so thorough, this is almost always enough to achieve a perfect final result.",
+      "q8": "Do you build custom websites?",
+      "a8": "Everything we build at SBA Creative is custom. We do not rely on pre-made templates. Your website will be uniquely designed and coded specifically to match your brand identity and business objectives."
+    },
+    "cta": {
+      "title": "Ready To Build A Website That Works As Hard As You Do?",
+      "desc": "Let's discuss your project and discover how a premium digital presence can help you dominate your local market.",
+      "btnPrimary": "Start Your Project",
+      "btnSecondary": "View Portfolio"
+    }
+  },
+
+  "contact": {
+    "hero": {
+      "tag": "Book A Discovery Call",
+      "title": "Let's Talk About Your Next Website.",
+      "desc": "Whether you're launching a new painting business or looking to redesign your current website, let's discuss your goals and see if we're the right fit. The call is free, with no obligation.",
+      "btnPrimary": "Book My Discovery Call",
+      "btnSecondary": "View Our Work"
+    },
+    "features": {
+      "title": "What Happens Next",
+      "c1": {
+        "title": "Discovery",
+        "desc": "We'll learn about your business, goals, and current website."
+      },
+      "c2": {
+        "title": "Strategy",
+        "desc": "We'll recommend the best approach for your project."
+      },
+      "c3": {
+        "title": "Proposal",
+        "desc": "If we're a good fit, you'll receive a tailored proposal with pricing and timeline."
+      }
+    },
+    "form": {
+      "fullNameLabel": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "businessNameLabel": "Business Name",
+      "businessNamePlaceholder": "Apex Painting",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "websiteLabel": "Current Website (optional)",
+      "websitePlaceholder": "www.yourwebsite.com",
+      "serviceLabel": "Service Needed",
+      "options": {
+        "default": "Select an option",
+        "design": "Website Design",
+        "redesign": "Website Redesign",
+        "landing": "Landing Page",
+        "unsure": "Not Sure Yet"
+      },
+      "detailsLabel": "Project Details",
+      "detailsPlaceholder": "Tell us a little about your business and what you'd like to achieve.",
+      "submitBtn": "Request My Discovery Call"
+    },
+    "alt": {
+      "title": "Prefer Email?",
+      "desc": "If you'd rather reach out directly, send us an email and we'll respond within one business day."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "How long is the discovery call?",
+      "a1": "We schedule our discovery calls for 30 minutes. This gives us enough time to understand your business objectives and discuss potential strategies without taking up too much of your day.",
+      "q2": "Is the consultation free?",
+      "a2": "Yes. The initial discovery call is completely free and comes with zero obligation to proceed. We use this time to ensure we are the right agency to help you reach your goals.",
+      "q3": "Do you only work with painting contractors?",
+      "a3": "While we have deep expertise helping painting contractors, we work with a variety of established local service businesses, including roofers, landscapers, and custom home builders.",
+      "q4": "What happens after the call?",
+      "a4": "If we both decide we're a good fit, we will send over a custom, tailored proposal outlining the scope of work, investment required, and project timeline within 48 hours.",
+      "q5": "How long does a website project usually take?",
+      "a5": "Most standard custom website projects take between 4 to 6 weeks from our initial strategy session to the final launch, depending on the complexity and how quickly content is provided."
+    },
+    "cta": {
+      "title": "Ready to Elevate Your Online Presence?",
+      "desc": "Let's create a website that reflects the quality of your business and helps you attract better clients.",
+      "btnPrimary": "Book My Discovery Call"
+    },
+    "modal": {
+      "title": "We'll get back to you!",
+      "desc": "Thanks for reaching out. We've received your project details and will contact you within 1 business day.",
+      "btn": "Close"
+    }
+  },
+
+  "cs1Page": {
+    "title": "Prime Coat Painting Case Study | SBA Creative",
+    "metaDesc": "How SBA Creative designed a high-converting, premium website for a painting contractor to boost sales and outshine the local competition.",
+    "hero": {
+      "tag": "Painting Contractor",
+      "title": "Engineering Trust: How Premium Design Doubles Contractor Lead Conversions.",
+      "desc": "We transformed Prime Coat Painting's digital presence from a standard digital brochure into a high-end lead generation engine. By leveraging strategic trust signals and premium aesthetics, the site positions them as the undisputed professional choice in their local market."
+    },
+    "meta": {
+      "industryLabel": "Industry",
+      "industryValue": "Home Services / Painting",
+      "servicesLabel": "Services Provided",
+      "servicesValue": "UX/UI Design, Web Development, Conversion Strategy",
+      "goalLabel": "Primary Goal",
+      "goalValue": "Increase high-ticket quote requests"
+    },
+    "image": {
+      "overlay": "Click to Visit Site"
+    },
+    "strategy": {
+      "title": "The Anatomy of a High-Converting Site",
+      "desc": "Homeowners are deeply protective of their property. To win high-ticket exterior and cabinet painting jobs, a contractor's website must eliminate anxiety and manufacture trust within the first 3 seconds of a visit.",
+      "b1": {
+        "title": "Manufacturing Instant Trust",
+        "desc": "We didn't just place a hero image; we engineered a \"Trust Strip\" above the fold. By immediately presenting floating badges—\"4.9 Rating,\" \"320+ Homes Painted,\" and \"Licensed & Insured\"—we answer the homeowner's most critical subconscious questions instantly. This layout immediately validates their premium pricing and prevents price-shopping."
+      },
+      "b2": {
+        "title": "Interactive Proof of Craftsmanship",
+        "desc": "Painting is a visual industry, yet most contractors rely on static, low-quality galleries. We integrated a dynamic Before/After interactive slider for the \"Signature Transformations\" section. This interactive element keeps users on the page longer, increasing engagement metrics, and provides undeniable, psychological proof of the contractor's capability."
+      },
+      "b3": {
+        "title": "Frictionless User Journeys",
+        "desc": "A confused mind says no. We implemented a sticky navigation bar with a highly visible, contrasting \"Get Free Estimate\" CTA. Paired with a massive, four-step numbered \"Process\" section, we demystified the customer journey. When homeowners know exactly what happens after they click \"Contact,\" conversion rates skyrocket."
+      }
+    },
+    "statement": {
+      "badge": "The Result",
+      "quote": "“When your website looks expensive, clients expect to pay a <span class=\"quote-accent\">premium</span>.”"
+    },
+    "cta": {
+      "title": "Want these results for your service business?",
+      "desc": "Stop losing high-value jobs to competitors with better branding. Let's build a website that reflects the true quality of your craftsmanship.",
+      "btn": "Book Your Discovery Call"
+    }
+  },
+
+   "cs2Page": {
+    "title": "Luxury Home Painting Case Study | SBA Creative",
+    "metaDesc": "How SBA Creative designed an elegant, editorial-style website for a luxury residential painting service to attract high-net-worth homeowners.",
+    "hero": {
+      "tag": "Luxury Residential Services",
+      "title": "Designing for the 1%: A Masterclass in Editorial Web Experiences.",
+      "desc": "We crafted a bespoke digital storefront for a premium residential painting contractor. By moving away from standard service templates and embracing an elegant, editorial-style layout, the new site speaks directly to affluent homeowners and positions the brand as a luxury boutique service."
+    },
+    "meta": {
+      "industryLabel": "Industry",
+      "industryValue": "Luxury Home Services",
+      "servicesLabel": "Services Provided",
+      "servicesValue": "UX/UI Design, Brand Positioning, Web Dev",
+      "goalLabel": "Primary Goal",
+      "goalValue": "Convert high-net-worth outreach leads"
+    },
+    "image": {
+      "overlay": "Click to Visit Site"
+    },
+    "strategy": {
+      "title": "The Anatomy of a Luxury Service Site",
+      "desc": "Affluent homeowners seek reliability and exceptional quality above all else. The website must act as a digital concierge, reflecting the high standards of the physical service through elegant typography, ample whitespace, and high-fidelity imagery.",
+      "b1": {
+        "title": "Editorial Typography",
+        "desc": "We introduced a sophisticated, editorial layout. By blending warm, natural tones with crisp, structured typography, the design instantly communicates exclusivity, completely separating the brand from budget-focused local competitors."
+      },
+      "b2": {
+        "title": "Bespoke Craftsmanship",
+        "desc": "Instead of cluttered photo galleries, we utilized an asymmetrical \"Featured Transformations\" section. This layout highlights the rigorous attention to detail—from surface preparation to the application of premium paint—proving the value of the investment."
+      },
+      "b3": {
+        "title": "Frictionless Journey",
+        "desc": "High-end clients appreciate clarity. We streamlined the user journey with a clean horizontal timeline in the \"Our Process\" section. Combined with glowing client experiences, we removed friction and built immediate confidence for high-ticket projects."
+      }
+    },
+    "statement": {
+      "badge": "The Result",
+      "quote": "“True luxury is in the details. A premium service demands a <span class=\"quote-accent\">premium digital storefront</span>.”"
+    },
+    "cta": {
+      "title": "Ready to dominate your local market?",
+      "desc": "Stop losing high-value jobs to competitors with better branding. Let's build a website that reflects the true quality of your craftsmanship and converts your outreach leads.",
+      "btn": "Book Your Discovery Call"
+    }
+  },
+
+  "cs3Page": {
+    "title": "Commercial Painting Case Study | SBA Creative",
+    "metaDesc": "How SBA Creative designed a high-performance B2B website for a commercial painting contractor to convert facility managers and general contractors.",
+    "hero": {
+      "tag": "B2B / Commercial Contractor",
+      "title": "Built for Scale & Precision.",
+      "desc": "Facility managers and general contractors don't buy on emotion; they buy on capability, safety, and scale. We engineered a robust B2B digital platform that immediately proves this commercial painting contractor can handle massive, complex projects without operational downtime."
+    },
+    "meta": {
+      "industryLabel": "Industry",
+      "industryValue": "Commercial & Industrial Services",
+      "servicesLabel": "Services Provided",
+      "servicesValue": "B2B UX/UI Design, Web Development, Copywriting",
+      "goalLabel": "Primary Goal",
+      "goalValue": "Generate RFPs from facility managers and GCs"
+    },
+    "image": {
+      "overlay": "Click to Visit Site"
+    },
+    "strategy": {
+      "title": "Engineering a B2B Lead Generation Engine",
+      "desc": "Selling to businesses requires a fundamentally different architecture than selling to homeowners. The site needs to serve as a comprehensive capabilities deck, proving compliance, efficiency, and industry-specific expertise at a glance.",
+      "b1": {
+        "title": "Industry-Specific Authority",
+        "desc": "Commercial clients need to know you understand their specific environment. We designed a clear \"Industries We Serve\" taxonomy, allowing users in healthcare, retail, or industrial sectors to instantly self-identify and verify the contractor's relevant experience."
+      },
+      "b2": {
+        "title": "The B2B Trust Matrix",
+        "desc": "Instead of focusing just on aesthetics, we prioritized operational metrics. By heavily featuring sections like \"Execution Process,\" massive numerical milestones (200+ Projects, 2M+ Sq Ft), and notable \"Client Partners,\" we systematically dismantled the buyer's perceived risk."
+      },
+      "b3": {
+        "title": "Deep-Dive Project Showcases",
+        "desc": "A simple photo isn't enough for a $100k+ contract. We structured the \"Project Showcase\" like mini case studies within the site itself—highlighting the square footage, materials used, and specific challenges overcome, providing the exact data points GCs need to justify their hiring decisions."
+      }
+    },
+    "statement": {
+      "badge": "The B2B Advantage",
+      "quote": "“In commercial services, <span class=\"quote-accent\" style=\"font-style: normal; color: var(--accent);\">operational certainty</span> is your most valuable product.”"
+    },
+    "cta": {
+      "title": "Ready to scale your commercial contracts?",
+      "desc": "Stop letting lucrative RFPs slip through the cracks due to an outdated digital footprint. Let's build a platform that converts facility managers.",
+      "btn": "Book Your Strategy Call"
+    }
+  }
+
+}
+
+
+
+ 
