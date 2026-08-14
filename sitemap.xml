@@ -1,40 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <url>
-    <loc>https://sbacedreamer.pro/</loc>
-  </url>
+    <url>
+        <loc>https://www.sbacedreamer.pro/</loc>
+    </url>
 
-  <url>
-    <loc>https://sbacedreamer.pro/about</loc>
-  </url>
+    <url>
+        <loc>https://www.sbacedreamer.pro/work/</loc>
+    </url>
 
-  <url>
-    <loc>https://sbacedreamer.pro/services</loc>
-  </url>
+    <url>
+        <loc>https://www.sbacedreamer.pro/services/</loc>
+    </url>
 
-  <url>
-    <loc>https://sbacedreamer.pro/contact</loc>
-  </url>
+    <url>
+        <loc>https://www.sbacedreamer.pro/about/</loc>
+    </url>
 
-  <url>
-    <loc>https://sbacedreamer.pro/residential</loc>
-  </url>
+    <url>
+        <loc>https://www.sbacedreamer.pro/contact/</loc>
+    </url>
 
-  <url>
-    <loc>https://sbacedreamer.pro/commercial</loc>
-  </url>
+    <url>
+        <loc>https://www.sbacedreamer.pro/case-study/residential-painting/</loc>
+    </url>
 
-  <url>
-    <loc>https://sbacedreamer.pro/luxury</loc>
-  </url>
+    <url>
+        <loc>https://www.sbacedreamer.pro/case-study/commercial-painting/</loc>
+    </url>
 
-  <url>
-    <loc>https://sbacedreamer.pro/renovation</loc>
-  </url>
+    <url>
+        <loc>https://www.sbacedreamer.pro/case-study/luxury-painting/</loc>
+    </url>
 
-  <url>
-    <loc>https://sbacedreamer.pro/construction</loc>
-  </url>
+    <url>
+        <loc>https://www.sbacedreamer.pro/case-study/architecture/</loc>
+    </url>
+
+    <url>
+        <loc>https://www.sbacedreamer.pro/case-study/cleaning-service/</loc>
+    </url>
+
+    <url>
+        <loc>https://www.sbacedreamer.pro/case-study/pet-grooming/</loc>
+    </url>
+
+    <url>
+        <loc>https://www.sbacedreamer.pro/case-study/hair-salon/</loc>
+    </url>
+
+    <url>
+        <loc>https://www.sbacedreamer.pro/case-study/fashion-apparel/</loc>
+    </url>
 
 </urlset>
