@@ -1,14 +1,14 @@
 
 
 // 1. Tell the browser NOT to remember scroll position on refresh
-if ('scrollRestoration' in history) {
-    history.scrollRestoration = 'manual';
-}
+// if ('scrollRestoration' in history) {
+//     history.scrollRestoration = 'manual';
+// }
 
 // 2. Force the window to the top right before the page unloads/refreshes
-window.onbeforeunload = function () {
-    window.scrollTo(0, 0);
-};
+// window.onbeforeunload = function () {
+//     window.scrollTo(0, 0);
+// };
 
 
 

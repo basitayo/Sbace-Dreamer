@@ -1,0 +1,1829 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:24px 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease, padding 0.3s ease;
+}
+
+.header-scrolled {
+    background-color: rgba(255, 255, 255, 0.25); /* Semi-transparent background */
+    backdrop-filter: blur(12px); /* The frosted glass blur */
+    -webkit-backdrop-filter: blur(12px); /* Required for Safari support */
+    padding: 12px 60px; /* Shrinks the navbar height slightly for a sleeker look */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05); /* Adds a subtle, premium edge */
+    border-radius: 0 0 30px 30px; /* Rounded bottom corners for a modern touch */
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.header-contact-info a{
+    text-decoration: none;
+    color: #555555;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.header-logo{
+    font-size: 2.1rem;
+    font-weight: medium;
+    letter-spacing: -0.04em;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+
+.header-social{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.social-buttons{
+    display: flex;
+    gap: 5px;
+}
+
+.social-icon-link{
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 100%;
+    
+    width: 44px;
+    height: 44px;
+    border: 1px solid #1e1e1e;
+    border-radius: 50%; /* Perfect circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1e1e1e; /* Brand Deep Navy */
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(15, 44, 89, 0.02);
+    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.social-icon-link:hover {
+    background-color: #1e1e1e; /* Brand Accent Blue */
+    color: #ffffff;
+    border-color: #1e1e1e;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 118, 223, 0.2);
+}
+
+header a{
+    text-decoration: none;
+    color: #292929;
+    font-size: 1.1rem;
+}
+
+.header-follow-us{
+    text-decoration: none;
+    color: #555555;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 140px 60px 40px 60px;
+    background-color: #EFEFEF;
+    padding-top: 80px;
+    position:relative;
+    min-height:100vh;
+    overflow:hidden;
+    
+
+
+}
+
+.hero-section-header-content{
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    z-index:2;
+}
+
+
+
+.hero-section-header-content h2{
+    font-size: 10rem;
+    font-weight: 600;
+    letter-spacing: -0.07em;
+}
+
+.title-left{
+    font-size: min(13vw, 11rem);
+}
+
+.title-right{
+    font-size: min(13vw, 11rem);
+    text-align:right;
+}
+
+.hero-section-header-content-text{
+    width: 100%;
+    max-width: 600px;
+
+}
+
+.hero-section-header-content-text-image{
+    width: 110px;
+}
+
+.hero-section-header-content-text-image img{
+    width: 100%;
+    display:block;
+}
+
+
+.hero-section-mini{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #555555;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+
+.hero-section-mini-text{
+    display: flex;
+}
+
+.hero-fashiontext{
+    padding-right: 100px;   
+}
+
+.hero-section-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 600px;
+    padding: 0 50px; */
+
+    height: auto;
+    padding: 40px 0;
+    gap: 30px;
+}
+
+.hero-section-subbody-first{
+    width: 100%;
+    max-width: 320px;
+    text-decoration: none;
+    color: #555555;
+    font-size: 0.95rem;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+.hero-section-body-second{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.hero-section-subbody-second{
+    height: 250px;
+}
+
+.hero-section-subbody-second h3{
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #111;
+}
+
+.hero-section-subbody-second p{
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
+    color: #111;
+    margin-top: 4px;
+}
+
+.hero-section-subbody-third{
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-grow: 1; /* This is the magic property! It pushes this row to the very bottom */
+    padding-top: 60px;
+}
+
+.hero-section-subbody-third p{
+    text-decoration: none;
+    color: #555555;
+    font-size: 0.95rem;
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+
+.hero-section-image{
+    position:absolute;
+    left:48%;
+    bottom:0;
+    transform:translateX(-50%);
+    width: min(650px, 55vw);
+    z-index:5;
+    pointer-events:none; /* This makes sure the image doesn't block any interactions with elements behind it */
+}
+
+
+.hero-section-image img{
+    width:100%;
+    display:block;
+}
+
+.google-arrow-link {
+	/* aspect-ratio: 1; */
+    pointer-events: auto;
+    height: 110px;
+    width: 110px;
+    position: absolute;
+	clip-path: shape(from 100% 72.57%,arc by -2.98% 7.07% of 9.88% small cw,line to 79.03% 97.19%,arc to 72.13% 100% of 9.88% small cw,hline to 9.88%,arc by -9.88% -9.88% of 9.88% small cw,vline to 27.25%,arc by 2.98% -7.07% of 9.88% small cw,line by 17.81% -17.38%,arc to 27.69% 0% of 9.88% small cw,hline to 90.12%,arc by 9.88% 9.88% of 9.88% small cw,close);
+    background-color: #fff;
+    bottom: 100px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ==========================================================================
+   GOOGLE ICON ARROW STYLING
+   ========================================================================== */
+
+.google-arrow-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #1e1e1e; /* Brand Deep Navy */
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.google-arrow-link:hover {
+    color: #fff;
+    background-color: #1e1e1e;
+}
+
+/* Material Symbol Icon Styling */
+.google-arrow-link .material-symbols-outlined {
+    font-size: 40px;
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Smooth nudge up and right on hover */
+.google-arrow-link:hover .material-symbols-outlined {
+    transform: translate(3px, -3px);
+}
+
+
+
+
+/* ==========================================================================
+   TRUST SECTION (INFINITE LOGO MARQUEE)
+   ========================================================================== */
+
+.trust-section {
+    background-color: #ffffff;
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    /* This creates the smooth fade-out effect on the left and right edges */
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.marquee-track {
+    display: flex;
+    align-items: center;
+    gap: 100px; /* Space between each logo */
+    padding-right: 100px; /* Must match the gap to ensure the loop doesn't jump */
+    width: max-content;
+    animation: scrollMarquee 25s linear infinite;
+}
+
+/* Optional: Pauses the scrolling when the user hovers over it */
+/* .marquee-track:hover {
+    animation-play-state: paused;
+} */
+
+.logo-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-item img {
+    height: 82px; /* Adjust this based on how tall your actual images are */
+    width: auto;
+    opacity: 0.4; /* Mutes the logos */
+    filter: grayscale(100%); /* Turns colored logos grey */
+    transition: opacity 0.3s ease, filter 0.3s ease;
+    cursor: pointer;
+}
+
+/* Brings the color and full opacity back when hovered */
+.logo-item img:hover {
+    opacity: 1;
+    filter: grayscale(0%);
+}
+
+/* The Infinite Loop Animation */
+@keyframes scrollMarquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        /* Moves the track exactly half its width to the left */
+        transform: translateX(-50%);
+    }
+}
+
+
+
+.about-section{
+
+    height: auto;
+    padding: 100px 0 40px 100px;
+}
+
+/* .collection-grid{
+    display:grid;
+    grid-template-columns:0.9fr 1.5fr 0.8fr;
+    gap:60px;
+    align-items:start;
+} */
+
+
+.collection-grid{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items:start;
+    gap: 50px;
+}
+
+
+.collection-left{
+    display:flex;
+    grid-area: 1 / 1 / 2 / 3;
+    width: 100%;
+    max-width: 700px;
+    align-items: center;
+}
+
+.collection-left-btn {
+    width: 60px;
+    height: 30px;
+    border: 1px solid #1e1e1e;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.collection-left-btn:hover{
+    color: #fff;
+    background-color: #1e1e1e;
+    transform: translate(3px, -3px);
+}
+
+.collection-left h2{
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: -0.07em;
+}
+
+.collection-center {
+    display: flex;
+    grid-area: 2 / 1 / 4 / 4;
+    width: 80%;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.collection-learnmore{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.opttiiiadbtn button{
+    border: 1px solid #1e1e1e;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 10px 40px;
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.opttiiiadbtn button:hover{
+    color: #fff;
+    background-color: #1e1e1e;
+    transform: translate(3px, -3px);
+}
+
+.collection-learnmore div{
+    /* margin-bottom: 150px; */
+}
+
+.collection-learnmore h3{
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #111;
+}
+
+.featured-card {
+    width: 501.25px;
+    height: 318px;
+    aspect-ratio: 1.576;
+	clip-path: shape(from 100% 59.13%,arc by -2.43% 9.1% of 8.06% 12.71% small cw,line by -18.32% 28.16%,arc to 73.62% 100% of 8.06% 12.71% small cw,hline to 8.06%,curve by -8.06% -12.71% with -4.45% 0%/-8.06% -5.69%,vline to 42.94%,arc by 2.43% -9.1% of 8.06% 12.71% small cw,line to 22.09% 3.61%,arc to 27.72% 0% of 8.06% 12.71% small cw,hline to 91.94%,curve by 8.06% 12.71% with 4.45% 0%/8.06% 5.69%,close);
+    position: relative;
+}
+
+.collection-link{
+    top: 15px;
+    right: 15px;
+}
+
+.about-section img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+
+.collection-right{
+    display:flex;
+    flex-direction:column;
+    gap:24px;
+    grid-area: 1 / 4 / 4 / 5;
+}
+
+.small-card{
+    width: 301px;
+    height: 318px;
+    /* aspect-ratio: 0.945; */
+	clip-path: shape(from 100% 100%,hline to 13.45%,curve to 0% 87.29% with 6.02% 100%/0% 94.31%,vline to 42.94%,arc by 4.06% -9.1% of 13.46% 12.71% small cw,line by 32.79% -30.23%,arc to 46.24% 0% of 13.45% 12.71% small cw,hline by 53.76%,close);
+    background: linear-gradient(60deg in hsl, #d75252, #852b4f);
+
+}
+
+.featured-info{
+    display: flex;
+    gap: 8px;
+}
+
+.feattboldds {
+    font-weight: 600;
+}
+
+
+.small-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.secceeooeke{
+    width: 100%;
+    max-width: 120px;
+}
+
+.categries-section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+
+    height: auto;
+    padding: 100px 5vw;
+}
+
+
+/* .zoomout-categoryselect{
+    max-width: 50%;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.zoomout-categoryselect h3{
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: -0.08em;
+}
+
+.cattego-zoom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 1.6;
+} */
+
+
+
+
+
+.zoomout-categoryselect {
+    width: 50%;
+    max-width: 650px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    /* Container mask removed so no items get cut off */
+    padding: 0 40px;
+}
+
+.category-item {
+    border-bottom: 1px solid #eaeaea;
+    padding: 28px 0;
+    cursor: pointer;
+    color: #000000;
+    /* This creates the soft, faded-out effect for inactive items */
+    opacity: 0.3; 
+    transition: opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.category-item:first-child {
+    border-top: 1px solid #eaeaea;
+}
+
+/* Header Alignment */
+.category-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 12px;
+}
+
+.category-header .index {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #888;
+}
+
+.category-header h3 {
+    font-size: 3.8rem;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: -0.04em;
+}
+
+/* Smooth Accordion Height Expansion */
+.category-content-wrapper {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.category-content {
+    overflow: hidden;
+    opacity: 0;
+    text-align: center;
+    transition: opacity 0.3s ease, padding 0.3s ease;
+}
+
+.category-content p {
+    font-size: 0.9rem;
+    letter-spacing: 0.02em;
+    color: #333;
+    max-width: 85%;
+    margin: 0 auto 24px auto;
+}
+
+.opttiiiadbtn button {
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 50px;
+    padding: 12px 28px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.opttiiiadbtn button:hover {
+    background: #000;
+    color: #fff;
+}
+
+/* --- ACTIVE & HOVER STATES --- */
+
+/* Bring hovered or pinned items to full opacity */
+.category-item:hover,
+.category-item.active {
+    opacity: 1;
+}
+
+.category-item:hover .category-content-wrapper,
+.category-item.active .category-content-wrapper {
+    grid-template-rows: 1fr;
+}
+
+.category-item:hover .category-content,
+.category-item.active .category-content {
+    opacity: 1;
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+
+/* --- PINNED OVERRIDE --- */
+/* Fade out the pinned item when hovering over a different category */
+.zoomout-categoryselect:hover .category-item.active:not(:hover) {
+    opacity: 0.3;
+}
+
+.zoomout-categoryselect:hover .category-item.active:not(:hover) .category-content-wrapper {
+    grid-template-rows: 0fr;
+}
+
+.zoomout-categoryselect:hover .category-item.active:not(:hover) .category-content {
+    opacity: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+
+
+
+/* .categorygrid-sec{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    max-width: 50%;
+    height: 700px;
+}
+
+.cateeegrid-left{
+    grid-area: 1 / 1 / 3 / 3;
+    aspect-ratio: 0.867;
+	clip-path: shape(from 100% 58.97%,arc by -2.89% 5.95% of 9.58% 8.31% small cw,line to 58.42% 97.64%,arc by -6.69% 2.36% of 9.58% 8.31% small cw,hline to 9.58%,curve to 0% 91.69% with 4.29% 100%/0% 96.28%,vline to 37.92%,arc by 2.89% -5.95% of 9.58% 8.31% small cw,line to 37.9% 2.36%,arc to 44.59% 0% of 9.58% 8.31% small cw,hline by 45.82%,curve by 9.58% 8.31% with 5.29% 0%/9.58% 3.72%,close);
+    background: linear-gradient(60deg in hsl, #d75252, #852b4f);
+}
+
+.cateeegrid-right{
+    grid-area: 1 / 1 / 4 / 4;
+    aspect-ratio: 0.835;
+	clip-path: shape(from 93.33% 0%,curve by 6.67% 5.57% with 3.68% 0%/6.67% 2.49%,vline by 70.61%,arc by -2.01% 3.98% of 6.67% 5.57% small cw,line to 75.57% 98.42%,arc to 70.91% 100% of 6.67% 5.57% small cw,hline to 6.67%,curve to 0% 94.43% with 2.98% 100%/0% 97.51%,vline to 73.45%,curve by 6.19% -5.55% with 0% -2.94%/2.73% -5.35%,hline by 30.23%,arc by 4.66% -1.58% of 6.67% 5.57% small ccw,line by 26.91% -21.91%,arc by 0.61% -0.57% of 6.61% 5.52% small ccw,curve by 2.62% -4.52% with 1.62% -1.04%/2.65% -2.68%,line by -0.71% -33.66%,curve to 77.17% 0% with 70.44% 2.55%/73.44% 0%,close);
+    background: linear-gradient(60deg in hsl, #d75252, #852b4f);
+} */
+
+
+.categorygrid-sec {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    max-width: 50%;
+    height: 700px;
+    /* This is the anchor point for the absolute images */
+    position: relative; 
+}
+
+.cateeegrid-left {
+    grid-area: 1 / 1 / 3 / 3;
+    aspect-ratio: 0.867;
+    /* The clip-path acts as a window to the image inside */
+    clip-path: shape(from 100% 58.97%,arc by -2.89% 5.95% of 9.58% 8.31% small cw,line to 58.42% 97.64%,arc by -6.69% 2.36% of 9.58% 8.31% small cw,hline to 9.58%,curve to 0% 91.69% with 4.29% 100%/0% 96.28%,vline to 37.92%,arc by 2.89% -5.95% of 9.58% 8.31% small cw,line to 37.9% 2.36%,arc to 44.59% 0% of 9.58% 8.31% small cw,hline by 45.82%,curve by 9.58% 8.31% with 5.29% 0%/9.58% 3.72%,close);
+    
+}
+
+.cateeegrid-right {
+    grid-area: 1 / 1 / 4 / 4;
+    aspect-ratio: 0.835;
+    clip-path: shape(from 93.33% 0%,curve by 6.67% 5.57% with 3.68% 0%/6.67% 2.49%,vline by 70.61%,arc by -2.01% 3.98% of 6.67% 5.57% small cw,line to 75.57% 98.42%,arc to 70.91% 100% of 6.67% 5.57% small cw,hline to 6.67%,curve to 0% 94.43% with 2.98% 100%/0% 97.51%,vline to 73.45%,curve by 6.19% -5.55% with 0% -2.94%/2.73% -5.35%,hline by 30.23%,arc by 4.66% -1.58% of 6.67% 5.57% small ccw,line by 26.91% -21.91%,arc by 0.61% -0.57% of 6.61% 5.52% small ccw,curve by 2.62% -4.52% with 1.62% -1.04%/2.65% -2.68%,line by -0.71% -33.66%,curve to 77.17% 0% with 70.44% 2.55%/73.44% 0%,close);
+}
+
+/* --- THE FIX --- */
+.cateeegrid-left img,
+.cateeegrid-right img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Anchors to .categorygrid-sec, ensuring both images are the identical size */
+    width: 100%; 
+    height: 100%; 
+    /* Perfectly crops the image without stretching, no matter the container size */
+    object-fit: cover; 
+    /* Prevents the image from interfering with clicks */
+    pointer-events: none; 
+}
+
+
+
+
+
+
+.testimonial-mini-section {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr 0.8fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 10px;
+    height: 140vh;
+    background-color: #EFEFEF;
+    height: auto;
+    padding: 100px 10px 100px 0px;
+    grid-template-rows: auto;
+}
+
+
+.testimpart-unoone{
+    grid-area: 1 / 1 / 4 / 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    padding: 60px 0;
+}
+
+.testimminig {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.testimibutton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.testimpart-twoone{
+    grid-area: 1 / 2 / 4 / 3;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 60px 0;
+}
+
+.testimpart-twoone h3{
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: -0.04em;
+}
+
+.testillogosec{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.testillogosec .logo-item img {
+    height: 62px
+}
+
+
+
+.testimpart-threone{
+    grid-area: 1 / 3 / 4 / 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 90px;
+    padding: 80px 0;
+}
+
+.testtimth-tpow{
+    margin-left: 140px;
+}
+
+.testimpart-threone h3{
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #111;
+}
+
+
+
+.testimpart-fourone{
+    grid-area: 4 / 1 / 5 / 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.testimpart-fourone h3{
+    font-size: 3.1rem;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: -0.04em;
+    width: 100%;
+    text-align: center;
+}
+
+.jonsnn-cutoutssec{
+    aspect-ratio: 1.237;
+	clip-path: shape(from 89.72% 0%,curve by 10.28% 12.71% with 5.68% 0%/10.28% 5.69%,vline to 59.13%,arc by -3.1% 9.1% of 10.28% 12.71% small cw,line by -23.34% 28.16%,arc to 66.39% 100% of 10.28% 12.71% small cw,hline to 0%,vline to 4.48%,line by 0.72% -0.87%,arc to 7.9% 0% of 10.28% 12.71% small cw,close);
+    height: 318px;
+    width: 394px;
+}
+
+.jonsnn-cutoutssec img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.testitimafo{
+    width: 100%;
+    max-width: 1100px;
+}
+
+.testifoum{
+    width: 100%;
+    max-width: 100px;
+}
+
+
+.testifoumtww{
+    width: 100%;
+    max-width: 100px;
+    border-radius: 50px;
+    
+}
+
+
+.top-meta {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.top-meta .date {
+    font-size: 1rem;
+    color: #333;
+}
+.top-meta .stars {
+    display: flex;
+    gap: 2px;
+    border-radius: 50px;
+}
+.top-meta .stars svg {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* --- MAIN LAYOUT --- */
+.othersssections {
+    display: flex;
+    /* Using min-height instead of height prevents clipping on smaller screens */
+    min-height: 70vh; 
+    gap: 40px; /* Space between the columns */
+    /* flex-start is crucial! It keeps the tops of col-1 and col-3 aligned, 
+       while allowing col-2's image to be pushed down naturally by its text */
+    align-items: flex-start; 
+    justify-content: center;
+    padding: 60px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* --- IMAGE CONTAINERS --- */
+.otherssseddgs {
+    display: flex;
+    gap: 20px;
+}
+
+.otherssse-carry {
+    width: 316px;
+    height: 397px;
+    /* Removed aspect-ratio since width/height are fixed */
+    clip-path: shape(from 100% 74.65%,curve by -2.05% 3.86% with 0% 1.45%/-0.74% 2.85%,line by -25.74% 19.96%,arc to 67.48% 100% of 6.78% 5.39% small cw,hline to 6.79%,curve to 0% 94.6% with 3.04% 100%/0% 97.58%,vline to 22.69%,curve by 2.05% -3.86% with 0% -1.45%/0.74% -2.85%,line to 24.35% 1.53%,arc to 29.09% 0% of 6.78% 5.39% small cw,hline to 93.21%,curve by 6.79% 5.4% with 3.75% 0%/6.79% 2.42%,close);
+    background: #eaeaea; /* Fallback background */
+}
+
+/* Makes sure the images perfectly fill your custom clip-path */
+.otherssse-carry img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* --- COLUMN 1 TEXT --- */
+.col1-footer {
+    display: flex;
+    justify-content: space-between; /* Pushes title left, year right */
+    align-items: flex-end;
+    margin-top: 24px;
+}
+
+.col1-footer h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+}
+
+.col1-footer .year {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+/* --- COLUMN 2 TEXT --- */
+.col2-header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 24px; /* This margin pushes the second image down */
+}
+
+.col2-header p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+}
+
+.star-icon {
+    width: 45px;
+    height: 45px;
+}
+
+/* --- COLUMN 3 PROGRESS BAR --- */
+.slider-controls {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.progress-bar {
+    /* The light gray background line */
+    background: #eaeaea; 
+    height: 2px;
+    /* Adjust width to make line longer/shorter */
+    width: 250px; 
+    position: relative;
+}
+
+.progress-fill {
+    /* The black active line */
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 30%; 
+    background: #000;
+}
+
+.next-btn {
+    background: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 50px;
+    padding: 10px 24px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+}
+
+.next-btn:hover {
+    border-color: #000;
+}
+
+
+
+
+
+.timelessclas-sectionone{
+    display: flex;
+}
+.timelessclasse-imagessec{
+
+}
+
+.classe-imagessec{
+    width: 315px;
+    height: 257px;
+    aspect-ratio: 1.228;
+	clip-path: shape(from 0% 69.08%,arc by 2.05% 5.97% of 6.79% 8.33% small ccw,line by 18.86% 22.59%,arc by 4.74% 2.37% of 6.79% 8.33% small ccw,hline by 67.57%,curve by 6.79% -8.33% with 3.75% 0%/6.79% -3.73%,vline to 35.57%,arc by -2.05% -5.97% of 6.79% 8.33% small ccw,line by -22.74% -27.24%,arc to 70.47% 0% of 6.79% 8.33% small ccw,hline to 6.79%,curve to 0% 8.33% with 3.04% 0%/0% 3.73%,close);
+    background: linear-gradient(60deg in hsl, #d75252, #852b4f);
+}
+
+.classe-imagesetre{
+    width: 315px;
+    height: 257px;
+    aspect-ratio: 1.228;
+	clip-path: shape(from 100% 69.08%,arc by -2.05% 5.97% of 6.79% 8.33% small cw,line by -18.86% 22.59%,arc by -4.74% 2.37% of 6.79% 8.33% small cw,hline to 6.79%,curve to 0% 91.67% with 3.04% 100%/0% 96.27%,vline to 35.57%,arc by 2.05% -5.97% of 6.79% 8.33% small cw,line by 22.74% -27.24%,arc to 29.53% 0% of 6.79% 8.33% small cw,hline to 93.21%,curve to 100% 8.33% with 96.96% 0%/100% 3.73%,close);
+    background: linear-gradient(60deg in hsl, #d75252, #852b4f);
+}
+
+
+
+/* --- Marquee Carousel Section --- */
+.mommentoocoraseel-sectts {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 30px 0;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff;
+    position: relative;
+    display: flex;
+}
+
+.marquee-content {
+    display: flex;
+    animation: scroll-marquee 15s linear infinite;
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.marquee-content span {
+    padding-right: 20px;
+}
+
+@keyframes scroll-marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+/* --- Timeless Section Layout --- */
+.timeless-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px 40px;
+}
+
+/* --- Left Column: Staggered Images --- */
+.timelessclas-sectionone {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.timelessclasse-imagessec {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.timelessclasse-imagestre-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: -10px; /* Offset to align top text with first image */
+}
+
+/* Your custom clip-paths */
+.classe-imagessec {
+    width: 315px;
+    height: 257px;
+    aspect-ratio: 1.228;
+    clip-path: shape(from 0% 69.08%,arc by 2.05% 5.97% of 6.79% 8.33% small ccw,line by 18.86% 22.59%,arc by 4.74% 2.37% of 6.79% 8.33% small ccw,hline by 67.57%,curve by 6.79% -8.33% with 3.75% 0%/6.79% -3.73%,vline to 35.57%,arc by -2.05% -5.97% of 6.79% 8.33% small ccw,line by -22.74% -27.24%,arc to 70.47% 0% of 6.79% 8.33% small ccw,hline to 6.79%,curve to 0% 8.33% with 3.04% 0%/0% 3.73%,close);
+    background: linear-gradient(60deg in hsl, #d75252, #852b4f);
+}
+
+.classe-imagesetre {
+    width: 315px;
+    height: 257px;
+    aspect-ratio: 1.228;
+    clip-path: shape(from 100% 69.08%,arc by -2.05% 5.97% of 6.79% 8.33% small cw,line by -18.86% 22.59%,arc by -4.74% 2.37% of 6.79% 8.33% small cw,hline to 6.79%,curve to 0% 91.67% with 3.04% 100%/0% 96.27%,vline to 35.57%,arc by 2.05% -5.97% of 6.79% 8.33% small cw,line by 22.74% -27.24%,arc to 29.53% 0% of 6.79% 8.33% small cw,hline to 93.21%,curve to 100% 8.33% with 96.96% 0%/100% 3.73%,close);
+    background: linear-gradient(60deg in hsl, #d75252, #852b4f);
+}
+
+/* Left Column Typography */
+.image-caption {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.caption-icon {
+    color: #e67e22; /* Matches the orange asterisk in the image */
+    font-size: 1.5rem;
+}
+
+.description-text {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.5;
+    max-width: 250px;
+    margin: 0;
+}
+
+
+/* --- Right Column: Accordion --- */
+.timelessclas-sectiontwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.accordion-list {
+    width: 100%;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #eaeaea;
+    padding: 25px 0;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.acc-title {
+    font-weight: 500;
+    font-size: 1.05rem;
+}
+
+.acc-year {
+    color: #888;
+    margin-left: 5px;
+    font-size: 0.9rem;
+}
+
+.arrow-btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #555;
+    transition: all 0.3s ease;
+}
+
+.arrow-btn:hover {
+    background: #f5f5f5;
+}
+
+/* Active Accordion State */
+.accordion-item.active {
+    padding-bottom: 40px;
+}
+
+.active-title-wrap {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.globe-icon {
+    width: 40px;
+    height: 40px;
+    background: #1a1a1a;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.accordion-content {
+    display: none;
+    margin-top: 20px;
+    padding-left: 55px; /* Aligns with the text next to the globe */
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+    animation: fadeIn 0.4s ease forwards;
+}
+
+.accordion-content p {
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 380px;
+}
+
+.get-started-btn {
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: 1px solid #1a1a1a;
+    background: transparent;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.get-started-btn:hover {
+    background: #1a1a1a;
+    color: #fff;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+
+.momento-footer {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    padding: 80px 40px 0 40px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    overflow: hidden;
+}
+
+/* --- TOP SECTION --- */
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 60px;
+    max-width: 1300px;
+    margin: 0 auto 50px auto;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.social-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid #333333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-decoration: none;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.social-btn svg {
+    width: 18px;
+    height: 18px;
+}
+
+.social-btn:hover {
+    border-color: #ffffff;
+    background-color: #1a1a1a;
+}
+
+/* Contact Details */
+.contact-details p {
+    margin: 0 0 16px 0;
+    color: #cccccc;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.contact-details a {
+    color: #cccccc;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.contact-details a:hover {
+    color: #ffffff;
+}
+
+/* Nav Columns */
+.footer-nav-grid {
+    display: flex;
+    gap: 80px;
+}
+
+.nav-column h4 {
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    color: #888888;
+    margin: 0 0 24px 0;
+    font-weight: 500;
+}
+
+.nav-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-column li {
+    margin-bottom: 14px;
+}
+
+.nav-column a {
+    color: #cccccc;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color 0.2s ease;
+}
+
+.nav-column a:hover {
+    color: #ffffff;
+}
+
+/* --- DIVIDER WITH BUTTON --- */
+.footer-divider {
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto 40px auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer-divider .line {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #282828;
+    margin: 0;
+}
+
+.get-started-btn {
+    position: absolute;
+    right: 0;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 24px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.get-started-btn:hover {
+    background-color: #e6e6e6;
+    transform: scale(1.03);
+}
+
+/* --- MIDDLE SECTION --- */
+.footer-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1300px;
+    margin: 0 auto 40px auto;
+}
+
+.footer-blurb p {
+    max-width: 380px;
+    color: #a1a1a1;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.footer-legal {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-legal a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    transition: opacity 0.2s ease;
+}
+
+.footer-legal a:hover {
+    opacity: 0.7;
+}
+
+/* --- GIANT OVERSIZED TYPOGRAPHY --- */
+.footer-big-text {
+    width: 100%;
+    white-space: nowrap;
+    user-select: none;
+    margin-top: -20px;
+}
+
+.footer-big-text span {
+    display: block;
+    font-size: 19vw;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+    line-height: 0.75;
+    color: #ffffff;
+    transform: translateX(-4%); /* Creates the off-screen crop alignment */
+}
+
+
+
+
+/* ==========================================================================
+   ANIMATIONS & REVEALS
+   ========================================================================== */
+
+/* 1. Hero Load Animation (Fades up immediately on page load) */
+.hero-animate {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+/* Stagger delays for a cascading load effect */
+.delay-1 { animation-delay: 0.2s; }
+.delay-2 { animation-delay: 0.4s; }
+.delay-3 { animation-delay: 0.6s; }
+.delay-4 { animation-delay: 0.8s; }
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* 2. Scroll Reveal Utility (Fades up when scrolled into view) */
+.reveal {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 3. Subtle Image Zoom on Hover (Apply to image containers) */
+.featured-card img, 
+.small-card img, 
+.cateeegrid-left img, 
+.cateeegrid-right img,
+.otherssse-carry img,
+.jonsnn-cutoutssec img {
+    transition: transform 0.7s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.featured-card:hover img, 
+.small-card:hover img, 
+.cateeegrid-left:hover img, 
+.cateeegrid-right:hover img,
+.otherssse-carry:hover img,
+.jonsnn-cutoutssec:hover img {
+    transform: scale(1.05);
+}
+
+
+
+
+/* Special Load Animation for the Centered Hero Image */
+.hero-image-animate {
+    opacity: 0;
+    /* Starts shifted down, but keeps the -50% centering */
+    transform: translateX(-50%) translateY(30px);
+    animation: fadeUpCentered 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+@keyframes fadeUpCentered {
+    to {
+        opacity: 1;
+        /* Slides up to 0, while maintaining the -50% centering */
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+
+
+/* --- RESPONSIVE ADJUSTMENTS --- */
+@media (max-width: 768px) {
+    .momento-footer {
+        padding: 50px 20px 0 20px;
+    }
+    .footer-nav-grid {
+        gap: 40px;
+    }
+    .footer-middle {
+        flex-direction: column;
+    }
+    .footer-legal {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   2. TABLET RESPONSIVENESS (max-width: 1024px)
+   ========================================================================== */
+
+@media (max-width: 1024px) {
+    .collection-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 40px;
+    }
+
+    .collection-left,
+    .collection-center,
+    .collection-right {
+        grid-area: auto;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .categries-section {
+        flex-direction: column;
+        padding: 60px 5vw;
+    }
+
+    .zoomout-categoryselect,
+    .categorygrid-sec {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .testimonial-mini-section {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .testimpart-unoone,
+    .testimpart-twoone,
+    .testimpart-threone,
+    .testimpart-fourone {
+        grid-area: auto;
+        padding: 20px 0;
+    }
+}
+
+/* ==========================================================================
+   3. MOBILE RESPONSIVENESS (max-width: 768px)
+   ========================================================================== */
+
+@media (max-width: 768px) {
+    header {
+        padding: 16px 20px;
+    }
+
+    .header-contact-info,
+    .header-follow-us {
+        display: none; /* Simplifies navbar for mobile screens */
+    }
+
+    .hero-section-header-content {
+        flex-direction: column;
+    }
+
+    .hero-section-header-content h2 {
+        font-size: clamp(2.5rem, 10vw, 4.5rem);
+    }
+
+    .hero-section-body {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /* .hero-section-image {
+        position: relative;
+        left: 0;
+        transform: none;
+        width: 100%;
+        margin-top: 20px;
+    } */
+
+    .featured-card,
+    .small-card,
+    .jonsnn-cutoutssec {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1.2;
+    }
+
+    .othersssections {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 20px;
+    }
+
+    .otherssseddgs {
+        flex-direction: column;
+    }
+
+    .timeless-section {
+        grid-template-columns: 1fr;
+        padding: 40px 20px;
+    }
+
+    .timelessclas-sectionone {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 1024px) {
+    .timeless-section {
+        grid-template-columns: 1fr;
+    }
+    .timelessclas-sectionone {
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    /* ==========================================================================
+       1. ABOUT SECTION FIX (Prevents right-shifting)
+       ========================================================================== */
+    .about-section {
+        padding: 60px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Forces content to the left edge */
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    /* Reset any large desktop margins on inner elements pushing content right */
+    .about-section > div, 
+    .about-section h2, 
+    .about-section p {
+        margin-left: 0 !important; 
+        width: 100%;
+    }
+
+    /* ==========================================================================
+       2. OTHER SECTIONS FIX (Letting it breathe)
+       ========================================================================== */
+    .othersssections {
+        padding: 40px 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    /* Force the inner cards to take full available width instead of squeezing */
+    .otherssseddgs, 
+    .featured-card, 
+    .small-card {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto 20px auto; /* Removes heavy side margins */
+    }
+
+    /* ==========================================================================
+       3. TIMELESS CLASSICS FIX (Left and Right alignment)
+       ========================================================================== */
+    .timeless-section {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 50px; /* Space between section one and two */
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .timelessclas-sectionone {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Aligns items to the left */
+        text-align: left;
+        width: 100%;
+    }
+
+    .timelessclas-sectiontwo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end; /* Aligns items to the right */
+        text-align: right;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    /* ==========================================================================
+       1. OVERLAP FIX (Stops the white section from cutting off text)
+       ========================================================================== */
+    .hero-section {
+        position: relative; /* Required to position the image inside it */
+        height: auto !important; /* Lets the container grow to fit all the text */
+        min-height: 100vh;
+        overflow: visible;
+        padding-bottom: 40px; 
+    }
+
+    /* Pushes the trust section naturally below the content */
+    .trust-section {
+        position: relative;
+        margin-top: 0; 
+        z-index: 10;
+        display: block;
+        width: 100%;
+    }
+
+    /* ==========================================================================
+       2. HERO IMAGE BOTTOM-RIGHT PLACEMENT
+       ========================================================================== */
+    .hero-section-body {
+        position: relative;
+        z-index: 3;
+        padding-bottom: 140px; /* Creates an empty pocket of space for the image to sit in so it doesn't cover text */
+    }
+
+    .hero-section-image {
+        display: block !important; /* Brings the image back if it was hidden */
+        position: absolute;
+        bottom: 0px; 
+        left: 20px; 
+        width: 45vw; /* Keeps it proportionate on smaller screens */
+        max-width: 180px; 
+        margin: 0;
+        transform: none !important; /* Wipes out any desktop repositioning */
+        z-index: 3; /* Keeps it behind the text but visible */
+        width: 60vw !important;      /* Bump up viewport width (was 45vw) */
+        max-width: 240px !important;  /* Raise maximum size limit */
+        height: auto !important;
+    }
+
+
+    .hero-section-image img {
+        width: 100%;
+        height: auto;                /* Prevents vertical stretching */
+        object-fit: cover;           /* Ensures full fill without distortion */
+        display: block;
+    }
+
+    /* 3. Increase bottom padding on the body so the bigger image has space */
+    .hero-section-body {
+        padding-bottom: 180px;       /* Gives the larger image extra room */
+    }
+
+    
+}

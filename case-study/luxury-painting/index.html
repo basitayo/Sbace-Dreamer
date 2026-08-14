@@ -24,20 +24,7 @@
             </a>
             <nav class="nav-links">
                 <!-- Dropdown Container -->
-                <div class="dropdown">
-                    <a href="/index.html#work" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
-                        <span data-i18n="nav.work">Work</span> 
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top: 2px;"><path d="m6 9 6 6 6-6"></path></svg>
-                    </a>
-                    
-                    <!-- Dropdown Menu -->
-                    <div class="dropdown-menu">
-                        <a href="/case-study-one/" data-i18n="nav.dropdown.residential">Modern Residential Website</a>
-                        <a href="/case-study-two/" data-i18n="nav.dropdown.luxury">Premium Luxury Platform</a>
-                        <a href="/case-study-three/" data-i18n="nav.dropdown.commercial">Commercial Conversion Page</a>
-                    </div>
-                </div>
-
+                <a href="/work/" data-i18n="nav.work">Selected Work</a>
                 <a href="/services/" data-i18n="nav.services">Services</a>
                 <a href="/about/" data-i18n="nav.about">About</a>
                 <a href="/contact/" data-i18n="nav.contact">Contact</a>
@@ -45,6 +32,98 @@
             <a href="/contact/" class="nav-links" style="font-weight: 600; color: var(--accent);" data-i18n="[html]nav.letsTalk">Let's Talk &rarr;</a>
         </div>
     </header>
+
+    <!-- ========================================== -->
+    <!-- CASE STUDY 2: PREMIUM LUXURY PLATFORM      -->
+    <!-- ========================================== -->
+    <article class="case-study-wrapper">
+        
+        <!-- Case Study Header -->
+        <header class="cs-hero container fade-up">
+            <div class="cs-intro-grid">
+                <div class="cs-title-col">
+                    <span class="cs-num">07</span>
+                    <h1 class="h-hero" style="margin-bottom: 8px;" data-i18n="cs2Page.hero.title">Premium Luxury Platform</h1>
+                    <span class="cs-industry" data-i18n="cs2Page.hero.tag">Luxury / Lifestyle</span>
+                </div>
+                <div class="cs-desc-col">
+                    <p class="p-large" data-i18n="cs2Page.hero.desc">A sophisticated digital environment crafted to mirror the exclusivity of a high-end brand, utilizing seamless interactions to create an immersive browsing experience.</p>
+                </div>
+            </div>
+
+            <div class="cs-meta">
+                <div class="cs-meta-item">
+                    <span class="cs-label" data-i18n="global.role">Role</span>
+                    <p data-i18n="[html]cs2Page.meta.roleValue">UI/UX Design<br>Interactive Design<br>Front-end Development</p>
+                </div>
+                <div class="cs-meta-item">
+                    <span class="cs-label" data-i18n="global.projectType">Project Type</span>
+                    <p data-i18n="cs2Page.meta.typeValue">Brand Experience / E-Commerce</p>
+                </div>
+                <div class="cs-meta-item">
+                    <span class="cs-label" data-i18n="global.liveLink">Live Link</span>
+                    <a href="#" class="proj-link" data-i18n="[html]global.viewLiveProject">View live project <span class="arrow">→</span></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Hero Visual -->
+        <div class="container fade-up">
+            <div class="cs-main-visual">
+                <!-- Be sure to update this image filename to your luxury mockup -->
+                <img src="/assets/images/luxurp1.png" alt="Luxury Project Preview">
+            </div>
+        </div>
+
+        <!-- Editorial Content Grid -->
+        <section class="cs-content container fade-up">
+            <div class="cs-text-row">
+                <div class="cs-label-col"><h3 class="cs-label" data-i18n="global.theChallenge">The Challenge</h3></div>
+                <div class="cs-copy-col">
+                    <p class="p-base" data-i18n="cs2Page.article.challengeText">The brand was struggling with a cookie-cutter template that diluted their premium positioning. They needed a bespoke digital storefront that felt as tactile and refined as their physical products, designed to captivate a high-ticket audience.</p>
+                </div>
+            </div>
+
+            <div class="cs-text-row">
+                <div class="cs-label-col"><h3 class="cs-label" data-i18n="global.theDirection">The Direction</h3></div>
+                <div class="cs-copy-col">
+                    <p class="p-base" data-i18n="cs2Page.article.directionText">We prioritized a strict, elegant visual hierarchy paired with modern web effects. By integrating subtle glass blur dews on navigation elements and ultra-smooth scroll transitions, the interface gets out of the way and lets the product photography shine.</p>
+                </div>
+            </div>
+
+            <div class="cs-text-row">
+                <div class="cs-label-col"><h3 class="cs-label" data-i18n="global.theResult">The Result</h3></div>
+                <div class="cs-copy-col">
+                    <p class="p-base" data-i18n="cs2Page.article.resultText">A mesmerizing, high-performance platform that elevates the brand's perception. The updated architecture not only engages users longer but significantly reduces bounce rates among international luxury buyers.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Extended Visual Showcase -->
+        <!-- <section class="cs-gallery container">
+            <div class="cs-image-row fade-up">
+                <img src="../assets/images/luxury-detail1.jpg" alt="Luxury Layout Detail">
+            </div>
+            <div class="cs-image-split fade-up">
+                <img src="../assets/images/luxury-mobile1.jpg" alt="Luxury Mobile View">
+                <img src="../assets/images/luxury-mobile2.jpg" alt="Luxury Mobile View">
+            </div>
+            <div class="cs-image-row fade-up">
+                <img src="../assets/images/luxury-typography.jpg" alt="Luxury Typography Detail">
+            </div>
+        </section> -->
+
+        <!-- Next Project Navigation -->
+        <section class="cs-next container fade-up">
+            <span class="cs-label" data-i18n="global.nextProject">Next Project</span>
+            <a href="/case-study/commercial-painting/" class="cs-next-link">
+                <h2 class="h-hero" data-i18n="cs2Page.next.title">Global Commercial Hub</h2>
+                <span class="arrow">→</span>
+            </a>
+        </section>
+
+    </article>
+
 
     <!-- 2. Centered Case Study Hero (Upgraded Layout) -->
     <section class="cs-hero container" style="text-align: center; padding-top: 170px;">
@@ -76,7 +155,7 @@
     <!-- 3. Full Width Feature Image with Alt Background -->
     <section class="cs-full-image" style="transition-delay: 0.2s; background-color: var(--bg-alt); padding-top: 80px;">
         <div class="container">
-            <a href="/luxury/" target="_blank" rel="noopener" class="image-wrapper" style="box-shadow: 0 20px 40px rgba(0,0,0,0.08);">
+            <a href="/assets/case-study-sites/luxury/" target="_blank" rel="noopener" class="image-wrapper" style="box-shadow: 0 20px 40px rgba(0,0,0,0.08);">
                 <img src="/assets/images/luxurypage.jpg" alt="Luxury Home Painting Website Full Capture">
                 <span class="overlay-badge">
                     <span style="width: 8px; height: 8px; background-color: var(--accent); border-radius: 50%; display: inline-block;"></span>

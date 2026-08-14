@@ -1,0 +1,1043 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+}
+header{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+header section{
+    width: 50%;
+    padding: 10px;
+}
+
+.hee-secct-onnne{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.nav-links img{
+    width: 100%;
+    max-width: 100px;
+}
+.nav-links a{
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: #767676;
+}
+
+.elevvvavat-sesdon{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: 40px;
+}
+
+.elevvvavat-sesdon h1{
+    width: 100%;
+    max-width: 500px;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+.boookkssnooow{
+    width: 100%;
+    max-width: 120px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    font-weight: 1000;
+    color: #fff;
+    background-color: #1e1e1e;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.boookkssnooow:hover{
+    border: 2px solid #1e1e1e;
+    color: #1e1e1e;
+    background-color: #fff;
+}
+
+
+
+.hee-secct-twwowo{
+    background-image: url(images/model-with-afro-hairstyle.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.hee-secct-twwowo h3{
+    width: 100%;
+    max-width: 300px;
+    color: #fff;
+    font-size: 3rem;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.maiunder-sec-cone{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 100px; */
+    background-color: #141414;
+    align-items: center;
+    border-top: 1px solid #fff;
+
+}
+
+.firstundsssectone{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.firstundsssectone h4{
+    width: 100%;
+    max-width: 300px;
+    color: #fff;
+    font-size: 2.7rem;
+}
+.firstundsssectone p{
+    color: #e1e1e1;
+    line-height: 1.3em;
+}
+
+.whiteebooknoss{
+    width: 100%;
+    max-width: 120px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    font-weight: 1000;
+    color: #1e1e1e;
+    background-color: #fff;
+    border: 2px solid #1e1e1e;
+    cursor: pointer;
+}
+
+.whiteebooknoss:hover{
+    color: #fff;
+    background-color: #1e1e1e;
+    border: 2px solid #fff;
+}
+
+.immagegrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* grid-column-gap: 0px;
+    grid-row-gap: 0px; */
+    gap: 10px;
+    width: 100%;
+    max-width: 520px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 4 / 3; 
+    height: 100%;
+    width: 100%;
+    max-height: 450px;
+    max-width: 400px;
+}
+
+.div2 {
+    grid-area: 1 / 3 / 3 / 4;
+    height: 100%;
+    width: 100%;
+    max-height: 300px;
+    max-width: 200px;
+}
+.div3 {
+    grid-area: 3 / 3 / 4 / 4;
+    height: 100%;
+    width: 100%; 
+    max-height: 140px;
+    max-width: 200px;
+}
+.immagegrid img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.maiunder-sec-two{
+    display: flex;
+    height: 60vh;
+}
+
+.maiunder-sec-two .sprayimmansn, .maiunder-sec-two .theportfososd-text{
+    width: 50%;
+}
+
+.sprayimmansn{
+    background-image: url(images/woman-washing-head-hairsalon\ 1.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.theportfososd-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 150px;
+}
+
+.thshsgd-oppodod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thshsgd-oppodod h4, .hairstylisisd-rev p{
+    font-size: 2.7rem;
+}
+
+.smallashhdjhahd{
+    display: flex;
+    gap: 230px;
+}
+small{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.maiunder-sec-three{
+    display: flex;
+    height: 60vh;
+}
+
+.maiunder-sec-three section{
+    width: 50%;
+}
+
+.sppsdodoi-spring{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sppsdodoi-spring img{
+    height: 250px;
+    width: 400px;
+    object-fit: cover;
+    margin-left: 100px;
+}
+.tecxeffef{
+    display: flex;
+    align-items: end;
+    justify-content: right;
+}
+.tecxeffef p{
+    text-align: right;
+    width: 100%;
+    max-width: 400px;
+    font-size: 0.7rem;
+    line-height: 1.3em;
+}
+
+.productimaggsgs{
+    background-image: url(images/cosmetic-male-beauty-products-with-display\ 1.jpg);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.ourprodudyfuhfg{
+    display: flex;
+    flex-direction: column;
+}
+
+.ourprodudyfuhfg p{
+    font-size: 2.7rem;
+}
+
+.maiunder-sec-four{
+    height: 130vh;
+    padding: 100px 200px;
+    position: relative;
+    background-color: #000000;
+    
+}
+
+#cssportal-grid {
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-columns: repeat(4, 1fr);
+	gap: 10px;
+	width: 100%;
+	height: 100%;
+}
+#divvve1 {
+	grid-area: 1 / 1 / 3 / 3;
+	background-image: url(images/happy-woman-with-curly-hair-smiling\ 1.jpg);
+    background-size: cover;
+}
+#divvve2 {
+	grid-area: 1 / 3 / 2 / 5;
+	background-image: url(images/woman-washing-head-hairsalon\ 1.jpg);
+    background-size: cover;
+}
+#divvve3 {
+	grid-area: 3 / 1 / 4 / 3;
+	background-image: url(images/woman-does-haircut\ 1.jpg);
+    background-size: cover;
+}
+#divvve4 {
+	grid-area: 2 / 3 / 4 / 4;
+	background-image: url(images/woman-getting-treatment-hairdresser-shop\ 1.jpg);
+    background-size: cover;
+}
+#divvve5 {
+	grid-area: 2 / 4 / 4 / 5;
+	background-image: url(images/hairdresser-washing-woman-s-hair\ 1.jpg);
+    background-size: cover;
+}
+
+.oursseesrrsr h2{
+    font-size: 5rem;
+    color: #fff;
+}
+
+.oursseesrrsr{
+    z-index: 1;
+    position: absolute;
+    left: 35%;
+    top: 50px;
+}
+
+.bsbsbndsnzbn button{
+    z-index: 1;
+    position: absolute;
+    bottom: 80px;
+    left: 46%;
+}
+
+.craasadd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+h4{
+    font-size: 2.7rem;
+}
+
+.maiunder-sec-five{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    gap: 50px;
+}
+
+.pasdfdfgs-one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.teddecve{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hsgdhgsdhg{
+    line-height: 1.3em;
+}
+.hsgdhgsdhg p{
+    font-size: 0.7rem;
+    color: #767676;
+}
+
+.seccec-table-seeffe{
+    border: 1px solid #000;
+}
+
+.csdgcnov-title{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    /* border: 1px solid #ddd; */
+    width: 45px;
+    height: 45px;
+    text-align: center;
+
+}
+
+td button, th button{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+td button:hover{
+    background-color: gray;
+    color: #fff;
+}
+
+
+.maiunder-sec-six{
+    height: 60vh;
+    background-image: url(images/Group\ 54.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.maiunder-sec-seven{
+    height: 60vh;
+    overflow: hidden;
+}
+
+.mappsectstt iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    gap: 50px;
+    background-color: #0A0A0A;
+    color: #fff;
+}
+
+.fooodttddfnavlinks{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.fooodttddfnavlinks nav{
+    display: flex;
+    gap: 50px;
+}
+
+.fooodttddfnavlinks a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    font-size: 0.7rem;
+}
+
+.hgjsdjh{
+    position: relative;
+}
+
+.gfggs-parent{
+    display: grid;
+    /* grid-template-rows: repeat(2, 1fr); */
+	grid-template-columns: repeat(3, 200px);
+	gap: 5px;
+	/* width: 100%; */
+	height: 200px;
+    
+}
+
+
+
+.diiiirf1{
+    grid-area: 1 / 1 / 2 / 2;
+    background-image: url(images/hairdresser-washing-woman-s-hair\ 1.jpg);
+    background-size: cover;
+}
+
+.diiiirf2{
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url(images/cosmetic-male-beauty-products-with-display\ 1.jpg);
+    background-size: cover;
+}
+
+.diiiirf3{
+    grid-row: 1 / 3 / 2 / 4;
+    background-image: url(images/woman-washing-head-hairsalon\ 1.jpg);
+    background-size: cover;
+}
+
+.shhjvdsjhdsb button{
+    position: absolute;
+    z-index: 1;
+    top: -20px;
+    left: 40%;
+}
+
+.alllaskjrighgts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+/* CHATGPT CODE */
+td button{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+td button:hover{
+    background-color: #8d8d8d;
+    color: #fff;
+}
+
+.active-date{
+    background-color: #000 !important;
+    color: #fff;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+/* ANIMATIONS SIDE */
+
+html{
+    scroll-behavior: smooth;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.elevvvavat-sesdon,
+.firstundsssectone,
+.immagegrid,
+.theportfososd-text,
+.sppsdodoi-spring,
+.oursseesrrsr,
+.pasdfdfgs-one,
+.seccec-table-seeffe,
+.fooodttddfnavlinks,
+.gfggs-parent{
+    animation: fadeUp 1s ease;
+}
+
+
+
+.immagegrid div,
+#cssportal-grid div,
+.gfggs-parent div{
+    overflow: hidden;
+}
+
+.immagegrid img,
+#cssportal-grid div,
+.gfggs-parent div{
+    transition: transform 0.6s ease;
+}
+
+.immagegrid img:hover,
+#cssportal-grid div:hover,
+.gfggs-parent div:hover{
+    transform: scale(1.06);
+}
+
+
+
+.nav-links a,
+.fooodttddfnavlinks a{
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.nav-links a::after,
+.fooodttddfnavlinks a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0%;
+    height: 1px;
+    background-color: #000;
+    transition: width 0.4s ease;
+}
+
+.fooodttddfnavlinks a::after{
+    background-color: #fff;
+}
+
+.nav-links a:hover::after,
+.fooodttddfnavlinks a:hover::after{
+    width: 100%;
+}
+
+
+
+.boookkssnooow{
+    width: 100%;
+    max-width: 120px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    font-weight: 1000;
+    color: #fff;
+    background-color: #1e1e1e;
+    border: 2px solid #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s ease;
+    z-index: 1;
+}
+
+.boookkssnooow::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.6s ease, height 0.6s ease;
+    z-index: -1;
+}
+
+.boookkssnooow:hover::before{
+    width: 300px;
+    height: 300px;
+}
+
+.boookkssnooow:hover{
+    color: #000;
+    border: 2px solid #000;
+    transform: translateY(-3px);
+}
+
+
+.whiteebooknoss{
+    width: 100%;
+    max-width: 120px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    font-weight: 1000;
+    color: #1e1e1e;
+    background-color: #fff;
+    border: 2px solid #1e1e1e;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: 0.4s ease;
+    z-index: 1;
+}
+
+.whiteebooknoss::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    background-color: #000;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: width 0.6s ease, height 0.6s ease;
+    z-index: -1;
+}
+
+.whiteebooknoss:hover::before{
+    width: 300px;
+    height: 300px;
+}
+
+.whiteebooknoss:hover{
+    color: #fff;
+    border: 2px solid #fff;
+    transform: translateY(-3px);
+}
+
+
+.active-date{
+    background-color: #000 !important;
+    color: #fff;
+    border-radius: 50%;
+    animation: popDate 0.3s ease;
+}
+
+@keyframes popDate{
+    0%{
+        transform: scale(0.7);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
+
+
+.elevvvavat-sesdon h1{
+    animation: heroText 1.2s ease;
+}
+
+@keyframes heroText{
+    from{
+        opacity: 0;
+        transform: translateY(60px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+
+
+/* ========================= */
+/* RESPONSIVE DESIGN */
+/* ========================= */
+
+
+/* TABLETS */
+@media(max-width: 1024px){
+
+    header{
+        flex-direction: column;
+        height: auto;
+    }
+
+    header section{
+        width: 100%;
+        min-height: 70vh;
+    }
+
+    .hee-secct-onnne{
+        margin-bottom: 0;
+        padding: 30px;
+    }
+
+    .elevvvavat-sesdon{
+        margin-left: 0;
+    }
+
+    .elevvvavat-sesdon h1{
+        font-size: 4rem;
+        max-width: 700px;
+    }
+
+    .maiunder-sec-cone{
+        flex-direction: column;
+        height: auto;
+        gap: 50px;
+        padding: 60px 30px;
+    }
+
+    .firstundsssectone{
+        max-width: 100%;
+    }
+
+    .immagegrid{
+        max-width: 100%;
+    }
+
+    .maiunder-sec-two{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .maiunder-sec-two .sprayimmansn,
+    .maiunder-sec-two .theportfososd-text{
+        width: 100%;
+    }
+
+    .sprayimmansn{
+        height: 400px;
+    }
+
+    .theportfososd-text{
+        padding: 50px 20px;
+        gap: 70px;
+    }
+
+    .maiunder-sec-three{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .maiunder-sec-three section{
+        width: 100%;
+    }
+
+    .sppsdodoi-spring img{
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .productimaggsgs{
+        min-height: 400px;
+    }
+
+    .maiunder-sec-four{
+        height: auto;
+        padding: 120px 30px;
+    }
+
+    .oursseesrrsr{
+        position: static;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .oursseesrrsr h2{
+        font-size: 4rem;
+    }
+
+    .bsbsbndsnzbn button{
+        position: static;
+        margin-top: 30px;
+    }
+
+    .maiunder-sec-five{
+        flex-direction: column;
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    footer{
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .fooodttddfnavlinks{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .fooodttddfnavlinks nav{
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+
+/* MOBILE */
+@media(max-width: 768px){
+
+    .nav-links{
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .nav-links img{
+        max-width: 80px;
+    }
+
+    .elevvvavat-sesdon{
+        align-items: center;
+        text-align: center;
+    }
+
+    .elevvvavat-sesdon h1{
+        font-size: 2.8rem;
+        line-height: 1em;
+    }
+
+    .hee-secct-twwowo{
+        align-items: center;
+        padding: 20px;
+    }
+
+    .hee-secct-twwowo h3{
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    h4{
+        font-size: 2rem;
+    }
+
+    .thshsgd-oppodod h4,
+    .hairstylisisd-rev p,
+    .ourprodudyfuhfg p{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .smallashhdjhahd{
+        gap: 100px;
+        justify-content: center;
+    }
+
+    .tecxeffef p{
+        text-align: center;
+    }
+
+    .sppsdodoi-spring{
+        gap: 30px;
+    }
+
+    #cssportal-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 250px);
+        height: auto;
+    }
+
+    #divvve1,
+    #divvve2,
+    #divvve3,
+    #divvve4,
+    #divvve5{
+        grid-area: auto;
+    }
+
+    .craasadd{
+        text-align: center;
+    }
+
+    .oursseesrrsr h2{
+        font-size: 2.8rem;
+    }
+
+    .pasdfdfgs-one{
+        width: 100%;
+    }
+
+    .pasdfdfgs-two{
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    table{
+        min-width: 500px;
+    }
+
+    .maiunder-sec-six,
+    .maiunder-sec-seven{
+        height: 40vh;
+    }
+
+    .gfggs-parent{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .diiiirf1,
+    .diiiirf2,
+    .diiiirf3{
+        min-height: 200px;
+    }
+
+    .shhjvdsjhdsb button{
+        position: static;
+        margin-top: 20px;
+    }
+
+    .alllaskjrighgts{
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .alllaskjrighgts p{
+        font-size: 0.7rem;
+    }
+
+}
+
+
+/* SMALL PHONES */
+@media(max-width: 480px){
+
+    .elevvvavat-sesdon h1{
+        font-size: 4rem;
+    }
+
+    .hee-secct-twwowo h3{
+        font-size: 1.6rem;
+    }
+
+    .oursseesrrsr h2{
+        font-size: 2.2rem;
+    }
+
+    h4{
+        font-size: 1.6rem;
+    }
+
+    .thshsgd-oppodod h4,
+    .hairstylisisd-rev p,
+    .ourprodudyfuhfg p{
+        font-size: 1.5rem;
+    }
+
+    .smallashhdjhahd{
+        gap: 50px;
+    }
+
+    .boookkssnooow,
+    .whiteebooknoss{
+        max-width: 100%;
+    }
+
+}

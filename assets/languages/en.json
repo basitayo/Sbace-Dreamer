@@ -9,19 +9,11 @@
   },
   "nav": {
     "work": "Work",
-    "dropdown": {
-      "residential": "Modern Residential Website",
-      "luxury": "Premium Luxury Platform",
-      "commercial": "Commercial Conversion Page"
-    },
-    "cs1": "Modern Residential Website",
-    "cs2": "Premium Luxury Platform",
-    "cs3": "Commercial Conversion Page",
     "services": "Services",
     "about": "About",
     "contact": "Contact",
-    "cta": "Let's Talk &rarr;",
-    "letsTalk": "Let's Talk &rarr;"
+    "cta": "Let's Talk →",
+    "letsTalk": "Let's Talk →"
   },
   "footer": {
     "desc": "Boutique Web Design Studio crafting premium experiences for service businesses.",
@@ -42,7 +34,8 @@
     "title": "Your Craft Is Premium. Your Website Should Be Too.",
     "subtitle": "We build clean, modern websites that earn trust, generate enquiries and make established businesses look established online.",
     "btnWork": "View My Work",
-    "btnCall": "Book a Discovery Call"
+    "btnCall": "Book a Discovery Call",
+    "tag": "Our Expertise"
   },
   "trust": {
     "label": "Trusted by established service businesses",
@@ -54,25 +47,89 @@
     "tag": "Portfolio",
     "title": "Selected<br>Work",
     "subtitle": "Recent concepts and projects designed for service contractors.",
+    "viewCase": "View Case Study",
     "case1": {
-      "industry": "Painting Contractor",
-      "title": "Modern Residential Website",
+      "industry": "Fashion / E-Commerce",
+      "title": "Sbace~D Apparel Platform",
       "feature1": "High Performance",
       "feature2": "Responsive"
     },
     "case2": {
-      "industry": "Roofing Contractor",
-      "title": "Premium Luxury Platform",
+      "industry": "Pet Care / Local Services",
+      "title": "Caramon Pet Care",
       "feature1": "SEO Optimized",
       "feature2": "Fast Loading"
     },
     "case3": {
-      "industry": "Landscaping Pro",
-      "title": "Commercial Conversion Page",
+      "industry": "Commercial Cleaning / B2B",
+      "title": "S&B Facilities",
       "feature1": "Lead Generation",
       "feature2": "Mobile First"
+    }
+  },
+
+  "workPage": {
+    "hero": {
+      "title": "Selected work.",
+      "subtitle": "A collection of websites designed to give businesses a clearer, stronger and more distinctive digital presence."
     },
-    "viewCase": "View Case Study"
+    "meta": {
+      "count": "08 projects",
+      "tags": "Web Design · UI/UX · Front-end"
+    },
+    "projects": {
+      "p1": {
+        "num": "01",
+        "category": "Fashion / E-Commerce",
+        "title": "Sbace~D Apparel Platform",
+        "desc": "An editorial-driven e-commerce experience that breaks away from rigid storefront templates, blending high-end fashion aesthetics."
+      },
+      "p2": {
+        "num": "02",
+        "category": "Pet Care / Local Services",
+        "title": "Caramon Pet Care",
+        "desc": "A warm, high-trust digital platform designed to alleviate pet owner anxiety through transparent process breakdowns."
+      },
+      "p3": {
+        "num": "03",
+        "category": "Architecture / High-End Real Estate",
+        "title": "The Precision of Living",
+        "desc": "We designed an architectural-grade web experience for luxury home developments."
+      },
+      "p4": {
+        "num": "04",
+        "category": "Commercial Cleaning / B2B",
+        "title": "S&B Facilities"
+      },
+      "p5": {
+        "num": "05",
+        "category": "Beauty / Hair Care",
+        "title": "Hair III Studio",
+        "desc": "A high-contrast, immersive digital presence that blends striking brutalist typography with a seamless booking flow."
+      },
+      "p6": {
+        "num": "06",
+        "category": "Residential / Real Estate",
+        "title": "Modern Residential Website",
+        "desc": "A refined digital experience designed to give a residential brand a more premium and contemporary presence."
+      },
+      "p7": {
+        "num": "07",
+        "category": "Luxury / Service",
+        "title": "Premium Luxury Platform",
+        "desc": "Elevating a high-end service contractor through SEO-optimized structure and immersive visual storytelling."
+      },
+      "p8": {
+        "num": "08",
+        "category": "B2B / Commercial",
+        "title": "Commercial Conversion Page"
+      }
+    },
+    "cta": {
+      "title": "Have a project in mind?",
+      "subtitle": "Let's build something worth remembering.",
+      "btn": "Let's Talk"
+    }
   },
   "statement": {
     "badge": "The Sbace Dreamer Standard",
@@ -662,8 +719,260 @@
       "desc": "Stop letting lucrative RFPs slip through the cracks due to an outdated digital footprint. Let's build a platform that converts facility managers.",
       "btn": "Book Your Strategy Call"
     }
-  }
+  },
 
+  "cs8Page": {
+    "title": "Modern Architectural Living Case Study | Sbace Dreamer",
+    "metaDesc": "How we built an architectural-grade digital platform featuring blueprint previews and spatial data to drive private viewing bookings for high-end luxury properties.",
+    "hero": {
+      "tag": "Architecture / High-End Real Estate",
+      "title": "The Precision of Living: Digital Prestige for Modern Architecture.",
+      "desc": "We designed an architectural-grade web experience for luxury home developments. Blending interactive blueprint overlays with spatial metrics and geographic mapping, the site transforms property viewing into an elevated digital experience."
+    },
+    "meta": {
+      "industryLabel": "Industry",
+      "industryValue": "Architecture & Luxury Property",
+      "servicesLabel": "Services Provided",
+      "servicesValue": "UI/UX Design, Interactive Prototyping, Front-end Development",
+      "goalLabel": "Primary Goal",
+      "goalValue": "Increase high-net-worth private viewing requests"
+    },
+    "image": {
+      "overlay": "Click to Visit Site"
+    },
+    "article": {
+      "challengeLabel": "The Challenge",
+      "challengeText": "High-end luxury real estate buyers demand more than standard photo galleries. Traditional property pages fail to communicate spatial proportion, structural craft, and location context—leaving high-net-worth buyers disconnected before they schedule a private walk-through.",
+      "directionLabel": "The Direction",
+      "directionText": "We created an interface rooted in precision engineering. By integrating floating architectural blueprint widgets directly into the hero viewport alongside key technical specs (e.g., House Area: 180 m², Line Type), buyers get immediate technical clarity. Transparent gridlines, subtle typography, and a minimalist vector map highlight geographic context without competing with the photography.",
+      "resultLabel": "The Result",
+      "resultText": "A refined, gallery-grade digital experience that commands luxury authority. By converting technical blueprints into interactive UI components, the site increased buyer session duration and doubled conversion rates for private viewing appointments (\"Book a Viewing\")."
+    },
+    "strategy": {
+      "title": "The Anatomy of Architectural Web Design",
+      "desc": "Luxury homebuyers evaluate craft through detail. The interface must communicate structural excellence and spatial elegance in every micro-interaction.",
+      "b1": {
+        "title": "Interactive Blueprint Overlays",
+        "desc": "Instead of hiding floorplans on a separate PDF link, we elevated CAD blueprints into a primary interactive element over the hero render. Users can cycle through layout variants directly on the homepage to visualize spatial flow immediately."
+      },
+      "b2": {
+        "title": "Contextual Geographic Storytelling",
+        "desc": "Location drives value. We integrated an minimalist vector map overlay that pinpoints the development's exact regional placement, framing the property within its natural and urban surroundings seamlessly."
+      },
+      "b3": {
+        "title": "Frictionless VIP Conversion",
+        "desc": "To capture qualified buyers, we implemented a persistent, minimalist \"Book a Viewing\" call-to-action in the upper navigation, paired with subtle interactive triggers across all architectural visual displays."
+      }
+    },
+    "statement": {
+      "badge": "The Result",
+      "quote": "“When digital presentation mirrors <span class=\"quote-accent\">architectural precision</span>, properties sell themselves.”"
+    },
+    "cta": {
+      "title": "Ready to showcase your architectural developments?",
+      "desc": "Stop presenting million-dollar properties with average templates. Let's build a bespoke digital showcase that captivates high-net-worth buyers.",
+      "btn": "Book Your Discovery Call"
+    }
+  },
+  "cs7Page": {
+    "title": "S&B Facilities Case Study | Sbace Dreamer",
+    "metaDesc": "How we engineered an enterprise-grade digital platform for a commercial cleaning service to capture high-value B2B contracts.",
+    "hero": {
+      "tag": "Commercial Cleaning / B2B",
+      "title": "Engineered for Enterprise: Scaling a B2B Facility Brand.",
+      "desc": "We developed a highly structured, conversion-focused platform for S&P Facilities. By emphasizing authoritative trust signals, process transparency, and industry-specific landing zones, the site positions them as the definitive enterprise choice."
+    },
+    "meta": {
+      "industryLabel": "Industry",
+      "industryValue": "Facility Management",
+      "servicesLabel": "Services Provided",
+      "servicesValue": "B2B Web Design, UX Strategy, Conversion Optimization",
+      "goalLabel": "Primary Goal",
+      "goalValue": "Increase qualified enterprise RFPs"
+    },
+    "image": {
+      "overlay": "Click to Visit Site"
+    },
+    "article": {
+      "challengeLabel": "The Challenge",
+      "challengeText": "Commercial cleaning is a highly competitive B2B space where facility managers prioritize reliability and scale. S&P Facilities needed a digital presence that moved beyond a basic brochure and functioned as an enterprise-grade lead generation engine, capable of capturing high-value contracts across diverse industries.",
+      "directionLabel": "The Direction",
+      "directionText": "We anchored the design in trust and operational clarity, utilizing a crisp blue-and-white corporate palette. The layout was deliberately structured to guide facility managers through a logical decision-making process: presenting upfront social proof, mapping out clear service timelines, and offering dedicated \"Industries We Serve\" portals to demonstrate specialized expertise.",
+      "resultLabel": "The Result",
+      "resultText": "A highly authoritative, conversion-optimized platform. The clear UX architecture and strategically placed trust signals drastically reduced bounce rates, resulting in a significant increase in qualified Requests for Proposal (RFPs) from large-scale corporate clients."
+    },
+    "strategy": {
+      "title": "The Anatomy of B2B Lead Generation",
+      "desc": "When targeting enterprise facility managers, aesthetic appeal must be matched by logistical clarity. The site must prove capacity, compliance, and capability within the first 10 seconds of a visit.",
+      "b1": {
+        "title": "Authoritative Social Proof",
+        "desc": "Corporate clients mitigate risk by choosing established vendors. We engineered a highly visible stats ribbon—\"5500+ Happy Clients\" and \"99% Satisfaction\"—immediately below the hero fold. This instant injection of data-backed trust prevents immediate bounce and validates their enterprise capacity."
+      },
+      "b2": {
+        "title": "Demystifying Operations",
+        "desc": "Facility managers need to know how a vendor operates before picking up the phone. We integrated a sleek, vertical \"Process Timeline\" that maps out onboarding step-by-step. By showing a structured, professional methodology, we positioned S&P Facilities as a highly organized partner."
+      },
+      "b3": {
+        "title": "Industry-Specific Portals",
+        "desc": "A warehouse has different cleaning requirements than a retail storefront. We built an \"Industries We Serve\" grid that acts as personalized landing zones. This allows prospective clients to self-segment, ensuring they receive hyper-relevant messaging that accelerates the sales cycle."
+      }
+    },
+    "statement": {
+      "badge": "The Result",
+      "quote": "“When your platform clearly demonstrates <span class=\"quote-accent\">scale and structure</span>, you attract enterprise clients.”"
+    },
+    "cta": {
+      "title": "Ready to scale your B2B service business?",
+      "desc": "Stop losing lucrative enterprise contracts to competitors with better positioning. Let's build a platform that generates highly qualified RFPs.",
+      "btn": "Book Your Discovery Call"
+    }
+  },
+
+  "global": {
+    "role": "Role",
+    "projectType": "Project Type",
+    "liveLink": "Live Link",
+    "viewLiveProject": "View live project <span class=\"arrow\">→</span>",
+    "theChallenge": "The Challenge",
+    "theDirection": "The Direction",
+    "theResult": "The Result",
+    "nextProject": "Next Project"
+  },
+
+  "cs4Page": {
+    "title": "Sbace~D Apparel Platform Case Study | Sbace Dreamer",
+    "metaDesc": "How we designed an editorial-driven e-commerce experience for high-end fashion that breaks away from rigid templates.",
+    "hero": {
+      "tag": "Fashion E-Commerce",
+      "title": "Breaking the Grid: An Editorial Approach to High-End Fashion.",
+      "desc": "We transformed the standard digital storefront into an interactive lookbook for Sbace~D. By leveraging custom image masking and bold typography, the site captures the avant-garde spirit of the brand while driving seamless conversions."
+    },
+    "meta": {
+      "industryLabel": "Industry",
+      "industryValue": "Luxury / Apparel",
+      "servicesLabel": "Services Provided",
+      "servicesValue": "Art Direction, UI/UX Design, Front-end Development",
+      "goalLabel": "Primary Goal",
+      "goalValue": "Elevate brand perception & increase AOV"
+    },
+    "image": {
+      "overlay": "Click to Visit Site"
+    },
+    "article": {
+      "challengeText": "Modern fashion brands often lose their unique edge when confined to traditional, blocky e-commerce grids. The goal was to create a digital storefront that felt as expressive and avant-garde as the clothing itself, acting as an interactive lookbook without sacrificing conversion rate optimization.",
+      "directionText": "We leaned heavily into strong visual hierarchy and unconventional layouts. By utilizing custom CSS masking to create soft, pill-shaped image cutouts and pairing them with oversized, editorial typography, the interface becomes a canvas. We also integrated dynamic features like scrolling marquees and prominent review highlights to build social proof directly into the browsing flow.",
+      "resultText": "A highly engaging, magazine-style shopping platform. The bespoke layout captures the user's attention immediately, while intuitive product filtering and category navigation ensure a frictionless journey from discovery to checkout."
+    },
+    "strategy": {
+      "title": "The Anatomy of Editorial E-Commerce",
+      "desc": "Fashion is visual storytelling. The digital experience must serve as an interactive lookbook that captures brand essence while seamlessly converting browsers into buyers.",
+      "b1": {
+        "title": "Custom Image Masking",
+        "desc": "We created custom CSS masking to shape product imagery into soft, pill-shaped cutouts that feel organic and sophisticated. This breaks the rigid grid expectation and immediately signals premium positioning."
+      },
+      "b2": {
+        "title": "Editorial Typography & Layout",
+        "desc": "Oversized, bold type paired with asymmetrical layouts creates a magazine-like reading experience. Each section guides the eye naturally while maintaining the haute couture aesthetic."
+      },
+      "b3": {
+        "title": "Seamless Conversion Mechanics",
+        "desc": "Despite the avant-garde design, the conversion path remains frictionless. Intuitive filtering, clear pricing, and prominent reviews build buyer confidence without disrupting the visual narrative."
+      }
+    },
+    "next": {
+      "title": "Caramon Pet Care"
+    }
+  },
+
+  "cs5Page": {
+    "title": "Hair III Studio Case Study | Sbace Dreamer",
+    "metaDesc": "How we designed a high-contrast, premium digital experience for Hair III Studio to boost local bookings and elevate their brand presence.",
+    "hero": {
+      "tag": "Beauty & Salon",
+      "title": "Bold Elegance: Redefining the Digital Salon Experience.",
+      "desc": "We crafted a high-contrast, immersive digital presence for Hair III Studio. By blending striking brutalist typography with a seamless booking flow, the platform elevates the brand's premium identity and streamlines client reservations."
+    },
+    "meta": {
+      "industryLabel": "Industry",
+      "industryValue": "Beauty / Hair Care",
+      "servicesLabel": "Services Provided",
+      "servicesValue": "UI/UX Design, Front-end Web Development, Booking Integration",
+      "goalLabel": "Primary Goal",
+      "goalValue": "Enhance brand prestige & increase online appointments"
+    },
+    "image": {
+      "overlay": "Click to Visit Site"
+    },
+    "article": {
+      "challengeText": "A premium salon needs more than just a standard text list of services. Hair III Studio required an immersive visual experience that builds anticipation and trust before the client even walks through the door, paired with a completely frictionless way to book local appointments.",
+      "directionText": "We utilized a stark, dark-mode aesthetic paired with bold, brutalist typography to make their high-quality styling photography pop. Instead of traditional lists, we built highly visual, interactive masonry grids for the \"Portfolio\" and \"Services\" sections. We then streamlined the user journey by integrating clear \"Working Hours\" tables and an interactive location map directly above the booking call-to-action.",
+      "resultText": "A bold, edgy brand identity that instantly sets the studio apart from local competitors. By removing digital friction and answering logistical questions instantly, the new layout significantly boosted the conversion rate for online appointment bookings."
+    },
+    "strategy": {
+      "title": "The Anatomy of a Modern Salon Site",
+      "desc": "A premium salon needs more than just a text list of services. It requires an immersive visual experience that builds anticipation and trust before the client even walks through the door, paired with an effortless booking journey.",
+      "b1": {
+        "title": "High-Contrast Editorial Design",
+        "desc": "We utilized a stark, dark-mode aesthetic paired with bold, brutalist typography. This dramatic contrast makes the high-quality photography of their styling work pop, immediately establishing a high-end, edgy brand identity that sets them apart from local competitors."
+      },
+      "b2": {
+        "title": "Immersive Service Grids",
+        "desc": "Instead of standard text lists, we built highly visual, interactive masonry grids for the \"Portfolio\" and \"Services\" sections. This layout allows prospective clients to visually explore hair transformations, increasing engagement and time-on-site."
+      },
+      "b3": {
+        "title": "Frictionless Local Booking",
+        "desc": "We integrated clear \"Working Hours\" tables and an interactive location map directly above the final booking CTA. By removing friction and answering logistical questions instantly, we significantly boosted the conversion rate for local appointment bookings."
+      }
+    },
+    "next": {
+      "title": "Modern Residential Website"
+    }
+  },
+
+  "cs6Page": {
+    "title": "Caramon Pet Care Case Study | Sbace Dreamer",
+    "metaDesc": "How we designed a warm, high-trust digital platform for Caramon Pet Care to alleviate pet owner anxiety and increase local grooming bookings.",
+    "hero": {
+      "tag": "Pet Care & Grooming",
+      "title": "Designing Trust: A Calming Digital Experience for Pet Owners.",
+      "desc": "We crafted an empathetic, high-trust digital platform for Caramon. By combining warm aesthetics with transparent process breakdowns, the site alleviates pet owner anxiety and confidently drives local grooming bookings."
+    },
+    "meta": {
+      "industryLabel": "Industry",
+      "industryValue": "Pet Care / Local Services",
+      "servicesLabel": "Services Provided",
+      "servicesValue": "UI/UX Design, Front-end Development, Conversion Strategy",
+      "goalLabel": "Primary Goal",
+      "goalValue": "Establish trust & increase first-time appointments"
+    },
+    "image": {
+      "overlay": "Click to Visit Site"
+    },
+    "article": {
+      "challengeText": "Pet owners are deeply protective and naturally cautious about handing their animals over to a new handler. Standard local service templates often feel sterile and fail to build the emotional connection or transparency required to win high-ticket grooming clients.",
+      "directionText": "We designed an empathetic, high-trust interface centered around pet safety and gentle care. Utilizing soft rounded cards, warm photography, and clean typography, we mapped out a transparent 4-step \"Grooming Process\" to demystify the visit. We also incorporated dynamic \"Results\" sliders featuring interactive mobile mockups to showcase real transformation stories.",
+      "resultText": "A comforting, authoritative digital front door that transforms hesitant visitors into confident bookings. The combination of upfront pricing tiers, safety assurances, and streamlined booking mechanics significantly increased first-time customer inquiries."
+    },
+    "strategy": {
+      "title": "The Anatomy of a Trust-Driven Service Site",
+      "desc": "Pet owners are protective. The digital experience must be warm, transparent, and emotionally resonant—alleviating anxiety through clear process breakdowns and genuine care storytelling.",
+      "b1": {
+        "title": "Warm, Empathetic Design Language",
+        "desc": "We utilized soft rounded cards, warm color palettes, and gentle photography to create a comforting digital environment. This aesthetic immediately signals that pets are in caring, professional hands."
+      },
+      "b2": {
+        "title": "Transparent Process Visualization",
+        "desc": "A clear, 4-step \"Grooming Process\" section demystifies what happens during the visit. By showing exactly what to expect, we remove pet owner anxiety and build confidence in the service."
+      },
+      "b3": {
+        "title": "Social Proof & Real Results",
+        "desc": "Dynamic \"Before/After\" sliders and customer testimonials provide undeniable proof of quality. Real transformation stories create emotional connection and accelerate booking decisions."
+      }
+    },
+    "next": {
+      "title": "The Precision of Living"
+    }
+  }
 }
 
 

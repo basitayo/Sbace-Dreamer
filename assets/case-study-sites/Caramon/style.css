@@ -1,0 +1,1247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    position: relative;
+}
+
+header{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.header-scrolled {
+    background-color: rgba(20, 20, 20, 0.25); /* Semi-transparent background */
+    backdrop-filter: blur(12px); /* The frosted glass blur */
+    -webkit-backdrop-filter: blur(12px); /* Required for Safari support */
+     /* Shrinks the navbar height slightly for a sleeker look */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05); /* Adds a subtle, premium edge */
+    border-radius: 0 0 30px 30px; /* Rounded bottom corners for a modern touch */
+}
+
+.nav-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-sec{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo{
+    width: 100%;
+    max-width: 200px;
+    border-right: 2px solid white;
+}
+
+.nav-linkss{
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+
+
+.nav-linkss a{
+    font-size: 0.9rem;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+/* .nav-linkss a:hover{
+    border: 1px solid #fafafa;
+    border-radius: 10px;
+    background-color: #fafafa;
+    color: #1e1e1e;
+} */
+
+.nav-btno{
+    font-size: 0.9rem;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: #1e1e1e;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.nav-btno:hover{
+    border: 1px solid #1e1e1e;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    color: #fafafa;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.first-seccti{
+    height: 100vh;
+    background-image: url(images/dog1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+}
+
+.groominggtopseco-nn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 75vh;
+}
+
+.givefur-tit-on{
+    width: 100%;
+    max-width: 300px;
+}
+
+.givefur-tit-on h1{
+    font-weight: 500;
+    background: -webkit-linear-gradient(#f1f1f1, #9d9d9d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.grooming-premmiuu-on{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.groomingvid-premi-on{
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.groomingvidd-premtwo{
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 3px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    backdrop-filter: blur(10px) saturate(180%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01), inset 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.groomingviditself{
+    height: 130px;
+    background-image: url(images/videotumbnail.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    
+}
+
+.groomingvidtext-on{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.groomingvidtext-on h3{
+    color: #fafafa;
+    font-weight: 100;
+}
+
+.groomingvidtext-on p{
+    color: #a4a4a4;
+    font-size: 0.9rem;
+}
+
+.bookgroomingslider{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fafafa;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.bookgroomingslider h3{
+    margin-left: 15px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+.bookgroomingslider button{
+    padding: 12px 25px;
+    border-radius: 7px;
+    border: none;
+    background-color: #1e1e1e;
+    color: #fafafa;
+}
+
+.groomingpremtetxon{
+    width: 100%;
+    max-width: 250px;
+}
+
+.groomingpremtetxon p{
+    text-align: right;
+    color: #d2d2d2;
+    font-size: 0.9rem;
+}
+
+.Bookedofferminisec-on{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+}
+
+.bookedimgasminsect-on{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.bookedimgasminsect-on img{
+    width: 100%;
+    max-width: 100px;
+}
+
+.bookedimgasminsect-on p{
+    width: 100%;
+    max-width: 150px;
+    font-size: 0.9rem;
+    color: #d2d2d2;
+}
+
+.glossybutton-seconn{
+    display: flex;
+    gap: 5px;
+}
+
+.glossybutton-seconn button{
+    padding: 5px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px) saturate(180%);
+    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01), inset 0 0 10px rgba(255, 255, 255, 0.2); */
+    color: #d2d2d2;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.first-seccti,
+.und-mainsecone,
+.und-mainsectwo,
+.und-mainsecthree,
+.und-mainsecfive,
+.und-mainsecfour {
+    padding: 30px;
+}
+
+.und-mainsecone{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70vh;
+}
+
+.teamaboutusess-onno{
+    display: flex;
+    align-items: center;
+    gap: 400px;
+}
+
+.teamexperi-onnss{
+    width: 100%;
+    max-width: 1020px;
+}
+
+.teamexperi-onnss h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.teamexperi-onnss span{
+    color: #d2d2d2;
+}
+
+.teeemimgaagaino{
+    width: 200px;
+    height: 150px;
+    background-image: url(images/grooommm.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    border: none;
+}
+
+
+.aboutussecttino{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.aboutuspartone{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.aboutuspartone button{
+    padding: 5px 10px;
+    max-width: 100px;
+    border-radius: 15px;
+    background-color: #fafafa;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;;
+}
+
+.aboutuspartone h4{
+    font-weight: 100;
+}
+
+.aboutusparttwo p{
+    color: #a4a4a4;
+}
+
+.persondogimag{
+    height: 700px;
+    background-image: url(images/grooommm.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+
+.und-mainsecthree{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.stylingservititle-maai {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.styylesev-spoptitle h2{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.styylesev-spoptitle span{
+    color: #d2d2d2;
+}
+
+.styylesev-spoptitle p{
+    color: #a4a4a4;
+}
+
+.stylesev-viewmorese a{
+    text-decoration: none;
+    color: #1e1e1e;
+}
+
+.groomingservices-cardsscc{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.grooomingghg{
+    width: 320px;
+    height: 450px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.grcard1, .grcard3, .grcard4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.ggrr-acargg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ggrr-acargg img, .ggrr-acargg button, .groomlistttsec-btnsec button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.ggrr-acargg button, .groomlistttsec-btnsec button{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.ggrr-texsgg h3{
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+
+.grcard2{
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gromming-imgggaw{
+    height: 250px;
+    background-image: url(images/grloomiyo.jpg);
+    background-size: cover;
+    border-radius: 18px;
+}
+
+.groommpremiexp-lainn{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.groomprieem-ooner h3{
+    font-weight: 100;
+    font-size: 1.3rem;
+}
+
+.groomlisttingsec-onnds{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.groomlisttingsec-onnds ul{
+    color: #a4a4a4;
+}
+
+
+.caraselimmgg{
+    height: 500px;
+    background-image: url(images/iproone2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.und-mainsecfive{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.und-mainsecfive .styylesev-spoptitle{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.und-mainsecfour{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+
+.und-mainsecfour p, .und-mainsecfour hr{
+    color: #a4a4a4;
+}
+
+.groprocomming-onsst{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.gprooimaggas{
+    height: 600px;
+    width: 600px;
+    background-image: url(images/greeomg2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+}
+
+.heoogrs-onma-stiia{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.herrmols-sissdh{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.checlisstsfr-ogrooe{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.checlisstsfr-ogrooe small{
+    font-weight: 100;
+    color: #a4a4a4;
+}
+
+.checlisstsfr-ogrooe div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.checlisstsfr-ogrooe h3{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.buttomsrertt-sgeesy{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tomsdhhs-stresttopa{
+    width: 100%;
+    max-width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.seccetrrs-imgasvsoong{
+    height: 200px;
+    width: 200px;
+    background-image: url(images/greeomg2.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+}
+
+footer{
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    height: 70vh;
+}
+
+.underfootonws-onss{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 800px;
+}
+
+.crimmonsblacklogo img{
+    width: 100%;
+    max-width: 250px;
+}
+
+.footerquote-undssdt h2{
+    font-weight: 500;
+    font-size: 2rem;
+    width: 100%;
+    max-width: 450px;
+}
+
+.bestdealssnotations h3{
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.bestdealssnotations{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.emailisecplusbtn{
+    position: relative;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.emailisecplusbtn input{
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    border: none;
+    background-color: #e2e2e2;
+}
+
+.emailisecplusbtn button{
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+    border-radius: 100%;
+    width: 38px;
+    height: 38px;
+    border: none;
+    background-color: transparent;
+}
+
+.socialsainlistfrm button{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #1e1e1e;
+    color: #fafafa;
+}
+
+.socialsainlistfrm button:hover{
+    background-color: #fafafa;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    color: #1e1e1e;
+}
+
+.underfootsec-onsse{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 500px;
+}
+
+.legalmetionsonms{
+    display: flex;
+    justify-content: space-between;
+}
+
+.legalmetionsonms nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 200px;
+    gap: 10px;
+}
+
+.legalmetionsonms a{
+    text-decoration: none;
+    color: #a4a4a4;
+}
+
+.legalmetionsonms a:hover{
+    color: #1e1e1e;
+}
+
+.sbacedreamerlogosect img{
+    height: 200px;
+}
+
+
+/* CHATGPT SECTION */
+
+/* parent */
+.groomingservices-cardsscc{
+    position: relative;
+    overflow: hidden;
+}
+
+/* animation start state for side cards */
+.grcard1,
+.grcard3,
+.grcard4{
+    opacity: 0;
+    transform: translateY(120px) scale(0.8);
+    transition: all 1s ease;
+}
+
+/* center card hidden first */
+.grcard2{
+    opacity: 0;
+    transform: scale(0.7);
+    transition: all 1s ease;
+}
+
+/* active reveal */
+.groomingservices-cardsscc.show .grcard1{
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    transition-delay: 0.2s;
+}
+
+.groomingservices-cardsscc.show .grcard3{
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    transition-delay: 0.4s;
+}
+
+.groomingservices-cardsscc.show .grcard4{
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    transition-delay: 0.6s;
+}
+
+/* center premium card reveals last */
+.groomingservices-cardsscc.show .grcard2{
+    opacity: 1;
+    transform: scale(1);
+    transition-delay: 0.8s;
+}
+
+/* hover effect */
+.grooomingghg:hover{
+    transform: translateY(-10px);
+    transition: 0.4s;
+}
+
+
+/* hidden first */
+.givefur-tit-on,
+.grooming-premmiuu-on,
+.Bookedofferminisec-on{
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 1s ease-in, transform 1s ease-in;
+}
+
+/* reveal */
+.givefur-tit-on.show{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.2s;
+}
+
+.grooming-premmiuu-on.show{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.5s;
+}
+
+.Bookedofferminisec-on.show{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.8s;
+}
+
+
+
+
+
+/* REPLACE YOUR OLD RIPPLE CSS WITH THIS */
+
+header button,
+header .nav-linkss a{
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+/* normal button ripple */
+.ripple{
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    background: rgba(255,255,255,0.45);
+    pointer-events: none;
+    animation: rippleFast 0.7s ease-out forwards;
+}
+
+/* slower navbar ripple */
+.ripple-nav{
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    background: rgba(255,255,255,0.35);
+    pointer-events: none;
+    animation: rippleSlow 1.4s ease-out forwards;
+}
+
+@keyframes rippleFast{
+    to{
+        transform: scale(5);
+        opacity: 0;
+    }
+}
+
+@keyframes rippleSlow{
+    to{
+        transform: scale(7);
+        opacity: 0;
+    }
+}
+
+
+/* ADD THESE PREMIUM ANIMATIONS TO BOTTOM OF CSS */
+
+/* smooth scrolling */
+html{
+    scroll-behavior: smooth;
+}
+
+/* floating logo */
+.logo{
+    animation: floatLogo 4s ease-in-out infinite;
+}
+
+@keyframes floatLogo{
+    0%,100%{transform: translateY(0);}
+    50%{transform: translateY(-6px);}
+}
+
+/* hero heading reveal letters */
+.givefur-tit-on h1{
+    animation: heroText 1.5s ease forwards;
+}
+
+@keyframes heroText{
+    0%{
+        opacity:0;
+        transform: translateY(30px);
+        letter-spacing:8px;
+    }
+    100%{
+        opacity:1;
+        transform: translateY(0);
+        letter-spacing:0;
+    }
+}
+
+/* glass card hover lift */
+.groomingvidd-premtwo,
+.grooomingghg,
+.aboutussecttino,
+.emailisecplusbtn input{
+    transition: all .4s ease;
+}
+
+.groomingvidd-premtwo:hover,
+.grooomingghg:hover,
+.aboutussecttino:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 25px 40px rgba(0,0,0,.12);
+}
+
+/* image zoom hover */
+.persondogimag,
+.gprooimaggas,
+.seccetrrs-imgasvsoong,
+.gromming-imgggaw,
+.teeemimgaagaino{
+    transition: transform 1s ease;
+}
+
+.persondogimag:hover,
+.gprooimaggas:hover,
+.seccetrrs-imgasvsoong:hover,
+.gromming-imgggaw:hover,
+.teeemimgaagaino:hover{
+    transform: scale(1.04);
+}
+
+/* pulse buttons */
+button{
+    transition: all .35s ease;
+}
+
+button:hover{
+    transform: translateY(-3px) scale(1.03);
+}
+
+/* glossy tags */
+.glossybutton-seconn button{
+    animation: glowTag 3s ease-in-out infinite;
+}
+
+@keyframes glowTag{
+    0%,100%{
+        box-shadow: 0 0 0 rgba(255,255,255,0);
+    }
+    50%{
+        box-shadow: 0 0 18px rgba(255,255,255,.15);
+    }
+}
+
+/* footer social bounce */
+.socialsainlistfrm button:hover{
+    transform: translateY(-8px) rotate(10deg);
+}
+
+/* line grow effect */
+hr{
+    transform-origin:left;
+    animation: lineGrow 1.5s ease forwards;
+}
+
+@keyframes lineGrow{
+    from{
+        transform: scaleX(0);
+        opacity:0;
+    }
+    to{
+        transform: scaleX(1);
+        opacity:1;
+    }
+}
+
+/* scroll reveal class */
+.reveal-up{
+    opacity:0;
+    transform: translateY(60px);
+    transition: all 1s ease;
+}
+
+.reveal-up.show{
+    opacity:1;
+    transform: translateY(0);
+}
+
+
+
+
+
+/* ============================= */
+/* RESPONSIVE DESIGN */
+/* ADD TO BOTTOM OF CSS */
+/* ============================= */
+
+
+/* large tablets */
+/* @media (max-width: 1200px){
+
+    main{
+        gap: 100px;
+    }
+
+    .teamaboutusess-onno{
+        gap: 80px;
+    }
+
+    .groomingservices-cardsscc{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .grooomingghg{
+        width: 48%;
+        max-width: 420px;
+        height: auto;
+        min-height: 380px;
+    }
+
+    .groprocomming-onsst{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gprooimaggas,
+    .heoogrs-onma-stiia{
+        width: 100%;
+        max-width: 800px;
+    }
+
+    footer{
+        flex-direction: column;
+        height: auto;
+        gap: 50px;
+    }
+
+    .underfootonws-onss{
+        max-width: 100%;
+        border-right: none;
+        border-bottom: 1px solid rgba(0,0,0,.15);
+        padding-bottom: 30px;
+    }
+
+    .underfootsec-onsse{
+        max-width: 100%;
+        padding: 0;
+    }
+} */
+
+
+
+/* tablets */
+@media (max-width: 992px){
+
+    header{
+        height: auto;
+    }
+
+    .nav-one,
+    .nav-sec,
+    .grooming-premmiuu-on,
+    .Bookedofferminisec-on,
+    .groprocomming-onsst,
+    .stylingservititle-maai,
+    .buttomsrertt-sgeesy,
+    .legalmetionsonms{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .nav-sec{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .nav-linkss{
+        /* flex-wrap: wrap; */
+        width: 100%;
+    }
+
+    .nav-linkss a{
+        flex: 1 1 45%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav-btno{
+        width: 100%;
+    }
+
+    .groominggtopseco-nn,
+    .und-mainsecone,
+    .und-mainsecthree,
+    .und-mainsecfour,
+    .und-mainsecfive{
+        height: auto;
+        gap: 40px;
+    }
+
+    /* .bookgroomingslider{
+        flex-direction: row;
+    } */
+
+    .first-seccti{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .bookedimgasminsect-on{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        text-align: center;
+    }
+
+    .teamexperi-onnss h2,
+    .styylesev-spoptitle h2{
+        font-size: 2.3rem;
+    }
+
+    .teamaboutusess-onno{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .grooomingghg{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .groomingservices-cardsscc{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caraselimmgg{
+        height: 420px;
+    }
+
+    .persondogimag{
+        height: 500px;
+    }
+
+    .gprooimaggas{
+        height: 500px;
+        width: 100%;
+    }
+}
+
+
+
+/* mobile */
+@media (max-width: 768px){
+
+    header,
+    main,
+    footer,
+    .first-seccti{
+        margin: 0;
+    }
+
+    .first-seccti{
+        height: 120vh;
+        padding-top: 200px;
+    }
+
+    header{
+        background-position: center;
+        
+    }
+
+    main{
+        gap: 50px;
+    }
+
+    .logo{
+        max-width: 160px;
+        border-right: none;
+    }
+
+    .nav-linkss a{
+        padding: 10px;
+        font-size: .85rem;
+    }
+
+    .givefur-tit-on,
+    .groomingvid-premi-on,
+    .groomingpremtetxon,
+    .aboutussecttino,
+    .tomsdhhs-stresttopa,
+    .heoogrs-onma-stiia{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .givefur-tit-on h1{
+        font-size: 2rem;
+    }
+
+    .teamexperi-onnss h2,
+    .styylesev-spoptitle h2,
+    .footerquote-undssdt h2{
+        font-size: 1.8rem;
+        line-height: 1.3;
+    }
+
+    .heoogrs-onma-stiia{
+        gap: 50px;
+    }
+
+    .groomingvid-premi-on{
+        height: auto;
+    }
+
+    .bookgroomingslider{
+        /* flex-direction: column; */
+        gap: 10px;
+        /* align-items: stretch; */
+    }
+
+    /* .bookgroomingslider button{
+        width: 100%;
+        max-width: 100px;
+    } */
+
+    .glossybutton-seconn{
+        /* flex-wrap: wrap; */
+        width: 100%;
+    }
+
+    .glossybutton-seconn button{
+        /* flex: 1 1 45%; */
+        padding: 5px;
+    }
+
+    .persondogimag,
+    .caraselimmgg,
+    .gprooimaggas{
+        height: 350px;
+        border-radius: 20px;
+    }
+
+    .seccetrrs-imgasvsoong{
+        width: 100%;
+        height: 250px;
+    }
+
+    .groomlisttingsec-onnds{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .socialsainlistfrm{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .sbacedreamerlogosect img{
+        height: 140px;
+    }
+}
+
+
+
+/* small mobile */
+@media (max-width: 480px){
+
+    .teamexperi-onnss h2,
+    .styylesev-spoptitle h2,
+    .footerquote-undssdt h2{
+        font-size: 1.5rem;
+    }
+
+    .givefur-tit-on h1{
+        font-size: 1.6rem;
+    }
+
+    .nav-linkss a{
+        flex: 1 1 100%;
+    }
+
+    .glossybutton-seconn button{
+        flex: 1 1 100%;
+    }
+
+    .persondogimag,
+    .caraselimmgg,
+    .gprooimaggas{
+        height: 280px;
+    }
+
+    .ggrr-texsgg h3,
+    .groomprieem-ooner h3{
+        font-size: 1.1rem;
+    }
+}

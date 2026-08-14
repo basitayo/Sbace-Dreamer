@@ -1,0 +1,1888 @@
+/* --- Brand Constants ---
+   Deep Navy: #0f2c59
+   Accent Blue: #0076df
+------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    padding: 30px;
+    padding-top: 0;
+    background-color: #ffffff;
+    padding: 0 50px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 0 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    height: 68px;
+    width: auto;
+}
+
+/* Temporary styled brand fallback until logo image asset is finalized */
+.brand-text-fallback {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #0f2c59;
+}
+
+.brand-text-fallback .accent {
+    color: #0076df;
+}
+
+.heddna-av{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 300px;
+}
+
+.heddna-av a{
+    text-decoration: none;
+    color: #0f2c59; /* Brand Deep Navy */
+    font-size: 13px;
+    /* font-weight: 700; */
+    letter-spacing: 0.05em;
+    transition: color 0.2s ease;
+}
+
+.heddna-av a:hover {
+    color: #0076df; /* Brand Accent Blue */
+}
+
+.headbutt {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.headbutt button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.arrw-up{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    border: 2px solid #0f2c59;
+    color: #0f2c59;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrw-up:hover {
+    background-color: #0076df;
+    transform: scale(1.05);
+}
+
+.bbtnnbt{
+    padding: 14px 28px;
+    border-radius: 30px;
+    background-color: #0076df;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.bbtnnbt:hover {
+    background-color: #0f2c59;
+    transform: translateY(-1px);
+}
+
+/* --- Core Video Hero Engine Layout --- */
+
+.hero-ssesct{
+    position: relative;
+    height: 85vh;
+    width: 100%;
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(15, 44, 89, 0.2), rgba(15, 44, 89, 0.65));
+    z-index: 2;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    flex-direction: column;
+}
+
+.hero-content h1{
+    font-size: 6.5rem;
+    /* font-weight: 900; */
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+    max-width: 900px;
+}
+
+.hero-content em{
+    /* font-style: normal; */
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* Button UI Control Alignment */
+.wwatach-video {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 12px 24px;
+    border-radius: 100px;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.2s ease;
+    align-self: flex-start;
+}
+
+.wwatach-video:hover {
+    background: rgba(255, 255, 255, 0.22);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.video-icon {
+    font-size: 9px;
+    display: inline-block;
+    width: 12px;
+}
+
+.controls-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* --- Premium Blockquote Layout with Layered Typography --- */
+.controls-wrapper blockquote {
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.controls-wrapper blockquote::before {
+    content: "“";
+    position: absolute;
+    top: -55px;
+    left: -25px;
+    font-family: Georgia, serif;
+    font-size: 21rem;
+    line-height: 1;
+    color: rgba(255, 255, 255, 0.14);
+    z-index: -1;
+    pointer-events: none;
+}
+
+.raarattingga h3{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.raarattingga hr {
+    height: 20px;
+    width: 1px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+/* ==========================================================================
+   SECTION: HORIZONTAL QUICK BOOKING DECK LAYOUT
+   ========================================================================== */
+
+.quickbooksec {
+    width: 100%;
+    margin: 40px auto 20px auto; /* Clean spacing context underneath the main video hero element */
+    background: #ffffff;
+    border: 1px solid rgba(15, 44, 89, 0.12); /* Clean, high-end neutral border outline */
+    border-radius: 20px;
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 0 10px 30px -15px rgba(15, 44, 89, 0.06);
+}
+
+.booking-title-stack h3 {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    color: #0f2c59; /* Brand Deep Navy */
+}
+
+/* Flexbox Horizontal Deck Execution Engine */
+.booking-horizontal-deck {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+}
+
+/* Modern Layout Component Fields (Replaces legacy rough backgrounds) */
+.optionsidees, .caleened {
+    flex: 1; /* Causes matching variable structural sizing dynamically */
+    background-color: #f4f7fa; /* Clean light layout operational tint */
+    padding: 12px 20px;
+    border-radius: 14px;
+    border: 1px solid rgba(15, 44, 89, 0.02);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.optionsidees:focus-within, .caleened:focus-within {
+    background-color: #ffffff;
+    border-color: #0076df; /* Brand Accent Blue focus indicators */
+    box-shadow: 0 0 0 4px rgba(0, 118, 223, 0.08);
+}
+
+.optionsidees label, .caleened label {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #5c6f84;
+}
+
+/* Native Component Selector Layout Tuning */
+.optionsidees select, .caleened input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0f2c59;
+    cursor: pointer;
+}
+
+.caleened input[type="date"] {
+    font-family: inherit;
+}
+
+/* Action Trigger Refinements */
+.submit-booking-trigger {
+    height: 100%;
+    align-self: stretch; /* Stretches height parameters perfectly with input heights */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* padding: 0 36px; */
+    border-radius: 14px; /* Matches internal container architecture lines */
+    white-space: nowrap; /* Prevents text breaking into awkward wraps */
+    font-size: 14px;
+}
+
+.submit-booking-trigger .btn-arrow {
+    transition: transform 0.2s ease;
+}
+
+.submit-booking-trigger:hover .btn-arrow {
+    transform: translateX(4px);
+}
+
+
+
+
+
+/* ==========================================================================
+   SECTION: FIXED-DIMENSION PORTFOLIO GRID ARCHITECTURE
+   ========================================================================== */
+
+.ourwo-rkksec {
+    margin: 80px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+/* Header Text Row */
+.ourwoccar.onaa {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 40px;
+    width: 100%;
+}
+
+.ourwoccar.onaa h2 {
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+    color: #0f2c59;
+    max-width: 600px;
+}
+
+.ourwoccar.onaa h2 em {
+    font-style: normal;
+    font-weight: 300;
+    color: #0076df;
+}
+
+.ourwoccar.onaa p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #5c6f84;
+    max-width: 360px;
+    padding-bottom: 8px;
+}
+
+/* --- Stylized Grid Engine with Custom Track Sizes --- */
+.portfolio-grid-engine {
+    display: grid;
+    /* Sets track 1 to 440px and track 2 to 800px to perfectly match your dimensions */
+    grid-template-columns: 440px 800px; 
+    gap: 40px;
+    width: 100%;
+    justify-content: space-between; /* Spreads columns cleanly across the container width */
+}
+
+/* Base Card Styles */
+.our-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(15, 44, 89, 0.06);
+    box-shadow: 0 4px 20px rgba(15, 44, 89, 0.02);
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.our-card:hover {
+    transform: translateY(-6px);
+}
+
+/* --- Exact Stylized Image Canvas Dimensions --- */
+.card-image-canvas {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.firstimg {
+    height: 460px;
+    background-image: url("https://images.unsplash.com/photo-1669101602124-f5b78895d91c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    border-radius: 20px 20px 0 0;
+}
+
+.secondimg {
+    height: 500px;
+    background-image: url("https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    border-radius: 20px 20px 0 0;
+}
+
+.thirrdimg {
+    height: 350px;
+    background-image: url("https://images.unsplash.com/photo-1589109807644-924edf14ee09?q=80&w=2920&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    border-radius: 20px 20px 0 0;
+}
+
+/* Dynamic Grid Column Tracking Locations */
+.crone { 
+    grid-column: 1; 
+}
+.crtwo { 
+    grid-column: 2; 
+}
+.crthree { 
+    grid-column: 1;
+    width: 700px; /* Forces Card 3 to intentionally stretch across into the column space */
+    max-width: 1280px; /* Prevents container wall punch-throughs */
+}
+
+/* Card Content Details Padding */
+.card-meta-title {
+    padding: 20px 24px;
+    background: #ffffff;
+    width: 100%;
+}
+
+.our-card h4 {
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    color: #0f2c59;
+    text-transform: uppercase;
+}
+
+.our-card h4 span {
+    color: #0076df;
+    font-weight: 400;
+    margin-right: 4px;
+}
+
+/* --- Discovery Explore Module Block --- */
+.ourothers-erv {
+    grid-column: 2;
+    justify-self: center; /* Centers the fixed box beautifully inside the 800px column track */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 30px;
+    background: #f4f7fa;
+    border: 1px dashed rgba(15, 44, 89, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    
+    /* Your stylized dimension overrides */
+    width: 300px;
+    height: 300px; 
+}
+
+.ourothers-erv h3 {
+    font-size: 18px; /* Slightly scaled down to fit nicely in a 300px box */
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    color: #0f2c59;
+    max-width: 220px;
+}
+
+/* --- Google Icon Circle Configuration --- */
+.arrw-up {
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    background-color: transparent;
+    color: #0f2c59;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0f2c59;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.arrw-up .material-symbols-outlined {
+    font-size: 20px;
+    display: block;
+}
+
+.arrw-up:hover {
+    background-color: #0076df;
+    color: #ffffff;
+    transform: scale(1.08);
+}
+
+
+
+/* ==========================================================================
+   SECTION: SLANTED TOP CHOICES & PERFORMANCE STATS DECK
+   ========================================================================== */
+
+.top-choicessecti {
+    position: relative;
+    background-color: #f4f7fa; /* Light grey styling background framework */
+    width: 100vw; /* Breaks out of body limits safely to run full edge-to-edge width */
+    margin-left: calc(-50vw + 50%); /* Centers the absolute breakout container canvas */
+    
+    /* Generous top/bottom padding preserves internal layout text line spacing against the clip slants */
+    padding: 140px 100px; 
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+
+    /* Modern Angled Polygon Clip Engine: Slants downward smoothly from Right to Left */
+    clip-path: polygon(0 80px, 100% 0, 100% calc(100% - 80px), 0 100%);
+}
+
+/* Header Text Area Alignment */
+.topclea-titles {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.topclea-titles h2 {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+    color: #0f2c59; /* Deep Navy */
+    max-width: 700px;
+}
+
+.topclea-titles h2 em {
+    font-style: normal;
+    font-weight: 300;
+    color: #0076df; /* Accent Blue */
+}
+
+/* Horizontal Data Column Layout Deck */
+.topchoices-data-deck {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 48px;
+    width: 100%;
+}
+
+/* Stats Column Layout Box Components */
+.topcleanpar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    background: #ffffff; /* Gives data blocks a crisp card look over the grey background */
+    padding: 40px 32px;
+    border-radius: 24px;
+    border: 1px solid rgba(15, 44, 89, 0.04);
+    box-shadow: 0 10px 30px -15px rgba(15, 44, 89, 0.04);
+}
+
+/* Centerpiece Call-To-Action Layout Override Adjustment */
+.topcleanpar.twonen {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    justify-content: center;
+    gap: 24px;
+}
+
+/* Meta Labels & Typography Layout Rules */
+.stat-meta-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.top-choicessecti h3 {
+    font-size: 4rem;
+    font-weight: 900;
+    color: #0f2c59;
+    letter-spacing: -0.02em;
+    line-height: 1;
+}
+
+.stat-label {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #0076df;
+    letter-spacing: 0.05em;
+}
+
+.stat-description {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #5c6f84;
+    max-width: 280px;
+}
+
+/* Embedded Media Asset Canvas Adjustments */
+.toocl-cho {
+    width: 100%;
+    max-width: 280px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.toocl-cho img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+/* ==========================================================================
+   SECTION: WHY CHOOSE SAB FACILITIES (FEATURES DECK)
+   ========================================================================== */
+
+.whyc-hoosesect {
+    margin: 100px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+/* Titles & Header Formatting */
+.why-titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+    width: 100%;
+}
+
+.why-titles h2 {
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+    color: #0f2c59; /* Brand Deep Navy */
+    text-transform: uppercase;
+}
+
+.why-titles h2 em {
+    font-style: normal;
+    font-weight: 300;
+    color: #0076df; /* Brand Accent Blue */
+}
+
+.why-titles p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #5c6f84;
+    max-width: 500px;
+}
+
+/* Features Grid Architecture */
+.feat-cards-deck {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    width: 100%;
+}
+
+/* Feature Card Layout */
+.feat-card-par {
+    background: #ffffff;
+    border: 1px solid rgba(15, 44, 89, 0.06);
+    border-radius: 20px;
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    box-shadow: 0 4px 20px rgba(15, 44, 89, 0.02);
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.3s ease;
+}
+
+.feat-card-par:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(15, 44, 89, 0.05);
+}
+
+/* Icon Presentation Box */
+.feat-icon-box {
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    background-color: #f4f7fa;
+    color: #0076df;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    border: 1px dashed rgba(15, 44, 89, 0.15);
+}
+
+.feat-icon-box .material-symbols-outlined {
+    font-size: 28px;
+}
+
+/* Card Typography Matches */
+.feat-card-par h4 {
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    color: #0f2c59;
+}
+
+.feat-card-par p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #5c6f84;
+}
+
+
+
+
+/* ==========================================================================
+   SECTION: CLEANING PROCESS TIMELINE 
+   ========================================================================== */
+
+.process-timesect {
+    margin: 100px auto;
+    padding: 80px 50px;
+    background-color: #f4f7fa; /* Crisp light backdrop to distinguish from white sections */
+    border-radius: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+/* Timeline Core Framework */
+.timeline-engine {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Central Structural Line */
+.time-center-line {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background: rgba(15, 44, 89, 0.1);
+    z-index: 1;
+}
+
+/* Individual Timeline Row Block */
+.time-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+/* Directional Flex Controllers */
+.time-block.left-side {
+    flex-direction: row;
+}
+
+.time-block.right-side {
+    flex-direction: row-reverse;
+}
+
+/* Timeline Content Card */
+.time-card {
+    width: 45%;
+    background: #ffffff;
+    border: 1px solid rgba(15, 44, 89, 0.06);
+    border-radius: 20px;
+    padding: 32px;
+    box-shadow: 0 4px 20px rgba(15, 44, 89, 0.02);
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.time-card:hover {
+    transform: translateY(-4px);
+}
+
+.time-card h4 {
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    color: #0f2c59; /* Brand Deep Navy */
+    margin-bottom: 12px;
+}
+
+.time-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #5c6f84;
+}
+
+/* Step Indicator Node */
+.time-marker {
+    width: 56px;
+    height: 56px;
+    background-color: #0076df; /* Brand Accent Blue */
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 800;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /* Thick border matches background color to create a cutout visual effect */
+    border: 6px solid #f4f7fa; 
+    box-shadow: 0 4px 12px rgba(0, 118, 223, 0.2);
+    z-index: 3;
+}
+
+
+
+/* ==========================================================================
+   SECTION: INDUSTRIES WE SERVE
+   ========================================================================== */
+
+.industries-sect {
+    margin: 100px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+/* Industries Grid Architecture */
+.ind-grid-deck {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    width: 100%;
+}
+
+/* Industry Card Layout */
+.ind-card-par {
+    background: #ffffff;
+    border: 1px solid rgba(15, 44, 89, 0.06);
+    border-radius: 20px;
+    overflow: hidden; /* Contains the image cleanly within the rounded corners */
+    box-shadow: 0 4px 20px rgba(15, 44, 89, 0.02);
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.3s ease;
+}
+
+.ind-card-par:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(15, 44, 89, 0.05);
+}
+
+/* Image Wrapper Canvas */
+.ind-img-wrap {
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+}
+
+.ind-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Soft, minimal image scale animation on card hover */
+.ind-card-par:hover .ind-img-wrap img {
+    transform: scale(1.05); 
+}
+
+/* Typography Meta Box */
+.ind-meta {
+    padding: 24px;
+    text-align: center;
+    background: #ffffff;
+    border-top: 1px solid rgba(15, 44, 89, 0.04);
+}
+
+.ind-meta h4 {
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    color: #0f2c59; /* Brand Deep Navy */
+    text-transform: uppercase;
+}
+
+
+
+
+/* ==========================================================================
+   SECTION: BEFORE & AFTER SHOWCASE
+   ========================================================================== */
+
+.ba-showcasesect {
+    margin: 100px auto;
+    padding: 80px 50px;
+    background-color: #f4f7fa; /* Alternating crisp backdrop */
+    border-radius: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+/* Showcase Grid Architecture */
+.ba-grid-deck {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Showcase Card Layout */
+.ba-card-par {
+    background: #ffffff;
+    border: 1px solid rgba(15, 44, 89, 0.06);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(15, 44, 89, 0.02);
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.3s ease;
+}
+
+.ba-card-par:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(15, 44, 89, 0.05);
+}
+
+/* Image Comparison Canvas */
+.ba-img-compare {
+    display: flex;
+    width: 100%;
+    height: 300px;
+}
+
+.ba-img-box {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* Subtle dividing line between before and after */
+.ba-img-box.before-box {
+    border-right: 2px solid #ffffff;
+}
+
+.ba-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.ba-card-par:hover .ba-img-box img {
+    transform: scale(1.03);
+}
+
+/* Overlay Labels with Translucent Backdrop */
+.ba-label {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: rgba(15, 44, 89, 0.85); /* Deep Navy */
+    color: #ffffff;
+    padding: 6px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    z-index: 2;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+.after-box .ba-label {
+    background: rgba(0, 118, 223, 0.85); /* Accent Blue */
+}
+
+/* Typography Meta Box */
+.ba-meta {
+    padding: 32px;
+    text-align: left;
+}
+
+.ba-meta h4 {
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    color: #0f2c59;
+    margin-bottom: 8px;
+}
+
+.ba-meta p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #5c6f84;
+}
+
+
+
+
+/* ==========================================================================
+   SECTION: CLIENT TESTIMONIALS
+   ========================================================================== */
+
+.testimonials-sect {
+    margin: 100px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    background-color: #ffffff;
+}
+
+/* Testimonial Grid Architecture */
+.testi-grid-deck {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    width: 100%;
+}
+
+/* Testimonial Card Layout */
+.testi-card-par {
+    background: #ffffff;
+    border: 1px solid rgba(15, 44, 89, 0.06);
+    border-radius: 20px;
+    padding: 40px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    box-shadow: 0 4px 20px rgba(15, 44, 89, 0.02);
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.3s ease;
+}
+
+.testi-card-par:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(15, 44, 89, 0.05);
+}
+
+/* Quote Icon Presentation */
+.testi-quote-icon {
+    color: #0076df; /* Brand Accent Blue */
+    opacity: 0.15;
+    margin-bottom: -20px; /* Pulls text up slightly into the quote space */
+}
+
+.testi-quote-icon .material-symbols-outlined {
+    font-size: 56px;
+}
+
+/* Review Text */
+.testi-text {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #5c6f84;
+    font-style: italic;
+    flex-grow: 1; /* Forces the author meta to anchor to the bottom evenly */
+}
+
+/* Author Meta Box */
+.testi-author {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-top: 24px;
+    border-top: 1px solid rgba(15, 44, 89, 0.06);
+}
+
+.testi-author h4 {
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    color: #0f2c59; /* Brand Deep Navy */
+    text-transform: uppercase;
+}
+
+.testi-author span {
+    font-size: 13px;
+    color: #0076df;
+    font-weight: 600;
+}
+
+
+
+
+/* ==========================================================================
+   SECTION: SERVICE AREAS
+   ========================================================================== */
+
+.service-areasssect {
+    margin: 100px auto;
+    padding: 80px 50px;
+    background-color: #f4f7fa; /* Alternating crisp backdrop */
+    border-radius: 24px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.loc-grid-deck {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.loc-card-par {
+    background: #ffffff;
+    border: 1px solid rgba(15, 44, 89, 0.06);
+    border-radius: 20px;
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    box-shadow: 0 4px 20px rgba(15, 44, 89, 0.02);
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.3s ease;
+}
+
+.loc-card-par:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(15, 44, 89, 0.05);
+}
+
+.loc-icon {
+    font-size: 36px;
+    color: #0076df; /* Brand Accent Blue */
+    background: rgba(0, 118, 223, 0.06);
+    padding: 16px;
+    border-radius: 50%;
+}
+
+.loc-card-par h4 {
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    color: #0f2c59;
+}
+
+
+/* ==========================================================================
+   SECTION: FREQUENTLY ASKED QUESTIONS
+   ========================================================================== */
+
+.faq-sect {
+    margin: 100px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    background-color: #ffffff;
+}
+
+.faq-deck {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 800px; /* Constrains line length for optimal reading */
+    margin: 0 auto;
+}
+
+.faq-item {
+    background: #ffffff;
+    border: 1px solid rgba(15, 44, 89, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.faq-item[open] {
+    border-color: #0076df;
+    box-shadow: 0 10px 30px -15px rgba(0, 118, 223, 0.15);
+}
+
+.faq-summary {
+    padding: 28px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    list-style: none; /* Removes default triangle */
+}
+
+/* Hides native triangle in webkit browsers */
+.faq-summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-summary h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0f2c59;
+    padding-right: 24px;
+}
+
+.expand-icon {
+    color: #0f2c59;
+    transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* Rotates to an 'X' when the accordion is open */
+.faq-item[open] .expand-icon {
+    transform: rotate(45deg);
+    color: #0076df;
+}
+
+.faq-content {
+    padding: 0 32px 32px 32px;
+    animation: faqFadeIn 0.4s ease-out forwards;
+}
+
+.faq-content p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #5c6f84;
+}
+
+/* Smooth internal text reveal */
+@keyframes faqFadeIn {
+    0% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+
+/* ==========================================================================
+   SECTION: FINAL CALL TO ACTION
+   ========================================================================== */
+
+.final-cta-sect {
+    margin: 100px auto 40px auto;
+    width: 100%;
+    background: #0f2c59; /* Core Brand Navy */
+    border-radius: 24px;
+    padding: 100px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.cta-inner-canvas {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    position: relative;
+    z-index: 2;
+}
+
+.cta-inner-canvas h2 {
+    font-size: 5.5rem;
+    font-weight: 900;
+    line-height: 0.95;
+    letter-spacing: -0.03em;
+    color: #ffffff;
+}
+
+.cta-inner-canvas h2 em {
+    font-style: normal;
+    font-weight: 300;
+    color: #0076df;
+}
+
+.cta-inner-canvas p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    max-width: 500px;
+}
+
+.cta-btn-group {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+/* Secondary Button Outline Variant */
+.cta-outline-btn {
+    padding: 14px 28px;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.cta-outline-btn:hover {
+    border-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+
+
+/*==========================
+FOOTER
+===========================*/
+
+.footer{
+    background:#f6f8fc;
+    padding:90px 0 30px;
+    margin-top:100px;
+    border-top:1px solid rgba(0,0,0,.06);
+    border-radius:20px 20px 0 0;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 1.3fr;
+    gap:70px;
+}
+
+.footer-logo img{
+    width:170px;
+    margin-bottom:25px;
+}
+
+.footer-description{
+    color:#6f7683;
+    line-height:1.9;
+    margin-bottom:35px;
+    max-width:340px;
+}
+
+.footer h4{
+    color:#143A7B;
+    margin-bottom:25px;
+    font-size:18px;
+    font-weight:700;
+}
+
+.footer ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.footer ul li{
+    margin-bottom:16px;
+}
+
+.footer ul li a{
+    color:#666;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer ul li a:hover{
+    color:#143A7B;
+    padding-left:6px;
+}
+
+.footer-contact li{
+    display:flex;
+    align-items:flex-start;
+    gap:12px;
+    color:#666;
+}
+
+.footer-contact i{
+    color:#1d6cf2;
+    margin-top:4px;
+}
+
+.footer-social{
+    display:flex;
+    gap:15px;
+    margin-top:30px;
+}
+
+.footer-social a{
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    background:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#143A7B;
+    text-decoration:none;
+    transition:.3s;
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
+}
+
+.footer-social a:hover{
+    transform:translateY(-5px);
+    background:#1d6cf2;
+    color:white;
+}
+
+.footer-badges{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.footer-badges span{
+    background:white;
+    border-radius:40px;
+    padding:10px 16px;
+    font-size:14px;
+    color:#143A7B;
+    box-shadow:0 10px 30px rgba(0,0,0,.05);
+}
+
+.footer-badges i{
+    margin-right:8px;
+    color:#1d6cf2;
+}
+
+.footer-bottom{
+    border-top:1px solid rgba(0,0,0,.08);
+    margin-top:70px;
+    padding-top:30px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.footer-bottom p{
+    color:#777;
+    margin:0;
+}
+
+.footer-bottom-links{
+    display:flex;
+    gap:25px;
+}
+
+.footer-bottom-links a{
+    color:#777;
+    text-decoration:none;
+    transition:.3s;
+}
+
+.footer-bottom-links a:hover{
+    color:#143A7B;
+}
+
+
+
+
+
+
+
+
+
+/* --- Safety Responsive System --- */
+@media (max-width: 1340px) {
+    .portfolio-grid-engine {
+        grid-template-columns: 1fr 1fr; /* Swaps down to standard fractional grids when screen shrink begins */
+        gap: 32px;
+    }
+    .crthree {
+        width: 100%; /* Safety normalization layout rule */
+    }
+    .ourothers-erv {
+        height: auto;
+    }
+    body {
+        padding: 0 20px; /* Adds a small padding buffer to prevent content from touching the edges */
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 150px;
+        gap: 8px;
+    }
+}
+
+/* --- Responsive Adaptability System --- */
+@media (max-width: 1200px) {
+    .topclea-titles h2 {
+        font-size: 3.5rem;
+    }
+    .topchoices-data-deck {
+        gap: 24px;
+    }
+}
+
+
+
+/* --- Responsive Adaptability for Features Deck --- */
+@media (max-width: 1100px) {
+    .feat-cards-deck {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .why-titles h2 {
+        font-size: 3.5rem;
+    }
+}
+
+/* --- Responsive Adaptability for Testimonials --- */
+@media (max-width: 1100px) {
+    .testi-grid-deck {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* --- Responsive Adaptability for Showcase --- */
+@media (max-width: 1024px) {
+    .ba-grid-deck {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* --- Responsive Adaptability for Industries Grid --- */
+@media (max-width: 1100px) {
+    .ind-grid-deck {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+@media(max-width:992px){
+
+.footer-grid{
+    grid-template-columns:1fr 1fr;
+}
+
+}
+
+
+/* --- Responsive Adaptability for Final 3 Sections --- */
+@media (max-width: 991px) {
+    .loc-grid-deck {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .cta-inner-canvas h2 {
+        font-size: 4rem;
+    }
+}
+
+/* --- Responsive Adaptability Breakpoints --- */
+@media (max-width: 991px) {
+    .ourwoccar.onaa {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    
+    .ourwoccar.onaa h2 {
+        font-size: 3.5rem;
+    }
+    
+    .portfolio-grid-engine {
+        grid-template-columns: 1fr; /* Instantly collapses to layout-safe vertical list grid on smaller screens */
+    }
+    
+    .crone, .crtwo, .crthree, .ourothers-erv {
+        grid-column: span 1;
+    }
+    
+    .ourothers-erv {
+        height: auto;
+        padding: 60px 20px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .ourwoccar.onaa {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+    
+    .ourwoccar.onaa h2 {
+        font-size: 3.5rem;
+    }
+
+    .portfolio-grid-engine {
+        grid-template-columns: 1fr; /* Clean stacked viewport flow fallback for mobile cards */
+    }
+
+    .crone, .crtwo, .crthree, .ourothers-erv {
+        grid-column: span 1;
+    }
+    
+    .ourothers-erv {
+        padding: 60px 20px;
+    }
+}
+
+
+
+
+@media (max-width: 991px) {
+    .top-choicessecti {
+        padding: 100px 50px;
+        /* Slightly reduces the angle on mobile profiles so it looks natural */
+        clip-path: polygon(0 40px, 100% 0, 100% calc(100% - 40px), 0 100%);
+    }
+    
+    .topchoices-data-deck {
+        flex-direction: column; /* Neatly stacks columns to protect formatting */
+        gap: 32px;
+    }
+
+    .topcleanpar {
+        width: 100%;
+        padding: 32px 24px;
+    }
+}
+
+
+/* --- Responsive Adaptability for Timeline Engine --- */
+
+@media (max-width: 868px) {
+    .process-timesect {
+        padding: 60px 30px;
+        border-radius: 20px;
+    }
+    
+    .time-center-line {
+        left: 28px; /* Shifts the tracking line to the far left edge */
+    }
+    
+    .time-marker {
+        left: 28px;
+    }
+    
+    .time-block {
+        flex-direction: row !important; /* Overrides alternating rules */
+        justify-content: flex-end;
+    }
+    
+    .time-card {
+        width: calc(100% - 80px); /* Calculates width minus the marker node */
+    }
+}
+
+/* --- Responsive Adaptability Breakpoints --- */
+@media (max-width: 868px) {
+    .quickbooksec {
+        padding: 24px;
+    }
+    
+    .booking-horizontal-deck {
+        flex-direction: column; /* Collapses neatly into a vertical structural column layout on tablets/mobiles */
+        align-items: stretch;
+    }
+    
+    .submit-booking-trigger {
+        padding: 16px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .service-areasssect, .final-cta-sect {
+        padding: 60px 30px;
+        margin: 60px auto;
+        gap: 40px;
+    }
+    
+    .faq-sect {
+        margin: 60px auto;
+    }
+    
+    .loc-grid-deck {
+        grid-template-columns: 1fr;
+    }
+    
+    .faq-summary {
+        padding: 24px;
+    }
+    
+    .faq-content {
+        padding: 0 24px 24px 24px;
+    }
+    
+    .cta-inner-canvas h2 {
+        font-size: 3rem;
+    }
+    
+    .cta-btn-group {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .cta-btn-group .bbtnnbt, 
+    .cta-btn-group .cta-outline-btn {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .testi-grid-deck {
+        grid-template-columns: 1fr;
+    }
+    .testimonials-sect {
+        margin: 60px auto;
+        gap: 40px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .ba-showcasesect {
+        padding: 60px 30px;
+        margin: 60px auto;
+        gap: 40px;
+    }
+    .ba-img-compare {
+        height: 240px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ind-grid-deck {
+        grid-template-columns: 1fr;
+    }
+    .industries-sect {
+        margin: 60px auto;
+        gap: 40px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .feat-cards-deck {
+        grid-template-columns: 1fr;
+    }
+    .whyc-hoosesect {
+        margin: 60px auto;
+        gap: 40px;
+    }
+    .why-titles h2 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width:768px){
+
+.hero-ssesct{
+    min-height:70vh;
+    padding:90px 20px 40px;
+}
+
+.hero-content{
+    max-width:100%;
+}
+
+.hero-ssesct h1{
+    font-size:3rem;
+    line-height:1;
+}
+
+.hero-ssesct p{
+    font-size:1rem;
+    max-width:100%;
+}
+
+.controls-wrapper{
+    flex-direction:column;
+    gap:15px;
+}
+
+.controls-wrapper a{
+    width:100%;
+}
+}
+
+
+
+@media(max-width:700px){
+
+.footer{
+    padding:70px 0 25px;
+}
+
+.footer-grid{
+    grid-template-columns:1fr;
+    gap:50px;
+}
+
+.footer-bottom{
+    flex-direction:column;
+    text-align:center;
+}
+
+.footer-bottom-links{
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.footer-description{
+    max-width:100%;
+}
+
+}
+
+
+
+@media (max-width: 500px) {
+    .ba-img-compare {
+        flex-direction: column;
+        height: auto;
+    }
+    .ba-img-box {
+        width: 100%;
+        height: 200px;
+    }
+    .ba-img-box.before-box {
+        border-right: none;
+        border-bottom: 2px solid #ffffff;
+    }
+}
+

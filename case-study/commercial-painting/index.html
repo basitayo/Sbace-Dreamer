@@ -24,20 +24,7 @@
             </a>
             <nav class="nav-links">
                 <!-- Dropdown Container -->
-                <div class="dropdown">
-                    <a href="/index.html#work" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
-                        <span data-i18n="nav.work">Work</span> 
-                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-top: 2px;"><path d="m6 9 6 6 6-6"></path></svg>
-                    </a>
-                    
-                    <!-- Dropdown Menu -->
-                    <div class="dropdown-menu">
-                        <a href="/case-study-one/" data-i18n="nav.dropdown.residential">Modern Residential Website</a>
-                        <a href="/case-study-two/" data-i18n="nav.dropdown.luxury">Premium Luxury Platform</a>
-                        <a href="/case-study-three/" data-i18n="nav.dropdown.commercial">Commercial Conversion Page</a>
-                    </div>
-                </div>
-
+                <a href="/work/" data-i18n="nav.work">Selected Work</a>
                 <a href="/services/" data-i18n="nav.services">Services</a>
                 <a href="/about/" data-i18n="nav.about">About</a>
                 <a href="/contact/" data-i18n="nav.contact">Contact</a>
@@ -45,6 +32,96 @@
             <a href="/contact/" class="nav-links" style="font-weight: 600; color: var(--accent);" data-i18n="[html]nav.letsTalk">Let's Talk &rarr;</a>
         </div>
     </header>
+
+
+    <article class="case-study-wrapper">
+        
+        <!-- Case Study Header -->
+        <header class="cs-hero container fade-up">
+            <div class="cs-intro-grid">
+                <div class="cs-title-col">
+                    <span class="cs-num">08</span>
+                    <h1 class="h-hero" style="margin-bottom: 8px;" data-i18n="cs3Page.hero.title">Global Commercial Hub</h1>
+                    <span class="cs-industry" data-i18n="cs3Page.hero.tag">B2B / Corporate</span>
+                </div>
+                <div class="cs-desc-col">
+                    <p class="p-large" data-i18n="cs3Page.hero.desc">A robust, conversion-focused corporate website engineered to streamline B2B inquiries, build immediate trust, and clearly communicate complex services to an international market.</p>
+                </div>
+            </div>
+
+            <div class="cs-meta">
+                <div class="cs-meta-item">
+                    <span class="cs-label" data-i18n="global.role">Role</span>
+                    <p data-i18n="[html]cs3Page.meta.roleValue">UI/UX Design<br>Web Development<br>Conversion Optimization</p>
+                </div>
+                <div class="cs-meta-item">
+                    <span class="cs-label" data-i18n="global.projectType">Project Type</span>
+                    <p data-i18n="cs3Page.meta.typeValue">B2B Corporate Website</p>
+                </div>
+                <div class="cs-meta-item">
+                    <span class="cs-label" data-i18n="global.liveLink">Live Link</span>
+                    <a href="#" class="proj-link" data-i18n="[html]global.viewLiveProject">View live project <span class="arrow">→</span></a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Hero Visual -->
+        <div class="container fade-up">
+            <div class="cs-main-visual">
+                <!-- Be sure to update this image filename to your commercial mockup -->
+                <img src="/assets/images/commp1.png" alt="Commercial Project Preview">
+            </div>
+        </div>
+
+        <!-- Editorial Content Grid -->
+        <section class="cs-content container fade-up">
+            <div class="cs-text-row">
+                <div class="cs-label-col"><h3 class="cs-label" data-i18n="global.theChallenge">The Challenge</h3></div>
+                <div class="cs-copy-col">
+                    <p class="p-base" data-i18n="cs3Page.article.challengeText">The client was losing potential international partnerships due to a cluttered, outdated interface. They needed a highly professional digital presence that could effectively process inbound B2B leads while showcasing their large-scale capabilities.</p>
+                </div>
+            </div>
+
+            <div class="cs-text-row">
+                <div class="cs-label-col"><h3 class="cs-label" data-i18n="global.theDirection">The Direction</h3></div>
+                <div class="cs-copy-col">
+                    <p class="p-base" data-i18n="cs3Page.article.directionText">We engineered a clean, scalable layout built on strict type safety and a robust component structure. We introduced dynamic elements like infinite loop carousels for partner logos to establish instant credibility, while streamlining the user journey directly toward consultation forms.</p>
+                </div>
+            </div>
+
+            <div class="cs-text-row">
+                <div class="cs-label-col"><h3 class="cs-label" data-i18n="global.theResult">The Result</h3></div>
+                <div class="cs-copy-col">
+                    <p class="p-base" data-i18n="cs3Page.article.resultText">A lightning-fast, authoritative corporate hub. The redesigned user experience successfully bridges the communication gap with international businesses, resulting in a significantly higher volume of qualified cold outreach turning into booked meetings.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Extended Visual Showcase -->
+        <!-- <section class="cs-gallery container">
+            <div class="cs-image-row fade-up">
+                <img src="../assets/images/commercial-detail1.jpg" alt="Commercial Dashboard Detail">
+            </div>
+            <div class="cs-image-split fade-up">
+                <img src="../assets/images/commercial-mobile1.jpg" alt="Commercial Mobile View">
+                <img src="../assets/images/commercial-mobile2.jpg" alt="Commercial Mobile View">
+            </div>
+            <div class="cs-image-row fade-up">
+                <img src="../assets/images/commercial-system.jpg" alt="Commercial Design System">
+            </div>
+        </section> -->
+
+        <!-- Next Project Navigation (Loops back to Case Study 1) -->
+        <section class="cs-next container fade-up">
+            <span class="cs-label" data-i18n="global.nextProject">Next Project</span>
+            <a href="/case-study/fashion-Apparel/" class="cs-next-link">
+                <h2 class="h-hero" data-i18n="cs3Page.next.title">Sbace~D Apparel Platform</h2>
+                <span class="arrow">→</span>
+            </a>
+        </section>
+
+    </article>
+
 
     <!-- 2. Split B2B Hero (Upgraded Layout for Commercial Feel) -->
     <section class="cs-hero container" style="display: flex; flex-wrap: wrap; gap: 64px; padding-top: 180px; align-items: center;">
@@ -76,7 +153,7 @@
     <!-- 3. Full Width Feature Image with Dark Industrial Background -->
     <section class="cs-full-image" style="transition-delay: 0.2s; background-color: var(--text-primary); padding: 100px 0;">
         <div class="container">
-            <a href="/commercial/" target="_blank" rel="noopener" class="image-wrapper" style="background: transparent; border: none; box-shadow: 0 30px 60px rgba(0,0,0,0.4); padding: 0;">
+            <a href="/assets/case-study-sites/commercial/" target="_blank" rel="noopener" class="image-wrapper" style="background: transparent; border: none; box-shadow: 0 30px 60px rgba(0,0,0,0.4); padding: 0;">
                 <img src="/assets/images/commercepage.jpg" alt="Commercial Painting Website Full Capture" style="border-radius: var(--radius-lg);">
                 <span class="overlay-badge">
                     <span style="width: 8px; height: 8px; background-color: var(--accent); border-radius: 50%; display: inline-block;"></span>

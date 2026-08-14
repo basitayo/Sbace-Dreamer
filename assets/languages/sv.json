@@ -1,0 +1,715 @@
+{
+  "brand": {
+    "name": "Sbace Dreamer"
+  },
+  "modal": {
+    "welcome": "Välkommen",
+    "choose": "Välj ditt föredragna språk",
+    "continue": "Fortsätt"
+  },
+  "nav": {
+    "work": "Arbete",
+    "services": "Tjänster",
+    "about": "Om oss",
+    "contact": "Kontakt",
+    "cta": "Låt oss prata →",
+    "letsTalk": "Låt oss prata →"
+  },
+  "footer": {
+    "desc": "Boutique webdesignstudio som skapar premium-upplevelser för tjänsteföretag.",
+    "navTitle": "Navigation",
+    "navWork": "Arbete",
+    "navServices": "Tjänster",
+    "navAbout": "Om oss",
+    "connectTitle": "Anslut",
+    "connectEmail": "E-post",
+    "connectLinkedin": "LinkedIn",
+    "connectGithub": "GitHub",
+    "email": "E-post",
+    "rights": "Sbace Dreamer Creative. Alla rättigheter reserverade.",
+    "designed": "Designat med syfte."
+  },
+  "hero": {
+    "title": "Ditt hantverk är premium. Din webbplats borde också vara det.",
+    "subtitle": "Vi bygger rena, moderna webbplatser som skapar förtroende, genererar förfrågningar och får etablerade företag att se etablerade ut online.",
+    "btnWork": "Se mitt arbete",
+    "btnCall": "Boka ett descobringssamtal",
+    "tag": "Vår expertis"
+  },
+  "trust": {
+    "label": "Betrodd av etablerade tjänsteföretag",
+    "metric1": "Kundnöjdhet",
+    "metric2": "Genomsnittligt betyg",
+    "metric3": "Ökning i förfrågningar"
+  },
+  "work": {
+    "tag": "Portfölj",
+    "title": "Valt<br>arbete",
+    "subtitle": "Nya koncept och projekt utformade för hantverksföretag i servicebranschen.",
+    "viewCase": "Se fallstudie",
+    "case1": {
+      "industry": "Mode / E-handel",
+      "title": "Sbace~D Klädesplattform",
+      "feature1": "Höga prestanda",
+      "feature2": "Responsiv"
+    },
+    "case2": {
+      "industry": "Husdjursvård / Lokala tjänster",
+      "title": "Caramon Husdjursvård",
+      "feature1": "SEO-optimerad",
+      "feature2": "Snabb inladdning"
+    },
+    "case3": {
+      "industry": "Kommersiell städning / B2B",
+      "title": "S&B Facilities",
+      "feature1": "Lead-generering",
+      "feature2": "Mobil först"
+    }
+  },
+  "workPage": {
+    "hero": {
+      "title": "Valt arbete.",
+      "subtitle": "En samling webbplatser utformade för att ge företag en tydligare, starkare och mer karakteristisk digital närvaro."
+    },
+    "meta": {
+      "count": "08 projekt",
+      "tags": "Webdesign · UI/UX · Front-end"
+    },
+    "projects": {
+      "p1": {
+        "num": "01",
+        "category": "Mode / E-handel",
+        "title": "Sbace~D Klädesplattform",
+        "desc": "En redaktionell e-handelsupplevelse som bryter från stela butiksmall och blandar avancerad modeestetik."
+      },
+      "p2": {
+        "num": "02",
+        "category": "Husdjursvård / Lokala tjänster",
+        "title": "Caramon Husdjursvård",
+        "desc": "En varm, pålitlig digital plattform utformad för att lindra husdjursägarens ångest genom transparenta processhållpunkter."
+      },
+      "p3": {
+        "num": "03",
+        "category": "Arkitektur / Exklusiv fastighet",
+        "title": "Precision av att leva",
+        "desc": "Vi designade en arkitektonisk webbupplevelse för lyxig bostadsbyggnad."
+      },
+      "p4": {
+        "num": "04",
+        "category": "Kommersiell städning / B2B",
+        "title": "S&B Facilities"
+      },
+      "p5": {
+        "num": "05",
+        "category": "Skönhet / hårvård",
+        "title": "Hair III Studio",
+        "desc": "En höghöjd, fängslande digital närvaro som blandar slappande brutalistisk typografi med ett smidigt bokningsflöde."
+      },
+      "p6": {
+        "num": "06",
+        "category": "Bostadsfastighet",
+        "title": "Modern bostadsplats",
+        "desc": "En förfinad digital upplevelse utformad för att ge ett boende märke en mer premium och samtida närvaro."
+      },
+      "p7": {
+        "num": "07",
+        "category": "Lyx / service",
+        "title": "Premium luxusplattform",
+        "desc": "Lyft en högklassig tjänsteentreprenör genom SEO-optimerad struktur och fängslande visuell berättande."
+      },
+      "p8": {
+        "num": "08",
+        "category": "B2B / kommersiell",
+        "title": "Kommersiell konverteringssida"
+      }
+    },
+    "cta": {
+      "title": "Har du ett projekt i åtanke?",
+      "subtitle": "Låt oss bygga något värt att minnas.",
+      "btn": "Låt oss prata"
+    }
+  },
+  "statement": {
+    "badge": "Sbace Dreamer-standarden",
+    "quote": ""Bra design bygger förtroende <span class=\"quote-accent\">före</span> det första samtalet.""
+  },
+  "features": {
+    "title": "Byggt för tjänsteföretag",
+    "subtitle": "Varför hantverkare litar på Sbace Dreamer Creative med sin digitala närvaro.",
+    "item1": {
+      "title": "Professionell första intryck",
+      "desc": "Se ut som premium-valet på din lokala marknad den sekund en prospekt landar på din sida."
+    },
+    "item2": {
+      "title": "Bygg förtroende omedelbar",
+      "desc": "Strategiska layouter som belyser dina recensioner, tidigare arbete och trovärdighetsmarkörer."
+    },
+    "item3": {
+      "title": "Mobil-optimerad",
+      "desc": "Seamless upplevelse på alla enheter, vilket säkerställer att husägare enkelt kan kontakta dig medan du är på vägen."
+    },
+    "item4": {
+      "title": "Snabb inladdning",
+      "desc": "Byggt med lätt, modern teknik, så att du aldrig förlorar ett lead på grund av en långsam webbplats."
+    }
+  },
+  "services": {
+    "title": "Förmågor",
+    "subtitle": "Fokuserad expertis för att lyfta ditt varumärke.",
+    "item1": {
+      "title": "Webdesign",
+      "desc": "Anpassade, pixelperfekta webbplatser designade särskilt kring dina affärsmål, målgrupp och varumärkesidentitet."
+    },
+    "item2": {
+      "title": "Webbplatsutveckling",
+      "desc": "Responsiv, robust utveckling som utnyttjar ren kod och modern teknik för överlägsen prestanda och SEO."
+    },
+    "item3": {
+      "title": "Webbplatsomformning",
+      "desc": "Omvandling av föråldrade, dåligt presterande webbplatser till moderna, högt konverterande digitala upplevelser."
+    }
+  },
+  "process": {
+    "title": "Processen",
+    "subtitle": "Ett strömlinjeformat, transparent arbetsflöde från koncept till lansering.",
+    "item1": {
+      "title": "Upptäck",
+      "desc": "Förstå dina specifika affärsmål, konkurrenter och målgrupp."
+    },
+    "item2": {
+      "title": "Design",
+      "desc": "Skapa skräddarsydda layouter fokuserade rent på förtroende, klarhet och användarvänlighet."
+    },
+    "item3": {
+      "title": "Utveckla",
+      "desc": "Bygg en blixtsnabb, responsiv webbplats med hjälp av de senaste webstandarder."
+    },
+    "item4": {
+      "title": "Lansering",
+      "desc": "Implementera sömlöst, optimera för sökmotorer och tillhandahålla post-launch-stöd."
+    }
+  },
+  "cta": {
+    "title": "Redo att lyfta din digitala närvaro?",
+    "desc": "Låt oss diskutera dina affärsmål och se hur en premium-webbplats kan hjälpa dig att säkra bättre kunder.",
+    "btn": "Låt oss prata"
+  },
+  "about": {
+    "title": "Om Sbace Dreamer Creative",
+    "p1": "Sbace Dreamer Creative är en designstudio fokuserad på att skapa premium-webbplatser för tjänsteföretag som är stolta över sitt hantverk.",
+    "p2": "Vi tror att en fantastisk webbplats bör göra mer än bara se imponerande ut – den bör bygga förtroende innan det första samtalet ens börjar.\n\nVarje projekt är utformat med klarhet, prestanda och konvertering i åtanke och hjälper hantverkare att presentera sitt arbete professionellt och attrahera kunder av högre kvalitet.",
+    "hero": {
+      "tag": "Vår studio",
+      "title": "Bygga webbplatser som bygger förtroende före det första samtalet.",
+      "desc": "SBA Creative är en boutique-digital designstudio dedikerad till ett syfte: att konstruera premium digitala upplevelser som omvandlar lokala tjänsteföretag till obestridda marknadsledare.",
+      "btnSecondary": "Lär dig om vår process",
+      "btnPrimary": "Se vårt arbete"
+    },
+    "philosophy": {
+      "title": "Bra webbplatser är mer än visuell.",
+      "p1": "Vi tror att estetik bara är viktig om den tjänar ett syfte. I det digitala utrymmet är en webbplats en strategisk tillgång byggd på förtroende, klarhet och användarupplevelse.",
+      "p2": "I SBA Creative tar vi bort onödig dekoration. Vårt fokus ligger rent på att designa intuitiva, högt konverterande plattformer som lämnar ett oförglömligt första intryck, bevis på din yrkeskompetens, innan en prospect någonsin tar telefonen."
+    },
+    "specialization": {
+      "tag": "Specialisering",
+      "title": "Varför tjänsteföretag?",
+      "p1": "Vi betjänar medvetet inte alla industrier. SBA Creative samarbetar uteslutande med serviceprofessionella eftersom vi grundligt förstår lokal konkurrens och kundbeteende.",
+      "p2": "Husägare och kommersiella kunder söker tillförlitlighet. Vi vet vilka specifika förtroendessignaler de letar efter, och vi bygger in dem direkt i din digitala närvaro för att slå konkurrenter som förlitar sig på föråldrade mallar."
+    },
+    "principles": {
+      "title": "Våra principer",
+      "desc": "De grundläggande pelarna bakom varje SBA Creative-projekt.",
+      "c1": {
+        "title": "Klarhet",
+        "desc": "Professionella layouter och skarp kopia som omedelbar kommunicerar ditt värde till besökare."
+      },
+      "c2": {
+        "title": "Förtroende",
+        "desc": "Strategiska designbeslut som höjer din auktoritet och ökar kundförtroendet."
+      },
+      "c3": {
+        "title": "Prestanda",
+        "desc": "Blixtsnabb inladdning, helt responsiv på alla enheter och byggd för att rangordnas organiskt."
+      },
+      "c4": {
+        "title": "Syfte",
+        "desc": "Ingen tom dekoration. Varje avsnitt, varje knapp och varje bild existerar från ett bevisat affärsskäl."
+      }
+    },
+    "industries": {
+      "title": "Branscher vi betjänar",
+      "c1": {
+        "title": "Bostadsmålning",
+        "desc": "Attrahera välbeställda husägare med polerade portföljer."
+      },
+      "c2": {
+        "title": "Lyxmålning",
+        "desc": "Förfinad estetik för specialiserad och högkvalitativ målerentreprenör."
+      },
+      "c3": {
+        "title": "Kommersiell målning",
+        "desc": "Företagsklassplattformar som vinner massiva bud."
+      },
+      "c4": {
+        "title": "Konstruktion",
+        "desc": "Visa skalering och tillförlitlighet för stora intressenter."
+      },
+      "c5": {
+        "title": "Hemrenovering",
+        "desc": "Före-och-efter-upplevelser som driver inbundna leads."
+      },
+      "c6": {
+        "title": "Hantverk & tjänster",
+        "desc": "VVS-, tak- och elektrarbeten byggda för skalering."
+      }
+    },
+    "process": {
+      "title": "Hur vi arbetar",
+      "s1": {
+        "title": "Upptäckt",
+        "desc": "Vi granskar din nuvarande position, förstår din ideala klientprofil och definierar de exakta målen för din nya plattform."
+      },
+      "s2": {
+        "title": "Strategi",
+        "desc": "Kartläggning av användarresor, webbplatsarkitektur och konverteringstratt för att säkerställa att platsen fungerar som en försälkningstillgång."
+      },
+      "s3": {
+        "title": "Design",
+        "desc": "Skapa anpassade, höga layouter fokuserade rent på förtroende, klarhet och premiumvarumärkespositionering."
+      },
+      "s4": {
+        "title": "Utveckling",
+        "desc": "Skrivande av ren, semantisk kod för att bygga en blixtsnabb, högt responsiv webbplats med moderna webstandarder."
+      },
+      "s5": {
+        "title": "Lansering",
+        "desc": "Sträng testning, slutlig SEO-optimering och sömlös implementering på live-servern."
+      }
+    },
+    "why": {
+      "title": "SBA Creative-fördelen",
+      "c1": {
+        "title": "Premium design",
+        "desc": "Vi överbryggar höga slutet digital byråestetik och praktiska behov för tjänsteföretag. Din webbplats kommer att se ut som ett nationellt varumärke."
+      },
+      "c2": {
+        "title": "Konverteringsfokuserad",
+        "desc": "Vacker design är värdelös om telefonen inte ringer. Varje beslut är grundat i mänsklig psykologi och optimerad för att förvandla passiv trafik till aktiva leads."
+      },
+      "c3": {
+        "title": "Modern utveckling",
+        "desc": "Vi använder inte uppblåsta, långsamma byggare. Din webbplats är konstruerad med precisionskod för att säkerställa toppklass prestandamått och oöverträffad säkerhet."
+      },
+      "c4": {
+        "title": "Mobil först",
+        "desc": "Över 60% av din trafik kommer från smartphones. Vi designar mobilupplevelsen först och säkerställer sömlös navigering och snabb inladdning på vägen."
+      },
+      "c5": {
+        "title": "Långsiktigt värde",
+        "desc": "Våra webbplatser är byggda för att skala med ditt företag. En SBA Creative-plattform är en investering som ger mätbar avkastning i åratal."
+      }
+    },
+    "statement": {
+      "l1": ""Bra design är inte dekoration.",
+      "l2": "Det är grunden för förtroende.""
+    },
+    "cta": {
+      "title": "Redo att lyfta ditt företag online?",
+      "desc": "Samarbeta med SBA Creative för att bygga en plattform som attraherar premium-kunder och övertrumfar din konkurrens.",
+      "btnPrimary": "Starta ditt projekt"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "tag": "Vår expertis",
+      "title": "Webbplatser utformade för att förvandla första intryck till varaktig förtroende.",
+      "desc": "Varje digital upplevelse vi konstruerar är avsiktligt utformad för att hjälpa tjänsteföretag att attrahera bättre kunder, bygga omedelbar trovärdighet och generera mer kvalificerade förfrågningar.",
+      "btnSecondary": "Se vårt arbete",
+      "btnPrimary": "Starta ditt projekt"
+    },
+    "core": {
+      "s1": {
+        "title": "Webdesign",
+        "desc": "Vi överbryggar höga slutet digital byråestetik och de praktiska, konverteringsfokuserade behoven för tjänsteföretag. Din digitala närvaro kommer omedelbar att kommunicera auktoritet, vilket höjer dig över lokal konkurrens.",
+        "listTitle": "Leveranser",
+        "l1": "Anpassat användargränssnitt (UI)",
+        "l2": "Strategisk visuell hierarki",
+        "l3": "Specialiserad typografival",
+        "l4": "Responsive designlayouts",
+        "l5": "Omfattande designsystem"
+      },
+      "s2": {
+        "title": "Webbplatsutveckling",
+        "desc": "Vacker design betyder ingenting om det inte fungerar sömlöst. Vi skriver ren, semantisk och modern kod. Ingen uppblåst sidbyggare – bara blixtsnabb, säker och tillgänglig utveckling byggd för långsiktig prestanda.",
+        "listTitle": "Leveranser",
+        "l1": "Responsiv front-end-utveckling",
+        "l2": "Prestanda- och hastighetsoptimering",
+        "l3": "SEO-vänlig kodstruktur",
+        "l4": "W3C tillgänglighetsstandarden",
+        "l5": "Modern HTML/CSS/JS-arkitektur"
+      },
+      "s3": {
+        "title": "Webbplatsomformning",
+        "desc": "Omvandling av föråldrade, dåligt presterande webbplatser till moderna digitala tillgångar. Om din nuvarande webbplats kostar dig leads eller inte återspeglar den sanna kvaliteten på ditt arbete, omstrukturerar vi strategiskt upplevelsen för att maximera konverteringar.",
+        "listTitle": "Kärnfördelar",
+        "l1": "Dramatiskt ökat förtroende",
+        "l2": "Förbättrad lead-konvertering",
+        "l3": "Modernt, etablerat utseende",
+        "l4": "Mobil-första korrigering",
+        "l5": "Bättre sökmotorrankning"
+      },
+      "s4": {
+        "title": "Landningssidor",
+        "desc": "Precisionskonstruerade landningssidor designade för specifika marknadsföringskampanjer, betald annonsering eller högvärdig serviceöversikt. Varje element är obarmhärtigt optimerad för ett mål: att omvandla riktad trafik till betalande kunder.",
+        "listTitle": "Strategin",
+        "l1": "LaserföKuserad konverteringstratt",
+        "l2": "Sömlös lead-formulär",
+        "l3": "A/B-testberedskap",
+        "l4": "Tydlig, genomförbar copywriting",
+        "l5": "Förtroendessignal-optimering"
+      }
+    },
+    "included": {
+      "title": "Premiumstandarden",
+      "desc": "Varje SBA Creative-projekt inkluderar dessa grundläggande element.",
+      "c1": {
+        "title": "Responsive design",
+        "desc": "Sömlös funktionalitet på alla enheter."
+      },
+      "c2": {
+        "title": "SEO-vänlig struktur",
+        "desc": "Byggd för att rangordnas naturligt på Google."
+      },
+      "c3": {
+        "title": "Snabb prestanda",
+        "desc": "Optimerade tillgångar för omedelbar inladdning."
+      },
+      "c4": {
+        "title": "Mobil-optimering",
+        "desc": "Mobil-första användarupplevelse design."
+      },
+      "c5": {
+        "title": "Modernt UI",
+        "desc": "Ren, samtida visuell estetik."
+      },
+      "c6": {
+        "title": "Kontaktformulär",
+        "desc": "Sömlös, säker lead-generering."
+      },
+      "c7": {
+        "title": "Analytics-redo",
+        "desc": "Integrerad spårning för datainformation."
+      },
+      "c8": {
+        "title": "Google Maps-integration",
+        "desc": "Perfekt för lokala serviceområden."
+      },
+      "c9": {
+        "title": "Integrering av sociala medier",
+        "desc": "Sömlös anslutning av dina plattformar."
+      },
+      "c10": {
+        "title": "Enkel innehållsuppdatering",
+        "desc": "Intuitiv hantering för framtida redigeringar."
+      },
+      "c11": {
+        "title": "Säker utveckling",
+        "desc": "Byggt med robust, säker teknik."
+      },
+      "c12": {
+        "title": "Ren kod",
+        "desc": "Ingen uppblåst byggesystem eller röriga plugins."
+      }
+    },
+    "why": {
+      "title": "SBA Creative-fördelen",
+      "c1": {
+        "title": "IndustrifoKus",
+        "desc": "Vi designar inte för alla. Vi specialiserar oss uteslutande på servicebaserad företagare och yrkesfolk."
+      },
+      "c2": {
+        "title": "Konverteringsstrategi",
+        "desc": "Varje pixel är konstruerad kring mänsklig psykologi för att förvandla passiva besökare till aktiva leads."
+      },
+      "c3": {
+        "title": "Modernt design",
+        "desc": "Vi förkastas mallar och favoriserar en premium, anpassad redaktionell estetik som kräver respekt."
+      },
+      "c4": {
+        "title": "Snabb inladdning",
+        "desc": "Hastighet är intäkt. Våra webbplatser är noggrant kodade för att säkerställa nästan omedelbar inladdningstid."
+      },
+      "c5": {
+        "title": "Pålitlig kommunikation",
+        "desc": "Direkt, tydlig och transparent kommunikation genom hela designprocessen."
+      },
+      "c6": {
+        "title": "Långsiktigt partnerskap",
+        "desc": "Vi lanserar inte och återgår. Vi bygger relationer för att hjälpa ditt företag att skala år efter år."
+      }
+    },
+    "process": {
+      "title": "Vår process",
+      "s1": {
+        "title": "Upptäckt",
+        "desc": "Djuplodande dyk i din affärsmodell, ideala klientprofil och kärneprojektmål."
+      },
+      "s2": {
+        "title": "Forskning",
+        "desc": "Granskning av lokal konkurrens och marknadspositionering för att säkerställa att ditt varumärke helt skiljer sig åt."
+      },
+      "s3": {
+        "title": "Wireframing",
+        "desc": "Kartläggning av användarresa och konverteringsstrategi innan någon visuell design börjar."
+      },
+      "s4": {
+        "title": "UI-design",
+        "desc": "Utarbetande av höga ändlägga, premium visuell estetik skräddarsydd strikt till dina varumärkesriktlinjer."
+      },
+      "s5": {
+        "title": "Utveckling",
+        "desc": "Överföring av godkänd design till responsiv, ren och högpresterande kod."
+      },
+      "s6": {
+        "title": "Test",
+        "desc": "Sträng kvalitetssäkring över flera enheter, webbläsare och skärmstorlekar."
+      },
+      "s7": {
+        "title": "Lansering",
+        "desc": "Sömlös implementering på live-server, komplett med slutlig SEO-kontroll och överhanden."
+      }
+    },
+    "faq": {
+      "title": "Vanliga frågor",
+      "q1": "Hur lång tid tar ett projekt?",
+      "a1": "De flesta standardwebbplatsprojekt tar mellan 4 till 6 veckor från vårt första samtal till slutlig lansering. Denna tidslinje beror på byggkomplexiteten och hur snabbt innehål och feedback tillhandahålls.",
+      "q2": "Kan du göra om en befintlig webbplats?",
+      "a2": "Absolut. En betydande del av vårt arbete innebär att ta gamla, dåligt presterande webbplatser och förvandla dem till moderna, högt konverterande digitala tillgångar som återspeglar din nuvarande affärskvalitet.",
+      "q3": "Behöver jag tillhandahålla innehål?",
+      "a3": "Vi rekommenderar starkt att du tillhandahåller bilder av ditt eget arbete för att bygga autentisk förtroende. För att skriva kan vi samarbeta. Du tillhandahåller råinformationen om dina tjänster, och vi kan hjälpa till med att förfina den för konvertering, eller vi kan samarbeta med professionella copywriters om det behövs.",
+      "q4": "Fungerar min webbplats på mobil?",
+      "a4": "Ja. Över 60% av lokala serviceförfrågningar kommer från mobila enheter. Vi använder en mobilfirst designmetod som säkerställer att din webbplats ser perfekt ut och fungerar perfekt på smartphones och surfplattor.",
+      "q5": "Erbjuder ni stöd efter lansering?",
+      "a5": "Det gör vi. Vi erbjuder post-launch-stöd och pågående underhållsabonnemang för att säkerställa att din webbplats förblir säker, uppdaterad och fortsätter att prestera optimalt när ditt företag växer.",
+      "q6": "Kan du hjälpa till med hosting och domäner?",
+      "a6": "Ja, vi kan hantera den tekniska konfigurationen åt dig. Vi rekommenderar och konfigurerar premium, höghastighetsvärdhostinglösningar för att säkerställa att din webbplats är otroligt snabb och helt säker.",
+      "q7": "Hur många revisioner ingår?",
+      "a7": "Vår standardprocess inkluderar två dedikerade revisionsomgångar under UI Design-fasen. Eftersom vår Discovery- och Strategy-fas är så grundlig räcker detta nästan alltid för att uppnå ett perfekt slutresultat.",
+      "q8": "Bygger du anpassade webbplatser?",
+      "a8": "Allt vi bygger på SBA Creative är anpassat. Vi förlitar oss inte på fördesignerade mallar. Din webbplats kommer att vara unikt designat och kodat specifikt för att matcha din varumärkesidentitet och affärsmål."
+    },
+    "cta": {
+      "title": "Redo att bygga en webbplats som arbetar lika hårt som du?",
+      "desc": "Låt oss diskutera ditt projekt och se hur en premium digital närvaro kan hjälpa dig att dominera din lokala marknad.",
+      "btnPrimary": "Starta ditt projekt",
+      "btnSecondary": "Se portfölj"
+    }
+  },
+  "contact": {
+    "hero": {
+      "tag": "Boka ett descobringssamtal",
+      "title": "Låt oss prata om din nästa webbplats.",
+      "desc": "Oavsett om du lanserar en ny målaraftäring eller vill göra om din nuvarande webbplats, låt oss diskutera dina mål och se om vi är rätt val. Anropet är gratis utan förpliktelse.",
+      "btnPrimary": "Boka mitt descobringssamtal",
+      "btnSecondary": "Se vårt arbete"
+    },
+    "features": {
+      "title": "Vad händer härnäst",
+      "c1": {
+        "title": "Upptäckt",
+        "desc": "Vi lär oss om ditt företag, dina mål och din nuvarande webbplats."
+      },
+      "c2": {
+        "title": "Strategi",
+        "desc": "Vi rekommenderar det bästa sättet för ditt projekt."
+      },
+      "c3": {
+        "title": "Förslag",
+        "desc": "Om vi passar tillsammans får du ett anpassat förslag med prissättning och tidsplan."
+      }
+    },
+    "form": {
+      "fullNameLabel": "Fullständigt namn",
+      "fullNamePlaceholder": "John Doe",
+      "businessNameLabel": "Företagsnamn",
+      "businessNamePlaceholder": "Apex Målarverkstad",
+      "emailLabel": "E-postadress",
+      "emailPlaceholder": "john@example.com",
+      "websiteLabel": "Nuvarande webbplats (valfritt)",
+      "websitePlaceholder": "www.yourwebsite.com",
+      "serviceLabel": "Nödvändig tjänst",
+      "options": {
+        "default": "Välj ett alternativ",
+        "design": "Webdesign",
+        "redesign": "Webbplatsomformning",
+        "landing": "Landningssida",
+        "unsure": "Osäker än"
+      },
+      "detailsLabel": "Projektdetaljer",
+      "detailsPlaceholder": "Berätta lite om ditt företag och vad du gärna vill uppnå.",
+      "submitBtn": "Begär mitt descobringssamtal"
+    },
+    "alt": {
+      "title": "Föredrar du e-post?",
+      "desc": "Om du hellre vill kontakta oss direkt, skicka oss ett e-postmeddelande och vi svarar inom en arbetsdag."
+    },
+    "faq": {
+      "title": "Vanliga frågor",
+      "q1": "Hur långt är descobringssamtalet?",
+      "a1": "Vi schemalägger våra descobringssamtal i 30 minuter. Detta ger oss tillräckligt med tid för att förstå dina affärsmål och diskutera möjliga strategier utan att ta för mycket av din tid.",
+      "q2": "Är konsultationen gratis?",
+      "a2": "Ja. Det första descobringssamtalet är helt gratis och kommer utan förpliktelse. Vi använder denna tid för att säkerställa att vi är rätt byrå för att hjälpa dig att nå dina mål.",
+      "q3": "Arbetar du bara med målerarftägare?",
+      "a3": "Även om vi har djup expertis med att hjälpa måleraftäring arbetar vi med en rad etablerade lokala tjänsteföretag, inklusive takläggare, landskapsarkitekter och anpassade husbyggare.",
+      "q4": "Vad händer efter samtalet?",
+      "a4": "Om vi båda beslutar att vi passar tillsammans skickar vi ett anpassat förslag som beskriver arbetets omfattning, investeringen och projekttidsplanen inom 48 timmar.",
+      "q5": "Hur lång tid tar ett webbplatsprojekt vanligtvis?",
+      "a5": "De flesta standardanpassade webbplatsprojekt tar mellan 4 till 6 veckor från vår första strategi session till den slutliga lanseringen, beroende på komplexiteten och hur snabbt innehål levereras."
+    },
+    "cta": {
+      "title": "Redo att lyfta din digitala närvaro?",
+      "desc": "Låt oss skapa en webbplats som återspeglar ditt företags kvalitet och hjälper dig att attrahera bättre kunder.",
+      "btnPrimary": "Boka mitt descobringssamtal"
+    },
+    "modal": {
+      "title": "Vi kontaktar dig!",
+      "desc": "Tack för att du kontaktade oss. Vi har mottagit dina projektdetaljer och kontaktar dig inom 1 arbetsdag.",
+      "btn": "Stäng"
+    }
+  },
+  "cs1Page": {
+    "title": "Prime Coat Målning fallstudie | SBA Creative",
+    "metaDesc": "Hur SBA Creative designade en högt konverterande premium-webbplats för en målarentreprenör för att öka försäljningen och slå den lokala konkurrensen.",
+    "hero": {
+      "tag": "Maler entrepenör",
+      "title": "Bygga förtroende: Hur premiumdesign fördubblar målarentreprenörens lead-konvertering.",
+      "desc": "Vi omvandlade Prime Coat Paintings digitala närvaro från en standarddigital broschyr till en high-end lead-genereringsmotor. Genom att använända strategiska förtroendessignaler och premium estetik positionerar vi dem som det obestridda professionella valet på sin lokala marknad."
+    },
+    "meta": {
+      "industryLabel": "Industri",
+      "industryValue": "Hemtjänster / Målning",
+      "servicesLabel": "Levererade tjänster",
+      "servicesValue": "UX/UI-design, webdesign, konverteringsstrategi",
+      "goalLabel": "Primärt mål",
+      "goalValue": "Öka höga citattillfrågor"
+    },
+    "image": {
+      "overlay": "Klicka för att besöka webbplats"
+    },
+    "strategy": {
+      "title": "Anatomi av en högt konverterande webbplats",
+      "desc": "Husägare är djupt skyddande av sin egendom. För att vinna högvärdiga yttervägg och skåpmålningsarbeten måste målares webbplats eliminera ångest och presentera förtroende inom de första 3 sekunderna av ett besök.",
+      "b1": {
+        "title": "Bygga omedelbar förtroende",
+        "desc": "Vi placerade inte bara en hjältebild; vi konstruerade en \"förtroenderemsa\" över viken. Genom att omedelbar presentera flytande märken – \"4,9 betyg\", \"320+ hem målat\" och \"Licensierad & försäkrad\" – besvarar vi omedelbar husägarens viktigaste omedvetna fråga. Denna layout validerar omedelbar premiumprisproblematik och förhindrar prishandel."
+      },
+      "b2": {
+        "title": "Interaktiv handverksbeviser",
+        "desc": "Målning är en visuell industri, men de flesta målare förlitar sig på statiska, lågkvalitativs gallerier. Vi integrerade en dynamisk före/efter interaktiv skjutreglage till sektionen \"Signature Transformations\". Det här interaktiva elementet håller användarna på sidan längre, ökar engagemangsmetriker och ger otvivelaktig, psykologisk bevis för målarens kapacitet."
+      },
+      "b3": {
+        "title": "Sömlös användarresa",
+        "desc": "Ett förvirrat sinne säger nej. Vi implementerade en sticky navigationslinje med en mycket synlig, kontrastrik \"Få kostnadsfritt offert\" CTA. I kombination med ett massivt, fjärstegsnumrerat \"Processavsnitt\" demystifierade vi kundresan. När husägare vet exakt vad som händer efter de klickar på \"Kontakt\" skjuter konverteringsgraden upp."
+      }
+    },
+    "statement": {
+      "badge": "Resultatet",
+      "quote": ""När din webbplats ser dyr ut förväntar sig kunder att betala <span class=\"quote-accent\">premium</span>.""
+    },
+    "cta": {
+      "title": "Vill du ha dessa resultat för ditt tjänsteföretag?",
+      "desc": "Sluta förlora högvärdiga jobb till konkurrenter med bättre varumärkesstudier. Låt oss bygga en webbplats som återspeglar din handverkets sanna kvalitet.",
+      "btn": "Boka ditt descobringssamtal"
+    }
+  },
+  "cs2Page": {
+    "title": "Lyxlyx bostadsmålning fallstudie | SBA Creative",
+    "metaDesc": "Hur SBA Creative designade en elegant, redaktionell webbplats för en lyxbostadsmålningstjänst för att attrahera välbeställda husägare.",
+    "hero": {
+      "tag": "Lyxbostadstjänster",
+      "title": "Design för de bästa 1%: En mesterkurs i redaktionell webbupplevelser.",
+      "desc": "Vi skapade en anpassad digital storefront för en premium bostadsmålarentreprenör. Genom att flytta bort från standardtjänstmallar och omfamna en elegant, redaktionell layout talar den nya webbplatsen direkt till välbeställda husägare och positionerar märket som en lyxboutique-tjänst."
+    },
+    "meta": {
+      "industryLabel": "Industri",
+      "industryValue": "Lyxbostadstjänster",
+      "servicesLabel": "Levererade tjänster",
+      "servicesValue": "UX/UI-design, varumärkespositionering, webdesign",
+      "goalLabel": "Primärt mål",
+      "goalValue": "Konvertera höga nettovärdeskontakter"
+    },
+    "image": {
+      "overlay": "Klicka för att besöka webbplats"
+    },
+    "strategy": {
+      "title": "Anatomi av en lyxtjänstwebbplats",
+      "desc": "Välbeställda husägare söker framför allt tillförlitlighet och exceptionell kvalitet. Webbplatsen bör fungera som ett digitalt concierge, återspegla höga standarder för den fysiska tjänsten genom elegant typografi, riklig whitespace och högupplöst bildbehandling.",
+      "b1": {
+        "title": "Redaktionell typografi",
+        "desc": "Vi införde en förfinad, redaktionell layout. Genom att blanda varma, naturliga toner med skarp, strukturerad typografi kommunicerar designen exklusivitet omedelbar, vilket helt skiljer märket från budgetfokuserade lokala konkurrenter."
+      },
+      "b2": {
+        "title": "Skräddarsydd hantverk",
+        "desc": "I stället för röriga fotogallerier använde vi en asymmetrisk avsnitt \"Framhävda omvandlingar\". Denna layout belyser strikt uppmärksamhet på detalj – från ytförpreparing till premium-målningsapplikation – bevis för investeringsvärdet."
+      },
+      "b3": {
+        "title": "Sömlös resa",
+        "desc": "Höga slutklienter skattkar klarhet. Vi strömlinjeformade användarresan med en ren horisontell tidslinje i \"Vår process\"avsnitt. I kombination med glansfulla kunderkännanden eliminerade vi friktion och byggde omedelbar självförtroende för höga värdeprojekt."
+      }
+    },
+    "statement": {
+      "badge": "Resultatet",
+      "quote": ""Äkta lyx ligger i detaljerna. En premiumtjänst kräver en <span class=\"quote-accent\">premium digital storefront</span>.""
+    },
+    "cta": {
+      "title": "Redo att dominera din lokala marknad?",
+      "desc": "Sluta förlora högvärdiga jobb till konkurrenter med bättre varumärkesstudier. Låt oss bygga en webbplats som återspeglar din handverkets sanna kvalitet och konverterar dina outreach-kontakter.",
+      "btn": "Boka ditt descobringssamtal"
+    }
+  },
+  "cs3Page": {
+    "title": "Kommersiell målning fallstudie | SBA Creative",
+    "metaDesc": "Hur SBA Creative designade en högpresterande B2B-webbplats för en kommersiell målarentreprenör för att konvertera anläggningsförvaltare och allmänna entreprenörer.",
+    "hero": {
+      "tag": "B2B / Kommersiell entrepenör",
+      "title": "Byggt för skalering & precision.",
+      "desc": "Anläggningsförvaltare och allmänna entreprenörer köper inte på emotion; de köper på kapacitet, säkerhet och skalering. Vi konstruerade en robust B2B-digital plattform som omedelbar bevisar att denna kommersielle målarentreprenör kan hantera massiva, komplexa projekt utan operativ driftavbrott."
+    },
+    "meta": {
+      "industryLabel": "Industri",
+      "industryValue": "Kommersiell och industriell tjänst",
+      "servicesLabel": "Levererade tjänster",
+      "servicesValue": "B2B UX/UI-design, webdesign, copywriting",
+      "goalLabel": "Primärt mål",
+      "goalValue": "Generera RFP från anläggningsförvaltare och GC'er"
+    },
+    "image": {
+      "overlay": "Klicka för att besöka webbplats"
+    },
+    "strategy": {
+      "title": "Konstruktion av en B2B-lead-genereringsmotor",
+      "desc": "Försäljning till företag kräver en fundamentalt annan arkitektur än försäljning till husägare. Webbplatsen bör tjäna som ett omfattande kapacitetskort, bevis på efterlevnad, effektivitet och branschspecifik expertis på ett ögonblick.",
+      "b1": {
+        "title": "Bygga förtroende genom skalering",
+        "desc": "En kommersiel målningswebbplats bör presenteras som en företagsversion av Prime Coat, inte som ett hemmavarande alternativ. Vi layoutade webbplatsen kring tre kärnbudskap: \"500+ kommersiella fastigheter målade\", \"Noll arbetsplatsskador på 2 år\" och \"Licensierad i alla 50 stater\". Denna arkitektur eliminerade omedelbar tvivel på skalering och säkerhet."
+      },
+      "b2": {
+        "title": "Dokumentera kapacitet och process",
+        "desc": "Anläggningsförvaltare kräver bevis på drift. Vi skapade en avsnitt \"Projektledningsprocess\" som dokumenterar det kompletta arbetsflödet: planering, uppskattning, dag-för-koordinering, kvalitetskontroll och dokumentation. Denna sjustegsprocess eliminerar tvivel; det visar, inte säger."
+      },
+      "b3": {
+        "title": "Konvertera till RFP-förfrågningar",
+        "desc": "B2B-försäljning handlar inte om att få omedelbar press. Det handlar om att få anläggningsförvaltare att skicka en RFP. Vi integrerade ett RFP-begäransformulär centralt (\"Skicka ditt projekt\"), vilket ger yrkesfolk en väg till engagemang utan högtrycksförsäljning."
+      }
+    },
+    "statement": {
+      "badge": "Resultatet",
+      "quote": ""När en B2B-webbplats bevisar <span class=\"quote-accent\">kapacitet</span> köper företagen innan de överväger andra.""
+    },
+    "cta": {
+      "title": "Vill du ha dessa resultat för ditt tjänsteföretag?",
+      "desc": "Sluta förlora högvärdiga jobb till konkurrenter med bättre varumärkesstudier. Låt oss bygga en webbplats som återspeglar din handverkets sanna kvalitet och konverterar dina outreach-kontakter.",
+      "btn": "Boka ditt descobringssamtal"
+    }
+  }
+}
