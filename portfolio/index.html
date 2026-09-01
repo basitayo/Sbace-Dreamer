@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basit Sanni Olasunkanmi | Front-End Developer & Web Designer</title>
+    <!-- Fonts -->
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "ybobruqtfk");
+</script>
+    
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/work.css">
+    <style>
+        /* Minimal specific tweaks for the developer portfolio utilizing existing variables */
+        .tech-tags { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 16px; }
+        .tech-tag { padding: 8px 16px; background: var(--bg-section); border: 1px solid var(--border-color); border-radius: var(--radius-btn); font-size: 0.85rem; font-weight: 600; color: var(--text-primary); }
+        .tech-tag.primary { border-color: var(--accent); color: var(--accent); background: var(--accent-warm); }
+        .dev-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 32px; margin-top: 48px; }
+        .dev-card { padding: 32px; background: var(--bg-section); border: 1px solid var(--border-color); border-radius: var(--radius-lg); }
+        .dev-card ul { margin-top: 16px; display: flex; flex-direction: column; gap: 8px; color: var(--text-secondary); font-size: 0.95rem; list-style-type: disc; padding-left: 20px;}
+        .timeline-section { display: flex; flex-direction: column; gap: 48px; margin-top: 48px; }
+        .timeline-item { padding-left: 24px; border-left: 2px solid var(--accent); position: relative; }
+        .timeline-item::before { content: ''; position: absolute; left: -6px; top: 0; width: 10px; height: 10px; border-radius: 50%; background: var(--accent); }
+        .contact-header-links a { color: var(--text-secondary); transition: color 0.2s ease; font-weight: 500; font-size: 0.95rem; }
+        .contact-header-links a:hover { color: var(--accent); }
+        
+        @media (max-width: 768px) {
+            .contact-header-links { gap: 16px !important; justify-content: center; margin-top: 16px; }
+            .nav-container { flex-direction: column; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Custom Contact Header (Nav Removed) -->
+    <header id="header" style="border-bottom: 1px solid var(--border-color); background: var(--bg-main);">
+        <div class="container nav-container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+            <div class="logo"><img src="/assets/images/Layer 2.png" alt=""><span>AbdulBasit Sanni</span></div>
+            <div class="contact-header-links" style="display: flex; gap: 32px; flex-wrap: wrap; align-items: center;">
+                <a href="mailto:basitayo111@gmail.com">basitayo111@gmail.com</a>
+                <a href="tel:+2349063159241">+234 906 315 9241</a>
+                <a href="http://github.com/basitayo/" target="_blank" style="color: var(--text-primary); font-weight: 600;">GitHub ↗</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. Hero Section -->
+    <section class="work-hero container fade-up" style="padding-top: 180px; padding-bottom: 80px; border-bottom: none;">
+        <span class="section-tag" style="color: var(--text-secondary); font-weight: 700; letter-spacing: 0.1em; display: block; margin-bottom: 24px;">FRONT-END DEVELOPER · WEB DESIGNER</span>
+        <h1 class="h-hero" style="max-width: 900px;">Building thoughtful digital experiences through code and design.</h1>
+        <p class="p-large" style="max-width: 700px; margin-bottom: 40px;">
+            I'm Basit, a Front-End Developer and Web Designer focused on creating modern, responsive and visually engaging web experiences. I combine front-end development with UI/UX design to build interfaces that are both functional and visually polished.
+        </p>
+        <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+            <a href="#projects" class="btn btn-primary">View Selected Work</a>
+            <a href="/assets/CV.pdf" target="_blank" class="btn btn-secondary">Download CV</a>
+        </div>
+    </section>
+
+    <!-- 3. About Me & Tech Stack -->
+    <section class="container fade-up" style="padding: 80px 24px; border-top: 1px solid var(--border-color);">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start;">
+            <div>
+                <h2 class="h-section">A developer with a designer's eye.</h2>
+                <p class="p-base" style="margin-bottom: 24px;">My background bridges the gap between how a product looks and how it works.</p>
+                <ul style="display: flex; flex-direction: column; gap: 12px; color: var(--text-secondary);">
+                    <li><strong>B.Sc. Computer Science</strong></li>
+                    <li><strong>Front-End & Web Design Tutor</strong> at Aptech Computer Education</li>
+                    <li><strong>Graphics Designer & UI/UX Intern</strong> at New Horizons</li>
+                    <li><strong>IT Support Specialist / Technician</strong> at Bash Computer Services</li>
+                    <li><strong>Independent Front-End Developer</strong> through SBace Dreamer</li>
+                    <li><strong>President of an ICT Group</strong> guiding youth in technology</li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="h-card" style="margin-bottom: 16px;">Core Technologies</h3>
+                <div class="tech-tags" style="margin-bottom: 32px;">
+                    <span class="tech-tag primary">HTML5</span>
+                    <span class="tech-tag primary">CSS3</span>
+                    <span class="tech-tag primary">JavaScript</span>
+                    <span class="tech-tag primary">React</span>
+                    <span class="tech-tag primary">Tailwind CSS</span>
+                    <span class="tech-tag primary">Git</span>
+                    <span class="tech-tag primary">GitHub</span>
+                    <span class="tech-tag primary">RESTful APIs</span>
+                </div>
+                <h3 class="h-card" style="margin-bottom: 16px;">Secondary / Backend / Design</h3>
+                <div class="tech-tags">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Django</span>
+                    <span class="tech-tag">DRF</span>
+                    <span class="tech-tag">JWT</span>
+                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">Figma</span>
+                    <span class="tech-tag">UI/UX Design</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Selected Projects (Imported from Work Page with GitHub Links) -->
+    <section id="projects" class="portfolio-list container">
+        <h2 class="h-hero fade-up" style="margin-bottom: 24px;">Selected Projects</h2>
+
+        <!-- PROJECT 01: Large Visual Showcase -->
+        <article class="proj-item layout-large fade-up">
+            <div class="proj-info">
+                <span class="proj-num" data-i18n="workPage.projects.p1.num">01</span>
+                <div class="proj-details">
+                    <span class="proj-cat" data-i18n="workPage.projects.p1.category">Fashion / E-Commerce</span>
+                    <h2 class="h-section" data-i18n="workPage.projects.p1.title">Sbace~D Apparel Platform</h2>
+                    <p class="p-base" data-i18n="workPage.projects.p1.desc">An editorial-driven e-commerce experience that breaks away from rigid storefront templates, blending high-end fashion aesthetics.</p>
+                    <a href="https://github.com/your-github-username/project-1-repo" target="_blank" class="proj-link">View Code on GitHub <span class="arrow">→</span></a>
+                </div>
+            </div>
+            <a href="https://github.com/your-github-username/project-1-repo" target="_blank" class="proj-visual">
+                <div class="mockup-placeholder" style="background-image: url('/assets/images/fashionfeat.jpg'); background-size: cover;"></div>
+            </a>
+        </article>
+
+        <!-- PROJECT 02: Offset Right Composition -->
+        <article class="proj-item layout-offset-right fade-up">
+            <div class="proj-info">
+                <span class="proj-num" data-i18n="workPage.projects.p2.num">02</span>
+                <span class="proj-cat" data-i18n="workPage.projects.p2.category">Pet Care / Local Services</span>
+                <h2 class="h-section" data-i18n="workPage.projects.p2.title">Caramon Pet Care</h2>
+                <p class="p-base" data-i18n="workPage.projects.p2.desc">A warm, high-trust digital platform designed to alleviate pet owner anxiety through transparent process breakdowns.</p>
+                <a href="https://github.com/your-github-username/project-2-repo" target="_blank" class="proj-link">View Code on GitHub <span class="arrow">→</span></a>
+            </div>
+            <a href="https://github.com/your-github-username/project-2-repo" target="_blank" class="proj-visual">
+                <div class="mockup-placeholder" style="background-image: url('/assets/images/doggromfeat.png'); background-size: cover;"></div>
+            </a>
+        </article>
+
+        <!-- PROJECT 03: Offset Left Composition -->
+        <article class="proj-item layout-offset-left fade-up">
+            <a href="https://github.com/your-github-username/project-3-repo" target="_blank" class="proj-visual">
+                <div class="mockup-placeholder" style="background-image: url('/assets/images/Archifeat.png'); background-size: cover;"></div>
+            </a>
+            <div class="proj-info">
+                <span class="proj-num" data-i18n="workPage.projects.p3.num">03</span>
+                <span class="proj-cat" data-i18n="workPage.projects.p3.category">Architecture / High-End Real Estate</span>
+                <h2 class="h-section" data-i18n="workPage.projects.p3.title">The Precision of Living</h2>
+                <p class="p-base" data-i18n="workPage.projects.p3.desc">We designed an architectural-grade web experience for luxury home developments.</p>
+                <a href="https://github.com/your-github-username/project-3-repo" target="_blank" class="proj-link">View Code on GitHub <span class="arrow">→</span></a>
+            </div>
+        </article>
+
+        <!-- PROJECT 04: Centered / Split Composition -->
+        <article class="proj-item layout-centered fade-up">
+            <div class="proj-info">
+                <span class="proj-num" data-i18n="workPage.projects.p4.num">04</span>
+                <span class="proj-cat" data-i18n="workPage.projects.p4.category">Commercial Cleaning / B2B</span>
+                <h2 class="h-section" data-i18n="workPage.projects.p4.title">S&B Facilities</h2>
+                <a href="https://github.com/your-github-username/project-4-repo" target="_blank" class="proj-link">View Code on GitHub <span class="arrow">→</span></a>
+            </div>
+            <a href="https://github.com/your-github-username/project-4-repo" target="_blank" class="proj-visual">
+                <div class="mockup-placeholder bg-gray" style="background-image: url('/assets/images/SABfeat.png'); background-size: cover;"></div>
+            </a>
+        </article>
+
+        <!-- PROJECT 05: Large Visual Showcase -->
+        <article class="proj-item layout-large fade-up">
+            <div class="proj-info">
+                <span class="proj-num" data-i18n="workPage.projects.p5.num">05</span>
+                <div class="proj-details">
+                    <span class="proj-cat" data-i18n="workPage.projects.p5.category">Beauty / Hair Care</span>
+                    <h2 class="h-section" data-i18n="workPage.projects.p5.title">Hair III Studio</h2>
+                    <p class="p-base" data-i18n="workPage.projects.p5.desc">A high-contrast, immersive digital presence that blends striking brutalist typography with a seamless booking flow.</p>
+                    <a href="https://github.com/your-github-username/project-5-repo" target="_blank" class="proj-link">View Code on GitHub <span class="arrow">→</span></a>
+                </div>
+            </div>
+            <a href="https://github.com/your-github-username/project-5-repo" target="_blank" class="proj-visual">
+                <div class="mockup-placeholder bg-gray" style="background-image: url('/assets/images/hairsalfeat.png'); background-size: cover;"></div>
+            </a>
+        </article>
+
+        <!-- PROJECT 06: Offset Right -->
+        <article class="proj-item layout-offset-right fade-up">
+            <div class="proj-info">
+                <span class="proj-num" data-i18n="workPage.projects.p6.num">06</span>
+                <span class="proj-cat" data-i18n="workPage.projects.p6.category">Residential / Real Estate</span>
+                <h2 class="h-section" data-i18n="workPage.projects.p6.title">Modern Residential Website</h2>
+                <p class="p-base" data-i18n="workPage.projects.p6.desc">A refined digital experience designed to give a residential brand a more premium and contemporary presence.</p>
+                <a href="https://github.com/your-github-username/project-6-repo" target="_blank" class="proj-link">View Code on GitHub <span class="arrow">→</span></a>
+            </div>
+            <a href="https://github.com/your-github-username/project-6-repo" target="_blank" class="proj-visual">
+                <div class="mockup-placeholder bg-gray" style="background-image: url('/assets/images/residenp1.png'); background-size: cover;"></div>
+            </a>
+        </article>
+        
+        <!-- PROJECT 07: Offset Left -->
+        <article class="proj-item layout-offset-left fade-up">
+            <a href="https://github.com/your-github-username/project-7-repo" target="_blank" class="proj-visual">
+                <div class="mockup-placeholder bg-gray" style="background-image: url('/assets/images/luxurp1.png'); background-size: cover;"></div>
+            </a>
+            <div class="proj-info">
+                <span class="proj-num" data-i18n="workPage.projects.p7.num">07</span>
+                <span class="proj-cat" data-i18n="workPage.projects.p7.category">Luxury / Service</span>
+                <h2 class="h-section" data-i18n="workPage.projects.p7.title">Premium Luxury Platform</h2>
+                <p class="p-base" data-i18n="workPage.projects.p7.desc">Elevating a high-end service contractor through SEO-optimized structure and immersive visual storytelling.</p>
+                <a href="https://github.com/your-github-username/project-7-repo" target="_blank" class="proj-link">View Code on GitHub <span class="arrow">→</span></a>
+            </div>
+        </article>
+
+        <!-- PROJECT 08: Centered -->
+        <article class="proj-item layout-centered fade-up">
+            <div class="proj-info">
+                <span class="proj-num" data-i18n="workPage.projects.p8.num">08</span>
+                <span class="proj-cat" data-i18n="workPage.projects.p8.category">B2B / Commercial</span>
+                <h2 class="h-section" data-i18n="workPage.projects.p8.title">Commercial Conversion Page</h2>
+                <a href="https://github.com/your-github-username/project-8-repo" target="_blank" class="proj-link">View Code on GitHub <span class="arrow">→</span></a>
+            </div>
+            <a href="https://github.com/your-github-username/project-8-repo" target="_blank" class="proj-visual">
+                <div class="mockup-placeholder bg-gray" style="background-image: url('/assets/images/commp1.png'); background-size: cover;"></div>
+            </a>
+        </article>
+
+    </section>
+
+    <!-- 5. Case Study Methodology -->
+    <section class="trust-section container fade-up" style="text-align: left; padding: 80px 24px;">
+        <span class="trust-label" style="text-align: left; margin-bottom: 24px;">Development Methodology</span>
+        <h2 class="h-section">How I Approach Projects</h2>
+        <div class="dev-grid">
+            <div class="dev-card">
+                <h3 class="h-card">Overview & Challenge</h3>
+                <p class="p-base">Understanding the client's needs, target audience, and the technical constraints of the project before writing any code.</p>
+            </div>
+            <div class="dev-card">
+                <h3 class="h-card">Design Direction</h3>
+                <p class="p-base">Establishing visual hierarchy, selecting appropriate typography, and designing intuitive interfaces in Figma.</p>
+            </div>
+            <div class="dev-card">
+                <h3 class="h-card">Development & Tech</h3>
+                <p class="p-base">Translating designs into responsive, semantic code using React or vanilla JS, ensuring maintainable styling.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6 & 7. Capabilities -->
+    <section class="features container fade-up" style="padding: 100px 24px;">
+        <div style="text-align: center; margin-bottom: 64px;">
+            <h2 class="h-hero">Technical Capabilities</h2>
+            <p class="p-large" style="margin: 0 auto;">My design experience heavily influences how I approach front-end architecture.</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3 class="h-card">HTML & CSS</h3>
+                <ul>
+                    <li>Semantic HTML5 structure</li>
+                    <li>Responsive grid/flex layouts</li>
+                    <li>Modern CSS (variables, clamp)</li>
+                    <li>Visual hierarchy & component styling</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h3 class="h-card">JavaScript</h3>
+                <ul>
+                    <li>Interactive UI interfaces</li>
+                    <li>DOM manipulation & events</li>
+                    <li>State & interaction logic</li>
+                    <li>Dynamic UI behavior</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h3 class="h-card">React & Tailwind</h3>
+                <ul>
+                    <li>Component architecture</li>
+                    <li>Hooks (useState, useEffect)</li>
+                    <li>Props & array mapping</li>
+                    <li>Utility-first CSS styling</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h3 class="h-card">APIs & Version Control</h3>
+                <ul>
+                    <li>Consuming RESTful endpoints</li>
+                    <li>JSON data handling</li>
+                    <li>Git versioning & branching</li>
+                    <li>GitHub repository management</li>
+                </ul>
+            </div>
+            <div class="feature-card" style="grid-column: 1 / -1; background: var(--bg-alt);">
+                <h3 class="h-card">UI/UX Design Foundation</h3>
+                <p class="p-base">I utilize Figma, color theory, typography, and user-focused interface principles to ensure seamless design-to-code translations.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8 & 9. Experience & Leadership -->
+    <section class="about container fade-up" style="padding: 100px 24px; border-radius: var(--radius-lg);">
+        <h2 class="h-hero">Experience</h2>
+        <div class="timeline-section">
+            <div class="timeline-item">
+                <span class="proj-cat">Aptech Computer Education</span>
+                <h3 class="h-card">Front-End & Web Design Tutor</h3>
+                <p class="p-base">Teaching front-end development and web design. Guiding learners through practical interface development, troubleshooting code, and mentoring students to understand design concepts.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="proj-cat">SBace Dreamer (Independent)</span>
+                <h3 class="h-card">Front-End Developer & Web Designer</h3>
+                <p class="p-base">Designing and developing responsive websites. Building front-end interfaces utilizing React, Tailwind, and REST APIs, while managing client workflows and Git version control.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="proj-cat">New Horizons</span>
+                <h3 class="h-card">Graphics Designer & UI/UX Intern</h3>
+                <p class="p-base">Focused on visual design, typography, color theory, and Figma workflows. Collaborated directly with developers to understand the design-to-code pipeline.</p>
+            </div>
+            <div class="timeline-item">
+                <span class="proj-cat">Bash Computer Services</span>
+                <h3 class="h-card">IT Support Specialist / Technician</h3>
+                <p class="p-base">Provided foundational hardware and software technical support.</p>
+            </div>
+            <div class="timeline-item" style="border-left-color: transparent;">
+                <span class="proj-cat">Leadership · ICT Group</span>
+                <h3 class="h-card">President</h3>
+                <p class="p-base">Led an ICT-focused student group. Mentored young members, built tech awareness, and fostered a community focused on discovering opportunities in the tech industry.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. NDA Statement -->
+    <section class="statement-section fade-up">
+        <div class="container">
+            <span class="statement-badge">Confidentiality</span>
+            <p class="p-large" style="margin: 0 auto; max-width: 800px; text-align: center;">
+                Some of my professional work is protected by client confidentiality agreements. Where required, client identities and project details have been withheld, while the portfolio showcases only work and information that can be publicly shared.
+            </p>
+        </div>
+    </section>
+
+    <!-- 11 & 12. CTA & Contact -->
+    <section class="cta-section fade-up">
+        <div class="container">
+            <h2 class="h-hero">Interested in my work?</h2>
+            <p class="p-large">Explore my experience, technical background, and professional work in my CV.</p>
+            <a href="/assets/CV.pdf" target="_blank" class="btn btn-primary" style="margin-bottom: 64px;">
+                Download CV
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+            </a>
+
+            <div style="border-top: 1px solid var(--border-color); padding-top: 64px; width: 100%;">
+                <h3 class="h-section">Let's build something meaningful.</h3>
+                <p class="p-base" style="margin-bottom: 32px;">Open to new roles, teams, and collaborations.</p>
+                <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                    <a href="mailto:basitayo111@gmail.com" class="btn btn-secondary">Email Me</a>
+                    <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank" class="btn btn-secondary">LinkedIn</a>
+                    <a href="https://github.com/your-github-profile" target="_blank" class="btn btn-secondary">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 13. Minimal Footer -->
+    <footer style="padding: 32px 0;">
+        <div class="container fade-up" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+            <div>
+                <strong style="font-family: var(--font-head); font-size: 1.2rem;">SBace Dreamer</strong>
+                <p class="p-base" style="font-size: 0.9rem;">Front-End Developer & Web Designer</p>
+            </div>
+            <p class="p-base" style="font-size: 0.85rem;">&copy; 2026 SBace Dreamer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>
