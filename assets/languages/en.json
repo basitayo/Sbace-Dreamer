@@ -1,982 +1,719 @@
 {
-  "brand": {
-    "name": "Sbace Dreamer"
-  },
-  "modal": {
-    "welcome": "Welcome",
-    "choose": "Choose your preferred language",
-    "continue": "Continue"
-  },
-  "nav": {
-    "work": "Work",
-    "services": "Services",
-    "about": "About",
-    "contact": "Contact",
-    "cta": "Let's Talk →",
-    "letsTalk": "Let's Talk →"
-  },
-  "footer": {
-    "desc": "Web Design & Development Studio creating modern websites for service businesses and contractors.",
-    "navTitle": "Navigation",
-    "navHome": "Home",
-    "navWork": "Work",
-    "navServices": "Services",
-    "navAbout": "About",
-    "navContact": "Contact",
-    "connectTitle": "Connect",
-    "connectEmail": "Email",
-    "connectLinkedin": "LinkedIn",
-    "connectGithub": "GitHub",
-    "email": "Email",
-    "rights": "All rights reserved.",
-    "designed": "Designed with purpose."
-  },
-  
-  "hero": {
-    "title": "Premium Websites for Service Businesses.",
-    "subtitle": "We design and develop clean, modern websites that help service businesses present their work professionally, build trust and make it easier for potential customers to get in touch.",
-    "btnWork": "View My Work",
-    "btnCall": "Start a Project",
-    "tag": "Our Expertise"
-  },
-  "trust": {
-    "label": "Designed for service businesses",
-    "metric1": "Client Satisfaction",
-    "metric2": "Average Rating",
-    "metric3": "Enquiry Increase"
-  },
-  "work": {
-    "tag": "Portfolio",
-    "title": "Selected<br>Work",
-    "subtitle": "Selected websites and concepts created for service businesses and contractors.",
-    "viewCase": "View Case Study",
-    "case1": {
-      "industry": "Fashion / E-Commerce",
-      "title": "Sbace~D Apparel Platform",
-      "feature1": "High Performance",
-      "feature2": "Responsive"
-    },
-    "case2": {
-      "industry": "Pet Care / Local Services",
-      "title": "Caramon Pet Care",
-      "feature1": "SEO Optimized",
-      "feature2": "Fast Loading"
-    },
-    "case3": {
-      "industry": "Commercial Cleaning / B2B",
-      "title": "S&B Facilities",
-      "feature1": "Lead Generation",
-      "feature2": "Mobile First"
-    }
-  },
-
-  "workPage": {
-    "hero": {
-      "title": "Selected work.",
-      "subtitle": "A collection of websites designed and developed for service businesses, contractors and growing brands."
-    },
-    "meta": {
-      "count": "Selected projects",
-      "tags": "Web Design · Development · Front-end"
-    },
-    "projects": {
-      "p1": {
-        "num": "01",
-        "category": "Fashion / E-Commerce",
-        "title": "Sbace~D Apparel Platform",
-        "desc": "An editorial-inspired e-commerce concept combining a strong visual identity with a structured shopping experience."
-      },
-      "p2": {
-        "num": "02",
-        "category": "Pet Care / Local Services",
-        "title": "Caramon Pet Care",
-        "desc": "A warm, approachable website concept designed to help a local pet care business communicate its services clearly and build trust with pet owners."
-      },
-      "p3": {
-        "num": "03",
-        "category": "Architecture / High-End Real Estate",
-        "title": "The Precision of Living",
-        "desc": "An architectural website concept created to present luxury residential developments through a refined and visual-first experience."
-      },
-      "p4": {
-        "num": "04",
-        "category": "Commercial Cleaning / B2B",
-        "title": "S&B Facilities"
-      },
-      "p5": {
-        "num": "05",
-        "category": "Beauty / Hair Care",
-        "title": "Hair III Studio",
-        "desc": "A bold website concept for a modern hair studio, combining strong typography with a clear service and booking experience."
-      },
-      "p6": {
-        "num": "06",
-        "category": "Residential / Real Estate",
-        "title": "Modern Residential Website",
-        "desc": "A contemporary residential website concept designed to give a property-focused brand a more refined digital presence."
-      },
-      "p7": {
-        "num": "07",
-        "category": "Luxury / Service",
-        "title": "Premium Luxury Platform",
-        "desc": "A premium website concept designed to help a high-end service business present its work with greater clarity and visual impact."
-      },
-      "p8": {
-        "num": "08",
-        "category": "B2B / Commercial",
-        "title": "Commercial Conversion Page"
-      }
-    },
-    "cta": {
-      "title": "Have a project in mind?",
-      "subtitle": "Tell us about your business and what you want your website to achieve.",
-      "btn": "Let's Talk"
-    }
-  },
-  "statement": {
-    "badge": "The Sbace Dreamer Standard",
-    "quote": "“Good design builds trust <span class=\"quote-accent\">before</span> the first call.”"
-  },
-  "features": {
-    "title": "Built for Service Businesses",
-    "subtitle": "Practical website solutions for service businesses that want to present their work professionally online.",
-    "item1": {
-      "title": "Professional First Impression",
-      "desc": "Look like the premium choice in your local market the second a prospect lands on your page."
-    },
-    "item2": {
-      "title": "Build Trust Instantly",
-      "desc": "Strategic layouts that highlight your reviews, past work, and credibility markers."
-    },
-    "item3": {
-      "title": "Mobile Optimized",
-      "desc": "Flawless experience on every device, ensuring homeowners can easily contact you on the go."
-    },
-    "item4": {
-      "title": "Fast Loading",
-      "desc": "Built with lightweight, modern technologies so you never lose a lead to a slow website."
-    }
-  },
-  "services": {
-    "title": "Web Design & Development Services",
-    "subtitle": "Website design, development and refresh services for service businesses and contractors.",
-    "item1": {
-      "title": "Website Design",
-      "desc": "Custom, pixel-perfect websites designed specifically around your business goals, target audience, and brand identity."
-    },
-    "item2": {
-      "title": "Website Development",
-      "desc": "Responsive, robust development utilizing clean code and modern technologies for superior performance and SEO."
-    },
-    "item3": {
-      "title": "Website Refresh",
-      "desc": "Transforming outdated, underperforming websites into modern, high-converting digital experiences."
-    }
-  },
-  "process": {
-    "title": "The Process",
-    "subtitle": "A streamlined, transparent workflow from concept to launch.",
-    "item1": {
-      "title": "Discover",
-      "desc": "Understand your specific business goals, competitors, and target audience."
-    },
-    "item2": {
-      "title": "Design",
-      "desc": "Create bespoke layouts focused purely on trust, clarity, and usability."
-    },
-    "item3": {
-      "title": "Develop",
-      "desc": "Build a fast, responsive website using clean code and modern web standards."
-    },
-    "item4": {
-      "title": "Launch",
-      "desc": "Deploy flawlessly, optimize for search engines, and provide post-launch support."
-    }
-  },
-  "cta": {
-    "title": "Ready to Elevate Your Online Presence?",
-    "desc": "Tell us about your business, what you need from your website and where you want to take it next.",
-    "btn": "Let's Talk"
-  },
-
-  "about": {
-    "title": "About Sbace Dreamer",
-    "p1": "Sbace Dreamer is a web design and development studio creating modern websites for service businesses and contractors.",
-    "p2": "We believe a website should do more than look good. It should communicate what a business does clearly, present its work professionally and make it easy for potential customers to take the next step.",
-    "hero": {
-      "tag": "Our Studio",
-      "title": "Web Design & Development for Service Businesses.",
-      "desc": "Sbace Dreamer is a web design and development studio creating modern, professional websites for service businesses and contractors.",
-      "btnSecondary": "Learn About Our Process",
-      "btnPrimary": "View Our Work"
-    },
-    "philosophy": {
-      "title": "A Good Website Is More Than Visuals.",
-      "p1": "We believe good design should serve a purpose. A website should make a business easier to understand, present its work professionally and give visitors a clear path to the information they need.",
-      "p2": "We focus on clear layouts, thoughtful visual design and practical website experiences rather than adding elements simply for decoration. Every project is shaped around the business, its services and the people it needs to reach."
-    },
-    "specialization": {
-      "tag": "Specialization",
-      "title": "Why Service Businesses?",
-      "p1": "Sbace Dreamer focuses on service businesses and contractors because their websites need to communicate something very practical: what they do, the quality of their work and how potential customers can get in touch.",
-      "p2": "From local trades to other service-based businesses, we design websites around clear service information, professional presentation and a straightforward experience for potential customers."
-    },
-    "principles": {
-      "title": "Our Principles",
-      "desc": "The principles that guide our approach to every project.",
-      "c1": {
-        "title": "Clarity",
-        "desc": "Clear layouts and organized content that make it easier for visitors to understand your business and services."
-      },
-      "c2": {
-        "title": "Trust",
-        "desc": "Thoughtful design and professional presentation that help a business communicate credibility online."
-      },
-      "c3": {
-        "title": "Performance",
-        "desc": "Responsive websites built with practical performance considerations, clean structure and modern front-end development."
-      },
-      "c4": {
-        "title": "Purpose",
-        "desc": "Design decisions should support the content, structure and goals of the website rather than exist purely for decoration."
-      }
-    },
-    "industries": {
-      "title": "Industries We Serve",
-      "c1": {
-        "title": "Painting & Decorating",
-        "desc": "Professional websites for residential, commercial and specialist painting businesses."
-      },
-      "c2": {
-        "title": "Landscaping & Gardening",
-        "desc": "Clear, visual websites for landscaping, gardening and outdoor service businesses."
-      },
-      "c3": {
-        "title": "Construction",
-        "desc": "Websites that present construction services, completed work and business information clearly."
-      },
-      "c4": {
-        "title": "Home Renovation",
-        "desc": "Modern website experiences for renovation and home improvement businesses."
-      },
-      "c5": {
-        "title": "Automotive Services",
-        "desc": "Professional websites for automotive repair, diagnostics and related service businesses."
-      },
-      "c6": {
-        "title": "Trades & Local Services",
-        "desc": "Web design for plumbers, electricians, cleaners and other service-based businesses."
-      }
-    },
-    "process": {
-      "title": "How We Work",
-      "s1": {
-        "title": "Discovery",
-        "desc": "We learn about your business, services, audience and what you want the website to accomplish."
-      },
-      "s2": {
-        "title": "Strategy",
-        "desc": "We define the website structure, important content and the information visitors need to find easily."
-      },
-      "s3": {
-        "title": "Design",
-        "desc": "We create the visual direction, layouts, typography and interface for your website."
-      },
-      "s4": {
-        "title": "Development",
-        "desc": "We turn the approved design into a responsive, functional website using clean front-end code and modern web standards."
-      },
-      "s5": {
-        "title": "Launch",
-        "desc": "We test the website, complete final checks and deploy the finished site so it is ready for visitors."
-      }
-    },
-    "why": {
-      "title": "The Sbace Dreamer Approach",
-      "c1": {
-        "title": "Premium Design",
-        "desc": "We create clean, contemporary websites that give service businesses a professional and distinctive digital presence."
-      },
-      "c2": {
-        "title": "Clear Structure",
-        "desc": "We organize pages, services and calls to action so visitors can understand the business and find the next step more easily."
-      },
-      "c3": {
-        "title": "Modern Development",
-        "desc": "We build websites using clean, modern front-end development practices with attention to responsiveness, maintainability and performance."
-      },
-      "c4": {
-        "title": "Mobile First",
-        "desc": "We design and develop websites to work across desktop, tablet and mobile screen sizes."
-      },
-      "c5": {
-        "title": "Long-Term Value",
-        "desc": "We build websites with a structure that can be maintained, updated and expanded as the business develops."
-      }
-    },
-    "statement": {
-      "l1": "“Good design isn't decoration.",
-      "l2": "It's the foundation of trust.”"
-    },
-    "cta": {
-      "title": "Ready to Build a Better Website?",
-      "desc": "Tell us about your business and what you need from your website. We'll discuss the project and the right approach for your needs.",
-      "btnPrimary": "Start Your Project"
-    }
-  },
-
-  "servicesPage": {
-    "hero": {
-      "tag": "Our Expertise",
-      "title": "Websites Designed To Turn First Impressions Into Lasting Trust.",
-      "desc": "We design and develop modern websites that help service businesses present their work professionally, communicate their services clearly and make it easier for potential customers to get in touch.",
-      "btnSecondary": "View Our Work",
-      "btnPrimary": "Start Your Project"
-    },
-    "core": {
-      "s1": {
-        "title": "Website Design",
-        "desc": "We design custom website interfaces around your business, services and brand identity. The goal is to create a clear, professional digital presence that represents the quality of your work.",
-        "listTitle": "Deliverables",
-        "l1": "Custom Website Interface (UI)",
-        "l2": "Clear Visual Hierarchy",
-        "l3": "Typography & Visual Direction",
-        "l4": "Responsive Design Layouts",
-        "l5": "Consistent Design System"
-      },
-      "s2": {
-        "title": "Website Development",
-        "desc": "We turn approved designs into responsive, functional websites using clean and modern front-end development practices. Each site is built with performance, accessibility and maintainability in mind.",
-        "listTitle": "Deliverables",
-        "l1": "Responsive Front-End Development",
-        "l2": "Performance Optimization",
-        "l3": "SEO-Friendly Code Structure",
-        "l4": "Accessible Website Structure",
-        "l5": "Modern HTML, CSS & JavaScript"
-      },
-      "s3": {
-        "title": "Website Redesign",
-        "desc": "We refresh outdated websites with clearer layouts, modern visual design and improved presentation. The goal is to bring your website closer to the quality of the business it represents.",
-        "listTitle": "What We Improve",
-        "l1": "Modern Visual Design",
-        "l2": "Clearer Website Structure",
-        "l3": "Improved Content Presentation",
-        "l4": "Responsive Layouts",
-        "l5": "Search-Friendly Structure"
-      },
-      "s4": {
-        "title": "Website Refresh",
-        "desc": "A focused update for businesses that already have a website but want to improve its visual presentation, structure and overall experience without starting completely from scratch.",
-        "listTitle": "What We Improve",
-        "l1": "Visual Design Updates",
-        "l2": "Content & Layout Improvements",
-        "l3": "Responsive Layout Refinement",
-        "l4": "Navigation & Page Structure",
-        "l5": "Modern Website Presentation"
-      }
-    },
-    "included": {
-      "title": "The Premium Standard",
-      "desc": "Every Sbace Dreamer website is built around these foundational elements.",
-      "c1": {
-        "title": "Responsive Design",
-        "desc": "Flawless functionality across all devices."
-      },
-      "c2": {
-        "title": "Search-Friendly Structure",
-        "desc": "Built to rank naturally on Google."
-      },
-      "c3": {
-        "title": "Performance-Focused Development",
-        "desc": "Optimized assets for instant loading."
-      },
-      "c4": {
-        "title": "Mobile-Friendly Experience",
-        "desc": "Mobile-first user experience design."
-      },
-      "c5": {
-        "title": "Modern Visual Design",
-        "desc": "Clean, contemporary visual aesthetics."
-      },
-      "c6": {
-        "title": "Contact Forms",
-        "desc": "Frictionless, secure lead generation."
-      },
-      "c7": {
-        "title": "Analytics Integration",
-        "desc": "Integrated tracking for data insights."
-      },
-      "c8": {
-        "title": "Google Maps Integration",
-        "desc": "Perfect for local service areas."
-      },
-      "c9": {
-        "title": "Social Media Integration",
-        "desc": "Seamlessly connecting your platforms."
-      },
-      "c10": {
-        "title": "Easy Content Updates",
-        "desc": "Intuitive hand-off for future edits."
-      },
-      "c11": {
-        "title": "Secure Development Practices",
-        "desc": "Built with robust, safe technologies."
-      },
-      "c12": {
-        "title": "Clean Code",
-        "desc": "No bloated builders or messy plugins."
-      }
-    },
-    "why": {
-      "title": "The Sbace Dreamer Approach",
-      "c1": {
-        "title": "Industry Focus",
-        "desc": "We focus on websites for service businesses and contractors, allowing each project to be shaped around how these businesses present their services."
-      },
-      "c2": {
-        "title": "Clear Structure",
-        "desc": "Each website is structured to make important information easy to understand and help visitors find the next step."
-      },
-      "c3": {
-        "title": "Modern Design",
-        "desc": "We create clean, contemporary layouts rather than relying on generic website templates."
-      },
-      "c4": {
-        "title": "Performance",
-        "desc": "We build with lightweight code and practical performance considerations from the design through development."
-      },
-      "c5": {
-        "title": "Reliable Communication",
-        "desc": "Direct, clear, and transparent communication throughout every stage of the design process."
-      },
-      "c6": {
-        "title": "Ongoing Support",
-        "desc": "Support can continue after launch when updates, improvements or additional website work are needed."
-      }
-    },
-    "process": {
-      "title": "Our Process",
-      "s1": {
-        "title": "Discovery",
-        "desc": "We learn about your business, services, audience and what you want the website to accomplish."
-      },
-      "s2": {
-        "title": "Research",
-        "desc": "We review relevant competitors and existing websites to understand the landscape and identify opportunities for clearer presentation."
-      },
-      "s3": {
-        "title": "Wireframing",
-        "desc": "We map out the page structure and content hierarchy before moving into visual design."
-      },
-      "s4": {
-        "title": "UI Design",
-        "desc": "We create the visual direction, layouts, typography and interface for your website."
-      },
-      "s5": {
-        "title": "Development",
-        "desc": "We turn the approved design into a responsive, functional website using clean front-end code."
-      },
-      "s6": {
-        "title": "Testing",
-        "desc": "We test the website across different browsers, devices and screen sizes before launch."
-      },
-      "s7": {
-        "title": "Launch",
-        "desc": "We deploy the website, complete final checks and make sure the essential pages and technical elements are ready."
-      }
-    },
-    "faq": {
-      "title": "Frequently Asked Questions",
-      "q1": "How long does a project take?",
-      "a1": "Project timelines depend on the scope, number of pages, content and feedback process. Once we understand your requirements, we'll give you a clearer timeline for the project.",
-      "q2": "Can you redesign an existing website?",
-      "a2": "Yes. We can redesign an existing website to improve its visual presentation, structure, responsiveness and overall user experience.",
-      "q3": "Do I need to provide content?",
-      "a3": "You'll provide the information and materials that are specific to your business, such as service details, images and contact information. We can help organize and refine that material for the website.",
-      "q4": "Will my website work on mobile?",
-      "a4": "Yes. Websites are designed and developed to work across desktop, tablet and mobile screen sizes.",
-      "q5": "Do you offer support after launch?",
-      "a5": "Yes. Post-launch support can be arranged for website updates, fixes and additional improvements when needed.",
-      "q6": "Can you help with hosting and domains?",
-      "a6": "Yes. We can help with the technical setup of your domain and hosting and guide you through the options needed to get your website online.",
-      "q7": "How many revisions are included?",
-      "a7": "The number of revision rounds depends on the project scope and package. This will be agreed upon before development begins.",
-      "q8": "Do you build custom websites?",
-      "a8": "Yes. We create custom websites based on your business, content and visual direction rather than simply applying a generic template."
-    },
-    "cta": {
-      "title": "Ready to build a better website?",
-      "desc": "Tell us about your business and what you need from your website. We'll discuss the project and the right approach for your needs.",
-      "btnPrimary": "Start Your Project",
-      "btnSecondary": "View Portfolio"
-    }
-  },
-
-  "contact": {
-    "hero": {
-      "tag": "Start a Project",
-      "title": "Let's Talk About Your Next Website.",
-      "desc": "Tell us about your business, your current website and what you'd like to improve. We'll review your project and discuss the right approach for your needs.",
-      "btnPrimary": "Start a Project",
-      "btnSecondary": "View Our Work"
-    },
-    "features": {
-      "title": "What Happens Next",
-      "c1": {
-        "title": "Discovery",
-        "desc": "We'll learn about your business, services, current website and what you want to accomplish."
-      },
-      "c2": {
-        "title": "Strategy",
-        "desc": "We'll discuss the appropriate approach based on your website needs, scope and goals."
-      },
-      "c3": {
-        "title": "Proposal",
-        "desc": "If the project is a good fit, we'll outline the proposed scope, pricing and timeline before work begins."
-      }
-    },
-    "form": {
-      "fullNameLabel": "Full Name",
-      "fullNamePlaceholder": "John Doe",
-      "businessNameLabel": "Business Name",
-      "businessNamePlaceholder": "Apex Painting",
-      "emailLabel": "Email Address",
-      "emailPlaceholder": "john@example.com",
-      "websiteLabel": "Current Website (optional)",
-      "websitePlaceholder": "www.yourwebsite.com",
-      "serviceLabel": "Service Needed",
-      "options": {
-        "default": "Select an option",
-        "design": "Website Design",
-        "redesign": "Website Development",
-        "landing": "Website Refresh",
-        "unsure": "Not Sure Yet"
-      },
-      "detailsLabel": "Project Details",
-      "detailsPlaceholder": "Tell us a little about your business and what you'd like to achieve.",
-      "submitBtn": "Send Project Enquiry"
-    },
-    "alt": {
-      "title": "Prefer Email?",
-      "desc": "If you'd rather reach out directly, send an email and tell us a little about your project."
-    },
-    "faq": {
-      "title": "Frequently Asked Questions",
-      "q1": "How long is the discovery call?",
-      "a1": "Discovery calls are typically 30 minutes, giving us enough time to understand your business, website needs and project requirements.",
-      "q2": "Is the consultation free?",
-      "a2": "Yes. The initial discovery call is free and there is no obligation to proceed. It's simply an opportunity to discuss your project and see whether we're a good fit.",
-      "q3": "What types of businesses do you work with?",
-      "a3": "Sbace Dreamer focuses on service businesses and contractors, including businesses in areas such as painting, landscaping, construction, home improvement, automotive services and other local trades.",
-      "q4": "What happens after the call?",
-      "a4": "We'll review what we discussed and, if the project is a good fit, outline the proposed scope, pricing and timeline for the work.",
-      "q5": "How long does a website project usually take?",
-      "a5": "Project timelines depend on the scope, number of pages, content and feedback process. Once we understand your requirements, we'll give you a clearer timeline for the project."
-    },
-    "cta": {
-      "title": "Ready to Build a Better Website?",
-      "desc": "Tell us about your business and what you need from your website. We'll discuss the project and the right approach for your needs.",
-      "btnPrimary": "Start a Project"
-    },
-    "modal": {
-      "title": "Thanks for reaching out!",
-      "desc": "We've received your project enquiry and will review the details before getting back to you.",
-      "btn": "Close"
-    }
-  },
-
-  "cs1Page": {
-    "title": "Prime Coat Painting Case Study | SBA Creative",
-    "metaDesc": "How SBA Creative designed a high-converting, premium website for a painting contractor to boost sales and outshine the local competition.",
-    "hero": {
-      "tag": "Painting Contractor",
-      "title": "Engineering Trust: How Premium Design Doubles Contractor Lead Conversions.",
-      "desc": "We transformed Prime Coat Painting's digital presence from a standard digital brochure into a high-end lead generation engine. By leveraging strategic trust signals and premium aesthetics, the site positions them as the undisputed professional choice in their local market."
-    },
-    "meta": {
-      "industryLabel": "Industry",
-      "industryValue": "Home Services / Painting",
-      "servicesLabel": "Services Provided",
-      "servicesValue": "UX/UI Design, Web Development, Conversion Strategy",
-      "goalLabel": "Primary Goal",
-      "goalValue": "Increase high-ticket quote requests"
-    },
-    "image": {
-      "overlay": "Click to Visit Site"
-    },
-    "strategy": {
-      "title": "The Anatomy of a High-Converting Site",
-      "desc": "Homeowners are deeply protective of their property. To win high-ticket exterior and cabinet painting jobs, a contractor's website must eliminate anxiety and manufacture trust within the first 3 seconds of a visit.",
-      "b1": {
-        "title": "Manufacturing Instant Trust",
-        "desc": "We didn't just place a hero image; we engineered a \"Trust Strip\" above the fold. By immediately presenting floating badges—\"4.9 Rating,\" \"320+ Homes Painted,\" and \"Licensed & Insured\"—we answer the homeowner's most critical subconscious questions instantly. This layout immediately validates their premium pricing and prevents price-shopping."
-      },
-      "b2": {
-        "title": "Interactive Proof of Craftsmanship",
-        "desc": "Painting is a visual industry, yet most contractors rely on static, low-quality galleries. We integrated a dynamic Before/After interactive slider for the \"Signature Transformations\" section. This interactive element keeps users on the page longer, increasing engagement metrics, and provides undeniable, psychological proof of the contractor's capability."
-      },
-      "b3": {
-        "title": "Frictionless User Journeys",
-        "desc": "A confused mind says no. We implemented a sticky navigation bar with a highly visible, contrasting \"Get Free Estimate\" CTA. Paired with a massive, four-step numbered \"Process\" section, we demystified the customer journey. When homeowners know exactly what happens after they click \"Contact,\" conversion rates skyrocket."
-      }
-    },
-    "statement": {
-      "badge": "The Result",
-      "quote": "“When your website looks expensive, clients expect to pay a <span class=\"quote-accent\">premium</span>.”"
-    },
-    "cta": {
-      "title": "Want these results for your service business?",
-      "desc": "Stop losing high-value jobs to competitors with better branding. Let's build a website that reflects the true quality of your craftsmanship.",
-      "btn": "Book Your Discovery Call"
-    }
-  },
-
-   "cs2Page": {
-    "title": "Luxury Home Painting Case Study | SBA Creative",
-    "metaDesc": "How SBA Creative designed an elegant, editorial-style website for a luxury residential painting service to attract high-net-worth homeowners.",
-    "hero": {
-      "tag": "Luxury Residential Services",
-      "title": "Designing for the 1%: A Masterclass in Editorial Web Experiences.",
-      "desc": "We crafted a bespoke digital storefront for a premium residential painting contractor. By moving away from standard service templates and embracing an elegant, editorial-style layout, the new site speaks directly to affluent homeowners and positions the brand as a luxury boutique service."
-    },
-    "meta": {
-      "industryLabel": "Industry",
-      "industryValue": "Luxury Home Services",
-      "servicesLabel": "Services Provided",
-      "servicesValue": "UX/UI Design, Brand Positioning, Web Dev",
-      "goalLabel": "Primary Goal",
-      "goalValue": "Convert high-net-worth outreach leads"
-    },
-    "image": {
-      "overlay": "Click to Visit Site"
-    },
-    "strategy": {
-      "title": "The Anatomy of a Luxury Service Site",
-      "desc": "Affluent homeowners seek reliability and exceptional quality above all else. The website must act as a digital concierge, reflecting the high standards of the physical service through elegant typography, ample whitespace, and high-fidelity imagery.",
-      "b1": {
-        "title": "Editorial Typography",
-        "desc": "We introduced a sophisticated, editorial layout. By blending warm, natural tones with crisp, structured typography, the design instantly communicates exclusivity, completely separating the brand from budget-focused local competitors."
-      },
-      "b2": {
-        "title": "Bespoke Craftsmanship",
-        "desc": "Instead of cluttered photo galleries, we utilized an asymmetrical \"Featured Transformations\" section. This layout highlights the rigorous attention to detail—from surface preparation to the application of premium paint—proving the value of the investment."
-      },
-      "b3": {
-        "title": "Frictionless Journey",
-        "desc": "High-end clients appreciate clarity. We streamlined the user journey with a clean horizontal timeline in the \"Our Process\" section. Combined with glowing client experiences, we removed friction and built immediate confidence for high-ticket projects."
-      }
-    },
-    "statement": {
-      "badge": "The Result",
-      "quote": "“True luxury is in the details. A premium service demands a <span class=\"quote-accent\">premium digital storefront</span>.”"
-    },
-    "cta": {
-      "title": "Ready to dominate your local market?",
-      "desc": "Stop losing high-value jobs to competitors with better branding. Let's build a website that reflects the true quality of your craftsmanship and converts your outreach leads.",
-      "btn": "Book Your Discovery Call"
-    }
-  },
-
-  "cs3Page": {
-    "title": "Commercial Painting Case Study | SBA Creative",
-    "metaDesc": "How SBA Creative designed a high-performance B2B website for a commercial painting contractor to convert facility managers and general contractors.",
-    "hero": {
-      "tag": "B2B / Commercial Contractor",
-      "title": "Built for Scale & Precision.",
-      "desc": "Facility managers and general contractors don't buy on emotion; they buy on capability, safety, and scale. We engineered a robust B2B digital platform that immediately proves this commercial painting contractor can handle massive, complex projects without operational downtime."
-    },
-    "meta": {
-      "industryLabel": "Industry",
-      "industryValue": "Commercial & Industrial Services",
-      "servicesLabel": "Services Provided",
-      "servicesValue": "B2B UX/UI Design, Web Development, Copywriting",
-      "goalLabel": "Primary Goal",
-      "goalValue": "Generate RFPs from facility managers and GCs"
-    },
-    "image": {
-      "overlay": "Click to Visit Site"
-    },
-    "strategy": {
-      "title": "Engineering a B2B Lead Generation Engine",
-      "desc": "Selling to businesses requires a fundamentally different architecture than selling to homeowners. The site needs to serve as a comprehensive capabilities deck, proving compliance, efficiency, and industry-specific expertise at a glance.",
-      "b1": {
-        "title": "Industry-Specific Authority",
-        "desc": "Commercial clients need to know you understand their specific environment. We designed a clear \"Industries We Serve\" taxonomy, allowing users in healthcare, retail, or industrial sectors to instantly self-identify and verify the contractor's relevant experience."
-      },
-      "b2": {
-        "title": "The B2B Trust Matrix",
-        "desc": "Instead of focusing just on aesthetics, we prioritized operational metrics. By heavily featuring sections like \"Execution Process,\" massive numerical milestones (200+ Projects, 2M+ Sq Ft), and notable \"Client Partners,\" we systematically dismantled the buyer's perceived risk."
-      },
-      "b3": {
-        "title": "Deep-Dive Project Showcases",
-        "desc": "A simple photo isn't enough for a $100k+ contract. We structured the \"Project Showcase\" like mini case studies within the site itself—highlighting the square footage, materials used, and specific challenges overcome, providing the exact data points GCs need to justify their hiring decisions."
-      }
-    },
-    "statement": {
-      "badge": "The B2B Advantage",
-      "quote": "“In commercial services, <span class=\"quote-accent\" style=\"font-style: normal; color: var(--accent);\">operational certainty</span> is your most valuable product.”"
-    },
-    "cta": {
-      "title": "Ready to scale your commercial contracts?",
-      "desc": "Stop letting lucrative RFPs slip through the cracks due to an outdated digital footprint. Let's build a platform that converts facility managers.",
-      "btn": "Book Your Strategy Call"
-    }
-  },
-
-  "cs8Page": {
-    "title": "Modern Architectural Living Case Study | Sbace Dreamer",
-    "metaDesc": "How we built an architectural-grade digital platform featuring blueprint previews and spatial data to drive private viewing bookings for high-end luxury properties.",
-    "hero": {
-      "tag": "Architecture / High-End Real Estate",
-      "title": "The Precision of Living: Digital Prestige for Modern Architecture.",
-      "desc": "We designed an architectural-grade web experience for luxury home developments. Blending interactive blueprint overlays with spatial metrics and geographic mapping, the site transforms property viewing into an elevated digital experience."
-    },
-    "meta": {
-      "industryLabel": "Industry",
-      "industryValue": "Architecture & Luxury Property",
-      "servicesLabel": "Services Provided",
-      "servicesValue": "UI/UX Design, Interactive Prototyping, Front-end Development",
-      "goalLabel": "Primary Goal",
-      "goalValue": "Increase high-net-worth private viewing requests"
-    },
-    "image": {
-      "overlay": "Click to Visit Site"
-    },
-    "article": {
-      "challengeLabel": "The Challenge",
-      "challengeText": "High-end luxury real estate buyers demand more than standard photo galleries. Traditional property pages fail to communicate spatial proportion, structural craft, and location context—leaving high-net-worth buyers disconnected before they schedule a private walk-through.",
-      "directionLabel": "The Direction",
-      "directionText": "We created an interface rooted in precision engineering. By integrating floating architectural blueprint widgets directly into the hero viewport alongside key technical specs (e.g., House Area: 180 m², Line Type), buyers get immediate technical clarity. Transparent gridlines, subtle typography, and a minimalist vector map highlight geographic context without competing with the photography.",
-      "resultLabel": "The Result",
-      "resultText": "A refined, gallery-grade digital experience that commands luxury authority. By converting technical blueprints into interactive UI components, the site increased buyer session duration and doubled conversion rates for private viewing appointments (\"Book a Viewing\")."
-    },
-    "strategy": {
-      "title": "The Anatomy of Architectural Web Design",
-      "desc": "Luxury homebuyers evaluate craft through detail. The interface must communicate structural excellence and spatial elegance in every micro-interaction.",
-      "b1": {
-        "title": "Interactive Blueprint Overlays",
-        "desc": "Instead of hiding floorplans on a separate PDF link, we elevated CAD blueprints into a primary interactive element over the hero render. Users can cycle through layout variants directly on the homepage to visualize spatial flow immediately."
-      },
-      "b2": {
-        "title": "Contextual Geographic Storytelling",
-        "desc": "Location drives value. We integrated an minimalist vector map overlay that pinpoints the development's exact regional placement, framing the property within its natural and urban surroundings seamlessly."
-      },
-      "b3": {
-        "title": "Frictionless VIP Conversion",
-        "desc": "To capture qualified buyers, we implemented a persistent, minimalist \"Book a Viewing\" call-to-action in the upper navigation, paired with subtle interactive triggers across all architectural visual displays."
-      }
-    },
-    "statement": {
-      "badge": "The Result",
-      "quote": "“When digital presentation mirrors <span class=\"quote-accent\">architectural precision</span>, properties sell themselves.”"
-    },
-    "cta": {
-      "title": "Ready to showcase your architectural developments?",
-      "desc": "Stop presenting million-dollar properties with average templates. Let's build a bespoke digital showcase that captivates high-net-worth buyers.",
-      "btn": "Book Your Discovery Call"
-    }
-  },
-  "cs7Page": {
-    "title": "S&B Facilities Case Study | Sbace Dreamer",
-    "metaDesc": "How we engineered an enterprise-grade digital platform for a commercial cleaning service to capture high-value B2B contracts.",
-    "hero": {
-      "tag": "Commercial Cleaning / B2B",
-      "title": "Engineered for Enterprise: Scaling a B2B Facility Brand.",
-      "desc": "We developed a highly structured, conversion-focused platform for S&P Facilities. By emphasizing authoritative trust signals, process transparency, and industry-specific landing zones, the site positions them as the definitive enterprise choice."
-    },
-    "meta": {
-      "industryLabel": "Industry",
-      "industryValue": "Facility Management",
-      "servicesLabel": "Services Provided",
-      "servicesValue": "B2B Web Design, UX Strategy, Conversion Optimization",
-      "goalLabel": "Primary Goal",
-      "goalValue": "Increase qualified enterprise RFPs"
-    },
-    "image": {
-      "overlay": "Click to Visit Site"
-    },
-    "article": {
-      "challengeLabel": "The Challenge",
-      "challengeText": "Commercial cleaning is a highly competitive B2B space where facility managers prioritize reliability and scale. S&P Facilities needed a digital presence that moved beyond a basic brochure and functioned as an enterprise-grade lead generation engine, capable of capturing high-value contracts across diverse industries.",
-      "directionLabel": "The Direction",
-      "directionText": "We anchored the design in trust and operational clarity, utilizing a crisp blue-and-white corporate palette. The layout was deliberately structured to guide facility managers through a logical decision-making process: presenting upfront social proof, mapping out clear service timelines, and offering dedicated \"Industries We Serve\" portals to demonstrate specialized expertise.",
-      "resultLabel": "The Result",
-      "resultText": "A highly authoritative, conversion-optimized platform. The clear UX architecture and strategically placed trust signals drastically reduced bounce rates, resulting in a significant increase in qualified Requests for Proposal (RFPs) from large-scale corporate clients."
-    },
-    "strategy": {
-      "title": "The Anatomy of B2B Lead Generation",
-      "desc": "When targeting enterprise facility managers, aesthetic appeal must be matched by logistical clarity. The site must prove capacity, compliance, and capability within the first 10 seconds of a visit.",
-      "b1": {
-        "title": "Authoritative Social Proof",
-        "desc": "Corporate clients mitigate risk by choosing established vendors. We engineered a highly visible stats ribbon—\"5500+ Happy Clients\" and \"99% Satisfaction\"—immediately below the hero fold. This instant injection of data-backed trust prevents immediate bounce and validates their enterprise capacity."
-      },
-      "b2": {
-        "title": "Demystifying Operations",
-        "desc": "Facility managers need to know how a vendor operates before picking up the phone. We integrated a sleek, vertical \"Process Timeline\" that maps out onboarding step-by-step. By showing a structured, professional methodology, we positioned S&P Facilities as a highly organized partner."
-      },
-      "b3": {
-        "title": "Industry-Specific Portals",
-        "desc": "A warehouse has different cleaning requirements than a retail storefront. We built an \"Industries We Serve\" grid that acts as personalized landing zones. This allows prospective clients to self-segment, ensuring they receive hyper-relevant messaging that accelerates the sales cycle."
-      }
-    },
-    "statement": {
-      "badge": "The Result",
-      "quote": "“When your platform clearly demonstrates <span class=\"quote-accent\">scale and structure</span>, you attract enterprise clients.”"
-    },
-    "cta": {
-      "title": "Ready to scale your B2B service business?",
-      "desc": "Stop losing lucrative enterprise contracts to competitors with better positioning. Let's build a platform that generates highly qualified RFPs.",
-      "btn": "Book Your Discovery Call"
-    }
-  },
-
-  "global": {
-    "role": "Role",
-    "projectType": "Project Type",
-    "liveLink": "Live Link",
-    "viewLiveProject": "View live project <span class=\"arrow\">→</span>",
-    "theChallenge": "The Challenge",
-    "theDirection": "The Direction",
-    "theResult": "The Result",
-    "nextProject": "Next Project"
-  },
-
-  "cs4Page": {
-    "title": "Sbace~D Apparel Platform Case Study | Sbace Dreamer",
-    "metaDesc": "How we designed an editorial-driven e-commerce experience for high-end fashion that breaks away from rigid templates.",
-    "hero": {
-      "tag": "Fashion E-Commerce",
-      "title": "Breaking the Grid: An Editorial Approach to High-End Fashion.",
-      "desc": "We transformed the standard digital storefront into an interactive lookbook for Sbace~D. By leveraging custom image masking and bold typography, the site captures the avant-garde spirit of the brand while driving seamless conversions."
-    },
-    "meta": {
-      "industryLabel": "Industry",
-      "industryValue": "Luxury / Apparel",
-      "servicesLabel": "Services Provided",
-      "servicesValue": "Art Direction, UI/UX Design, Front-end Development",
-      "goalLabel": "Primary Goal",
-      "goalValue": "Elevate brand perception & increase AOV"
-    },
-    "image": {
-      "overlay": "Click to Visit Site"
-    },
-    "article": {
-      "challengeText": "Modern fashion brands often lose their unique edge when confined to traditional, blocky e-commerce grids. The goal was to create a digital storefront that felt as expressive and avant-garde as the clothing itself, acting as an interactive lookbook without sacrificing conversion rate optimization.",
-      "directionText": "We leaned heavily into strong visual hierarchy and unconventional layouts. By utilizing custom CSS masking to create soft, pill-shaped image cutouts and pairing them with oversized, editorial typography, the interface becomes a canvas. We also integrated dynamic features like scrolling marquees and prominent review highlights to build social proof directly into the browsing flow.",
-      "resultText": "A highly engaging, magazine-style shopping platform. The bespoke layout captures the user's attention immediately, while intuitive product filtering and category navigation ensure a frictionless journey from discovery to checkout."
-    },
-    "strategy": {
-      "title": "The Anatomy of Editorial E-Commerce",
-      "desc": "Fashion is visual storytelling. The digital experience must serve as an interactive lookbook that captures brand essence while seamlessly converting browsers into buyers.",
-      "b1": {
-        "title": "Custom Image Masking",
-        "desc": "We created custom CSS masking to shape product imagery into soft, pill-shaped cutouts that feel organic and sophisticated. This breaks the rigid grid expectation and immediately signals premium positioning."
-      },
-      "b2": {
-        "title": "Editorial Typography & Layout",
-        "desc": "Oversized, bold type paired with asymmetrical layouts creates a magazine-like reading experience. Each section guides the eye naturally while maintaining the haute couture aesthetic."
-      },
-      "b3": {
-        "title": "Seamless Conversion Mechanics",
-        "desc": "Despite the avant-garde design, the conversion path remains frictionless. Intuitive filtering, clear pricing, and prominent reviews build buyer confidence without disrupting the visual narrative."
-      }
-    },
-    "next": {
-      "title": "Caramon Pet Care"
-    }
-  },
-
-  "cs5Page": {
-    "title": "Hair III Studio Case Study | Sbace Dreamer",
-    "metaDesc": "How we designed a high-contrast, premium digital experience for Hair III Studio to boost local bookings and elevate their brand presence.",
-    "hero": {
-      "tag": "Beauty & Salon",
-      "title": "Bold Elegance: Redefining the Digital Salon Experience.",
-      "desc": "We crafted a high-contrast, immersive digital presence for Hair III Studio. By blending striking brutalist typography with a seamless booking flow, the platform elevates the brand's premium identity and streamlines client reservations."
-    },
-    "meta": {
-      "industryLabel": "Industry",
-      "industryValue": "Beauty / Hair Care",
-      "servicesLabel": "Services Provided",
-      "servicesValue": "UI/UX Design, Front-end Web Development, Booking Integration",
-      "goalLabel": "Primary Goal",
-      "goalValue": "Enhance brand prestige & increase online appointments"
-    },
-    "image": {
-      "overlay": "Click to Visit Site"
-    },
-    "article": {
-      "challengeText": "A premium salon needs more than just a standard text list of services. Hair III Studio required an immersive visual experience that builds anticipation and trust before the client even walks through the door, paired with a completely frictionless way to book local appointments.",
-      "directionText": "We utilized a stark, dark-mode aesthetic paired with bold, brutalist typography to make their high-quality styling photography pop. Instead of traditional lists, we built highly visual, interactive masonry grids for the \"Portfolio\" and \"Services\" sections. We then streamlined the user journey by integrating clear \"Working Hours\" tables and an interactive location map directly above the booking call-to-action.",
-      "resultText": "A bold, edgy brand identity that instantly sets the studio apart from local competitors. By removing digital friction and answering logistical questions instantly, the new layout significantly boosted the conversion rate for online appointment bookings."
-    },
-    "strategy": {
-      "title": "The Anatomy of a Modern Salon Site",
-      "desc": "A premium salon needs more than just a text list of services. It requires an immersive visual experience that builds anticipation and trust before the client even walks through the door, paired with an effortless booking journey.",
-      "b1": {
-        "title": "High-Contrast Editorial Design",
-        "desc": "We utilized a stark, dark-mode aesthetic paired with bold, brutalist typography. This dramatic contrast makes the high-quality photography of their styling work pop, immediately establishing a high-end, edgy brand identity that sets them apart from local competitors."
-      },
-      "b2": {
-        "title": "Immersive Service Grids",
-        "desc": "Instead of standard text lists, we built highly visual, interactive masonry grids for the \"Portfolio\" and \"Services\" sections. This layout allows prospective clients to visually explore hair transformations, increasing engagement and time-on-site."
-      },
-      "b3": {
-        "title": "Frictionless Local Booking",
-        "desc": "We integrated clear \"Working Hours\" tables and an interactive location map directly above the final booking CTA. By removing friction and answering logistical questions instantly, we significantly boosted the conversion rate for local appointment bookings."
-      }
-    },
-    "next": {
-      "title": "Modern Residential Website"
-    }
-  },
-
-  "cs6Page": {
-    "title": "Caramon Pet Care Case Study | Sbace Dreamer",
-    "metaDesc": "How we designed a warm, high-trust digital platform for Caramon Pet Care to alleviate pet owner anxiety and increase local grooming bookings.",
-    "hero": {
-      "tag": "Pet Care & Grooming",
-      "title": "Designing Trust: A Calming Digital Experience for Pet Owners.",
-      "desc": "We crafted an empathetic, high-trust digital platform for Caramon. By combining warm aesthetics with transparent process breakdowns, the site alleviates pet owner anxiety and confidently drives local grooming bookings."
-    },
-    "meta": {
-      "industryLabel": "Industry",
-      "industryValue": "Pet Care / Local Services",
-      "servicesLabel": "Services Provided",
-      "servicesValue": "UI/UX Design, Front-end Development, Conversion Strategy",
-      "goalLabel": "Primary Goal",
-      "goalValue": "Establish trust & increase first-time appointments"
-    },
-    "image": {
-      "overlay": "Click to Visit Site"
-    },
-    "article": {
-      "challengeText": "Pet owners are deeply protective and naturally cautious about handing their animals over to a new handler. Standard local service templates often feel sterile and fail to build the emotional connection or transparency required to win high-ticket grooming clients.",
-      "directionText": "We designed an empathetic, high-trust interface centered around pet safety and gentle care. Utilizing soft rounded cards, warm photography, and clean typography, we mapped out a transparent 4-step \"Grooming Process\" to demystify the visit. We also incorporated dynamic \"Results\" sliders featuring interactive mobile mockups to showcase real transformation stories.",
-      "resultText": "A comforting, authoritative digital front door that transforms hesitant visitors into confident bookings. The combination of upfront pricing tiers, safety assurances, and streamlined booking mechanics significantly increased first-time customer inquiries."
-    },
-    "strategy": {
-      "title": "The Anatomy of a Trust-Driven Service Site",
-      "desc": "Pet owners are protective. The digital experience must be warm, transparent, and emotionally resonant—alleviating anxiety through clear process breakdowns and genuine care storytelling.",
-      "b1": {
-        "title": "Warm, Empathetic Design Language",
-        "desc": "We utilized soft rounded cards, warm color palettes, and gentle photography to create a comforting digital environment. This aesthetic immediately signals that pets are in caring, professional hands."
-      },
-      "b2": {
-        "title": "Transparent Process Visualization",
-        "desc": "A clear, 4-step \"Grooming Process\" section demystifies what happens during the visit. By showing exactly what to expect, we remove pet owner anxiety and build confidence in the service."
-      },
-      "b3": {
-        "title": "Social Proof & Real Results",
-        "desc": "Dynamic \"Before/After\" sliders and customer testimonials provide undeniable proof of quality. Real transformation stories create emotional connection and accelerate booking decisions."
-      }
-    },
-    "next": {
-      "title": "The Precision of Living"
-    }
-  }
+	"about": {
+		"cta": {
+			"btnPrimary": "Start Your Project",
+			"desc": "Tell us about your business and what you need from your website. We'll discuss the project and the right approach for your needs.",
+			"title": "Ready to Build a Better Website?"
+		},
+		"hero": {
+			"btnPrimary": "View Our Work",
+			"btnSecondary": "Learn About Our Process",
+			"desc": "Sbace Dreamer is a web design and development studio creating modern, professional websites for service businesses and contractors.",
+			"tag": "Our Studio",
+			"title": "Web Design & Development for Service Businesses."
+		},
+		"industries": {
+			"c1": { "desc": "Professional websites for residential, commercial and specialist painting businesses.", "title": "Painting & Decorating" },
+			"c2": { "desc": "Clear, visual websites for landscaping, gardening and outdoor service businesses.", "title": "Landscaping & Gardening" },
+			"c3": { "desc": "Websites that present construction services, completed work and business information clearly.", "title": "Construction" },
+			"c4": { "desc": "Modern website experiences for renovation and home improvement businesses.", "title": "Home Renovation" },
+			"c5": { "desc": "Professional websites for automotive repair, diagnostics and related service businesses.", "title": "Automotive Services" },
+			"c6": { "desc": "Web design for plumbers, electricians, cleaners and other service-based businesses.", "title": "Trades & Local Services" },
+			"title": "Industries We Serve"
+		},
+		"p1": "Sbace Dreamer is a web design and development studio creating modern websites for service businesses and contractors.",
+		"p2": "We believe a website should do more than look good. It should communicate what a business does clearly, present its work professionally and make it easy for potential customers to take the next step.",
+		"philosophy": {
+			"p1": "We believe good design should serve a purpose. A website should make a business easier to understand, present its work professionally and give visitors a clear path to the information they need.",
+			"p2": "We focus on clear layouts, thoughtful visual design and practical website experiences rather than adding elements simply for decoration. Every project is shaped around the business, its services and the people it needs to reach.",
+			"title": "A Good Website Is More Than Visuals."
+		},
+		"principles": {
+			"c1": { "desc": "Clear layouts and organized content that make it easier for visitors to understand your business and services.", "title": "Clarity" },
+			"c2": { "desc": "Thoughtful design and professional presentation that help a business communicate credibility online.", "title": "Trust" },
+			"c3": { "desc": "Responsive websites built with practical performance considerations, clean structure and modern front-end development.", "title": "Performance" },
+			"c4": { "desc": "Design decisions should support the content, structure and goals of the website rather than exist purely for decoration.", "title": "Purpose" },
+			"desc": "The principles that guide our approach to every project.",
+			"title": "Our Principles"
+		},
+		"process": {
+			"s1": { "desc": "We learn about your business, services, audience and what you want the website to accomplish.", "title": "Discovery" },
+			"s2": { "desc": "We define the website structure, important content and the information visitors need to find easily.", "title": "Strategy" },
+			"s3": { "desc": "We create the visual direction, layouts, typography and interface for your website.", "title": "Design" },
+			"s4": { "desc": "We turn the approved design into a responsive, functional website using clean front-end code and modern web standards.", "title": "Development" },
+			"s5": { "desc": "We test the website, complete final checks and deploy the finished site so it is ready for visitors.", "title": "Launch" },
+			"title": "How We Work"
+		},
+		"specialization": {
+			"p1": "Sbace Dreamer focuses on service businesses and contractors because their websites need to communicate something very practical: what they do, the quality of their work and how potential customers can get in touch.",
+			"p2": "From local trades to other service-based businesses, we design websites around clear service information, professional presentation and a straightforward experience for potential customers.",
+			"tag": "Specialization",
+			"title": "Why Service Businesses?"
+		},
+		"statement": { "l1": "“Good design isn't decoration.", "l2": "It's the foundation of trust.”" },
+		"title": "About Sbace Dreamer",
+		"why": {
+			"c1": { "desc": "We create clean, contemporary websites that give service businesses a professional and distinctive digital presence.", "title": "Premium Design" },
+			"c2": { "desc": "We organize pages, services and calls to action so visitors can understand the business and find the next step more easily.", "title": "Clear Structure" },
+			"c3": { "desc": "We build websites using clean, modern front-end development practices with attention to responsiveness, maintainability and performance.", "title": "Modern Development" },
+			"c4": { "desc": "We design and develop websites to work across desktop, tablet and mobile screen sizes.", "title": "Mobile First" },
+			"c5": { "desc": "We build websites with a structure that can be maintained, updated and expanded as the business develops.", "title": "Long-Term Value" },
+			"title": "The Sbace Dreamer Approach"
+		}
+	},
+	"brand": { "name": "Sbace Dreamer" },
+	"contact": {
+		"alt": { "desc": "If you'd rather reach out directly, send an email and tell us a little about your project.", "title": "Prefer Email?" },
+		"cta": {
+			"btnPrimary": "Start a Project",
+			"desc": "Tell us about your business and what you need from your website. We'll discuss the project and the right approach for your needs.",
+			"title": "Ready to Build a Better Website?"
+		},
+		"faq": {
+			"a1": "Discovery calls are typically 30 minutes, giving us enough time to understand your business, website needs and project requirements.",
+			"a2": "Yes. The initial discovery call is free and there is no obligation to proceed. It's simply an opportunity to discuss your project and see whether we're a good fit.",
+			"a3": "Sbace Dreamer focuses on service businesses and contractors, including businesses in areas such as painting, landscaping, construction, home improvement, automotive services and other local trades.",
+			"a4": "We'll review what we discussed and, if the project is a good fit, outline the proposed scope, pricing and timeline for the work.",
+			"a5": "Project timelines depend on the scope, number of pages, content and feedback process. Once we understand your requirements, we'll give you a clearer timeline for the project.",
+			"q1": "How long is the discovery call?",
+			"q2": "Is the consultation free?",
+			"q3": "What types of businesses do you work with?",
+			"q4": "What happens after the call?",
+			"q5": "How long does a website project usually take?",
+			"title": "Frequently Asked Questions"
+		},
+		"features": {
+			"c1": { "desc": "We'll learn about your business, services, current website and what you want to accomplish.", "title": "Discovery" },
+			"c2": { "desc": "We'll discuss the appropriate approach based on your website needs, scope and goals.", "title": "Strategy" },
+			"c3": { "desc": "If the project is a good fit, we'll outline the proposed scope, pricing and timeline before work begins.", "title": "Proposal" },
+			"title": "What Happens Next"
+		},
+		"form": {
+			"businessNameLabel": "Business Name",
+			"businessNamePlaceholder": "Your Business Name",
+			"detailsLabel": "Project Details",
+			"detailsPlaceholder": "Tell us a little about your business and what you'd like to achieve.",
+			"emailLabel": "Email Address",
+			"emailPlaceholder": "john@example.com",
+			"fullNameLabel": "Full Name",
+			"fullNamePlaceholder": "John Doe",
+			"options": { "default": "Select an option", "design": "Website Design", "landing": "Website Refresh", "redesign": "Website Development", "unsure": "Not Sure Yet" },
+			"serviceLabel": "Service Needed",
+			"submitBtn": "Send Project Enquiry",
+			"websiteLabel": "Current Website (optional)",
+			"websitePlaceholder": "www.yourwebsite.com"
+		},
+		"hero": {
+			"btnPrimary": "Start a Project",
+			"btnSecondary": "View Our Work",
+			"desc": "Tell us about your business, your current website and what you'd like to improve. We'll review your project and discuss the right approach for your needs.",
+			"tag": "Start a Project",
+			"title": "Let's Talk About Your Next Website."
+		},
+		"modal": {
+			"btn": "Close",
+			"desc": "We've received your project enquiry and will review the details before getting back to you.",
+			"title": "Thanks for reaching out!"
+		}
+	},
+	"cs1Page": {
+		"article": {
+			"challengeText": "The client needed to separate themselves from standard local contractors. Their previous digital presence was outdated and failed to communicate the high-end nature of their architectural and residential work.",
+			"directionText": "We adopted a highly spacious, editorial grid. By stripping away heavy UI elements and focusing entirely on large-scale photography and crisp typography, the brand instantly felt more authoritative.",
+			"resultText": "A lighting-fast, responsive platform that converts passive viewers into high-ticket inquiries. The new aesthetic perfectly mirrors the quality of their physical craftsmanship."
+		},
+		"cta": {
+			"btn": "Book Your Discovery Call",
+			"desc": "Stop losing high-value jobs to competitors with better branding. Let's build a website that reflects the true quality of your craftsmanship.",
+			"title": "Want these results for your service business?"
+		},
+		"hero": {
+			"desc": "A refined digital experience designed to give a residential brand a more premium and contemporary presence, establishing trust before the first point of contact.",
+			"tag": "Residential / Real Estate",
+			"title": "Modern Residential Website"
+		},
+		"image": { "overlay": "Click to Visit Site" },
+		"meta": {
+			"goalLabel": "Primary Goal",
+			"goalValue": "Increase high-ticket quote requests",
+			"industryLabel": "Industry",
+			"industryValue": "Home Services / Painting",
+			"roleValue": "UI/UX Design<br>Web Design<br>Front-end Development",
+			"servicesLabel": "Services Provided",
+			"servicesValue": "UX/UI Design, Web Development, Conversion Strategy",
+			"typeValue": "Marketing Website"
+		},
+		"metaDesc": "See how Sbace Dreamer designed a modern website concept for a residential painting business.",
+		"next": { "title": "Premium Luxury Platform" },
+		"title": "Residential Painting Website Case Study | Sbace Dreamer",
+		"statement": {
+			"badge": "The Result",
+			"quote": "“When your website looks expensive, clients expect to pay a <span class=\"quote-accent\">premium</span>.”"
+		},
+		"strategy": {
+			"b1": {
+				"desc": "We didn't just place a hero image; we engineered a \"Trust Strip\" above the fold. By immediately presenting floating badges—\"4.9 Rating,\" \"320+ Homes Painted,\" and \"Licensed & Insured\"—we answer the homeowner's most critical subconscious questions instantly. This layout immediately validates their premium pricing and prevents price-shopping.",
+				"title": "Manufacturing Instant Trust"
+			},
+			"b2": {
+				"desc": "Painting is a visual industry, yet most contractors rely on static, low-quality galleries. We integrated a dynamic Before/After interactive slider for the \"Signature Transformations\" section. This interactive element keeps users on the page longer, increasing engagement metrics, and provides undeniable, psychological proof of the contractor's capability.",
+				"title": "Interactive Proof of Craftsmanship"
+			},
+			"b3": {
+				"desc": "A confused mind says no. We implemented a sticky navigation bar with a highly visible, contrasting \"Get Free Estimate\" CTA. Paired with a massive, four-step numbered \"Process\" section, we demystified the customer journey. When homeowners know exactly what happens after they click \"Contact,\" conversion rates skyrocket.",
+				"title": "Frictionless User Journeys"
+			},
+			"desc": "Homeowners are deeply protective of their property. To win high-ticket exterior and cabinet painting jobs, a contractor's website must eliminate anxiety and manufacture trust within the first 3 seconds of a visit.",
+			"title": "The Anatomy of a High-Converting Site"
+		}
+	},
+	"cs2Page": {
+		"article": {
+			"challengeText": "The brand was struggling with a cookie-cutter template that diluted their premium positioning. They needed a bespoke digital storefront that felt as tactile and refined as their physical products, designed to captivate a high-ticket audience.",
+			"directionText": "We prioritized a strict, elegant visual hierarchy paired with modern web effects. By integrating subtle glass blur dews on navigation elements and ultra-smooth scroll transitions, the interface gets out of the way and lets the product photography shine.",
+			"resultText": "A mesmerizing, high-performance platform that elevates the brand's perception. The updated architecture not only engages users longer but significantly reduces bounce rates among international luxury buyers."
+		},
+		"cta": {
+			"btn": "Book Your Discovery Call",
+			"desc": "Stop losing high-value jobs to competitors with better branding. Let's build a website that reflects the true quality of your craftsmanship and converts your outreach leads.",
+			"title": "Ready to dominate your local market?"
+		},
+		"hero": {
+			"desc": "A sophisticated digital environment crafted to mirror the exclusivity of a high-end brand, utilizing seamless interactions to create an immersive browsing experience.",
+			"tag": "Luxury / Lifestyle",
+			"title": "Premium Luxury Platform"
+		},
+		"image": { "overlay": "Click to Visit Site" },
+		"meta": {
+			"goalLabel": "Primary Goal",
+			"goalValue": "Convert high-net-worth outreach leads",
+			"industryLabel": "Industry",
+			"industryValue": "Luxury Home Services",
+			"roleValue": "UI/UX Design<br>Interactive Design<br>Front-end Development",
+			"servicesLabel": "Services Provided",
+			"servicesValue": "UX/UI Design, Brand Positioning, Web Dev",
+			"typeValue": "Brand Experience / E-Commerce"
+		},
+		"metaDesc": "Explore how Sbace Dreamer designed an elegant website concept for a luxury painting business.",
+		"next": { "title": "Global Commercial Hub" },
+		"title": "Luxury Painting Website Case Study | Sbace Dreamer",
+		"statement": {
+			"badge": "The Result",
+			"quote": "“True luxury is in the details. A premium service demands a <span class=\"quote-accent\">premium digital storefront</span>.”"
+		},
+		"strategy": {
+			"b1": {
+				"desc": "We introduced a sophisticated, editorial layout. By blending warm, natural tones with crisp, structured typography, the design instantly communicates exclusivity, completely separating the brand from budget-focused local competitors.",
+				"title": "Editorial Typography"
+			},
+			"b2": {
+				"desc": "Instead of cluttered photo galleries, we utilized an asymmetrical \"Featured Transformations\" section. This layout highlights the rigorous attention to detail—from surface preparation to the application of premium paint—proving the value of the investment.",
+				"title": "Bespoke Craftsmanship"
+			},
+			"b3": {
+				"desc": "High-end clients appreciate clarity. We streamlined the user journey with a clean horizontal timeline in the \"Our Process\" section. Combined with glowing client experiences, we removed friction and built immediate confidence for high-ticket projects.",
+				"title": "Frictionless Journey"
+			},
+			"desc": "Affluent homeowners seek reliability and exceptional quality above all else. The website must act as a digital concierge, reflecting the high standards of the physical service through elegant typography, ample whitespace, and high-fidelity imagery.",
+			"title": "The Anatomy of a Luxury Service Site"
+		}
+	},
+	"cs3Page": {
+		"article": {
+			"challengeText": "The client was losing potential international partnerships due to a cluttered, outdated interface. They needed a highly professional digital presence that could effectively process inbound B2B leads while showcasing their large-scale capabilities.",
+			"directionText": "We engineered a clean, scalable layout built on strict type safety and a robust component structure. We introduced dynamic elements like infinite loop carousels for partner logos to establish instant credibility, while streamlining the user journey directly toward consultation forms.",
+			"resultText": "A lightning-fast, authoritative corporate hub. The redesigned user experience successfully bridges the communication gap with international businesses, resulting in a significantly higher volume of qualified cold outreach turning into booked meetings."
+		},
+		"cta": {
+			"btn": "Book Your Strategy Call",
+			"desc": "Stop letting lucrative RFPs slip through the cracks due to an outdated digital footprint. Let's build a platform that converts facility managers.",
+			"title": "Ready to scale your commercial contracts?"
+		},
+		"hero": {
+			"desc": "A robust, conversion-focused corporate website engineered to streamline B2B inquiries, build immediate trust, and clearly communicate complex services to an international market.",
+			"tag": "B2B / Corporate",
+			"title": "Global Commercial Hub"
+		},
+		"image": { "overlay": "Click to Visit Site" },
+		"meta": {
+			"goalLabel": "Primary Goal",
+			"goalValue": "Generate RFPs from facility managers and GCs",
+			"industryLabel": "Industry",
+			"industryValue": "Commercial & Industrial Services",
+			"roleValue": "UI/UX Design<br>Web Development<br>Conversion Optimization",
+			"servicesLabel": "Services Provided",
+			"servicesValue": "B2B UX/UI Design, Web Development, Copywriting",
+			"typeValue": "B2B Corporate Website"
+		},
+		"metaDesc": "Explore a commercial painting website case study designed by Sbace Dreamer with a clear, professional online presentation.",
+		"next": { "title": "Sbace~D Apparel Platform" },
+		"title": "Commercial Painting Website Case Study | Sbace Dreamer",
+		"statement": {
+			"badge": "The B2B Advantage",
+			"quote": "“In commercial services, <span class=\"quote-accent\" style=\"font-style: normal; color: var(--accent);\">operational certainty</span> is your most valuable product.”"
+		},
+		"strategy": {
+			"b1": {
+				"desc": "Commercial clients need to know you understand their specific environment. We designed a clear \"Industries We Serve\" taxonomy, allowing users in healthcare, retail, or industrial sectors to instantly self-identify and verify the contractor's relevant experience.",
+				"title": "Industry-Specific Authority"
+			},
+			"b2": {
+				"desc": "Instead of focusing just on aesthetics, we prioritized operational metrics. By heavily featuring sections like \"Execution Process,\" massive numerical milestones (200+ Projects, 2M+ Sq Ft), and notable \"Client Partners,\" we systematically dismantled the buyer's perceived risk.",
+				"title": "The B2B Trust Matrix"
+			},
+			"b3": {
+				"desc": "A simple photo isn't enough for a $100k+ contract. We structured the \"Project Showcase\" like mini case studies within the site itself—highlighting the square footage, materials used, and specific challenges overcome, providing the exact data points GCs need to justify their hiring decisions.",
+				"title": "Deep-Dive Project Showcases"
+			},
+			"desc": "Selling to businesses requires a fundamentally different architecture than selling to homeowners. The site needs to serve as a comprehensive capabilities deck, proving compliance, efficiency, and industry-specific expertise at a glance.",
+			"title": "Engineering a B2B Lead Generation Engine"
+		}
+	},
+	"cs4Page": {
+		"article": {
+			"challengeText": "Modern fashion brands often lose their unique edge when confined to traditional, blocky e-commerce grids. The goal was to create a digital storefront that felt as expressive and avant-garde as the clothing itself, acting as an interactive lookbook without sacrificing conversion rate optimization.",
+			"directionText": "We leaned heavily into strong visual hierarchy and unconventional layouts. By utilizing custom CSS masking to create soft, pill-shaped image cutouts and pairing them with oversized, editorial typography, the interface becomes a canvas. We also integrated dynamic features like scrolling marquees and prominent review highlights to build social proof directly into the browsing flow.",
+			"resultText": "A highly engaging, magazine-style shopping platform. The bespoke layout captures the user's attention immediately, while intuitive product filtering and category navigation ensure a frictionless journey from discovery to checkout."
+		},
+		"cta": {
+			"btn": "Book Your Discovery Call",
+			"desc": "Stop losing high-value customers to competitors with better aesthetics. Let's build a bespoke digital storefront that reflects the true identity of your brand.",
+			"title": "Want these results for your e-commerce brand?"
+		},
+		"hero": {
+			"desc": "An editorial-driven e-commerce experience that breaks away from rigid storefront templates, blending high-end fashion aesthetics with seamless shopping mechanics.",
+			"tag": "Fashion / E-Commerce",
+			"title": "Sbace~D Apparel Platform"
+		},
+		"image": { "overlay": "Click to Visit Site" },
+		"meta": {
+			"goalLabel": "Primary Goal",
+			"goalValue": "Elevate brand perception & increase AOV",
+			"industryLabel": "Industry",
+			"industryValue": "Luxury / Apparel",
+			"roleValue": "Art Direction<br>UI/UX Design<br>Front-end Development",
+			"servicesLabel": "Services Provided",
+			"servicesValue": "Art Direction, UI/UX Design, Front-end Development",
+			"typeValue": "E-Commerce Storefront"
+		},
+		"metaDesc": "Explore a fashion apparel website concept by Sbace Dreamer, combining editorial visual direction with an immersive e-commerce interface.",
+		"next": { "title": "Caramon Pet Care" },
+		"statement": {
+			"badge": "The Result",
+			"quote": "“When your digital storefront feels like a <span class=\"quote-accent\">magazine</span>, customers stay longer and buy more.”"
+		},
+		"strategy": {
+			"b1": {
+				"desc": "We intentionally broke away from rigid, blocky e-commerce grids. By utilizing custom CSS masking to create soft, pill-shaped image cutouts and pairing them with oversized typography, the interface becomes a canvas that immediately commands attention.",
+				"title": "Unconventional Visual Hierarchy"
+			},
+			"b2": {
+				"desc": "High-end fashion requires community validation. We integrated dynamic features like scrolling numeric marquees (\"320k Happy Customers\") and prominent review highlights to build undeniable social proof directly into the browsing flow without cluttering the aesthetic.",
+				"title": "Dynamic Social Proof"
+			},
+			"b3": {
+				"desc": "An avant-garde look should never compromise usability. We implemented intuitive product filtering and category navigation. By keeping the purchasing path clear and prominent, we ensured the journey from discovery to checkout remains entirely effortless.",
+				"title": "Frictionless Shopping Journeys"
+			},
+			"desc": "Modern consumers don't just buy clothes; they buy into an aesthetic. To capture high-intent shoppers, an apparel website must blend immersive editorial storytelling with frictionless e-commerce mechanics.",
+			"title": "The Anatomy of an Editorial Storefront"
+		}
+	},
+	"cs5Page": {
+		"article": {
+			"challengeText": "A premium salon needs more than just a standard text list of services. Hair III Studio required an immersive visual experience that builds anticipation and trust before the client even walks through the door, paired with a completely frictionless way to book local appointments.",
+			"directionText": "We utilized a stark, dark-mode aesthetic paired with bold, brutalist typography to make their high-quality styling photography pop. Instead of traditional lists, we built highly visual, interactive masonry grids for the \"Portfolio\" and \"Services\" sections. We then streamlined the user journey by integrating clear \"Working Hours\" tables and an interactive location map directly above the booking call-to-action.",
+			"resultText": "A bold, edgy brand identity that instantly sets the studio apart from local competitors. By removing digital friction and answering logistical questions instantly, the new layout significantly boosted the conversion rate for online appointment bookings."
+		},
+		"cta": {
+			"btn": "Book Your Discovery Call",
+			"desc": "Stop relying on outdated booking pages. Let's build a premium website that fills your calendar and attracts high-value clients.",
+			"title": "Ready to modernize your salon's digital presence?"
+		},
+		"hero": {
+			"desc": "A high-contrast, immersive digital presence that blends striking brutalist typography with a seamless booking flow to elevate the salon's premium identity.",
+			"tag": "Beauty / Hair Care",
+			"title": "Hair III Studio"
+		},
+		"image": { "overlay": "Click to Visit Site" },
+		"meta": {
+			"goalLabel": "Primary Goal",
+			"goalValue": "Enhance brand prestige & increase online appointments",
+			"industryLabel": "Industry",
+			"industryValue": "Beauty / Hair Care",
+			"roleValue": "UI/UX Design<br>Front-end Development<br>Booking Integration",
+			"servicesLabel": "Services Provided",
+			"servicesValue": "UI/UX Design, Front-end Web Development, Booking Integration",
+			"typeValue": "Salon Digital Experience"
+		},
+		"metaDesc": "Explore a modern hair salon website concept designed by Sbace Dreamer with a polished and professional visual presentation.",
+		"next": { "title": "Modern Residential Website" },
+		"title": "Hair Salon Website Case Study | Sbace Dreamer",
+		"statement": {
+			"badge": "The Result",
+			"quote": "“A website that feels as <span class=\"quote-accent\">luxurious</span> and bold as the services they provide.”"
+		},
+		"strategy": {
+			"b1": {
+				"desc": "We utilized a stark, dark-mode aesthetic paired with bold, brutalist typography. This dramatic contrast makes the high-quality photography of their styling work pop, immediately establishing a high-end, edgy brand identity that sets them apart from local competitors.",
+				"title": "High-Contrast Editorial Design"
+			},
+			"b2": {
+				"desc": "Instead of standard text lists, we built highly visual, interactive masonry grids for the \"Portfolio\" and \"Services\" sections. This layout allows prospective clients to visually explore hair transformations, increasing engagement and time-on-site.",
+				"title": "Immersive Service Grids"
+			},
+			"b3": {
+				"desc": "We integrated clear \"Working Hours\" tables and an interactive location map directly above the final booking CTA. By removing friction and answering logistical questions instantly, we significantly boosted the conversion rate for local appointment bookings.",
+				"title": "Frictionless Local Booking"
+			},
+			"desc": "A premium salon needs more than just a text list of services. It requires an immersive visual experience that builds anticipation and trust before the client even walks through the door, paired with an effortless booking journey.",
+			"title": "The Anatomy of a Modern Salon Site"
+		}
+	},
+	"cs6Page": {
+		"article": {
+			"challengeText": "Pet owners are deeply protective and naturally cautious about handing their animals over to a new handler. Standard local service templates often feel sterile and fail to build the emotional connection or transparency required to win high-ticket grooming clients.",
+			"directionText": "We designed an empathetic, high-trust interface centered around pet safety and gentle care. Utilizing soft rounded cards, warm photography, and clean typography, we mapped out a transparent 4-step \"Grooming Process\" to demystify the visit. We also incorporated dynamic \"Results\" sliders featuring interactive mobile mockups to showcase real transformation stories.",
+			"resultText": "A comforting, authoritative digital front door that transforms hesitant visitors into confident bookings. The combination of upfront pricing tiers, safety assurances, and streamlined booking mechanics significantly increased first-time customer inquiries."
+		},
+		"cta": {
+			"btn": "Book Your Discovery Call",
+			"desc": "Stop losing clients to outdated, confusing service pages. Let's build a warm, converting digital experience that reflects the true quality of your care.",
+			"title": "Ready to build trust with your local audience?"
+		},
+		"hero": {
+			"desc": "A warm, high-trust digital platform designed to alleviate pet owner anxiety through transparent process breakdowns, empathetic storytelling, and interactive service showcases.",
+			"tag": "Pet Care / Local Services",
+			"title": "Caramon Pet Care"
+		},
+		"image": { "overlay": "Click to Visit Site" },
+		"meta": {
+			"goalLabel": "Primary Goal",
+			"goalValue": "Establish trust & increase first-time appointments",
+			"industryLabel": "Industry",
+			"industryValue": "Pet Care / Local Services",
+			"roleValue": "UI/UX Design<br>Front-end Development<br>Conversion Strategy",
+			"servicesLabel": "Services Provided",
+			"servicesValue": "UI/UX Design, Front-end Development, Conversion Strategy",
+			"typeValue": "Service Business Platform"
+		},
+		"metaDesc": "Explore a modern pet grooming website concept designed by Sbace Dreamer for a professional service business.",
+		"next": { "title": "The Precision of Living" },
+		"title": "Pet Grooming Website Case Study | Sbace Dreamer",
+		"statement": {
+			"badge": "The Result",
+			"quote": "“When your website radiates <span class=\"quote-accent\">empathy</span>, pet owners feel safe before they even book.”"
+		},
+		"strategy": {
+			"b1": {
+				"desc": "We moved away from sterile, corporate service templates. By utilizing soft rounded UI cards, warm photography, and clean, readable typography, we created a digital environment that feels as welcoming and gentle as the groomers themselves.",
+				"title": "Empathetic Visual Identity"
+			},
+			"b2": {
+				"desc": "Anxiety stems from the unknown. We implemented a beautifully structured \"Grooming Process\" accordion section that clearly breaks down exactly what happens during a visit. By answering unasked questions upfront, we dramatically lowered the barrier to booking.",
+				"title": "Transparent Process Mapping"
+			},
+			"b3": {
+				"desc": "To showcase the quality of work, we built dynamic \"Results\" sliders featuring embedded mobile mockups. This allows users to seamlessly swipe through real transformation stories, providing authentic social proof in an engaging, modern format.",
+				"title": "Interactive Proof of Care"
+			},
+			"desc": "Pet owners are deeply protective of their furry family members. To win their business, a grooming website cannot just list prices; it must immediately communicate safety, empathy, and professional expertise.",
+			"title": "The Anatomy of a High-Trust Service Site"
+		}
+	},
+	"cs7Page": {
+		"article": {
+			"challengeLabel": "The Challenge",
+			"challengeText": "Commercial cleaning is a highly competitive B2B space where facility managers prioritize reliability and scale. S&P Facilities needed a digital presence that moved beyond a basic brochure and functioned as an enterprise-grade lead generation engine, capable of capturing high-value contracts across diverse industries.",
+			"directionLabel": "The Direction",
+			"directionText": "We anchored the design in trust and operational clarity, utilizing a crisp blue-and-white corporate palette. The layout was deliberately structured to guide facility managers through a logical decision-making process: presenting upfront social proof, mapping out clear service timelines, and offering dedicated \"Industries We Serve\" portals to demonstrate specialized expertise.",
+			"resultLabel": "The Result",
+			"resultText": "A highly authoritative, conversion-optimized platform. The clear UX architecture and strategically placed trust signals drastically reduced bounce rates, resulting in a significant increase in qualified Requests for Proposal (RFPs) from large-scale corporate clients."
+		},
+		"cta": {
+			"btn": "Book Your Discovery Call",
+			"desc": "Stop losing lucrative enterprise contracts to competitors with better positioning. Let's build a platform that generates highly qualified RFPs.",
+			"title": "Ready to scale your B2B service business?"
+		},
+		"hero": {
+			"desc": "We developed a highly structured, conversion-focused platform for S&P Facilities. By emphasizing authoritative trust signals, process transparency, and industry-specific landing zones, the site positions them as the definitive enterprise choice.",
+			"tag": "Commercial Cleaning / B2B",
+			"title": "Engineered for Enterprise: Scaling a B2B Facility Brand."
+		},
+		"image": { "overlay": "Click to Visit Site" },
+		"meta": {
+			"goalLabel": "Primary Goal",
+			"goalValue": "Increase qualified enterprise RFPs",
+			"industryLabel": "Industry",
+			"industryValue": "Facility Management",
+			"servicesLabel": "Services Provided",
+			"servicesValue": "B2B Web Design, UX Strategy, Conversion Optimization"
+		},
+		"metaDesc": "Explore a professional cleaning service website case study designed by Sbace Dreamer.",
+		"title": "Cleaning Service Website Case Study | Sbace Dreamer",
+		"statement": {
+			"badge": "The Result",
+			"quote": "“When your platform clearly demonstrates <span class=\"quote-accent\">scale and structure</span>, you attract enterprise clients.”"
+		},
+		"strategy": {
+			"b1": {
+				"desc": "Corporate clients mitigate risk by choosing established vendors. We engineered a highly visible stats ribbon—\"5500+ Happy Clients\" and \"99% Satisfaction\"—immediately below the hero fold. This instant injection of data-backed trust prevents immediate bounce and validates their enterprise capacity.",
+				"title": "Authoritative Social Proof"
+			},
+			"b2": {
+				"desc": "Facility managers need to know how a vendor operates before picking up the phone. We integrated a sleek, vertical \"Process Timeline\" that maps out onboarding step-by-step. By showing a structured, professional methodology, we positioned S&P Facilities as a highly organized partner.",
+				"title": "Demystifying Operations"
+			},
+			"b3": {
+				"desc": "A warehouse has different cleaning requirements than a retail storefront. We built an \"Industries We Serve\" grid that acts as personalized landing zones. This allows prospective clients to self-segment, ensuring they receive hyper-relevant messaging that accelerates the sales cycle.",
+				"title": "Industry-Specific Portals"
+			},
+			"desc": "When targeting enterprise facility managers, aesthetic appeal must be matched by logistical clarity. The site must prove capacity, compliance, and capability within the first 10 seconds of a visit.",
+			"title": "The Anatomy of B2B Lead Generation"
+		}
+	},
+	"cs8Page": {
+		"article": {
+			"challengeLabel": "The Challenge",
+			"challengeText": "High-end luxury real estate buyers demand more than standard photo galleries. Traditional property pages fail to communicate spatial proportion, structural craft, and location context—leaving high-net-worth buyers disconnected before they schedule a private walk-through.",
+			"directionLabel": "The Direction",
+			"directionText": "We created an interface rooted in precision engineering. By integrating floating architectural blueprint widgets directly into the hero viewport alongside key technical specs (e.g., House Area: 180 m², Line Type), buyers get immediate technical clarity. Transparent gridlines, subtle typography, and a minimalist vector map highlight geographic context without competing with the photography.",
+			"resultLabel": "The Result",
+			"resultText": "A refined, gallery-grade digital experience that commands luxury authority. By converting technical blueprints into interactive UI components, the site increased buyer session duration and doubled conversion rates for private viewing appointments (\"Book a Viewing\")."
+		},
+		"cta": {
+			"btn": "Book Your Discovery Call",
+			"desc": "Stop presenting million-dollar properties with average templates. Let's build a bespoke digital showcase that captivates high-net-worth buyers.",
+			"title": "Ready to showcase your architectural developments?"
+		},
+		"hero": {
+			"desc": "We designed an architectural-grade web experience for luxury home developments. Blending interactive blueprint overlays with spatial metrics and geographic mapping, the site transforms property viewing into an elevated digital experience.",
+			"tag": "Architecture / High-End Real Estate",
+			"title": "The Precision of Living: Digital Prestige for Modern Architecture."
+		},
+		"image": { "overlay": "Click to Visit Site" },
+		"meta": {
+			"goalLabel": "Primary Goal",
+			"goalValue": "Increase high-net-worth private viewing requests",
+			"industryLabel": "Industry",
+			"industryValue": "Architecture & Luxury Property",
+			"servicesLabel": "Services Provided",
+			"servicesValue": "UI/UX Design, Interactive Prototyping, Front-end Development"
+		},
+		"metaDesc": "Explore a modern architecture website case study designed by Sbace Dreamer with an editorial, refined presentation.",
+		"title": "Architecture Website Case Study | Sbace Dreamer",
+		"statement": {
+			"badge": "The Result",
+			"quote": "“When digital presentation mirrors <span class=\"quote-accent\">architectural precision</span>, properties sell themselves.”"
+		},
+		"strategy": {
+			"b1": {
+				"desc": "Instead of hiding floorplans on a separate PDF link, we elevated CAD blueprints into a primary interactive element over the hero render. Users can cycle through layout variants directly on the homepage to visualize spatial flow immediately.",
+				"title": "Interactive Blueprint Overlays"
+			},
+			"b2": {
+				"desc": "Location drives value. We integrated an minimalist vector map overlay that pinpoints the development's exact regional placement, framing the property within its natural and urban surroundings seamlessly.",
+				"title": "Contextual Geographic Storytelling"
+			},
+			"b3": {
+				"desc": "To capture qualified buyers, we implemented a persistent, minimalist \"Book a Viewing\" call-to-action in the upper navigation, paired with subtle interactive triggers across all architectural visual displays.",
+				"title": "Frictionless VIP Conversion"
+			},
+			"desc": "Luxury homebuyers evaluate craft through detail. The interface must communicate structural excellence and spatial elegance in every micro-interaction.",
+			"title": "The Anatomy of Architectural Web Design"
+		}
+	},
+	"cta": {
+		"btn": "Let's Talk",
+		"desc": "Tell us about your business, what you need from your website and where you want to take it next.",
+		"title": "Ready to Elevate Your Online Presence?"
+	},
+	"features": {
+		"item1": { "desc": "Look like the premium choice in your local market the second a prospect lands on your page.", "title": "Professional First Impression" },
+		"item2": { "desc": "Strategic layouts that highlight your reviews, past work, and credibility markers.", "title": "Build Trust Instantly" },
+		"item3": { "desc": "Flawless experience on every device, ensuring homeowners can easily contact you on the go.", "title": "Mobile Optimized" },
+		"item4": { "desc": "Built with lightweight, modern technologies so you never lose a lead to a slow website.", "title": "Fast Loading" },
+		"subtitle": "Practical website solutions for service businesses that want to present their work professionally online.",
+		"title": "Built for Service Businesses"
+	},
+	"footer": {
+		"connectEmail": "Email",
+		"connectGithub": "GitHub",
+		"connectLinkedin": "LinkedIn",
+		"connectTitle": "Connect",
+		"desc": "Web Design & Development Studio creating modern websites for service businesses and contractors.",
+		"designed": "Designed with purpose.",
+		"email": "Email",
+		"navAbout": "About",
+		"navContact": "Contact",
+		"navHome": "Home",
+		"navServices": "Services",
+		"navTitle": "Navigation",
+		"navWork": "Work",
+		"rights": "Sbace Dreamer. All rights reserved."
+	},
+	"hero": {
+		"btnCall": "Start a Project",
+		"btnWork": "View My Work",
+		"subtitle": "We design and develop clean, modern websites that help service businesses present their work professionally, build trust and make it easier for potential customers to get in touch.",
+		"tag": "Our Expertise",
+		"title": "Premium Websites for Service Businesses."
+	},
+	"global": {
+		"liveLink": "Live Link",
+		"nextProject": "Next Project",
+		"projectType": "Project Type",
+		"role": "Role",
+		"theChallenge": "The Challenge",
+		"theDirection": "The Direction",
+		"theResult": "The Result",
+		"viewLiveProject": "View live project <span class=\"arrow\">→</span>"
+	},
+	"modal": { "choose": "Choose your preferred language", "continue": "Continue", "welcome": "Welcome" },
+	"nav": { "about": "About", "contact": "Contact", "cta": "Let's Talk &rarr;", "letsTalk": "Let's Talk &rarr;", "services": "Services", "work": "Work" },
+	"process": {
+		"item1": { "desc": "Understand your specific business goals, competitors, and target audience.", "title": "Discover" },
+		"item2": { "desc": "Create bespoke layouts focused purely on trust, clarity, and usability.", "title": "Design" },
+		"item3": { "desc": "Build a fast, responsive website using clean code and modern web standards.", "title": "Develop" },
+		"item4": { "desc": "Deploy flawlessly, optimize for search engines, and provide post-launch support.", "title": "Launch" },
+		"subtitle": "A streamlined, transparent workflow from concept to launch.",
+		"title": "The Process"
+	},
+	"services": {
+		"item1": { "desc": "Custom, pixel-perfect websites designed specifically around your business goals, target audience, and brand identity.", "title": "Website Design" },
+		"item2": { "desc": "Responsive, robust development utilizing clean code and modern technologies for superior performance and SEO.", "title": "Website Development" },
+		"item3": { "desc": "Transforming outdated, underperforming websites into modern, high-converting digital experiences.", "title": "Website Refresh" },
+		"subtitle": "Website design, development and refresh services for service businesses and contractors.",
+		"title": "Web Design & Development Services"
+	},
+	"servicesPage": {
+		"core": {
+			"s1": { "desc": "We design custom website interfaces around your business, services and brand identity. The goal is to create a clear, professional digital presence that represents the quality of your work.", "l1": "Custom Website Interface (UI)", "l2": "Clear Visual Hierarchy", "l3": "Typography & Visual Direction", "l4": "Responsive Design Layouts", "l5": "Consistent Design System", "listTitle": "Deliverables", "title": "Website Design" },
+			"s2": { "desc": "We turn approved designs into responsive, functional websites using clean and modern front-end development practices. Each site is built with performance, accessibility and maintainability in mind.", "l1": "Responsive Front-End Development", "l2": "Performance Optimization", "l3": "SEO-Friendly Code Structure", "l4": "Accessible Website Structure", "l5": "Modern HTML, CSS & JavaScript", "listTitle": "Deliverables", "title": "Website Development" },
+			"s3": { "desc": "We refresh outdated websites with clearer layouts, modern visual design and improved presentation. The goal is to bring your website closer to the quality of the business it represents.", "l1": "Modern Visual Design", "l2": "Clearer Website Structure", "l3": "Improved Content Presentation", "l4": "Responsive Layouts", "l5": "Search-Friendly Structure", "listTitle": "What We Improve", "title": "Website Redesign" },
+			"s4": { "desc": "A focused update for businesses that already have a website but want to improve its visual presentation, structure and overall experience without starting completely from scratch.", "l1": "Visual Design Updates", "l2": "Content & Layout Improvements", "l3": "Responsive Layout Refinement", "l4": "Navigation & Page Structure", "l5": "Modern Website Presentation", "listTitle": "What We Improve", "title": "Website Refresh" }
+		},
+		"cta": { "btnPrimary": "Start Your Project", "btnSecondary": "View Portfolio", "title": "Ready to build a better website?" },
+		"faq": {
+			"a1": "Project timelines depend on the scope, number of pages, content and feedback process. Once we understand your requirements, we'll give you a clearer timeline for the project.",
+			"a2": "Yes. We can redesign an existing website to improve its visual presentation, structure, responsiveness and overall user experience.",
+			"a3": "You'll provide the information and materials that are specific to your business, such as service details, images and contact information. We can help organize and refine that material for the website.",
+			"a4": "Yes. Websites are designed and developed to work across desktop, tablet and mobile screen sizes.",
+			"a5": "Yes. Post-launch support can be arranged for website updates, fixes and additional improvements when needed.",
+			"a6": "Yes. We can help with the technical setup of your domain and hosting and guide you through the options needed to get your website online.",
+			"a7": "The number of revision rounds depends on the project scope and package. This will be agreed upon before development begins.",
+			"a8": "Yes. We create custom websites based on your business, content and visual direction rather than simply applying a generic template.",
+			"q1": "How long does a project take?", "q2": "Can you redesign an existing website?", "q3": "Do I need to provide content?", "q4": "Will my website work on mobile?", "q5": "Do you offer support after launch?", "q6": "Can you help with hosting and domains?", "q7": "How many revisions are included?", "q8": "Do you build custom websites?", "title": "Frequently Asked Questions"
+		},
+		"hero": { "btnPrimary": "Start Your Project", "btnSecondary": "View Our Work", "desc": "We design and develop modern websites that help service businesses present their work professionally, communicate their services clearly and make it easier for potential customers to get in touch.", "title": "Websites Designed To Turn First Impressions Into Lasting Trust." },
+		"included": {
+			"c1": { "desc": "Flawless functionality across all devices.", "title": "Responsive Design" },
+			"c2": { "desc": "Built to rank naturally on Google.", "title": "Search-Friendly Structure" },
+			"c3": { "desc": "Optimized assets for instant loading.", "title": "Performance-Focused Development" },
+			"c4": { "desc": "Mobile-first user experience design.", "title": "Mobile-Friendly Experience" },
+			"c5": { "desc": "Clean, contemporary visual aesthetics.", "title": "Modern Visual Design" },
+			"c6": { "desc": "Frictionless, secure lead generation.", "title": "Contact Forms" },
+			"c7": { "desc": "Integrated tracking for data insights.", "title": "Analytics Integration" },
+			"c8": { "desc": "Perfect for local service areas.", "title": "Google Maps Integration" },
+			"c9": { "desc": "Seamlessly connecting your platforms.", "title": "Social Media Integration" },
+			"c10": { "desc": "Intuitive hand-off for future edits.", "title": "Easy Content Updates" },
+			"c11": { "desc": "Built with robust, safe technologies.", "title": "Secure Development Practices" },
+			"c12": { "desc": "No bloated builders or messy plugins.", "title": "Clean Code" },
+			"desc": "Every Sbace Dreamer website is built around these foundational elements.",
+			"title": "The Premium Standard"
+		},
+		"process": {
+			"s1": { "desc": "We learn about your business, services, audience and what you want the website to accomplish.", "title": "Discovery" },
+			"s2": { "desc": "We review relevant competitors and existing websites to understand the landscape and identify opportunities for clearer presentation.", "title": "Research" },
+			"s3": { "desc": "We map out the page structure and content hierarchy before moving into visual design.", "title": "Wireframing" },
+			"s4": { "desc": "We create the visual direction, layouts, typography and interface for your website.", "title": "UI Design" },
+			"s5": { "desc": "We turn the approved design into a responsive, functional website using clean front-end code.", "title": "Development" },
+			"s6": { "desc": "We test the website across different browsers, devices and screen sizes before launch.", "title": "Testing" },
+			"s7": { "desc": "We deploy the website, complete final checks and make sure the essential pages and technical elements are ready.", "title": "Launch" },
+			"title": "Our Process"
+		},
+		"why": {
+			"c1": { "desc": "We focus on websites for service businesses and contractors, allowing each project to be shaped around how these businesses present their services.", "title": "Industry Focus" },
+			"c2": { "desc": "Each website is structured to make important information easy to understand and help visitors find the next step.", "title": "Clear Structure" },
+			"c3": { "desc": "We create clean, contemporary layouts rather than relying on generic website templates.", "title": "Modern Design" },
+			"c4": { "desc": "We build with lightweight code and practical performance considerations from the design through development.", "title": "Performance" },
+			"c5": { "desc": "Direct, clear, and transparent communication throughout every stage of the design process.", "title": "Reliable Communication" },
+			"c6": { "desc": "Support can continue after launch when updates, improvements or additional website work are needed.", "title": "Ongoing Support" },
+			"title": "The Sbace Dreamer Approach"
+		}
+	},
+	"workPage": {
+		"hero": {
+			"title": "Selected work.",
+			"subtitle": "A collection of websites designed and developed for service businesses, contractors and growing brands."
+		},
+		"meta": {
+			"count": "Selected projects",
+			"tags": "Web Design · Development · Front-end"
+		},
+		"projects": {
+			"p1": {
+				"num": "01",
+				"category": "Fashion / E-Commerce",
+				"title": "Sbace~D Apparel Platform",
+				"desc": "An editorial-inspired e-commerce concept combining a strong visual identity with a structured shopping experience."
+			},
+			"p2": {
+				"num": "02",
+				"category": "Pet Care / Local Services",
+				"title": "Caramon Pet Care",
+				"desc": "A warm, approachable website concept designed to help a local pet care business communicate its services clearly and build trust with pet owners."
+			},
+			"p3": {
+				"num": "03",
+				"category": "Architecture / High-End Real Estate",
+				"title": "The Precision of Living",
+				"desc": "An architectural website concept created to present luxury residential developments through a refined and visual-first experience."
+			},
+			"p4": {
+				"num": "04",
+				"category": "Commercial Cleaning / B2B",
+				"title": "S&B Facilities"
+			},
+			"p5": {
+				"num": "05",
+				"category": "Beauty / Hair Care",
+				"title": "Hair III Studio",
+				"desc": "A bold website concept for a modern hair studio, combining strong typography with a clear service and booking experience."
+			},
+			"p6": {
+				"num": "06",
+				"category": "Residential / Real Estate",
+				"title": "Modern Residential Website",
+				"desc": "A contemporary residential website concept designed to give a property-focused brand a more refined digital presence."
+			},
+			"p7": {
+				"num": "07",
+				"category": "Luxury Painting / Service Business",
+				"title": "Premium Luxury Platform",
+				"desc": "A premium website concept designed to help a high-end service business present its work with greater clarity and visual impact."
+			},
+			"p8": {
+				"num": "08",
+				"category": "B2B / Commercial",
+				"title": "Commercial Conversion Page"
+			}
+		},
+		"cta": {
+			"title": "Have a project in mind?",
+			"subtitle": "Tell us about your business and what you want your website to achieve.",
+			"btn": "Let's Talk"
+		}
+	},
+	"statement": { "badge": "The Sbace Dreamer Standard", "quote": "“Good design builds trust before the first call.”" },
+	"trust": { "label": "Designed for service businesses", "metric1": "Client Satisfaction", "metric2": "Average Rating", "metric3": "Enquiry Increase" },
+	"work": {
+		"case1": { "feature1": "High Performance", "feature2": "Responsive", "industry": "Fashion / E-Commerce", "title": "Sbace~D Apparel Platform" },
+		"case2": { "feature1": "SEO Optimized", "feature2": "Fast Loading", "industry": "Pet Care / Local Services", "title": "Caramon Pet Care" },
+		"case3": { "feature1": "Lead Generation", "feature2": "Mobile First", "industry": "Commercial Cleaning / B2B", "title": "S&B Facilities" },
+		"subtitle": "Selected websites and concepts created for service businesses and contractors.",
+		"tag": "Portfolio",
+		"title": "Selected<br>Work",
+		"viewCase": "View Case Study"
+	}
 }
-
-
-
- 
