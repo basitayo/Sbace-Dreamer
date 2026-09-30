@@ -16,29 +16,31 @@
     "letsTalk": "Let's Talk →"
   },
   "footer": {
-    "desc": "Boutique Web Design Studio crafting premium experiences for service businesses.",
+    "desc": "Web Design & Development Studio creating modern websites for service businesses and contractors.",
     "navTitle": "Navigation",
+    "navHome": "Home",
     "navWork": "Work",
     "navServices": "Services",
     "navAbout": "About",
+    "navContact": "Contact",
     "connectTitle": "Connect",
     "connectEmail": "Email",
     "connectLinkedin": "LinkedIn",
     "connectGithub": "GitHub",
     "email": "Email",
-    "rights": "Sbace Dreamer Creative. All rights reserved.",
+    "rights": "All rights reserved.",
     "designed": "Designed with purpose."
   },
   
   "hero": {
-    "title": "Your Craft Is Premium. Your Website Should Be Too.",
-    "subtitle": "We build clean, modern websites that earn trust, generate enquiries and make established businesses look established online.",
+    "title": "Premium Websites for Service Businesses.",
+    "subtitle": "We design and develop clean, modern websites that help service businesses present their work professionally, build trust and make it easier for potential customers to get in touch.",
     "btnWork": "View My Work",
-    "btnCall": "Book a Discovery Call",
+    "btnCall": "Start a Project",
     "tag": "Our Expertise"
   },
   "trust": {
-    "label": "Trusted by established service businesses",
+    "label": "Designed for service businesses",
     "metric1": "Client Satisfaction",
     "metric2": "Average Rating",
     "metric3": "Enquiry Increase"
@@ -46,7 +48,7 @@
   "work": {
     "tag": "Portfolio",
     "title": "Selected<br>Work",
-    "subtitle": "Recent concepts and projects designed for service contractors.",
+    "subtitle": "Selected websites and concepts created for service businesses and contractors.",
     "viewCase": "View Case Study",
     "case1": {
       "industry": "Fashion / E-Commerce",
@@ -71,30 +73,30 @@
   "workPage": {
     "hero": {
       "title": "Selected work.",
-      "subtitle": "A collection of websites designed to give businesses a clearer, stronger and more distinctive digital presence."
+      "subtitle": "A collection of websites designed and developed for service businesses, contractors and growing brands."
     },
     "meta": {
-      "count": "08 projects",
-      "tags": "Web Design · UI/UX · Front-end"
+      "count": "Selected projects",
+      "tags": "Web Design · Development · Front-end"
     },
     "projects": {
       "p1": {
         "num": "01",
         "category": "Fashion / E-Commerce",
         "title": "Sbace~D Apparel Platform",
-        "desc": "An editorial-driven e-commerce experience that breaks away from rigid storefront templates, blending high-end fashion aesthetics."
+        "desc": "An editorial-inspired e-commerce concept combining a strong visual identity with a structured shopping experience."
       },
       "p2": {
         "num": "02",
         "category": "Pet Care / Local Services",
         "title": "Caramon Pet Care",
-        "desc": "A warm, high-trust digital platform designed to alleviate pet owner anxiety through transparent process breakdowns."
+        "desc": "A warm, approachable website concept designed to help a local pet care business communicate its services clearly and build trust with pet owners."
       },
       "p3": {
         "num": "03",
         "category": "Architecture / High-End Real Estate",
         "title": "The Precision of Living",
-        "desc": "We designed an architectural-grade web experience for luxury home developments."
+        "desc": "An architectural website concept created to present luxury residential developments through a refined and visual-first experience."
       },
       "p4": {
         "num": "04",
@@ -105,19 +107,19 @@
         "num": "05",
         "category": "Beauty / Hair Care",
         "title": "Hair III Studio",
-        "desc": "A high-contrast, immersive digital presence that blends striking brutalist typography with a seamless booking flow."
+        "desc": "A bold website concept for a modern hair studio, combining strong typography with a clear service and booking experience."
       },
       "p6": {
         "num": "06",
         "category": "Residential / Real Estate",
         "title": "Modern Residential Website",
-        "desc": "A refined digital experience designed to give a residential brand a more premium and contemporary presence."
+        "desc": "A contemporary residential website concept designed to give a property-focused brand a more refined digital presence."
       },
       "p7": {
         "num": "07",
         "category": "Luxury / Service",
         "title": "Premium Luxury Platform",
-        "desc": "Elevating a high-end service contractor through SEO-optimized structure and immersive visual storytelling."
+        "desc": "A premium website concept designed to help a high-end service business present its work with greater clarity and visual impact."
       },
       "p8": {
         "num": "08",
@@ -127,7 +129,7 @@
     },
     "cta": {
       "title": "Have a project in mind?",
-      "subtitle": "Let's build something worth remembering.",
+      "subtitle": "Tell us about your business and what you want your website to achieve.",
       "btn": "Let's Talk"
     }
   },
@@ -137,7 +139,7 @@
   },
   "features": {
     "title": "Built for Service Businesses",
-    "subtitle": "Why contractors trust Sbace Dreamer Creative with their digital presence.",
+    "subtitle": "Practical website solutions for service businesses that want to present their work professionally online.",
     "item1": {
       "title": "Professional First Impression",
       "desc": "Look like the premium choice in your local market the second a prospect lands on your page."
@@ -156,8 +158,8 @@
     }
   },
   "services": {
-    "title": "Capabilities",
-    "subtitle": "Focused expertise to elevate your brand.",
+    "title": "Web Design & Development Services",
+    "subtitle": "Website design, development and refresh services for service businesses and contractors.",
     "item1": {
       "title": "Website Design",
       "desc": "Custom, pixel-perfect websites designed specifically around your business goals, target audience, and brand identity."
@@ -184,7 +186,7 @@
     },
     "item3": {
       "title": "Develop",
-      "desc": "Build a lighting-fast, responsive website using the latest web standards."
+      "desc": "Build a fast, responsive website using clean code and modern web standards."
     },
     "item4": {
       "title": "Launch",
@@ -193,123 +195,123 @@
   },
   "cta": {
     "title": "Ready to Elevate Your Online Presence?",
-    "desc": "Let's discuss your business goals and see how a premium website can help you secure better clients.",
+    "desc": "Tell us about your business, what you need from your website and where you want to take it next.",
     "btn": "Let's Talk"
   },
 
   "about": {
-    "title": "About Sbace Dreamer Creative",
-    "p1": "Sbace Dreamer Creative is a design studio focused on creating premium websites for service businesses that take pride in their craftsmanship.",
-    "p2": "We believe a great website should do more than look impressive—it should build trust before the first conversation even begins.\n\nEvery project is designed with clarity, performance, and conversion in mind, helping contractors present their work professionally and attract higher-quality clients.",
+    "title": "About Sbace Dreamer",
+    "p1": "Sbace Dreamer is a web design and development studio creating modern websites for service businesses and contractors.",
+    "p2": "We believe a website should do more than look good. It should communicate what a business does clearly, present its work professionally and make it easy for potential customers to take the next step.",
     "hero": {
       "tag": "Our Studio",
-      "title": "Building Websites That Earn Trust Before The First Conversation.",
-      "desc": "SBA Creative is a boutique digital design studio dedicated to one purpose: engineering premium digital experiences that turn local service businesses into undisputed market leaders.",
+      "title": "Web Design & Development for Service Businesses.",
+      "desc": "Sbace Dreamer is a web design and development studio creating modern, professional websites for service businesses and contractors.",
       "btnSecondary": "Learn About Our Process",
       "btnPrimary": "View Our Work"
     },
     "philosophy": {
-      "title": "Great Websites Are More Than Visuals.",
-      "p1": "We believe that aesthetics only matter if they serve a purpose. In the digital space, a website is a strategic asset built on trust, clarity, and user experience.",
-      "p2": "At SBA Creative, we strip away unnecessary decorations. Our focus is purely on designing intuitive, high-converting platforms that leave an unforgettable first impression, proving your professionalism before a prospect ever picks up the phone."
+      "title": "A Good Website Is More Than Visuals.",
+      "p1": "We believe good design should serve a purpose. A website should make a business easier to understand, present its work professionally and give visitors a clear path to the information they need.",
+      "p2": "We focus on clear layouts, thoughtful visual design and practical website experiences rather than adding elements simply for decoration. Every project is shaped around the business, its services and the people it needs to reach."
     },
     "specialization": {
       "tag": "Specialization",
       "title": "Why Service Businesses?",
-      "p1": "We intentionally do not serve every industry. SBA Creative partners exclusively with service professionals because we deeply understand local competition and customer behavior.",
-      "p2": "Homeowners and commercial clients seek reliability. We know the specific trust signals they look for, and we engineer those directly into your digital presence to outshine competitors who rely on outdated templates."
+      "p1": "Sbace Dreamer focuses on service businesses and contractors because their websites need to communicate something very practical: what they do, the quality of their work and how potential customers can get in touch.",
+      "p2": "From local trades to other service-based businesses, we design websites around clear service information, professional presentation and a straightforward experience for potential customers."
     },
     "principles": {
       "title": "Our Principles",
-      "desc": "The foundational pillars behind every SBA Creative project.",
+      "desc": "The principles that guide our approach to every project.",
       "c1": {
         "title": "Clarity",
-        "desc": "Professional layouts and crisp copywriting that communicate your value instantly to visitors."
+        "desc": "Clear layouts and organized content that make it easier for visitors to understand your business and services."
       },
       "c2": {
         "title": "Trust",
-        "desc": "Strategic design decisions that elevate your authority and increase client confidence."
+        "desc": "Thoughtful design and professional presentation that help a business communicate credibility online."
       },
       "c3": {
         "title": "Performance",
-        "desc": "Lightning-fast loading, fully responsive on all devices, and built to rank organically."
+        "desc": "Responsive websites built with practical performance considerations, clean structure and modern front-end development."
       },
       "c4": {
         "title": "Purpose",
-        "desc": "No empty decorations. Every section, button, and image exists for a proven business reason."
+        "desc": "Design decisions should support the content, structure and goals of the website rather than exist purely for decoration."
       }
     },
     "industries": {
       "title": "Industries We Serve",
       "c1": {
-        "title": "Residential Painting",
-        "desc": "Attract high-end homeowners with polished portfolios."
+        "title": "Painting & Decorating",
+        "desc": "Professional websites for residential, commercial and specialist painting businesses."
       },
       "c2": {
-        "title": "Luxury Painting",
-        "desc": "Refined aesthetics for bespoke and fine finish contractors."
+        "title": "Landscaping & Gardening",
+        "desc": "Clear, visual websites for landscaping, gardening and outdoor service businesses."
       },
       "c3": {
-        "title": "Commercial Painting",
-        "desc": "Corporate-grade platforms that win massive bids."
+        "title": "Construction",
+        "desc": "Websites that present construction services, completed work and business information clearly."
       },
       "c4": {
-        "title": "Construction",
-        "desc": "Showcase scale and reliability to major stakeholders."
+        "title": "Home Renovation",
+        "desc": "Modern website experiences for renovation and home improvement businesses."
       },
       "c5": {
-        "title": "Home Renovation",
-        "desc": "Before-and-after experiences that drive inbound leads."
+        "title": "Automotive Services",
+        "desc": "Professional websites for automotive repair, diagnostics and related service businesses."
       },
       "c6": {
-        "title": "Trades & Services",
-        "desc": "Plumbing, roofing, and electrical businesses built to scale."
+        "title": "Trades & Local Services",
+        "desc": "Web design for plumbers, electricians, cleaners and other service-based businesses."
       }
     },
     "process": {
       "title": "How We Work",
       "s1": {
         "title": "Discovery",
-        "desc": "We audit your current position, understand your ideal client profile, and define the exact goals for your new platform."
+        "desc": "We learn about your business, services, audience and what you want the website to accomplish."
       },
       "s2": {
         "title": "Strategy",
-        "desc": "Mapping out user journeys, site architecture, and conversion funnels to ensure the site operates as a sales asset."
+        "desc": "We define the website structure, important content and the information visitors need to find easily."
       },
       "s3": {
         "title": "Design",
-        "desc": "Crafting bespoke, high-fidelity layouts focused purely on trust, clarity, and premium brand positioning."
+        "desc": "We create the visual direction, layouts, typography and interface for your website."
       },
       "s4": {
         "title": "Development",
-        "desc": "Writing clean, semantic code to build a lightning-fast, highly responsive website utilizing modern web standards."
+        "desc": "We turn the approved design into a responsive, functional website using clean front-end code and modern web standards."
       },
       "s5": {
         "title": "Launch",
-        "desc": "Rigorous testing, final SEO optimization, and a seamless deployment to the live server."
+        "desc": "We test the website, complete final checks and deploy the finished site so it is ready for visitors."
       }
     },
     "why": {
-      "title": "The SBA Creative Advantage",
+      "title": "The Sbace Dreamer Approach",
       "c1": {
         "title": "Premium Design",
-        "desc": "We bridge the gap between high-end digital agency aesthetics and the practical needs of service businesses. Your site will look like a national brand."
+        "desc": "We create clean, contemporary websites that give service businesses a professional and distinctive digital presence."
       },
       "c2": {
-        "title": "Conversion-Focused",
-        "desc": "Beautiful design is useless if the phone doesn't ring. Every decision is routed in human psychology and optimized to turn passive traffic into active leads."
+        "title": "Clear Structure",
+        "desc": "We organize pages, services and calls to action so visitors can understand the business and find the next step more easily."
       },
       "c3": {
         "title": "Modern Development",
-        "desc": "We do not use bloated, slow builders. Your site is engineered with precision code to ensure top-tier performance metrics and unbeatable security."
+        "desc": "We build websites using clean, modern front-end development practices with attention to responsiveness, maintainability and performance."
       },
       "c4": {
         "title": "Mobile First",
-        "desc": "Over 60% of your traffic comes from smartphones. We design the mobile experience first, ensuring flawless navigation and rapid loading on the go."
+        "desc": "We design and develop websites to work across desktop, tablet and mobile screen sizes."
       },
       "c5": {
         "title": "Long-Term Value",
-        "desc": "Our websites are built to scale alongside your business. An SBA Creative platform is an investment that yields measurable returns for years."
+        "desc": "We build websites with a structure that can be maintained, updated and expanded as the business develops."
       }
     },
     "statement": {
@@ -317,8 +319,8 @@
       "l2": "It's the foundation of trust.”"
     },
     "cta": {
-      "title": "Ready To Elevate Your Business Online?",
-      "desc": "Partner with SBA Creative to build a platform that attracts premium clients and outpaces your competition.",
+      "title": "Ready to Build a Better Website?",
+      "desc": "Tell us about your business and what you need from your website. We'll discuss the project and the right approach for your needs.",
       "btnPrimary": "Start Your Project"
     }
   },
@@ -327,73 +329,73 @@
     "hero": {
       "tag": "Our Expertise",
       "title": "Websites Designed To Turn First Impressions Into Lasting Trust.",
-      "desc": "Every digital experience we engineer is intentionally crafted to help service businesses attract better clients, build immediate credibility, and generate more qualified enquiries.",
+      "desc": "We design and develop modern websites that help service businesses present their work professionally, communicate their services clearly and make it easier for potential customers to get in touch.",
       "btnSecondary": "View Our Work",
       "btnPrimary": "Start Your Project"
     },
     "core": {
       "s1": {
         "title": "Website Design",
-        "desc": "We bridge the gap between high-end digital agency aesthetics and the practical, conversion-focused needs of service businesses. Your digital presence will instantly communicate authority, elevating you above local competition.",
+        "desc": "We design custom website interfaces around your business, services and brand identity. The goal is to create a clear, professional digital presence that represents the quality of your work.",
         "listTitle": "Deliverables",
-        "l1": "Custom User Interface (UI)",
-        "l2": "Strategic Visual Hierarchy",
-        "l3": "Bespoke Typography Selection",
+        "l1": "Custom Website Interface (UI)",
+        "l2": "Clear Visual Hierarchy",
+        "l3": "Typography & Visual Direction",
         "l4": "Responsive Design Layouts",
-        "l5": "Comprehensive Design System"
+        "l5": "Consistent Design System"
       },
       "s2": {
         "title": "Website Development",
-        "desc": "Beautiful design means nothing if it doesn't function flawlessly. We write clean, semantic, and modern code. No bloated page builders—just lightning-fast, secure, and accessible development built for long-term performance.",
+        "desc": "We turn approved designs into responsive, functional websites using clean and modern front-end development practices. Each site is built with performance, accessibility and maintainability in mind.",
         "listTitle": "Deliverables",
         "l1": "Responsive Front-End Development",
-        "l2": "Performance & Speed Optimization",
+        "l2": "Performance Optimization",
         "l3": "SEO-Friendly Code Structure",
-        "l4": "W3C Accessibility Standards",
-        "l5": "Modern HTML/CSS/JS Architecture"
+        "l4": "Accessible Website Structure",
+        "l5": "Modern HTML, CSS & JavaScript"
       },
       "s3": {
         "title": "Website Redesign",
-        "desc": "Transforming outdated, underperforming websites into modern digital assets. If your current site is costing you leads or failing to reflect the true quality of your work, we strategically overhaul the experience to maximize conversions.",
-        "listTitle": "Core Benefits",
-        "l1": "Dramatically Increased Trust",
-        "l2": "Improved Lead Conversions",
-        "l3": "Modern, Established Appearance",
-        "l4": "Mobile-First Correction",
-        "l5": "Better Search Engine Visibility"
+        "desc": "We refresh outdated websites with clearer layouts, modern visual design and improved presentation. The goal is to bring your website closer to the quality of the business it represents.",
+        "listTitle": "What We Improve",
+        "l1": "Modern Visual Design",
+        "l2": "Clearer Website Structure",
+        "l3": "Improved Content Presentation",
+        "l4": "Responsive Layouts",
+        "l5": "Search-Friendly Structure"
       },
       "s4": {
-        "title": "Landing Pages",
-        "desc": "Precision-engineered landing pages designed for specific marketing campaigns, paid ads, or high-value service offerings. Every element is ruthlessly optimized for one goal: turning targeted traffic into paying clients.",
-        "listTitle": "The Strategy",
-        "l1": "Laser-Focused Conversion Funnels",
-        "l2": "Frictionless Lead Forms",
-        "l3": "A/B Testing Readiness",
-        "l4": "Clear, Actionable Copywriting",
-        "l5": "Trust-Signal Optimization"
+        "title": "Website Refresh",
+        "desc": "A focused update for businesses that already have a website but want to improve its visual presentation, structure and overall experience without starting completely from scratch.",
+        "listTitle": "What We Improve",
+        "l1": "Visual Design Updates",
+        "l2": "Content & Layout Improvements",
+        "l3": "Responsive Layout Refinement",
+        "l4": "Navigation & Page Structure",
+        "l5": "Modern Website Presentation"
       }
     },
     "included": {
       "title": "The Premium Standard",
-      "desc": "Every SBA Creative project includes these foundational elements.",
+      "desc": "Every Sbace Dreamer website is built around these foundational elements.",
       "c1": {
         "title": "Responsive Design",
         "desc": "Flawless functionality across all devices."
       },
       "c2": {
-        "title": "SEO-Friendly Structure",
+        "title": "Search-Friendly Structure",
         "desc": "Built to rank naturally on Google."
       },
       "c3": {
-        "title": "Fast Performance",
+        "title": "Performance-Focused Development",
         "desc": "Optimized assets for instant loading."
       },
       "c4": {
-        "title": "Mobile Optimization",
+        "title": "Mobile-Friendly Experience",
         "desc": "Mobile-first user experience design."
       },
       "c5": {
-        "title": "Modern UI",
+        "title": "Modern Visual Design",
         "desc": "Clean, contemporary visual aesthetics."
       },
       "c6": {
@@ -401,7 +403,7 @@
         "desc": "Frictionless, secure lead generation."
       },
       "c7": {
-        "title": "Analytics Ready",
+        "title": "Analytics Integration",
         "desc": "Integrated tracking for data insights."
       },
       "c8": {
@@ -417,7 +419,7 @@
         "desc": "Intuitive hand-off for future edits."
       },
       "c11": {
-        "title": "Secure Development",
+        "title": "Secure Development Practices",
         "desc": "Built with robust, safe technologies."
       },
       "c12": {
@@ -426,85 +428,85 @@
       }
     },
     "why": {
-      "title": "The SBA Creative Advantage",
+      "title": "The Sbace Dreamer Approach",
       "c1": {
         "title": "Industry Focus",
-        "desc": "We don't design for everyone. We specialize purely in service-based contractors and professionals."
+        "desc": "We focus on websites for service businesses and contractors, allowing each project to be shaped around how these businesses present their services."
       },
       "c2": {
-        "title": "Conversion Strategy",
-        "desc": "Every pixel is engineered around human psychology to turn passive visitors into active inquiries."
+        "title": "Clear Structure",
+        "desc": "Each website is structured to make important information easy to understand and help visitors find the next step."
       },
       "c3": {
         "title": "Modern Design",
-        "desc": "We reject templates, favoring a premium, bespoke editorial aesthetic that demands respect."
+        "desc": "We create clean, contemporary layouts rather than relying on generic website templates."
       },
       "c4": {
-        "title": "Fast Loading",
-        "desc": "Speed is revenue. Our websites are meticulously coded to ensure near-instantaneous load times."
+        "title": "Performance",
+        "desc": "We build with lightweight code and practical performance considerations from the design through development."
       },
       "c5": {
         "title": "Reliable Communication",
         "desc": "Direct, clear, and transparent communication throughout every stage of the design process."
       },
       "c6": {
-        "title": "Long-Term Partnership",
-        "desc": "We don't just launch and leave. We build relationships to help your business scale year after year."
+        "title": "Ongoing Support",
+        "desc": "Support can continue after launch when updates, improvements or additional website work are needed."
       }
     },
     "process": {
       "title": "Our Process",
       "s1": {
         "title": "Discovery",
-        "desc": "Deep-dive into your business model, ideal client profile, and core project objectives."
+        "desc": "We learn about your business, services, audience and what you want the website to accomplish."
       },
       "s2": {
         "title": "Research",
-        "desc": "Auditing local competitors and market positioning to ensure your brand stands out completely."
+        "desc": "We review relevant competitors and existing websites to understand the landscape and identify opportunities for clearer presentation."
       },
       "s3": {
         "title": "Wireframing",
-        "desc": "Mapping the user journey and conversion strategy before any visual design begins."
+        "desc": "We map out the page structure and content hierarchy before moving into visual design."
       },
       "s4": {
         "title": "UI Design",
-        "desc": "Crafting the high-fidelity, premium visual aesthetics tailored strictly to your brand guidelines."
+        "desc": "We create the visual direction, layouts, typography and interface for your website."
       },
       "s5": {
         "title": "Development",
-        "desc": "Translating the approved designs into responsive, clean, and highly performant code."
+        "desc": "We turn the approved design into a responsive, functional website using clean front-end code."
       },
       "s6": {
         "title": "Testing",
-        "desc": "Rigorous quality assurance across multiple devices, browsers, and screen sizes."
+        "desc": "We test the website across different browsers, devices and screen sizes before launch."
       },
       "s7": {
         "title": "Launch",
-        "desc": "Seamless deployment to the live server, complete with final SEO checks and hand-off."
+        "desc": "We deploy the website, complete final checks and make sure the essential pages and technical elements are ready."
       }
     },
     "faq": {
       "title": "Frequently Asked Questions",
       "q1": "How long does a project take?",
-      "a1": "Most standard website projects take between 4 to 6 weeks from our initial discovery call to final launch. This timeline depends on the complexity of the build and how quickly content and feedback are provided.",
+      "a1": "Project timelines depend on the scope, number of pages, content and feedback process. Once we understand your requirements, we'll give you a clearer timeline for the project.",
       "q2": "Can you redesign an existing website?",
-      "a2": "Absolutely. A significant portion of our work involves taking outdated, underperforming websites and transforming them into modern, high-converting digital assets that reflect the current quality of your business.",
+      "a2": "Yes. We can redesign an existing website to improve its visual presentation, structure, responsiveness and overall user experience.",
       "q3": "Do I need to provide content?",
-      "a3": "We highly recommend you provide images of your own work to build authentic trust. For copywriting, we can collaborate. You provide the raw information about your services, and we can help refine it for conversion, or we can partner with professional copywriters if needed.",
+      "a3": "You'll provide the information and materials that are specific to your business, such as service details, images and contact information. We can help organize and refine that material for the website.",
       "q4": "Will my website work on mobile?",
-      "a4": "Yes. Over 60% of local service inquiries come from mobile devices. We utilize a mobile-first design approach, ensuring your website looks flawless and functions perfectly on smartphones and tablets.",
+      "a4": "Yes. Websites are designed and developed to work across desktop, tablet and mobile screen sizes.",
       "q5": "Do you offer support after launch?",
-      "a5": "We do. We offer post-launch support and ongoing maintenance retainers to ensure your website remains secure, updated, and continues to perform optimally as your business grows.",
+      "a5": "Yes. Post-launch support can be arranged for website updates, fixes and additional improvements when needed.",
       "q6": "Can you help with hosting and domains?",
-      "a6": "Yes, we can handle the technical setup for you. We recommend and configure premium, high-speed hosting solutions to ensure your site is incredibly fast and completely secure.",
+      "a6": "Yes. We can help with the technical setup of your domain and hosting and guide you through the options needed to get your website online.",
       "q7": "How many revisions are included?",
-      "a7": "Our standard process includes two dedicated rounds of revisions during the UI Design phase. Because our Discovery and Strategy phases are so thorough, this is almost always enough to achieve a perfect final result.",
+      "a7": "The number of revision rounds depends on the project scope and package. This will be agreed upon before development begins.",
       "q8": "Do you build custom websites?",
-      "a8": "Everything we build at SBA Creative is custom. We do not rely on pre-made templates. Your website will be uniquely designed and coded specifically to match your brand identity and business objectives."
+      "a8": "Yes. We create custom websites based on your business, content and visual direction rather than simply applying a generic template."
     },
     "cta": {
-      "title": "Ready To Build A Website That Works As Hard As You Do?",
-      "desc": "Let's discuss your project and discover how a premium digital presence can help you dominate your local market.",
+      "title": "Ready to build a better website?",
+      "desc": "Tell us about your business and what you need from your website. We'll discuss the project and the right approach for your needs.",
       "btnPrimary": "Start Your Project",
       "btnSecondary": "View Portfolio"
     }
@@ -512,25 +514,25 @@
 
   "contact": {
     "hero": {
-      "tag": "Book A Discovery Call",
+      "tag": "Start a Project",
       "title": "Let's Talk About Your Next Website.",
-      "desc": "Whether you're launching a new painting business or looking to redesign your current website, let's discuss your goals and see if we're the right fit. The call is free, with no obligation.",
-      "btnPrimary": "Book My Discovery Call",
+      "desc": "Tell us about your business, your current website and what you'd like to improve. We'll review your project and discuss the right approach for your needs.",
+      "btnPrimary": "Start a Project",
       "btnSecondary": "View Our Work"
     },
     "features": {
       "title": "What Happens Next",
       "c1": {
         "title": "Discovery",
-        "desc": "We'll learn about your business, goals, and current website."
+        "desc": "We'll learn about your business, services, current website and what you want to accomplish."
       },
       "c2": {
         "title": "Strategy",
-        "desc": "We'll recommend the best approach for your project."
+        "desc": "We'll discuss the appropriate approach based on your website needs, scope and goals."
       },
       "c3": {
         "title": "Proposal",
-        "desc": "If we're a good fit, you'll receive a tailored proposal with pricing and timeline."
+        "desc": "If the project is a good fit, we'll outline the proposed scope, pricing and timeline before work begins."
       }
     },
     "form": {
@@ -546,39 +548,39 @@
       "options": {
         "default": "Select an option",
         "design": "Website Design",
-        "redesign": "Website Redesign",
-        "landing": "Landing Page",
+        "redesign": "Website Development",
+        "landing": "Website Refresh",
         "unsure": "Not Sure Yet"
       },
       "detailsLabel": "Project Details",
       "detailsPlaceholder": "Tell us a little about your business and what you'd like to achieve.",
-      "submitBtn": "Request My Discovery Call"
+      "submitBtn": "Send Project Enquiry"
     },
     "alt": {
       "title": "Prefer Email?",
-      "desc": "If you'd rather reach out directly, send us an email and we'll respond within one business day."
+      "desc": "If you'd rather reach out directly, send an email and tell us a little about your project."
     },
     "faq": {
       "title": "Frequently Asked Questions",
       "q1": "How long is the discovery call?",
-      "a1": "We schedule our discovery calls for 30 minutes. This gives us enough time to understand your business objectives and discuss potential strategies without taking up too much of your day.",
+      "a1": "Discovery calls are typically 30 minutes, giving us enough time to understand your business, website needs and project requirements.",
       "q2": "Is the consultation free?",
-      "a2": "Yes. The initial discovery call is completely free and comes with zero obligation to proceed. We use this time to ensure we are the right agency to help you reach your goals.",
-      "q3": "Do you only work with painting contractors?",
-      "a3": "While we have deep expertise helping painting contractors, we work with a variety of established local service businesses, including roofers, landscapers, and custom home builders.",
+      "a2": "Yes. The initial discovery call is free and there is no obligation to proceed. It's simply an opportunity to discuss your project and see whether we're a good fit.",
+      "q3": "What types of businesses do you work with?",
+      "a3": "Sbace Dreamer focuses on service businesses and contractors, including businesses in areas such as painting, landscaping, construction, home improvement, automotive services and other local trades.",
       "q4": "What happens after the call?",
-      "a4": "If we both decide we're a good fit, we will send over a custom, tailored proposal outlining the scope of work, investment required, and project timeline within 48 hours.",
+      "a4": "We'll review what we discussed and, if the project is a good fit, outline the proposed scope, pricing and timeline for the work.",
       "q5": "How long does a website project usually take?",
-      "a5": "Most standard custom website projects take between 4 to 6 weeks from our initial strategy session to the final launch, depending on the complexity and how quickly content is provided."
+      "a5": "Project timelines depend on the scope, number of pages, content and feedback process. Once we understand your requirements, we'll give you a clearer timeline for the project."
     },
     "cta": {
-      "title": "Ready to Elevate Your Online Presence?",
-      "desc": "Let's create a website that reflects the quality of your business and helps you attract better clients.",
-      "btnPrimary": "Book My Discovery Call"
+      "title": "Ready to Build a Better Website?",
+      "desc": "Tell us about your business and what you need from your website. We'll discuss the project and the right approach for your needs.",
+      "btnPrimary": "Start a Project"
     },
     "modal": {
-      "title": "We'll get back to you!",
-      "desc": "Thanks for reaching out. We've received your project details and will contact you within 1 business day.",
+      "title": "Thanks for reaching out!",
+      "desc": "We've received your project enquiry and will review the details before getting back to you.",
       "btn": "Close"
     }
   },
